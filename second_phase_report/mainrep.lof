@@ -6,9 +6,9 @@
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Definition of $ Cp $}}{10}{figure.3.1}
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Effect of scaling }}{12}{figure.3.2}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Surface snapping process in \textit {snappyHexMesh} }}{17}{figure.4.1}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Four standard shapes available in literature}}{17}{figure.4.2}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Prism layers on the surface of GNVR to capture boundary layer}}{18}{figure.4.3}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Surface snapping process in \textit {snappyHexMesh} }}{16}{figure.4.1}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Prism layers on the surface of GNVR to capture boundary layer}}{17}{figure.4.2}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Four standard shapes available in literature}}{18}{figure.4.3}
 \contentsline {figure}{\numberline {4.4}{\ignorespaces $C_{P}$ distribution for GNVR profile obtained by OpenFOAM\textsuperscript {\textregistered }, Source Panel Method \cite {srilata} and ANSYS\textsuperscript {\textregistered } \textit {Fluent} \cite {Kanikdale}}}{19}{figure.4.4}
 \contentsline {figure}{\numberline {4.5}{\ignorespaces Pressure distribution on Zhiyuan-1 airship shape}}{20}{figure.4.5}
 \contentsline {figure}{\numberline {4.6}{\ignorespaces $C_{P}$ distribution for Zhiyuan-1 shape using OpenFOAM\textsuperscript {\textregistered }, Experiments \cite {zhiyuan} and ANSYS\textsuperscript {\textregistered } \textit {Fluent} \cite {zhiyuan}}}{21}{figure.4.6}

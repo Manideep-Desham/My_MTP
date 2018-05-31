@@ -46,14 +46,31 @@ OpenFOAM\textsuperscript{\textregistered} also comes with parallel processing ut
 
 \textit{SnappyHexMesh} is a hexahedral unstructured mesh generation tool included in the distribution of OpenFOAM\textsuperscript{\textregistered}. \textit{SnappyHexMesh} can use a 3-D .stl surface and iteratively build a mesh upon it. Some options allow construction of several cell layers of a controllable height above the 3D surface.This feature makes it possible to have a refined mesh in the region of high velocity gradients, close to the surface.  Near the surface, the mesh is refined and cells are splitted acoordingly. The process is explained in Figure ~\ref{Snappy Hex Mesh} .Several regions can be selected to be refined to a desired level, and this method creates mesh of a cell aspect ratio close to 1.This is done in order to ensure that OpenFOAM\textsuperscript{\textregistered} can solve the numerical problems with the highest efficiency and accuracy using meshes generated with \textit{SnappyHexMesh}. The meshing tool \textit{SnappyHexMesh} can be run in parallel on a computer cluster or a PC.
 
-\begin{figure}[htbp]
+\begin{figure}[H]
 	\centering
-	\includegraphics[width=200 pt]{mesh/snappyHexMesh.png}
+	\includegraphics[width=180 pt]{mesh/snappyHexMesh.png}
 	\caption{Surface snapping process in \textit{snappyHexMesh} }
 	\label{Snappy Hex Mesh} %      only if needed
 \end{figure} 
 
 Although in the Figure ~\ref{Snappy Hex Mesh}, it is shown for 2D, \textit{SnappyHexMesh} is a 3D meshing utility.
+
+\textit{SnappyHexMesh} also provides options to add viscous layers to resolve boundary layer. We can also control the thickness of first layer. This thickness of first layer is usually determined by Yplus value which is a dimensionless wall thickness.
+A non-dimensional wall distance for a wall-bounded flow can be defined in the following way:
+\begin{equation}
+y^{+} \equiv \dfrac{u_{*} y}{\nu}
+\end{equation}
+Where $ u_{*} $ is the friction velocity at the nearest wall, y is the distance to the nearest wall and $ \nu $ is the local kinematic viscosity of the fluid.
+
+$ y^+ $ is often referred to simply as y plus and is commonly used in boundary layer theory and in defining the law of the wall.
+
+Fig. \ref{prismlayers} shows the mesh near the surface of an arbitrary airship shape to resolve the boundary layer.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=300 pt]{rnd/viscous_layers.png}
+	\caption{Prism layers on the surface of GNVR to capture boundary layer}
+	\label{prismlayers} %      only if needed
+\end{figure}
 
 \section{Validation of OpenFOAM\textsuperscript{\textregistered} CFD results}
 \label{results}
@@ -82,13 +99,7 @@ The GNVR shape \cite{Ram} is named after late Prof. G.N.V Rao of Indian Institut
 \begin{center}
 	\includegraphics[width= 200 pt]{rnd/GNVR_equations.png}
 \end{center}
-Fig. \ref{prismlayers} shows the mesh near the surface of GNVR shape to resolve the boundary layer.
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=300 pt]{rnd/prism_layer.png}
-	\caption{Prism layers on the surface of GNVR to capture boundary layer}
-	\label{prismlayers} %      only if needed
-\end{figure}
+
 
 
 The flow conditions used for the simulation are similar to that of Kanikdale et al. \cite{Kanikdale}. Taking advantage of the axisymmetric nature of GNVR shape, its 3D CFD analysis was carried out only for 1/4 of its shape. The flow conditions and solver parameters are shown in Table \ref{Flow conditions and solver parametres for GNVR shape}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.22)  31 MAY 2018 11:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.22)  31 MAY 2018 12:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -879,220 +879,204 @@ File: mesh/snappyHexMesh.png Graphic file (type png)
 
 <use mesh/snappyHexMesh.png>
 Package pdftex.def Info: mesh/snappyHexMesh.png used on input line 51.
-(pdftex.def)             Requested size: 200.0pt x 241.25038pt.
+(pdftex.def)             Requested size: 180.0pt x 217.1291pt.
+ [16pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
+1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.58 \textit{SnappyHexMesh}
+                            also provides options to add viscous layers to r...
+ <./mesh/snappyHexMesh.png>]
+<rnd/viscous_layers.png, id=511, 2025.5675pt x 1122.1925pt>
+File: rnd/viscous_layers.png Graphic file (type png)
+
+<use rnd/viscous_layers.png>
+Package pdftex.def Info: rnd/viscous_layers.png used on input line 70.
+(pdftex.def)             Requested size: 300.0pt x 166.19832pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mathsurround' on input line 58.
+(hyperref)                removing `\mathsurround' on input line 75.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 58.
+(hyperref)                removing `\z@' on input line 75.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 58.
+(hyperref)                removing `superscript' on input line 75.
 
 
-Package natbib Warning: Citation `Ram' on page 16 undefined on input line 61.
+Package natbib Warning: Citation `Ram' on page 17 undefined on input line 78.
 
 
-Package natbib Warning: Citation `cheeseman2012' on page 16 undefined on input 
-line 61.
+Package natbib Warning: Citation `cheeseman2012' on page 17 undefined on input 
+line 78.
 
 
-Package natbib Warning: Citation `zhiyuan' on page 16 undefined on input line 6
-1.
+Package natbib Warning: Citation `zhiyuan' on page 17 undefined on input line 7
+8.
 
 
-Package natbib Warning: Citation `Wangshape' on page 16 undefined on input line
- 61.
+Package natbib Warning: Citation `Wangshape' on page 17 undefined on input line
+ 78.
 
-<rnd/all_profiles.png, id=507, 1160.335pt x 511.9125pt>
+<rnd/all_profiles.png, id=513, 1160.335pt x 511.9125pt>
 File: rnd/all_profiles.png Graphic file (type png)
 
 <use rnd/all_profiles.png>
-Package pdftex.def Info: rnd/all_profiles.png used on input line 66.
+Package pdftex.def Info: rnd/all_profiles.png used on input line 83.
 (pdftex.def)             Requested size: 400.0pt x 176.4694pt.
- [16] [17pdfTeX warning (ext4): destination with the same identifier (name{figu
-re.4.1}) has been already used, duplicate ignored
+ [17pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
+2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.80 \subsection
-                {GNVR shape \cite{Ram}}pdfTeX warning (ext4): destination with 
-the same identifier (name{figure.4.2}) has been already used, duplicate ignored
+l.87 T
+      he specifications of machine, operating system, and software used in t...
+ <./rnd/viscous_layers.png (PNG copy)>]
 
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.80 \subsection
-                {GNVR shape \cite{Ram}} <./mesh/snappyHexMesh.png> <./rnd/all_p
-rofiles.png>]
-
-Package natbib Warning: Citation `Ram' on page 18 undefined on input line 80.
+Package natbib Warning: Citation `Ram' on page 18 undefined on input line 97.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\begingroup' on input line 80.
+(hyperref)                removing `\begingroup' on input line 97.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 80.
+(hyperref)                removing `\<let>-command' on input line 97.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\NAT@ctype' on input line 80.
+(hyperref)                removing `\NAT@ctype' on input line 97.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 80.
+(hyperref)                removing `\z@' on input line 97.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\let' on input line 80.
+(hyperref)                removing `\let' on input line 97.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\let' on input line 80.
+(hyperref)                removing `\let' on input line 97.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\new@ifnextchar' on input line 80.
+(hyperref)                removing `\new@ifnextchar' on input line 97.
 
 
-Package natbib Warning: Citation `Ram' on page 18 undefined on input line 81.
+Package natbib Warning: Citation `Ram' on page 18 undefined on input line 98.
 
-<rnd/GNVR_equations.png, id=516, 692.5875pt x 139.52126pt>
+<rnd/GNVR_equations.png, id=519, 692.5875pt x 139.52126pt>
 File: rnd/GNVR_equations.png Graphic file (type png)
 
 <use rnd/GNVR_equations.png>
-Package pdftex.def Info: rnd/GNVR_equations.png used on input line 83.
+Package pdftex.def Info: rnd/GNVR_equations.png used on input line 100.
 (pdftex.def)             Requested size: 200.0pt x 40.28981pt.
 
-<rnd/prism_layer.png, id=518, 1034.86626pt x 589.20125pt>
-File: rnd/prism_layer.png Graphic file (type png)
-
-<use rnd/prism_layer.png>
-Package pdftex.def Info: rnd/prism_layer.png used on input line 88.
-(pdftex.def)             Requested size: 300.0pt x 170.80104pt.
-
 
 Package natbib Warning: Citation `Kanikdale' on page 18 undefined on input line
- 94.
-
-
-Package natbib Warning: Citation `Kanikdale' on page 18 undefined on input line
- 118.
-
-
-Package natbib Warning: Citation `srilata' on page 18 undefined on input line 1
-18.
-
-<rnd/GNVR_cp.png, id=520, 578.16pt x 434.5836pt>
-File: rnd/GNVR_cp.png Graphic file (type png)
- <use rnd/GNVR_cp.png>
-Package pdftex.def Info: rnd/GNVR_cp.png used on input line 122.
-(pdftex.def)             Requested size: 270.0pt x 202.94797pt.
-
-
-Package natbib Warning: Citation `srilata' on page 18 undefined on input line 1
-23.
-
-
-Package natbib Warning: Citation `Kanikdale' on page 18 undefined on input line
- 123.
-
-
-Package natbib Warning: Citation `srilata' on page 18 undefined on input line 1
-23.
-
-
-Package natbib Warning: Citation `Kanikdale' on page 18 undefined on input line
- 123.
+ 105.
 
 [18pdfTeX warning (ext4): destination with the same identifier (name{figure.4.3
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.125 \end{figure}
-                  pdfTeX warning (ext4): destination with the same identifier (
-name{table.4.1}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.125 \end{figure}
-                   <./rnd/GNVR_equations.png> <./rnd/prism_layer.png (PNG copy)
->]
+l.124 
+       <./rnd/all_profiles.png> <./rnd/GNVR_equations.png>]
 
 Package natbib Warning: Citation `Kanikdale' on page 19 undefined on input line
- 127.
+ 129.
 
 
 Package natbib Warning: Citation `srilata' on page 19 undefined on input line 1
-27.
+29.
+
+<rnd/GNVR_cp.png, id=526, 578.16pt x 434.5836pt>
+File: rnd/GNVR_cp.png Graphic file (type png)
+ <use rnd/GNVR_cp.png>
+Package pdftex.def Info: rnd/GNVR_cp.png used on input line 133.
+(pdftex.def)             Requested size: 270.0pt x 202.94797pt.
+
+
+Package natbib Warning: Citation `srilata' on page 19 undefined on input line 1
+34.
+
+
+Package natbib Warning: Citation `Kanikdale' on page 19 undefined on input line
+ 134.
+
+
+Package natbib Warning: Citation `srilata' on page 19 undefined on input line 1
+34.
+
+
+Package natbib Warning: Citation `Kanikdale' on page 19 undefined on input line
+ 134.
+
+
+Package natbib Warning: Citation `Kanikdale' on page 19 undefined on input line
+ 138.
+
+
+Package natbib Warning: Citation `srilata' on page 19 undefined on input line 1
+38.
 
 
 Package natbib Warning: Citation `zhiyuan' on page 19 undefined on input line 1
-29.
+40.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\begingroup' on input line 129.
+(hyperref)                removing `\begingroup' on input line 140.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 129.
+(hyperref)                removing `\<let>-command' on input line 140.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\NAT@ctype' on input line 129.
+(hyperref)                removing `\NAT@ctype' on input line 140.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 129.
+(hyperref)                removing `\z@' on input line 140.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\let' on input line 129.
+(hyperref)                removing `\let' on input line 140.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\let' on input line 129.
+(hyperref)                removing `\let' on input line 140.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\new@ifnextchar' on input line 129.
+(hyperref)                removing `\new@ifnextchar' on input line 140.
 
-<rnd/zhiyuan_equations.png, id=527, 1073.00874pt x 568.1225pt>
+<rnd/zhiyuan_equations.png, id=528, 1073.00874pt x 568.1225pt>
 File: rnd/zhiyuan_equations.png Graphic file (type png)
 
 <use rnd/zhiyuan_equations.png>
-Package pdftex.def Info: rnd/zhiyuan_equations.png used on input line 133.
+Package pdftex.def Info: rnd/zhiyuan_equations.png used on input line 144.
 (pdftex.def)             Requested size: 400.0pt x 211.77975pt.
- [19pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
-4}) has been already used, duplicate ignored
+ [19pdfTeX warning (ext4): destination with the same identifier (name{table.4.1
+}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.134 \end{center}
+l.145 \end{center}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{figure.4.4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.145 \end{center}
                    <./rnd/GNVR_cp.png>]
-
-Package natbib Warning: Citation `suman' on page 20 undefined on input line 140
-.
-
-
-Package natbib Warning: Citation `zhiyuan' on page 20 undefined on input line 1
-40.
-
-<rnd/pressure_zhiyuan.png, id=533, 1034.86626pt x 589.20125pt>
-File: rnd/pressure_zhiyuan.png Graphic file (type png)
-
-<use rnd/pressure_zhiyuan.png>
-Package pdftex.def Info: rnd/pressure_zhiyuan.png used on input line 144.
-(pdftex.def)             Requested size: 300.0pt x 170.80104pt.
-
 
 Package natbib Warning: Citation `suman' on page 20 undefined on input line 151
 .
@@ -1101,224 +1085,239 @@ Package natbib Warning: Citation `suman' on page 20 undefined on input line 151
 Package natbib Warning: Citation `zhiyuan' on page 20 undefined on input line 1
 51.
 
+<rnd/pressure_zhiyuan.png, id=534, 1034.86626pt x 589.20125pt>
+File: rnd/pressure_zhiyuan.png Graphic file (type png)
+
+<use rnd/pressure_zhiyuan.png>
+Package pdftex.def Info: rnd/pressure_zhiyuan.png used on input line 155.
+(pdftex.def)             Requested size: 300.0pt x 170.80104pt.
+
+
+Package natbib Warning: Citation `suman' on page 20 undefined on input line 162
+.
+
+
+Package natbib Warning: Citation `zhiyuan' on page 20 undefined on input line 1
+62.
+
 [20pdfTeX warning (ext4): destination with the same identifier (name{figure.4.5
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.169 \end{table}
+l.180 \end{table}
                   <./rnd/zhiyuan_equations.png> <./rnd/pressure_zhiyuan.png (PN
 G copy)>]
 
 Package natbib Warning: Citation `zhiyuan' on page 21 undefined on input line 1
-72.
+83.
 
-<rnd/zhiyuan_cp.png, id=540, 578.16pt x 434.5836pt>
+<rnd/zhiyuan_cp.png, id=541, 578.16pt x 434.5836pt>
 File: rnd/zhiyuan_cp.png Graphic file (type png)
  <use rnd/zhiyuan_cp.png>
-Package pdftex.def Info: rnd/zhiyuan_cp.png used on input line 175.
+Package pdftex.def Info: rnd/zhiyuan_cp.png used on input line 186.
 (pdftex.def)             Requested size: 270.0pt x 202.94797pt.
 
 
 Package natbib Warning: Citation `zhiyuan' on page 21 undefined on input line 1
-76.
+87.
 
 
 Package natbib Warning: Citation `zhiyuan' on page 21 undefined on input line 1
-76.
+87.
 
 
 Package natbib Warning: Citation `zhiyuan' on page 21 undefined on input line 1
-76.
+87.
 
 
 Package natbib Warning: Citation `zhiyuan' on page 21 undefined on input line 1
-76.
+87.
 
 
-Package natbib Warning: Citation `suman' on page 21 undefined on input line 180
+Package natbib Warning: Citation `suman' on page 21 undefined on input line 191
 .
 
 
-Package natbib Warning: Citation `suman' on page 21 undefined on input line 184
+Package natbib Warning: Citation `suman' on page 21 undefined on input line 195
 .
 
 
-Package natbib Warning: Citation `suman' on page 21 undefined on input line 188
+Package natbib Warning: Citation `suman' on page 21 undefined on input line 199
 .
 
 
 Package natbib Warning: Citation `Wangshape' on page 21 undefined on input line
- 198.
+ 209.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\begingroup' on input line 198.
+(hyperref)                removing `\begingroup' on input line 209.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 198.
+(hyperref)                removing `\<let>-command' on input line 209.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\NAT@ctype' on input line 198.
+(hyperref)                removing `\NAT@ctype' on input line 209.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 198.
+(hyperref)                removing `\z@' on input line 209.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\let' on input line 198.
+(hyperref)                removing `\let' on input line 209.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\let' on input line 198.
+(hyperref)                removing `\let' on input line 209.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\new@ifnextchar' on input line 198.
+(hyperref)                removing `\new@ifnextchar' on input line 209.
 
 
 Package natbib Warning: Citation `Wangshape' on page 21 undefined on input line
- 199.
+ 210.
 
 
 Package natbib Warning: Citation `Wangshape' on page 21 undefined on input line
- 199.
+ 210.
 
 [21pdfTeX warning (ext4): destination with the same identifier (name{table.4.2}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.200 \begin{equation}
+l.211 \begin{equation}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{figure.4.6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.200 \begin{equation}
+l.211 \begin{equation}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{table.4.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.200 \begin{equation}
+l.211 \begin{equation}
                        <./rnd/zhiyuan_cp.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 205--207
+Underfull \hbox (badness 10000) in paragraph at lines 216--218
 
  []
 
-<rnd/wang_cp.png, id=551, 578.16pt x 434.5836pt>
+<rnd/wang_cp.png, id=552, 578.16pt x 434.5836pt>
 File: rnd/wang_cp.png Graphic file (type png)
  <use rnd/wang_cp.png>
-Package pdftex.def Info: rnd/wang_cp.png used on input line 239.
+Package pdftex.def Info: rnd/wang_cp.png used on input line 250.
 (pdftex.def)             Requested size: 300.0pt x 225.50069pt.
  [22pdfTeX warning (ext4): destination with the same identifier (name{table.4.4
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.243 
+l.254 
       ]
 
 Package natbib Warning: Citation `cheeseman2012' on page 23 undefined on input 
-line 260.
+line 271.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\begingroup' on input line 260.
+(hyperref)                removing `\begingroup' on input line 271.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 260.
+(hyperref)                removing `\<let>-command' on input line 271.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\NAT@ctype' on input line 260.
+(hyperref)                removing `\NAT@ctype' on input line 271.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 260.
+(hyperref)                removing `\z@' on input line 271.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\let' on input line 260.
+(hyperref)                removing `\let' on input line 271.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\let' on input line 260.
+(hyperref)                removing `\let' on input line 271.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\new@ifnextchar' on input line 260.
+(hyperref)                removing `\new@ifnextchar' on input line 271.
 
 [23pdfTeX warning (ext4): destination with the same identifier (name{figure.4.7
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.279 T
+l.290 T
        he flow conditions and solver parameters used for the simulation are ...
 pdfTeX warning (ext4): destination with the same identifier (name{table.4.5}) h
 as been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.279 T
+l.290 T
        he flow conditions and solver parameters used for the simulation are ...
- <./rnd/wang_cp.png>] <rnd/NPL_cp.png, id=571, 578.16pt x 434.5836pt>
+ <./rnd/wang_cp.png>] <rnd/NPL_cp.png, id=572, 578.16pt x 434.5836pt>
 File: rnd/NPL_cp.png Graphic file (type png)
 
 <use rnd/NPL_cp.png>
-Package pdftex.def Info: rnd/NPL_cp.png used on input line 304.
+Package pdftex.def Info: rnd/NPL_cp.png used on input line 315.
 (pdftex.def)             Requested size: 300.0pt x 225.50069pt.
 
 
 Package natbib Warning: Citation `cheeseman2012' on page 24 undefined on input 
-line 305.
+line 316.
 
 
 Package natbib Warning: Citation `cheeseman2012' on page 24 undefined on input 
-line 305.
+line 316.
 
 [24pdfTeX warning (ext4): destination with the same identifier (name{table.4.6}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.324 
+l.335 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 4.8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.324 
+l.335 
        <./rnd/NPL_cp.png>] [25pdfTeX warning (ext4): destination with the same 
 identifier (name{table.4.7}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.326 
+l.337 
       ]
 
-Package natbib Warning: Citation `Ram' on page 26 undefined on input line 328.
+Package natbib Warning: Citation `Ram' on page 26 undefined on input line 339.
 
 
 Package natbib Warning: Citation `Wangshape' on page 26 undefined on input line
- 328.
+ 339.
 
 
 Package natbib Warning: Citation `cheeseman2012' on page 26 undefined on input 
-line 328.
+line 339.
 
 
-Package natbib Warning: Citation `suman' on page 26 undefined on input line 381
+Package natbib Warning: Citation `suman' on page 26 undefined on input line 392
 .
 
 
-Package natbib Warning: Citation `suman' on page 26 undefined on input line 385
+Package natbib Warning: Citation `suman' on page 26 undefined on input line 396
 .
 
 [26pdfTeX warning (ext4): destination with the same identifier (name{table.4.8}
@@ -1326,24 +1325,24 @@ Package natbib Warning: Citation `suman' on page 26 undefined on input line 385
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.388 	\item T
+l.399 	\item T
               he mesh is different in the case of ANSYS\textsuperscript{\tex...
 pdfTeX warning (ext4): destination with the same identifier (name{table.4.9}) h
 as been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.388 	\item T
+l.399 	\item T
               he mesh is different in the case of ANSYS\textsuperscript{\tex...
 pdfTeX warning (ext4): destination with the same identifier (name{table.4.10}) 
 has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.388 	\item T
+l.399 	\item T
               he mesh is different in the case of ANSYS\textsuperscript{\tex...
 ]
-Underfull \hbox (badness 1708) in paragraph at lines 388--389
+Underfull \hbox (badness 1708) in paragraph at lines 399--400
 []\T1/txr/m/n/12 The mesh is dif-fer-ent in the case of ANSYS$[]$ \T1/txr/m/it/
 12 Flu-ent \T1/txr/m/n/12 and OpenFOAM$[]$.
  []
@@ -1353,7 +1352,7 @@ Underfull \hbox (badness 1708) in paragraph at lines 388--389
 
  (./optimization/optimization.tex
 Chapter 5.
-<optimization/closed_loop.png, id=595, 633.36626pt x 302.12875pt>
+<optimization/closed_loop.png, id=596, 633.36626pt x 302.12875pt>
 File: optimization/closed_loop.png Graphic file (type png)
 
 <use optimization/closed_loop.png>
@@ -1370,21 +1369,21 @@ has been already used, duplicate ignored
                                                   \fi \fi 
 l.13 
       <./optimization/closed_loop.png>]
-<optimization/surrogate.png, id=603, 882.29625pt x 442.65375pt>
+<optimization/surrogate.png, id=604, 882.29625pt x 442.65375pt>
 File: optimization/surrogate.png Graphic file (type png)
 
 <use optimization/surrogate.png>
 Package pdftex.def Info: optimization/surrogate.png used on input line 15.
 (pdftex.def)             Requested size: 426.79134pt x 214.12619pt.
 
-<optimization/flow_chart.png, id=604, 743.77875pt x 839.135pt>
+<optimization/flow_chart.png, id=605, 743.77875pt x 839.135pt>
 File: optimization/flow_chart.png Graphic file (type png)
 
 <use optimization/flow_chart.png>
 Package pdftex.def Info: optimization/flow_chart.png used on input line 27.
 (pdftex.def)             Requested size: 426.79134pt x 481.51295pt.
 
-<optimization/OLHS_DOE.png, id=606, 716.6775pt x 670.505pt>
+<optimization/OLHS_DOE.png, id=607, 716.6775pt x 670.505pt>
 File: optimization/OLHS_DOE.png Graphic file (type png)
 
 <use optimization/OLHS_DOE.png>
@@ -1415,7 +1414,7 @@ n input line 47.
                                                   \fi \fi 
 l.71 \end{table}
                  <./optimization/OLHS_DOE.png (PNG copy)>]
-<optimization/RMSE_analysis.png, id=627, 797.98125pt x 658.46pt>
+<optimization/RMSE_analysis.png, id=628, 797.98125pt x 658.46pt>
 File: optimization/RMSE_analysis.png Graphic file (type png)
 
 <use optimization/RMSE_analysis.png>
@@ -1427,7 +1426,7 @@ Package pdftex.def Info: optimization/RMSE_analysis.png used on input line 88.
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.92 
-     ] <optimization/Himmel_blau_fcn.png, id=634, 844.15375pt x 652.4375pt>
+     ] <optimization/Himmel_blau_fcn.png, id=635, 844.15375pt x 652.4375pt>
 File: optimization/Himmel_blau_fcn.png Graphic file (type png)
 
 <use optimization/Himmel_blau_fcn.png>
@@ -1495,8 +1494,8 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 200.
  ) 
 Here is how much of TeX's memory you used:
- 9927 strings out of 493029
- 138131 string characters out of 6136234
+ 9928 strings out of 493029
+ 138160 string characters out of 6136234
  240077 words of memory out of 5000000
  12968 multiletter control sequences out of 15000+600000
  118293 words of font info for 201 fonts, out of 8000000 for 9000
@@ -1517,10 +1516,10 @@ b></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /urw/times/utmri8a.pfb>
-Output written on mainrep.pdf (46 pages, 1282932 bytes).
+Output written on mainrep.pdf (46 pages, 1244229 bytes).
 PDF statistics:
- 774 PDF objects out of 1000 (max. 8388607)
- 678 compressed objects within 7 object streams
- 178 named destinations out of 1000 (max. 500000)
+ 775 PDF objects out of 1000 (max. 8388607)
+ 679 compressed objects within 7 object streams
+ 179 named destinations out of 1000 (max. 500000)
  394 words of extra memory for PDF output out of 10000 (max. 10000000)
 

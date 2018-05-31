@@ -1,0 +1,295 @@
+%Merlin.mbs v4.21 2009-07-09.
+\begin{thebibliography}{19}%
+\makeatletter
+\providecommand \@ifxundefined [1]{%
+ \ifx #1\undefined \expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+\fi
+}%
+\providecommand \@ifnum [1]{%
+ \ifnum #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+\fi
+}%
+\providecommand \natexlab [1]{#1}%
+\providecommand \enquote [1]{``#1''}%
+\providecommand \bibnamefont  [1]{#1}%
+\providecommand \bibfnamefont [1]{#1}%
+\providecommand \citenamefont [1]{#1}%
+\providecommand\href[0]{\@sanitize\@href}%
+\providecommand\@href[1]{\endgroup\@@startlink{#1}\endgroup\@@href}%
+\providecommand\@@href[1]{#1\@@endlink}%
+\providecommand \@sanitize [0]{\begingroup\catcode`\&12\catcode`\#12\relax}%
+\@ifxundefined \pdfoutput {\@firstoftwo}{%
+ \@ifnum{\z@=\pdfoutput}{\@firstoftwo}{\@secondoftwo}%
+}{%
+ \providecommand\@@startlink[1]{\leavevmode\special{html:<a href="#1">}}%
+ \providecommand\@@endlink[0]{\special{html:</a>}}%
+}{%
+ \providecommand\@@startlink[1]{%
+  \leavevmode
+  \pdfstartlink
+   attr{/Border[0 0 1 ]/H/I/C[0 1 1]}%
+   user{/Subtype/Link/A<</Type/Action/S/URI/URI(#1)>>}%
+  \relax
+ }%
+ \providecommand\@@endlink[0]{\pdfendlink}%
+}%
+\providecommand \url  [0]{\begingroup\@sanitize \@url }%
+\providecommand \@url [1]{\endgroup\@href {#1}{\urlprefix}}%
+\providecommand \urlprefix [0]{URL }%
+\providecommand \Eprint[0]{\href }%
+\@ifxundefined \urlstyle {%
+  \providecommand \doi [1]{doi:\discretionary{}{}{}#1}%
+}{%
+  \providecommand \doi [0]{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url }%
+}%
+\providecommand \doibase [0]{http://dx.doi.org/}%
+\providecommand \Doi[1]{\href{\doibase#1}}%
+\providecommand \urlhref[1]{\href{#1}}%
+\providecommand \bibAnnote [3]{%
+  \BibitemShut{#1}%
+  \begin{quotation}\noindent
+    \textsc{Key:}\ #2\\\textsc{Annotation:}\ #3%
+  \end{quotation}%
+}%
+\providecommand \bibAnnoteFile [2]{%
+  \IfFileExists{#2}{\bibAnnote {#1} {#2} {\input{#2}}}{}%
+}%
+\providecommand \typeout [0]{\immediate \write \m@ne }%
+\providecommand \selectlanguage [0]{\@gobble}%
+\providecommand \bibinfo [0]{\@secondoftwo}%
+\providecommand \bibfield [0]{\@secondoftwo}%
+\providecommand \translation [1]{[#1]}%
+\providecommand \BibitemOpen[0]{}%
+\providecommand \bibitemStop [0]{}%
+\providecommand \bibitemNoStop [0]{.\EOS\space}%
+\providecommand \EOS [0]{\spacefactor3000\relax}%
+\providecommand \BibitemShut [1]{\csname bibitem#1\endcsname}%
+%</preamble>
+\bibitem[{\citenamefont{Alam}(2016)}]{alam2016mdo}%
+  \BibitemOpen
+  \bibfield{author}{%
+  Alam, M.~I.}%
+  , \bibinfo {year} {2016},\ \enquote{\bibinfo {title} {Multidisciplinary
+  design optimization of stratospheric airship},}\ in\ \emph{\bibinfo
+  {booktitle} {International Council of the Aeronautical Sciences (ICAS
+  2016)}}%
+  \bibAnnoteFile{NoStop}{alam2016mdo}%
+\bibitem[{\citenamefont{Alam}\ \emph{et~al.}(2014)\citenamefont{Alam},
+  \citenamefont{Subhani},\ and\ \citenamefont{Pant}}]{alam2014mdo}%
+  \BibitemOpen
+  \bibfield{author}{%
+  Alam, M.~I., Subhani, S.,\ and\ Pant, R.~S.}%
+  , \bibinfo {year} {2014},\ \enquote{\bibinfo {title} {Multidisciplinary shape
+  optimization of stratospheric airships},}\ in\ \emph{\bibinfo {booktitle}
+  {International Conference on Theoretical, Applied, Computational and
+  Experimental Mechanics (ICTACEM-2014)}}%
+  \bibAnnoteFile{NoStop}{alam2014mdo}%
+\bibitem[{\citenamefont{Ceruti}\ \emph{et~al.}(2013)\citenamefont{Ceruti},
+  \citenamefont{Voloshin},\ and\ \citenamefont{Marzocca}}]{Ceruti2013b}%
+  \BibitemOpen
+  \bibfield{author}{%
+  Ceruti, A., Voloshin, V.,\ and\ Marzocca, P.}%
+  , \bibinfo {year} {2013},\ \bibfield{title}{%
+  \enquote{\bibinfo {title} {{Multi-Disciplinary Design Optimization of
+  Unconventional Airship Configurations with Heuristic Algorithms}},}\ }%
+  \bibfield{journal}{%
+  \emph{\Doi{10.2514/6.2013-1676}{\bibinfo {journal} {54th
+  AIAA/ASME/ASCE/AHS/ASC Structures, Structural Dynamics, and Materials
+  Conference}}}\ }%
+  \textbf{\bibinfo {volume} {51}},\ \bibinfo {pages} {1--20}.%
+  \bibAnnoteFile{Stop}{Ceruti2013b}%
+\bibitem[{\citenamefont{Cheeseman}\
+  \emph{et~al.}(1999)\citenamefont{Cheeseman}, \citenamefont{Aerodynamics},
+  \citenamefont{Chapter-02}, \citenamefont{Khoury},\ and\
+  \citenamefont{Gillett}}]{cheeseman1999}%
+  \BibitemOpen
+  \bibfield{author}{%
+  Cheeseman, I., Aerodynamics, Chapter-02, Khoury, G.~A.,\ and\ Gillett,
+  J.~D.}%
+  , \bibinfo {year} {1999},\ \enquote{\bibinfo {title} {Airship technology},}\
+  \ (\bibinfo {publisher} {Cambridge Aerospace Series: 10, Cambridge University
+  Press, ISBN: 0 521 430 747}).%
+  \bibAnnoteFile{Stop}{cheeseman1999}%
+\bibitem[{\citenamefont{Chen}\ \emph{et~al.}(2010)\citenamefont{Chen},
+  \citenamefont{Zhu},\ and\ \citenamefont{Sun}}]{Chen2010}%
+  \BibitemOpen
+  \bibfield{author}{%
+  Chen, Q., Zhu, M.,\ and\ Sun, K.}%
+  , \bibinfo {year} {2010},\ \bibfield{title}{%
+  \enquote{\bibinfo {title} {{Analysis to Effects on Conceptual Parameters of
+  Stratospheric Airship with Specified Factors}},}\ }%
+  \bibfield{journal}{%
+  \emph{\bibinfo {journal} {Journal of Computers}}\ }%
+  \textbf{\bibinfo {volume} {6}},\ \bibinfo {pages} {1055--1062}.%
+  \bibAnnoteFile{Stop}{Chen2010}%
+\bibitem[{\citenamefont{Gawale}\ and\ \citenamefont{Pant}(2005)}]{Gawale2005}%
+  \BibitemOpen
+  \bibfield{author}{%
+  Gawale, A.,\ and\ Pant, R.}%
+  , \bibinfo {year} {2005}\ \bibinfo {month} {sep},\ \bibfield{title}{%
+  \enquote{\bibinfo {title} {{Initial Sizing and Sensitivity Analyses of
+  Stratospheric Airships for Psuedolite Based Precision Navigation System}},}\
+  }%
+  \emph{\Doi{10.2514/6.2005-7489}{\bibinfo {journal} {AIAA 5th ATIO and16th
+  Lighter-Than-Air Sys Tech. {\&} Balloon Systems Conferences}}},\ \bibinfo
+  {pages} {1--15}.%
+  \bibAnnote{Stop}{Gawale2005}{$\backslash$cite{\{}Gawale2005{\}}.}%
+\bibitem[{\citenamefont{Gertler}(Jan. 1950)}]{gertler1950}%
+  \BibitemOpen
+\bibfield{journal}{%
+    }%
+  \bibfield{author}{%
+  Gertler, M.}%
+  , \bibinfo {year} {Jan. 1950},\ \enquote{\bibinfo {title} {{Resistance
+  Experiments on a Systematic Series of Streamlined Bodies of Revolution For
+  Application to the Design of High-Speed Submarines}},}\ in\ \emph{\bibinfo
+  {booktitle} {David Taylor Model Basin}}\ (\bibinfo {address} {Washington
+  DC}).%
+  \bibAnnoteFile{Stop}{gertler1950}%
+\bibitem[{\citenamefont{Ghani}(2013)}]{OsamaAbdulGhani2013}%
+  \BibitemOpen
+  \bibfield{author}{%
+  Ghani, O.~A.}%
+  , \bibinfo {year} {2013},\ \enquote{\bibinfo {title} {Design optimization of
+  aerodynamic drag at the rear of generic passenger cars using nurbs
+  representation},}\ ,\ \bibinfo {pages} {30 -- 36}.%
+  \bibAnnoteFile{Stop}{OsamaAbdulGhani2013}%
+\bibitem[{\citenamefont{Harada}\ \emph{et~al.}(????)\citenamefont{Harada},
+  \citenamefont{Eguchi}, \citenamefont{Sano},\ and\
+  \citenamefont{Sasa}}]{Harada2003a}%
+  \BibitemOpen
+\bibfield{title}{%
+    }%
+  \bibfield{author}{%
+  Harada, K., Eguchi, K., Sano, M.,\ and\ Sasa, S.}%
+  , ????%
+  \bibAnnoteFile{Stop}{Harada2003a}%
+\bibitem[{\citenamefont{Kale}\ \emph{et~al.}(2005)\citenamefont{Kale},
+  \citenamefont{Joshi},\ and\ \citenamefont{Pant}}]{Kale2005a}%
+  \BibitemOpen
+  \bibfield{author}{%
+  Kale, S.~S., Joshi, P.,\ and\ Pant, R.~R.}%
+  , \bibinfo {year} {2005},\ \bibfield{title}{%
+  \enquote{\bibinfo {title} {{A generic methodology for determination of drag
+  coefficient of an aerostat envelope using CFD}},}\ }%
+  \emph{\Doi{10.2514/6.2005-7442}{\bibinfo {journal} {AIAA 5th ATIO and16th
+  Lighter-Than-Air Sys Tech. and Balloon Systems Conferences}}},\ \bibinfo
+  {pages} {1--16}.%
+  \bibAnnoteFile{Stop}{Kale2005a}%
+\bibitem[{\citenamefont{Kanikdale}\
+  \emph{et~al.}(2004)\citenamefont{Kanikdale}, \citenamefont{Marathe},\ and\
+  \citenamefont{Pant}}]{kanikdale2004multi}%
+  \BibitemOpen
+\bibfield{journal}{%
+    }%
+  \bibfield{author}{%
+  Kanikdale, T., Marathe, A.,\ and\ Pant, R.}%
+  , \bibinfo {year} {2004},\ \enquote{\bibinfo {title} {Multi-disciplinary
+  optimization of airship envelope shape},}\ in\ \emph{\bibinfo {booktitle}
+  {10th AIAA/ISSMO Multidisciplinary Analysis and Optimization Conference}},\
+  p.\ \bibinfo {pages} {4411}.%
+  \bibAnnoteFile{Stop}{kanikdale2004multi}%
+\bibitem[{\citenamefont{Liu}\ \emph{et~al.}(2013)\citenamefont{Liu},
+  \citenamefont{Fu}, \citenamefont{Zhu},\ and\ \citenamefont{Wang}}]{Liu2013c}%
+  \BibitemOpen
+  \bibfield{author}{%
+  Liu, P., Fu, G.-y.~Y., Zhu, L.-j.~J.,\ and\ Wang, X.-l.~L.}%
+  , \bibinfo {year} {2013}\ \bibinfo {month} {sep},\ \bibfield{title}{%
+  \enquote{\bibinfo {title} {{Aerodynamic characteristics of airship
+  Zhiyuan-1}},}\ }%
+  \emph{\urlhref{http://link.springer.com/10.1007/s12204-013-1443-9}{\bibinfo
+  {journal} {Journal of Shanghai Jiaotong University (Science)}}},\ \bibinfo
+  {pages} {679--687}.%
+  \bibAnnoteFile{Stop}{Liu2013c}%
+\bibitem[{\citenamefont{Liu}\ \emph{et~al.}(2014)\citenamefont{Liu},
+  \citenamefont{Wu}, \citenamefont{Zhu},\ and\ \citenamefont{Xu}}]{Liu2014a}%
+  \BibitemOpen
+\bibfield{journal}{%
+    }%
+  \bibfield{author}{%
+  Liu, Q., Wu, Z., Zhu, M.,\ and\ Xu, W.}%
+  , \bibinfo {year} {2014},\ \bibfield{title}{%
+  \enquote{\bibinfo {title} {A comprehensive numerical model investigating the
+  thermal-dynamic performance of scientific balloon},}\ }%
+  \bibfield{journal}{%
+  \emph{\bibinfo {journal} {Advances in Space Research}}\ }%
+  \textbf{\bibinfo {volume} {53}},\ \bibinfo {pages} {325--338}.%
+  \bibAnnoteFile{Stop}{Liu2014a}%
+\bibitem[{\citenamefont{Narayana}\ and\ \citenamefont{Srilatha}(July
+  2000)}]{gnvr2000}%
+  \BibitemOpen
+  \bibfield{author}{%
+  Narayana, C.~L.,\ and\ Srilatha, K.~R.}%
+  , \bibinfo {year} {July 2000},\ \enquote{\bibinfo {title} {Analysis of
+  aerostat configurations by panel methods},}\ in\ \emph{\bibinfo {booktitle}
+  {BLISS Project Document CF 0010}}\ (\bibinfo {address} {National Aerospace
+  Laboratories, Bangalore, India}).%
+  \bibAnnoteFile{Stop}{gnvr2000}%
+\bibitem[{\citenamefont{Ram}\ and\ \citenamefont{Pant}(2010)}]{Ram2010}%
+  \BibitemOpen
+  \bibfield{author}{%
+  Ram, C.~V.,\ and\ Pant, R.~S.}%
+  , \bibinfo {year} {2010}\ \bibinfo {month} {may},\ \bibfield{title}{%
+  \enquote{\bibinfo {title} {{Multidisciplinary Shape Optimization of Aerostat
+  Envelopes}},}\ }%
+  \bibfield{journal}{%
+  \emph{\Doi{10.2514/1.46744}{\bibinfo {journal} {Journal of Aircraft}}}\ }%
+  \textbf{\bibinfo {volume} {47}},\ \bibinfo {pages} {1073--1076}.%
+  \bibAnnote{Stop}{Ram2010}{From Duplicate 2 (Multidisciplinary Shape
+  Optimization of Aerostat Envelopes - Ram, C. Vijay; Pant, Rajkumar S.) [1] C.
+  V. Ram and R. S. Pant, “Multidisciplinary Shape Optimization of Aerostat
+  Envelopes,” J. Aircr., vol. 47, no. 3, pp. 1073–1076, May 2010.}%
+\bibitem[{\citenamefont{Ran}\ \emph{et~al.}(2007)\citenamefont{Ran},
+  \citenamefont{Thomas},\ and\ \citenamefont{Mavris}}]{Ran2007}%
+  \BibitemOpen
+  \bibfield{author}{%
+  Ran, H., Thomas, R.,\ and\ Mavris, D.}%
+  , \bibinfo {year} {2007},\ \enquote{\bibinfo {title} {{''A Comprehensive
+  Global Model of Broadband Direct Solar Radiation for Solar Cell
+  Simulation''}},}\ in\
+  \urlhref{http://arc.aiaa.org/doi/pdf/10.2514/6.2007-33}{\emph{\bibinfo
+  {booktitle} {45th AIAA Aerospace Sciences Meeting and Exhibit}}},\ \bibinfo
+  {series and number} {\bibinfo {number} {January}},\ pp.\ \bibinfo {pages}
+  {1--16}.%
+  \bibAnnote{Stop}{Ran2007}{[1] H. Ran, R. Thomas, and D. Mavris, “A
+  comprehensive global model of broadband direct solar radiation for solar cell
+  simulation,” AIAA2007-33, no. January, pp. 1–16, 2007.}%
+\bibitem[{\citenamefont{Rehmet}\ and\
+  \citenamefont{Kroplin}(2000)}]{Rehmet2000}%
+  \BibitemOpen
+  \bibfield{author}{%
+  Rehmet, M.~A.,\ and\ Kroplin, B.~H.}%
+  , \bibinfo {year} {2000}\ \bibinfo {month} {1st-5th July},\ \enquote{\bibinfo
+  {title} {{Recent Developments on High Altitude Platforms}},}\ in\
+  \emph{\bibinfo {booktitle} {3rd International Airship Convention and
+  Exhibition}}\ (\bibinfo {address} {Friedrichshafen, Germany}).\ pp.\ \bibinfo
+  {pages} {Paper B--08}.%
+  \bibAnnoteFile{Stop}{Rehmet2000}%
+\bibitem[{\citenamefont{Suman}\ \emph{et~al.}(2011)\citenamefont{Suman},
+  \citenamefont{Lakshmipathy},\ and\ \citenamefont{Pant}}]{Suman2011}%
+  \BibitemOpen
+  \bibfield{author}{%
+  Suman, S., Lakshmipathy, S.,\ and\ Pant, R.}%
+  , \bibinfo {year} {2011},\ \enquote{\bibinfo {title} {{Evaluation of the
+  assumed-transition-point criterion in context of RANS simulations around
+  Lighter-Than-Air vehicles}},}\ ,\ \bibinfo {pages} {1--10}.%
+  \bibAnnoteFile{Stop}{Suman2011}%
+\bibitem[{\citenamefont{Wang}\ \emph{et~al.}(2010)\citenamefont{Wang},
+  \citenamefont{Fu}, \citenamefont{Duan},\ and\
+  \citenamefont{Shan}}]{Wang2010}%
+  \BibitemOpen
+\bibfield{title}{%
+    }%
+  \bibfield{author}{%
+  Wang, X.-L., Fu, G.-Y., Duan, D.-P.,\ and\ Shan, X.-X.}%
+  , \bibinfo {year} {2010}\ \bibinfo {month} {jul},\ \bibfield{title}{%
+  \enquote{\bibinfo {title} {{Experimental Investigations on Aerodynamic
+  Characteristics of the ZHIYUAN-1 Airship}},}\ }%
+  \bibfield{journal}{%
+  \emph{\Doi{10.2514/1.C000243}{\bibinfo {journal} {Journal of Aircraft}}}\ }%
+  \textbf{\bibinfo {volume} {47}},\ \bibinfo {pages} {1463--1468}.%
+  \bibAnnoteFile{Stop}{Wang2010}%
+\end{thebibliography}%

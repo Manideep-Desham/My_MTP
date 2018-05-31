@@ -1,0 +1,75 @@
+
+\chapter{Literature Survey}
+\label{literature}
+As mentioned in Chapter \ref{layout}, This Chapter presents the research carried out by different individuals in the field of High Altitude Airships (HAA's).
+Over the recent years, there has been increased interest on the topic of stratospheric airships/ High Altitude Airships (HAA's). However interest in this topic has increased exponentially at the beginning of 21st century.
+
+\section{Initial Sizing}
+
+\cite{Gawale2005} presented how HAA's can be used for navigation purposes. They explained the risks involved in using GPS based navigation systems. They followed the procedure of \cite{Rehmet2000} for initial sizing.
+
+\cite{alam2014mdo} described a methodology that can arrive at the baseline specifications of a stratospheric airship, given the performance and operational requirements. They have made sensitivity analysis like effect of wind speed on the volume required and length of airship. They have also explained how different parametres like length, volume, altitude of operation, lifting gases (hydrogen and helium) are interlinked to one another.
+
+\section{Envelope geometry parameterization}
+
+
+\cite{OsamaAbdulGhani2013} used NURBS for envelope geometry parameterization of passenger car and constructed a response surface model on the geometries to obtain drag coefficients. Finally, the design exploration was performed using the response surface model instead of actual CFD simulations.
+
+\cite{alam2016mdo} selected \textit{Gertler Series-58} $ \; $ \citenum{gertler1950} shape generation for optimization studies, in which the envelope shape is driven by four shape parameters and fineness ratio.
+
+\cite{Wang2010} proposed a geometry parameterization algorithm for 2D bodies of revolution shapes four shape parameters namely \textit{a,b,c,d} and length \textit{l}.
+ 
+ \section{Multi disciplinary shape optimization}
+\cite{kanikdale2004multi} has taken GNVR shape \citenum{gnvr2000}  as baseline reference and validated their ANSYS\textsuperscript{\textregistered} \textit{Fluent} results with it. They then parameterized the geometry using six design parameters and response surface based on CFD results was fitted. With low fidelity analysis using the formula by Gillett and Khoury ~\citenum{cheeseman1999}. An improvement of 1.3 \% was observed in $ C_{DV} $. Whereas using CFD analysis, they found that the drag for optimized shape is 27 \% greater than GNVR hull shape. By this they concluded that the formula given by Gillet and Khoury cannot be used for optimization purpose.
+
+\cite{Kale2005a} proposed a generic methodology for determination of drag coefficient of an aerostat envelope using CFD. The envelope was parameterized in terms of six geometric coefficients, and a shape generation algorithm was developed. They have studied around 600 feasible shaped using ANSYS\textsuperscript{\textregistered} \textit{Fluent} CFD package and fitted a quadratic response surface using Design-Expert package. They taken a composite objective function involving aerodynamic drag, structural stress and surface area (so weight) of the envelope. They have observed that the location of maximum thickness affects the drag mostly. 
+
+\cite{Ram2010} parameterized the shape using the formulation proposed by \cite{kanikdale2004multi} and arrived at optimum shape using Hybrid Genetic Algorithm (GA). The objective function was to maximize its payload while incorporating considerations of aerodynamics, structures and flight mechanics.
+
+\cite{Wang2010} have tested a scaled down model of Zhiyuan - 1 airship in a $\phi $ 3.2 m wind tunnel. They had installed roughness strips on the surface of hull to trip the flow from laminar to turbulent. They studied the effect of lengthwise location of these strip on the its aerodynamic characteristics at different angles of attack and side slip. They have reported large sets of experimental data for bare hull, hull with fins and hull with fins, gondola. They concluded  that the drag almost doubled because of change of flow condition from laminar to turbulent.
+
+\cite{Suman2011} tried to reproduce the experimental results of \cite{Wang2010} using computational fluid dynamics. To simulate the turbulence strips installed by  \cite{Wang2010} on the surface of the hull, \cite{Suman2011} specified the lengthwise location of transition from laminar to turbulent. They observed that they could not recover the drag coefficient  results are not matching. They concluded that although \cite{Wang2010} provided strips at the leading edge, the flow is not tripped to turbulent because of favourable pressure gradient.
+
+Comprehensive results for the effect on size and payload capability of airship of various
+factors like, altitude, latitude, pressure difference, Helium purity etc. have been published
+by \cite{Chen2010} The calculation is carried out for NPL shape.
+
+
+\cite{Liu2013c} carried out numerical calculations about the test model to investigate the aerodynamics behaviour. They confirmed the lower drag behaviour of \textit{Zhiyuan-1} airship. They discussed the influence of gondola and fins on the pressure distribution.
+
+\cite{Ceruti2013b} defined a shape which is non body of revolution using five design parameters. They have found the drag coefficient for 10 such combinations of design parameters and used interpolation based approach for estimation of drag coefficient of any given shape. They used different optimization techniques to arrive at a configuration of minimum drag and weight. 
+
+
+\section{Recent work in the field}
+
+In a recently completed doctoral research work by Alam \cite{recent_thesis} in the field of multi disciplinary optimization has been carried out by \cite{alam2016mdo}. A stage-wise summary of this  research work is listed below:
+
+\textbf{Surrogate model for CFD analysis}
+
+For CFD analysis, 60 simulations have been carried out and fitted into the \textit{Kriging} surrogate model toolbox developed by \cite{viana2014metamodeling}. This has been coupled to optimizer without having the need to do CFD routine every time.
+
+
+\textbf{Shape generation algorithm:}
+
+The shape generation algorithm proposed by \cite{gertler1950} called \textit{Gertler Series 58 Shape Generator} instead of \cite{Wang2010} that was previously used. Capabilities of this generator has been demonstrated by capturing different standard airship shapes. 
+
+\textbf{Thermal modelling}
+
+A new thermal model by considering Four nodes namely Outer layer, Solar cells, substrate and Envelope has been developed. It is then validated against the experimental data by \cite{Harada2003a} and numerical results quoted by \cite{Liu2014a}.
+
+\textbf{Wind and solar model}
+Initially, Global Ir-radiance model by \cite{Ran2007} has been used and total solar energy has been calculated assuming the surface of airship as cylinder. It is then replaced by his new model and eliminated the simplification of assuming airship as cylinder. Initially, wind velocity was assumed to be constant. It is then replaced by NASA Horizontal Wind Model (HWM07).
+
+\textbf{Sizing and Optimization:} 
+A new sizing methodology has been developed \cite{alam2014mdo} and optimization has been carried out using MATLAB Global optimization Toolbox and SIMANN optimizer.
+
+The next chapter investigates envelope shape generation algorithms for non-axisymmetric shapes because the existing literature has only algorithms for axisymmetric shapes. 
+
+
+
+
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: "../mainrep"
+%%% End: 

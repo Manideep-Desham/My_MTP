@@ -1,0 +1,9 @@
+%============================= abs.tex================================
+\begin{Abstract}
+Stratospheric Airships are being considered as the aerial platform of choice for long endurance applications, especially for mounting next generation of communications payloads. Such airships are generally powered by solar propulsion systems, hence it is preferable for their envelopes to have flat upper surfaces for mounting solar panels.   
+
+Most existing studies related to shape optimization of stratospheric airships assume their envelopes to be axisymmetric bodies of revolution, since the drag coefficient of such shapes can be estimated by 2D CFD analyses. But non-axisymmetric envelope shapes need 3D CFD analysis to be performed, which demands more computational effort. 
+
+The present study aims at developing a surrogate based design optimization (SBDO) methodology for obtaining minimum drag shapes of stratospheric airship envelopes, which are non-body of revolution. A novel scheme for parameterization of envelope shapes of a given volume is presented, using modified Gertler Series 58 Shape Generator. Latin Hyper-cube Sampling is used to generate 100 shapes, and the volumetric drag coefficient (C DV ) of the envelope is determined at these points by carrying out 3-D CFD analysis using OpenFOAM\textsuperscript{\textregistered}. A simple Kriging surrogate model was fitted through these points, which predicted  \textbf{$ C _{DV} $  values within $ 2 \% $} accuracy at 15 uniformly distributed trial shapes. A shape corresponding to minimum C DV of this surrogate function was obtained using Genetic Algorithm optimizer, and was found to have a $ C _{DV} $ only slightly worse off than that of a reference GNVR shape, thus establishing the efficacy of this scheme.
+\end{Abstract}
+%=======================================================================

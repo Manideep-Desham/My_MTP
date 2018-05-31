@@ -30,6 +30,7 @@
 \contentsline {section}{\numberline {5.2}Design of Experiments}{29}{section.5.2}
 \contentsline {section}{\numberline {5.3}Mapping design variables}{32}{section.5.3}
 \contentsline {section}{\numberline {5.4}Test Function for Kriging Surrogate Model}{32}{section.5.4}
-\contentsline {chapter}{\numberline {6}Work done in Stage-1}{35}{chapter.6}
-\contentsline {chapter}{\numberline {7}Future work}{36}{chapter.7}
-\contentsline {chapter}{References}{37}{section*.10}
+\contentsline {section}{\numberline {5.5}Coupling of Genetic Algorithm, Surrogate model and testing for modified Himmelblau functions}{34}{section.5.5}
+\contentsline {chapter}{\numberline {6}Work done in Stage-1}{36}{chapter.6}
+\contentsline {chapter}{\numberline {7}Future work}{37}{chapter.7}
+\contentsline {chapter}{References}{38}{section*.10}

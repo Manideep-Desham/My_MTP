@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.22)  31 MAY 2018 12:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.22)  31 MAY 2018 13:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -570,7 +570,7 @@ File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 100.
 
-<iitb-black.pdf, id=148, 557.08125pt x 533.995pt>
+<iitb-black.pdf, id=152, 557.08125pt x 533.995pt>
 File: iitb-black.pdf Graphic file (type pdf)
  <use iitb-black.pdf>
 Package pdftex.def Info: iitb-black.pdf used on input line 100.
@@ -700,7 +700,7 @@ No file mainrep.nls.
 
 (./intro/introduction.tex
 Chapter 1.
-<intro/Stratellite.jpg, id=294, 333.49594pt x 146.79843pt>
+<intro/Stratellite.jpg, id=302, 333.49594pt x 146.79843pt>
 File: intro/Stratellite.jpg Graphic file (type jpg)
 
 <use intro/Stratellite.jpg>
@@ -740,7 +740,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--35
 
 LaTeX Warning: Reference `mesh' on page 3 undefined on input line 44.
 
-<layout/layout.png, id=314, 777.90625pt x 870.25125pt>
+<layout/layout.png, id=322, 777.90625pt x 870.25125pt>
 File: layout/layout.png Graphic file (type png)
  <use layout/layout.png>
 Package pdftex.def Info: layout/layout.png used on input line 49.
@@ -780,7 +780,7 @@ on al-go-rithms for non-
 
  (./geometry/geometry.tex
 Chapter 3.
-<rnd/c_p_definition.png, id=422, 1096.095pt x 321.2pt>
+<rnd/c_p_definition.png, id=430, 1096.095pt x 321.2pt>
 File: rnd/c_p_definition.png Graphic file (type png)
 
 <use rnd/c_p_definition.png>
@@ -817,7 +817,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[11] <rnd/effect_of_scaling.png, id=469, 1027.84pt x 561.09625pt>
+[11] <rnd/effect_of_scaling.png, id=477, 1027.84pt x 561.09625pt>
 File: rnd/effect_of_scaling.png Graphic file (type png)
 
 <use rnd/effect_of_scaling.png>
@@ -874,7 +874,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `superscript' on input line 32.
 
-[15] <mesh/snappyHexMesh.png, id=504, 510.90875pt x 616.3025pt>
+[15] <mesh/snappyHexMesh.png, id=512, 510.90875pt x 616.3025pt>
 File: mesh/snappyHexMesh.png Graphic file (type png)
 
 <use mesh/snappyHexMesh.png>
@@ -888,7 +888,7 @@ Package pdftex.def Info: mesh/snappyHexMesh.png used on input line 51.
 l.58 \textit{SnappyHexMesh}
                             also provides options to add viscous layers to r...
  <./mesh/snappyHexMesh.png>]
-<rnd/viscous_layers.png, id=511, 2025.5675pt x 1122.1925pt>
+<rnd/viscous_layers.png, id=519, 2025.5675pt x 1122.1925pt>
 File: rnd/viscous_layers.png Graphic file (type png)
 
 <use rnd/viscous_layers.png>
@@ -922,7 +922,7 @@ Package natbib Warning: Citation `zhiyuan' on page 17 undefined on input line 7
 Package natbib Warning: Citation `Wangshape' on page 17 undefined on input line
  78.
 
-<rnd/all_profiles.png, id=513, 1160.335pt x 511.9125pt>
+<rnd/all_profiles.png, id=521, 1160.335pt x 511.9125pt>
 File: rnd/all_profiles.png Graphic file (type png)
 
 <use rnd/all_profiles.png>
@@ -970,7 +970,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 Package natbib Warning: Citation `Ram' on page 18 undefined on input line 98.
 
-<rnd/GNVR_equations.png, id=519, 692.5875pt x 139.52126pt>
+<rnd/GNVR_equations.png, id=527, 692.5875pt x 139.52126pt>
 File: rnd/GNVR_equations.png Graphic file (type png)
 
 <use rnd/GNVR_equations.png>
@@ -996,7 +996,7 @@ Package natbib Warning: Citation `Kanikdale' on page 19 undefined on input line
 Package natbib Warning: Citation `srilata' on page 19 undefined on input line 1
 29.
 
-<rnd/GNVR_cp.png, id=526, 578.16pt x 434.5836pt>
+<rnd/GNVR_cp.png, id=534, 578.16pt x 434.5836pt>
 File: rnd/GNVR_cp.png Graphic file (type png)
  <use rnd/GNVR_cp.png>
 Package pdftex.def Info: rnd/GNVR_cp.png used on input line 133.
@@ -1058,7 +1058,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\new@ifnextchar' on input line 140.
 
-<rnd/zhiyuan_equations.png, id=528, 1073.00874pt x 568.1225pt>
+<rnd/zhiyuan_equations.png, id=536, 1073.00874pt x 568.1225pt>
 File: rnd/zhiyuan_equations.png Graphic file (type png)
 
 <use rnd/zhiyuan_equations.png>
@@ -1085,7 +1085,7 @@ Package natbib Warning: Citation `suman' on page 20 undefined on input line 151
 Package natbib Warning: Citation `zhiyuan' on page 20 undefined on input line 1
 51.
 
-<rnd/pressure_zhiyuan.png, id=534, 1034.86626pt x 589.20125pt>
+<rnd/pressure_zhiyuan.png, id=542, 1034.86626pt x 589.20125pt>
 File: rnd/pressure_zhiyuan.png Graphic file (type png)
 
 <use rnd/pressure_zhiyuan.png>
@@ -1112,7 +1112,7 @@ G copy)>]
 Package natbib Warning: Citation `zhiyuan' on page 21 undefined on input line 1
 83.
 
-<rnd/zhiyuan_cp.png, id=541, 578.16pt x 434.5836pt>
+<rnd/zhiyuan_cp.png, id=549, 578.16pt x 434.5836pt>
 File: rnd/zhiyuan_cp.png Graphic file (type png)
  <use rnd/zhiyuan_cp.png>
 Package pdftex.def Info: rnd/zhiyuan_cp.png used on input line 186.
@@ -1209,7 +1209,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 216--218
 
  []
 
-<rnd/wang_cp.png, id=552, 578.16pt x 434.5836pt>
+<rnd/wang_cp.png, id=561, 578.16pt x 434.5836pt>
 File: rnd/wang_cp.png Graphic file (type png)
  <use rnd/wang_cp.png>
 Package pdftex.def Info: rnd/wang_cp.png used on input line 250.
@@ -1267,7 +1267,7 @@ as been already used, duplicate ignored
                                                   \fi \fi 
 l.290 T
        he flow conditions and solver parameters used for the simulation are ...
- <./rnd/wang_cp.png>] <rnd/NPL_cp.png, id=572, 578.16pt x 434.5836pt>
+ <./rnd/wang_cp.png>] <rnd/NPL_cp.png, id=580, 578.16pt x 434.5836pt>
 File: rnd/NPL_cp.png Graphic file (type png)
 
 <use rnd/NPL_cp.png>
@@ -1352,7 +1352,7 @@ Underfull \hbox (badness 1708) in paragraph at lines 399--400
 
  (./optimization/optimization.tex
 Chapter 5.
-<optimization/closed_loop.png, id=596, 633.36626pt x 302.12875pt>
+<optimization/closed_loop.png, id=604, 633.36626pt x 302.12875pt>
 File: optimization/closed_loop.png Graphic file (type png)
 
 <use optimization/closed_loop.png>
@@ -1369,21 +1369,21 @@ has been already used, duplicate ignored
                                                   \fi \fi 
 l.13 
       <./optimization/closed_loop.png>]
-<optimization/surrogate.png, id=604, 882.29625pt x 442.65375pt>
+<optimization/surrogate.png, id=612, 882.29625pt x 442.65375pt>
 File: optimization/surrogate.png Graphic file (type png)
 
 <use optimization/surrogate.png>
 Package pdftex.def Info: optimization/surrogate.png used on input line 15.
 (pdftex.def)             Requested size: 426.79134pt x 214.12619pt.
 
-<optimization/flow_chart.png, id=605, 743.77875pt x 839.135pt>
+<optimization/flow_chart.png, id=613, 743.77875pt x 839.135pt>
 File: optimization/flow_chart.png Graphic file (type png)
 
 <use optimization/flow_chart.png>
 Package pdftex.def Info: optimization/flow_chart.png used on input line 27.
 (pdftex.def)             Requested size: 426.79134pt x 481.51295pt.
 
-<optimization/OLHS_DOE.png, id=607, 716.6775pt x 670.505pt>
+<optimization/OLHS_DOE.png, id=615, 716.6775pt x 670.505pt>
 File: optimization/OLHS_DOE.png Graphic file (type png)
 
 <use optimization/OLHS_DOE.png>
@@ -1413,46 +1413,53 @@ n input line 47.
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.71 \end{table}
-                 <./optimization/OLHS_DOE.png (PNG copy)>]
-<optimization/RMSE_analysis.png, id=628, 797.98125pt x 658.46pt>
-File: optimization/RMSE_analysis.png Graphic file (type png)
-
-<use optimization/RMSE_analysis.png>
-Package pdftex.def Info: optimization/RMSE_analysis.png used on input line 88.
-(pdftex.def)             Requested size: 426.79134pt x 352.16713pt.
- [32pdfTeX warning (ext4): destination with the same identifier (name{table.5.1
-}) has been already used, duplicate ignored
+                 <./optimization/OLHS_DOE.png (PNG copy)>] [32pdfTeX warning (e
+xt4): destination with the same identifier (name{table.5.1}) has been already u
+sed, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.92 
-     ] <optimization/Himmel_blau_fcn.png, id=635, 844.15375pt x 652.4375pt>
+l.94 
+     ] <optimization/RMSE_analysis.png, id=647, 797.98125pt x 658.46pt>
+File: optimization/RMSE_analysis.png Graphic file (type png)
+
+<use optimization/RMSE_analysis.png>
+Package pdftex.def Info: optimization/RMSE_analysis.png used on input line 96.
+(pdftex.def)             Requested size: 426.79134pt x 352.16713pt.
+
+<optimization/Himmel_blau_fcn.png, id=648, 844.15375pt x 652.4375pt>
 File: optimization/Himmel_blau_fcn.png Graphic file (type png)
 
 <use optimization/Himmel_blau_fcn.png>
-Package pdftex.def Info: optimization/Himmel_blau_fcn.png used on input line 95
-.
+Package pdftex.def Info: optimization/Himmel_blau_fcn.png used on input line 10
+3.
 (pdftex.def)             Requested size: 426.79134pt x 329.87157pt.
  [33pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
 5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.99 
-      <./optimization/RMSE_analysis.png (PNG copy)>]) [34pdfTeX warning (ext4):
+l.107 
+       <./optimization/RMSE_analysis.png (PNG copy)>] [34pdfTeX warning (ext4):
  destination with the same identifier (name{figure.5.6}) has been already used,
  duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
+l.130 
+       <./optimization/Himmel_blau_fcn.png (PNG copy)>]) [35pdfTeX warning (ext
+4): destination with the same identifier (name{table.5.2}) has been already use
+d, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
 l.167 \include{optimization/optimization}
-                                          <./optimization/Himmel_blau_fcn.png (
-PNG copy)>]
+                                         ]
 \openout2 = `rnd/results.aux'.
 
  (./rnd/results.tex
 Chapter 6.
-) [35
+) [36
 
 
 
@@ -1461,20 +1468,20 @@ Chapter 6.
 
  (./futureplan/futureplan.tex
 Chapter 7.
-) [36
+) [37
 
 
 
-] (./mainrep.bbl [37
+] (./mainrep.bbl [38
 
 
 
-] [38])
+] [39])
 
 Package natbib Warning: There were undefined citations.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 200.
-[39]
+[40]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 200.
  (./mainrep.aux (./abs.aux) (./intro/introduction.aux)
 (./lit/literature.aux) (./geometry/geometry.aux) (./OpenFOAM/OpenFOAM.aux)
@@ -1483,7 +1490,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 200.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 200.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 200.
 Package rerunfilecheck Info: File `mainrep.out' has not changed.
-(rerunfilecheck)             Checksum: AD8BEC7AAE580ECE07D2CBC996CCF99E;2465.
+(rerunfilecheck)             Checksum: 6AE652FA2A7E645C8B9C02731822B157;2604.
 
 
 LaTeX Warning: There were undefined references.
@@ -1494,10 +1501,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 200.
  ) 
 Here is how much of TeX's memory you used:
- 9928 strings out of 493029
- 138160 string characters out of 6136234
- 240077 words of memory out of 5000000
- 12968 multiletter control sequences out of 15000+600000
+ 9938 strings out of 493029
+ 138321 string characters out of 6136234
+ 240152 words of memory out of 5000000
+ 12970 multiletter control sequences out of 15000+600000
  118293 words of font info for 201 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  40i,22n,51p,1084b,1622s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1516,10 +1523,10 @@ b></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /urw/times/utmri8a.pfb>
-Output written on mainrep.pdf (46 pages, 1244229 bytes).
+Output written on mainrep.pdf (47 pages, 1246779 bytes).
 PDF statistics:
- 775 PDF objects out of 1000 (max. 8388607)
- 679 compressed objects within 7 object streams
- 179 named destinations out of 1000 (max. 500000)
- 394 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 795 PDF objects out of 1000 (max. 8388607)
+ 698 compressed objects within 7 object streams
+ 187 named destinations out of 1000 (max. 500000)
+ 402 words of extra memory for PDF output out of 10000 (max. 10000000)
 

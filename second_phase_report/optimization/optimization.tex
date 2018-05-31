@@ -74,15 +74,23 @@ Hundred candidate points were first obtained by Surrogates Toolbox \textbf{cite 
 
 
 \section{Test Function for Kriging Surrogate Model}
-The Himmelblau function is taken as a test function.  It has one local maxima and four local minima in the domain x1 = [-5,5] and x2 = [-5,5]. The function is defined as 
+The Himmelblau function is taken as a test function.  It has one local maxima and four local minima in the domain x = [-6,6] and y = [-6,6]. The function is defined as 
 \begin{equation}
 f(x,y) = (x^2 + y - 11)^2  + (x + y^2 - 7)^2 
 \end{equation}
 \begin{equation}
-x \in [-5,5] ;\quad y \in [-5,5]
+x \in [-6,6] ;\quad y \in [-6,6]
 \end{equation}
 
-If a small number of design points are used to create a surrogate model, then the approximate model created is prone to large errors at the trial points. However, the prediction accuracy of a surrogate model cannot be improved merely by taking larger number of design points; that is a function of its behaviour, design space and the required accuracy. Fig. \ref{fig:Root Mean Square Error with Design Points considered} shows the effect of increase in number of design points on the Root Mean Square Error (RMSE) of this test function. It is seen that the prediction accuracy of the model improves till 120 design points, after which addition of more design points does not approximate model for surrogate on the right with all the design points and test points. The actual value fo the function and predicted value from the surrogate model at test points are seen to match with each other within ≈ 1%.
+It has one local maximum at x=-0.270845 and y=-0.923039 where f(x,y)=181.617, and four identical local minima:
+\begin{align}
+&f( 3.0000 , 2.0000 )=0.0 \\
+&f( -2.8051 , 3.1313 )=0.0 \\
+&f( -3.7793 , -3.2831 )=0.0 \\
+&f( 3.5844 , -1.8481 )=0.0 \\
+\end{align}
+
+If a small number of design points are used to create a surrogate model, then the approximate model created is prone to large errors at the trial points. However, the prediction accuracy of a surrogate model cannot be improved merely by taking larger number of design points; that is a function of its behaviour, design space and the required accuracy. Fig. \ref{fig:Root Mean Square Error with Design Points considered} shows the effect of increase in number of design points on the Root Mean Square Error (RMSE) of this test function. It is seen that the prediction accuracy of the model improves till 120 design points, after which addition of more design points does not approximate model for surrogate on the right with all the design points and test points. The actual value fo the function and predicted value from the surrogate model at test points are seen to match with each other within 1\%.
 
 \begin{figure}[H]
 	\includegraphics[width=\textwidth]{optimization/RMSE_analysis.png}
@@ -96,6 +104,31 @@ If a small number of design points are used to create a surrogate model, then th
 	\caption{Comparison of Himmelblau function with its Surrogate Model}
 	\label{fig:Comparison of Himmelblau function with its Surrogate Model} %      only if needed
 \end{figure}
+
+\section{Coupling of Genetic Algorithm, Surrogate model and testing for modified Himmelblau functions}
+It is a well known fact that evolutionary algorithms like Genetic algorithm searches for global minimum and outputs that global minimum as final answer. Unlike gradient based methods, it should not get struck in local minimum. In order to check this, we modify the existing Himmelblau function. This is because actual Himmelblau function has four identical local minimum and don't have any global mimima. So, we modify it by adding the term $  0.01* (x + 3.7793)^2 + (y + 3.2832)^2 $. This term is added to the function value evaluated at all points except (-3.7793,-3.2832). Hence we obtained modified Himmelblau function with one global minima at (-3.7793,-3.2832) and three local minima at other three points. If we optimise this modified Himmelblau function using Genetic algorithm, we have to get the final answer as (-3.7793,-3.2832). The same answer is expected using surrogate model for the modified Himmelblau function. The obtained results are shown in Table.
+
+\begin{table}[H]
+	\centering
+	\caption{Results obtained for modified Himmelblau function}
+	\label{Results obtained for modified Himmelblau function}
+	%\begin{ruledtabular}
+	\begin{tabular}{llll}
+		\hline \hline
+		& X & Y & Function value \\ \hline
+		Actual Function & -3.7793 &-3.2832 &1.6725e-11 \\
+		Surrogate model & -3.7791 &-3.2828 & 2.5643e-03 \\ \hline
+		\% error & 0.006 & 0.013 & 2.5643e-03 \\
+		\hline \hline
+		
+		
+		
+		
+	\end{tabular}
+	%	\end{ruledtabular}
+\end{table}
+
+
 
 
 

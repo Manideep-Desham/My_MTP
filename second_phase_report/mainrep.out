@@ -32,6 +32,7 @@
 \BOOKMARK [1][-]{section.5.3}{Mapping design variables}{chapter.5}% 32
 \BOOKMARK [1][-]{section.5.4}{Test Function for Kriging Surrogate Model}{chapter.5}% 33
 \BOOKMARK [1][-]{section.5.5}{Coupling of Genetic Algorithm, Surrogate model and testing for modified Himmelblau functions}{chapter.5}% 34
-\BOOKMARK [0][-]{chapter.6}{Work done in Stage-1}{}% 35
-\BOOKMARK [0][-]{chapter.7}{Future work}{}% 36
-\BOOKMARK [0][-]{section*.10}{References}{}% 37
+\BOOKMARK [0][-]{chapter.6}{Calculation of Hoop Stress}{}% 35
+\BOOKMARK [1][-]{subsection.6.0.1}{Bending Moment Calculation}{chapter.6}% 36
+\BOOKMARK [0][-]{chapter.7}{Future work}{}% 37
+\BOOKMARK [0][-]{section*.10}{References}{}% 38

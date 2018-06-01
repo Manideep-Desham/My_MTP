@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.22)  31 MAY 2018 13:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.22)  1 JUN 2018 18:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -430,6 +430,15 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks22
 \@floatcapt=\box31
 )
+(/usr/share/texlive/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2014/10/28 v1.1c Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup10
+\symboldletters=\mathgroup11
+\symboldsymbols=\mathgroup12
+\symboldlargesymbols=\mathgroup13
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
+LaTeX Info: Redefining \bm on input line 207.
+)
 (/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \heavyrulewidth=\dimen125
@@ -452,51 +461,48 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 ) (./mainrep.aux
 (./abs.aux) (./intro/introduction.aux) (./lit/literature.aux)
 (./geometry/geometry.aux) (./OpenFOAM/OpenFOAM.aux)
-(./optimization/optimization.aux) (./rnd/results.aux
-
-LaTeX Warning: Label `results' multiply defined.
-
-) (./futureplan/futureplan.aux))
+(./optimization/optimization.aux) (./rnd/results.aux)
+(./futureplan/futureplan.aux))
 \openout1 = `mainrep.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 54.
-LaTeX Font Info:    Try loading font information for OML+txmi on input line 54.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 55.
+LaTeX Font Info:    Try loading font information for OML+txmi on input line 55.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 54.
-LaTeX Font Info:    Try loading font information for OMS+txsy on input line 54.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 55.
+LaTeX Font Info:    Try loading font information for OMS+txsy on input line 55.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 54.
-LaTeX Font Info:    Try loading font information for OMX+txex on input line 54.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 55.
+LaTeX Font Info:    Try loading font information for OMX+txex on input line 55.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 54.
-LaTeX Font Info:    Try loading font information for U+txexa on input line 54.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 55.
+LaTeX Font Info:    Try loading font information for U+txexa on input line 55.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Try loading font information for T1+txr on input line 54.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Try loading font information for T1+txr on input line 55.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/t1txr.fd
 File: t1txr.fd 2000/12/15 v3.1
@@ -516,7 +522,7 @@ File: t1txr.fd 2000/12/15 v3.1
 \everyMPtoPDFconversion=\toks24
 )
 \AtBeginShipoutBox=\box33
-Package hyperref Info: Link coloring OFF on input line 54.
+Package hyperref Info: Link coloring OFF on input line 55.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -525,9 +531,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count131
 )
-LaTeX Info: Redefining \ref on input line 54.
-LaTeX Info: Redefining \pageref on input line 54.
-LaTeX Info: Redefining \nameref on input line 54.
+LaTeX Info: Redefining \ref on input line 55.
+LaTeX Info: Redefining \pageref on input line 55.
+LaTeX Info: Redefining \nameref on input line 55.
 
 (./mainrep.out) (./mainrep.out)
 \@outlinefile=\write4
@@ -550,59 +556,59 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \c@lstlisting=\count132
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 100.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 102.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
-LaTeX Font Info:    Try loading font information for T1+phv on input line 100.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 102.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <20.74> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 100.
-LaTeX Font Info:    Try loading font information for T1+ppl on input line 100.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 102.
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 102.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 100.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 102.
 
-<iitb-black.pdf, id=152, 557.08125pt x 533.995pt>
+<iitb-black.pdf, id=156, 557.08125pt x 533.995pt>
 File: iitb-black.pdf Graphic file (type pdf)
  <use iitb-black.pdf>
-Package pdftex.def Info: iitb-black.pdf used on input line 100.
+Package pdftex.def Info: iitb-black.pdf used on input line 102.
 (pdftex.def)             Requested size: 120.0pt x 115.02669pt.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./iitb-black.pdf>]
-LaTeX Font Info:    Try loading font information for OT1+txr on input line 120.
+LaTeX Font Info:    Try loading font information for OT1+txr on input line 122.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsya on input line 120.
+LaTeX Font Info:    Try loading font information for U+txsya on input line 122.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyb on input line 120.
+LaTeX Font Info:    Try loading font information for U+txsyb on input line 122.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txmia on input line 120.
+LaTeX Font Info:    Try loading font information for U+txmia on input line 122.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyc on input line 120.
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 122.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
@@ -611,7 +617,7 @@ File: utxsyc.fd 2000/12/15 v3.1
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.139 \include{abs}
+l.141 \include{abs}
                     [1
 
 ]
@@ -700,7 +706,7 @@ No file mainrep.nls.
 
 (./intro/introduction.tex
 Chapter 1.
-<intro/Stratellite.jpg, id=302, 333.49594pt x 146.79843pt>
+<intro/Stratellite.jpg, id=309, 333.49594pt x 146.79843pt>
 File: intro/Stratellite.jpg Graphic file (type jpg)
 
 <use intro/Stratellite.jpg>
@@ -740,7 +746,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--35
 
 LaTeX Warning: Reference `mesh' on page 3 undefined on input line 44.
 
-<layout/layout.png, id=322, 777.90625pt x 870.25125pt>
+<layout/layout.png, id=329, 777.90625pt x 870.25125pt>
 File: layout/layout.png Graphic file (type png)
  <use layout/layout.png>
 Package pdftex.def Info: layout/layout.png used on input line 49.
@@ -750,7 +756,7 @@ e.1.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.162 \include{intro/introduction}
+l.164 \include{intro/introduction}
                                    <./layout/layout.png>]
 \openout2 = `lit/literature.aux'.
 
@@ -780,7 +786,7 @@ on al-go-rithms for non-
 
  (./geometry/geometry.tex
 Chapter 3.
-<rnd/c_p_definition.png, id=430, 1096.095pt x 321.2pt>
+<rnd/c_p_definition.png, id=437, 1096.095pt x 321.2pt>
 File: rnd/c_p_definition.png Graphic file (type png)
 
 <use rnd/c_p_definition.png>
@@ -796,28 +802,8 @@ Package pdftex.def Info: rnd/c_p_definition.png used on input line 17.
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.62 \end{equation}
-                    <./rnd/c_p_definition.png>]
-! Undefined control sequence.
-l.104 A\bm
-          {Y} = B
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<recently read> \bm 
-                    
-l.136 ...in these six linear equations, hence $\bm
-                                                  {Y}$ can be obtained for a...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[11] <rnd/effect_of_scaling.png, id=477, 1027.84pt x 561.09625pt>
+                    <./rnd/c_p_definition.png>] [11]
+<rnd/effect_of_scaling.png, id=485, 1027.84pt x 561.09625pt>
 File: rnd/effect_of_scaling.png Graphic file (type png)
 
 <use rnd/effect_of_scaling.png>
@@ -874,7 +860,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `superscript' on input line 32.
 
-[15] <mesh/snappyHexMesh.png, id=512, 510.90875pt x 616.3025pt>
+[15] <mesh/snappyHexMesh.png, id=519, 510.90875pt x 616.3025pt>
 File: mesh/snappyHexMesh.png Graphic file (type png)
 
 <use mesh/snappyHexMesh.png>
@@ -888,7 +874,7 @@ Package pdftex.def Info: mesh/snappyHexMesh.png used on input line 51.
 l.58 \textit{SnappyHexMesh}
                             also provides options to add viscous layers to r...
  <./mesh/snappyHexMesh.png>]
-<rnd/viscous_layers.png, id=519, 2025.5675pt x 1122.1925pt>
+<rnd/viscous_layers.png, id=526, 2025.5675pt x 1122.1925pt>
 File: rnd/viscous_layers.png Graphic file (type png)
 
 <use rnd/viscous_layers.png>
@@ -922,7 +908,7 @@ Package natbib Warning: Citation `zhiyuan' on page 17 undefined on input line 7
 Package natbib Warning: Citation `Wangshape' on page 17 undefined on input line
  78.
 
-<rnd/all_profiles.png, id=521, 1160.335pt x 511.9125pt>
+<rnd/all_profiles.png, id=528, 1160.335pt x 511.9125pt>
 File: rnd/all_profiles.png Graphic file (type png)
 
 <use rnd/all_profiles.png>
@@ -970,7 +956,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 Package natbib Warning: Citation `Ram' on page 18 undefined on input line 98.
 
-<rnd/GNVR_equations.png, id=527, 692.5875pt x 139.52126pt>
+<rnd/GNVR_equations.png, id=534, 692.5875pt x 139.52126pt>
 File: rnd/GNVR_equations.png Graphic file (type png)
 
 <use rnd/GNVR_equations.png>
@@ -996,7 +982,7 @@ Package natbib Warning: Citation `Kanikdale' on page 19 undefined on input line
 Package natbib Warning: Citation `srilata' on page 19 undefined on input line 1
 29.
 
-<rnd/GNVR_cp.png, id=534, 578.16pt x 434.5836pt>
+<rnd/GNVR_cp.png, id=541, 578.16pt x 434.5836pt>
 File: rnd/GNVR_cp.png Graphic file (type png)
  <use rnd/GNVR_cp.png>
 Package pdftex.def Info: rnd/GNVR_cp.png used on input line 133.
@@ -1058,7 +1044,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\new@ifnextchar' on input line 140.
 
-<rnd/zhiyuan_equations.png, id=536, 1073.00874pt x 568.1225pt>
+<rnd/zhiyuan_equations.png, id=543, 1073.00874pt x 568.1225pt>
 File: rnd/zhiyuan_equations.png Graphic file (type png)
 
 <use rnd/zhiyuan_equations.png>
@@ -1085,7 +1071,7 @@ Package natbib Warning: Citation `suman' on page 20 undefined on input line 151
 Package natbib Warning: Citation `zhiyuan' on page 20 undefined on input line 1
 51.
 
-<rnd/pressure_zhiyuan.png, id=542, 1034.86626pt x 589.20125pt>
+<rnd/pressure_zhiyuan.png, id=549, 1034.86626pt x 589.20125pt>
 File: rnd/pressure_zhiyuan.png Graphic file (type png)
 
 <use rnd/pressure_zhiyuan.png>
@@ -1112,7 +1098,7 @@ G copy)>]
 Package natbib Warning: Citation `zhiyuan' on page 21 undefined on input line 1
 83.
 
-<rnd/zhiyuan_cp.png, id=549, 578.16pt x 434.5836pt>
+<rnd/zhiyuan_cp.png, id=556, 578.16pt x 434.5836pt>
 File: rnd/zhiyuan_cp.png Graphic file (type png)
  <use rnd/zhiyuan_cp.png>
 Package pdftex.def Info: rnd/zhiyuan_cp.png used on input line 186.
@@ -1209,7 +1195,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 216--218
 
  []
 
-<rnd/wang_cp.png, id=561, 578.16pt x 434.5836pt>
+<rnd/wang_cp.png, id=568, 578.16pt x 434.5836pt>
 File: rnd/wang_cp.png Graphic file (type png)
  <use rnd/wang_cp.png>
 Package pdftex.def Info: rnd/wang_cp.png used on input line 250.
@@ -1267,7 +1253,7 @@ as been already used, duplicate ignored
                                                   \fi \fi 
 l.290 T
        he flow conditions and solver parameters used for the simulation are ...
- <./rnd/wang_cp.png>] <rnd/NPL_cp.png, id=580, 578.16pt x 434.5836pt>
+ <./rnd/wang_cp.png>] <rnd/NPL_cp.png, id=587, 578.16pt x 434.5836pt>
 File: rnd/NPL_cp.png Graphic file (type png)
 
 <use rnd/NPL_cp.png>
@@ -1352,7 +1338,7 @@ Underfull \hbox (badness 1708) in paragraph at lines 399--400
 
  (./optimization/optimization.tex
 Chapter 5.
-<optimization/closed_loop.png, id=604, 633.36626pt x 302.12875pt>
+<optimization/closed_loop.png, id=611, 633.36626pt x 302.12875pt>
 File: optimization/closed_loop.png Graphic file (type png)
 
 <use optimization/closed_loop.png>
@@ -1369,21 +1355,21 @@ has been already used, duplicate ignored
                                                   \fi \fi 
 l.13 
       <./optimization/closed_loop.png>]
-<optimization/surrogate.png, id=612, 882.29625pt x 442.65375pt>
+<optimization/surrogate.png, id=619, 882.29625pt x 442.65375pt>
 File: optimization/surrogate.png Graphic file (type png)
 
 <use optimization/surrogate.png>
 Package pdftex.def Info: optimization/surrogate.png used on input line 15.
 (pdftex.def)             Requested size: 426.79134pt x 214.12619pt.
 
-<optimization/flow_chart.png, id=613, 743.77875pt x 839.135pt>
+<optimization/flow_chart.png, id=620, 743.77875pt x 839.135pt>
 File: optimization/flow_chart.png Graphic file (type png)
 
 <use optimization/flow_chart.png>
 Package pdftex.def Info: optimization/flow_chart.png used on input line 27.
 (pdftex.def)             Requested size: 426.79134pt x 481.51295pt.
 
-<optimization/OLHS_DOE.png, id=615, 716.6775pt x 670.505pt>
+<optimization/OLHS_DOE.png, id=622, 716.6775pt x 670.505pt>
 File: optimization/OLHS_DOE.png Graphic file (type png)
 
 <use optimization/OLHS_DOE.png>
@@ -1420,14 +1406,14 @@ sed, duplicate ignored
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.94 
-     ] <optimization/RMSE_analysis.png, id=647, 797.98125pt x 658.46pt>
+     ] <optimization/RMSE_analysis.png, id=654, 797.98125pt x 658.46pt>
 File: optimization/RMSE_analysis.png Graphic file (type png)
 
 <use optimization/RMSE_analysis.png>
 Package pdftex.def Info: optimization/RMSE_analysis.png used on input line 96.
 (pdftex.def)             Requested size: 426.79134pt x 352.16713pt.
 
-<optimization/Himmel_blau_fcn.png, id=648, 844.15375pt x 652.4375pt>
+<optimization/Himmel_blau_fcn.png, id=655, 844.15375pt x 652.4375pt>
 File: optimization/Himmel_blau_fcn.png Graphic file (type png)
 
 <use optimization/Himmel_blau_fcn.png>
@@ -1453,59 +1439,81 @@ d, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.167 \include{optimization/optimization}
+l.169 \include{optimization/optimization}
                                          ]
 \openout2 = `rnd/results.aux'.
 
  (./rnd/results.tex
 Chapter 6.
-) [36
+
+Package natbib Warning: Citation `gupta' on page 36 undefined on input line 4.
+
+
+Package natbib Warning: Citation `gupta2002envelope' on page 36 undefined on in
+put line 6.
+
+[36
 
 
 
-]
+] <von_mises/stress_rep_envelope.png, id=680, 901.3675pt x 644.4075pt>
+File: von_mises/stress_rep_envelope.png Graphic file (type png)
+
+<use von_mises/stress_rep_envelope.png>
+Package pdftex.def Info: von_mises/stress_rep_envelope.png used on input line 3
+4.
+(pdftex.def)             Requested size: 298.75262pt x 213.58925pt.
+
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 50.
+
+[37pdfTeX warning (ext4): destination with the same identifier (name{figure.6.1
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.59 
+      <./von_mises/stress_rep_envelope.png>]) [38]
 \openout2 = `futureplan/futureplan.aux'.
 
  (./futureplan/futureplan.tex
 Chapter 7.
-) [37
+) [39
 
 
 
-] (./mainrep.bbl [38
+] (./mainrep.bbl [40
 
 
 
-] [39])
+] [41])
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 200.
-[40]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 200.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 202.
+[42]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 202.
  (./mainrep.aux (./abs.aux) (./intro/introduction.aux)
 (./lit/literature.aux) (./geometry/geometry.aux) (./OpenFOAM/OpenFOAM.aux)
 (./optimization/optimization.aux) (./rnd/results.aux)
 (./futureplan/futureplan.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 200.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 200.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 202.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 202.
 Package rerunfilecheck Info: File `mainrep.out' has not changed.
-(rerunfilecheck)             Checksum: 6AE652FA2A7E645C8B9C02731822B157;2604.
+(rerunfilecheck)             Checksum: 1A23E436A8AB99CC9F83BAA12F536BA9;2688.
 
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 200.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 202.
  ) 
 Here is how much of TeX's memory you used:
- 9938 strings out of 493029
- 138321 string characters out of 6136234
- 240152 words of memory out of 5000000
- 12970 multiletter control sequences out of 15000+600000
- 118293 words of font info for 201 fonts, out of 8000000 for 9000
+ 10045 strings out of 493029
+ 139853 string characters out of 6136234
+ 241852 words of memory out of 5000000
+ 13056 multiletter control sequences out of 15000+600000
+ 123761 words of font info for 208 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  40i,22n,51p,1084b,1622s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
@@ -1523,10 +1531,10 @@ b></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /urw/times/utmri8a.pfb>
-Output written on mainrep.pdf (47 pages, 1246779 bytes).
+Output written on mainrep.pdf (49 pages, 1310691 bytes).
 PDF statistics:
- 795 PDF objects out of 1000 (max. 8388607)
- 698 compressed objects within 7 object streams
- 187 named destinations out of 1000 (max. 500000)
- 402 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 836 PDF objects out of 1000 (max. 8388607)
+ 735 compressed objects within 8 object streams
+ 206 named destinations out of 1000 (max. 500000)
+ 415 words of extra memory for PDF output out of 10000 (max. 10000000)
 

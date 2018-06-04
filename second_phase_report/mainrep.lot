@@ -3,11 +3,11 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {4.1}{\ignorespaces Flow conditions and solver parametres for GNVR shape}}{19}{table.4.1}
-\contentsline {table}{\numberline {4.2}{\ignorespaces Flow conditions and solver parametres for Zhiyuan-1 shape}}{21}{table.4.2}
-\contentsline {table}{\numberline {4.3}{\ignorespaces Comparison of OpenFOAM\textsuperscript {\textregistered } results with RANS \cite {suman} for Zhiyuan -1 shape}}{21}{table.4.3}
-\contentsline {table}{\numberline {4.4}{\ignorespaces Flow conditions and solver parametres for Wang shape}}{22}{table.4.4}
+\contentsline {table}{\numberline {4.2}{\ignorespaces Flow conditions and solver parameters for Zhiyuan-1 shape}}{21}{table.4.2}
+\contentsline {table}{\numberline {4.3}{\ignorespaces Comparison of OpenFOAM\textsuperscript {\textregistered } results with RANS \cite {Suman2011} for Zhiyuan -1 shape}}{22}{table.4.3}
+\contentsline {table}{\numberline {4.4}{\ignorespaces Flow conditions and solver parameters for Wang shape}}{22}{table.4.4}
 \contentsline {table}{\numberline {4.5}{\ignorespaces Comparison of OpenFOAM\textsuperscript {\textregistered } results with ANSYS\textsuperscript {\textregistered } \textit {Fluent} for Wang shape}}{23}{table.4.5}
-\contentsline {table}{\numberline {4.6}{\ignorespaces Flow conditions and solver parametres for NPL shape}}{24}{table.4.6}
+\contentsline {table}{\numberline {4.6}{\ignorespaces Flow conditions and solver parameters for NPL shape}}{24}{table.4.6}
 \contentsline {table}{\numberline {4.7}{\ignorespaces Comparison of OpenFOAM\textsuperscript {\textregistered } results with ANSYS\textsuperscript {\textregistered } \textit {Fluent} for NPL shape}}{25}{table.4.7}
 \contentsline {table}{\numberline {4.8}{\ignorespaces Grid Dependence study for GNVR shape}}{26}{table.4.8}
 \contentsline {table}{\numberline {4.9}{\ignorespaces Grid Dependence study for Wang shape}}{26}{table.4.9}
@@ -15,5 +15,6 @@
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {5.1}{\ignorespaces Design Space}}{32}{table.5.1}
 \contentsline {table}{\numberline {5.2}{\ignorespaces Results obtained for modified Himmelblau function}}{35}{table.5.2}
+\addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

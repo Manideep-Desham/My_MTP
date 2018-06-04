@@ -9,9 +9,9 @@
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Surface snapping process in \textit {snappyHexMesh} }}{16}{figure.4.1}
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Prism layers on the surface of GNVR to capture boundary layer}}{17}{figure.4.2}
 \contentsline {figure}{\numberline {4.3}{\ignorespaces Four standard shapes available in literature}}{18}{figure.4.3}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces $C_{P}$ distribution for GNVR profile obtained by OpenFOAM\textsuperscript {\textregistered }, Source Panel Method \cite {srilata} and ANSYS\textsuperscript {\textregistered } \textit {Fluent} \cite {Kanikdale}}}{19}{figure.4.4}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces $C_{P}$ distribution for GNVR profile obtained by OpenFOAM\textsuperscript {\textregistered }, Source Panel Method \cite {gnvr2000} and ANSYS\textsuperscript {\textregistered } \textit {Fluent} \cite {kanikdale2004multi}}}{19}{figure.4.4}
 \contentsline {figure}{\numberline {4.5}{\ignorespaces Pressure distribution on Zhiyuan-1 airship shape}}{20}{figure.4.5}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces $C_{P}$ distribution for Zhiyuan-1 shape using OpenFOAM\textsuperscript {\textregistered }, Experiments \cite {zhiyuan} and ANSYS\textsuperscript {\textregistered } \textit {Fluent} \cite {zhiyuan}}}{21}{figure.4.6}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces $C_{P}$ distribution for Zhiyuan-1 shape using OpenFOAM\textsuperscript {\textregistered }, Experiments \cite {Wang2010} and ANSYS\textsuperscript {\textregistered } \textit {Fluent} \cite {Wang2010}}}{21}{figure.4.6}
 \contentsline {figure}{\numberline {4.7}{\ignorespaces Comparison of OpenFOAM\textsuperscript {\textregistered } results with ANSYS\textsuperscript {\textregistered } \textit {Fluent} results for pressure distribution of Wang shape}}{23}{figure.4.7}
 \contentsline {figure}{\numberline {4.8}{\ignorespaces Comparison of OpenFOAM\textsuperscript {\textregistered } results with ANSYS\textsuperscript {\textregistered } \textit {Fluent} results for pressure distribution of NPL profile \cite {cheeseman2012}}}{24}{figure.4.8}
 \addvspace {10\p@ }
@@ -23,4 +23,5 @@
 \contentsline {figure}{\numberline {5.6}{\ignorespaces Comparison of Himmelblau function with its Surrogate Model}}{34}{figure.5.6}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {6.1}{\ignorespaces Stress representation in envelope}}{37}{figure.6.1}
+\addvspace {10\p@ }
 \addvspace {10\p@ }

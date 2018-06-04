@@ -1,5 +1,5 @@
 %Merlin.mbs v4.21 2009-07-09.
-\begin{thebibliography}{19}%
+\begin{thebibliography}{24}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \ifx #1\undefined \expandafter \@firstoftwo
@@ -77,9 +77,18 @@
   {booktitle} {International Council of the Aeronautical Sciences (ICAS
   2016)}}%
   \bibAnnoteFile{NoStop}{alam2016mdo}%
+\bibitem[{\citenamefont{Alam}(2017)}]{recent_thesis}%
+  \BibitemOpen
+  \bibfield{author}{%
+  Alam, M.~I.}%
+  , \bibinfo {year} {2017},\ \enquote{\bibinfo {title} {Multi-objective
+  multidisciplinary design optimization of high altitude airships},}\ %
+  \bibAnnoteFile{NoStop}{recent_thesis}%
 \bibitem[{\citenamefont{Alam}\ \emph{et~al.}(2014)\citenamefont{Alam},
   \citenamefont{Subhani},\ and\ \citenamefont{Pant}}]{alam2014mdo}%
   \BibitemOpen
+\bibfield{title}{%
+    }%
   \bibfield{author}{%
   Alam, M.~I., Subhani, S.,\ and\ Pant, R.~S.}%
   , \bibinfo {year} {2014},\ \enquote{\bibinfo {title} {Multidisciplinary shape
@@ -113,6 +122,14 @@
   \ (\bibinfo {publisher} {Cambridge Aerospace Series: 10, Cambridge University
   Press, ISBN: 0 521 430 747}).%
   \bibAnnoteFile{Stop}{cheeseman1999}%
+\bibitem[{\citenamefont{Cheeseman}(2012)}]{cheeseman2012}%
+  \BibitemOpen
+  \bibfield{author}{%
+  Cheeseman, I.}%
+  , \bibinfo {year} {2012},\ \enquote{\bibinfo {title} {Airship technology},}\
+  Chap.\ \bibinfo {chapter} {2:Aerodynamics}\ (\bibinfo {publisher} {Cambridge
+  University Press}).\ pp.\ \bibinfo {pages} {29--30}.%
+  \bibAnnoteFile{Stop}{cheeseman2012}%
 \bibitem[{\citenamefont{Chen}\ \emph{et~al.}(2010)\citenamefont{Chen},
   \citenamefont{Zhu},\ and\ \citenamefont{Sun}}]{Chen2010}%
   \BibitemOpen
@@ -157,11 +174,23 @@
   aerodynamic drag at the rear of generic passenger cars using nurbs
   representation},}\ ,\ \bibinfo {pages} {30 -- 36}.%
   \bibAnnoteFile{Stop}{OsamaAbdulGhani2013}%
+\bibitem[{\citenamefont{Gupta}\ and\
+  \citenamefont{Malik}(2002)}]{gupta2002envelope}%
+  \BibitemOpen
+\bibfield{title}{%
+    }%
+  \bibfield{author}{%
+  Gupta, S.,\ and\ Malik, S.}%
+  , \bibinfo {year} {2002},\ \bibfield{title}{%
+  \enquote{\bibinfo {title} {Envelope details for demo airship},}\ }%
+  \emph{\bibinfo {journal} {Aerial Delivery Research and Development
+  Establishment (ADRDE), Agra}}%
+  \bibAnnoteFile{NoStop}{gupta2002envelope}%
 \bibitem[{\citenamefont{Harada}\ \emph{et~al.}(????)\citenamefont{Harada},
   \citenamefont{Eguchi}, \citenamefont{Sano},\ and\
   \citenamefont{Sasa}}]{Harada2003a}%
   \BibitemOpen
-\bibfield{title}{%
+\bibfield{journal}{%
     }%
   \bibfield{author}{%
   Harada, K., Eguchi, K., Sano, M.,\ and\ Sasa, S.}%
@@ -277,12 +306,39 @@
   assumed-transition-point criterion in context of RANS simulations around
   Lighter-Than-Air vehicles}},}\ ,\ \bibinfo {pages} {1--10}.%
   \bibAnnoteFile{Stop}{Suman2011}%
+\bibitem[{\citenamefont{Viana}\ \emph{et~al.}(2014)\citenamefont{Viana},
+  \citenamefont{Simpson}, \citenamefont{Balabanov},\ and\
+  \citenamefont{Toropov}}]{viana2014metamodeling}%
+  \BibitemOpen
+\bibfield{title}{%
+    }%
+  \bibfield{author}{%
+  Viana, F.~A., Simpson, T.~W., Balabanov, V.,\ and\ Toropov, V.}%
+  , \bibinfo {year} {2014},\ \bibfield{title}{%
+  \enquote{\bibinfo {title} {Metamodeling in multidisciplinary design
+  optimization: How far have we really come?}.}\ }%
+  \bibfield{journal}{%
+  \emph{\bibinfo {journal} {AIAA JOURNAL}}\ }%
+  \textbf{\bibinfo {volume} {52}}%
+  \bibAnnoteFile{NoStop}{viana2014metamodeling}%
+\bibitem[{\citenamefont{Wang}\ \emph{et~al.}(2009)\citenamefont{Wang},
+  \citenamefont{Chen}, \citenamefont{Fu},\ and\
+  \citenamefont{Duan}}]{Wang2009}%
+  \BibitemOpen
+  \bibfield{author}{%
+  Wang, Q., Chen, J., Fu, G.,\ and\ Duan, D.}%
+  , \bibinfo {year} {2009}\ \bibinfo {month} {Nov.},\ \bibfield{title}{%
+  \enquote{\bibinfo {title} {{An Approach for Shape Optimization of
+  Stratosphere Airships based on Multidisciplinary Design Optimization}},}\ }%
+  \bibfield{journal}{%
+  \emph{\Doi{10.1631/jzus.A0820814}{\bibinfo {journal} {Journal of Zhejiang
+  University SCIENCE A}}}\ }%
+  \textbf{\bibinfo {volume} {10}},\ \bibinfo {pages} {1609--1616}.%
+  \bibAnnoteFile{Stop}{Wang2009}%
 \bibitem[{\citenamefont{Wang}\ \emph{et~al.}(2010)\citenamefont{Wang},
   \citenamefont{Fu}, \citenamefont{Duan},\ and\
   \citenamefont{Shan}}]{Wang2010}%
   \BibitemOpen
-\bibfield{title}{%
-    }%
   \bibfield{author}{%
   Wang, X.-L., Fu, G.-Y., Duan, D.-P.,\ and\ Shan, X.-X.}%
   , \bibinfo {year} {2010}\ \bibinfo {month} {jul},\ \bibfield{title}{%

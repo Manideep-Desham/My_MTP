@@ -16,13 +16,13 @@
 \BOOKMARK [1][-]{section.3.1}{Modified Gertlers parametre technique}{chapter.3}% 16
 \BOOKMARK [1][-]{section.3.2}{Methodology to generate surface using Octave}{chapter.3}% 17
 \BOOKMARK [2][-]{subsection.3.2.1}{STL \(file format\)}{section.3.2}% 18
-\BOOKMARK [0][-]{chapter.4}{Introduction to OpenFOAM\256}{}% 19
+\BOOKMARK [0][-]{chapter.4}{Introduction to Introduction to OpenFOAMs }{}% 19
 \BOOKMARK [1][-]{section.4.1}{OpenFOAM\256 for CFD researchers}{chapter.4}% 20
 \BOOKMARK [1][-]{section.4.2}{Computational mesh generation using SnappyHexMesh}{chapter.4}% 21
 \BOOKMARK [1][-]{section.4.3}{Validation of OpenFOAM\256 CFD results}{chapter.4}% 22
-\BOOKMARK [2][-]{subsection.4.3.1}{GNVR shape Ram}{section.4.3}% 23
-\BOOKMARK [2][-]{subsection.4.3.2}{Zhiyuan-1 shape zhiyuan}{section.4.3}% 24
-\BOOKMARK [2][-]{subsection.4.3.3}{Wang Shape Wangshape}{section.4.3}% 25
+\BOOKMARK [2][-]{subsection.4.3.1}{GNVR shape Ram2010}{section.4.3}% 23
+\BOOKMARK [2][-]{subsection.4.3.2}{Zhiyuan-1 shape Wang2010}{section.4.3}% 24
+\BOOKMARK [2][-]{subsection.4.3.3}{Wang Shape Wang2009}{section.4.3}% 25
 \BOOKMARK [2][-]{subsection.4.3.4}{NPL Shape cheeseman2012}{section.4.3}% 26
 \BOOKMARK [2][-]{subsection.4.3.5}{Grid Dependence study}{section.4.3}% 27
 \BOOKMARK [1][-]{section.4.4}{Observations \046 Conclusions}{chapter.4}% 28
@@ -34,5 +34,6 @@
 \BOOKMARK [1][-]{section.5.5}{Coupling of Genetic Algorithm, Surrogate model and testing for modified Himmelblau functions}{chapter.5}% 34
 \BOOKMARK [0][-]{chapter.6}{Calculation of Hoop Stress}{}% 35
 \BOOKMARK [1][-]{subsection.6.0.1}{Bending Moment Calculation}{chapter.6}% 36
-\BOOKMARK [0][-]{chapter.7}{Future work}{}% 37
-\BOOKMARK [0][-]{section*.10}{References}{}% 38
+\BOOKMARK [0][-]{chapter.7}{Results and discussion}{}% 37
+\BOOKMARK [0][-]{chapter.8}{Future work}{}% 38
+\BOOKMARK [0][-]{section*.10}{References}{}% 39

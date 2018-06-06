@@ -1,5 +1,5 @@
 %Merlin.mbs v4.21 2009-07-09.
-\begin{thebibliography}{24}%
+\begin{thebibliography}{34}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \ifx #1\undefined \expandafter \@firstoftwo
@@ -77,18 +77,16 @@
   {booktitle} {International Council of the Aeronautical Sciences (ICAS
   2016)}}%
   \bibAnnoteFile{NoStop}{alam2016mdo}%
-\bibitem[{\citenamefont{Alam}(2017)}]{recent_thesis}%
+\bibitem[{\citenamefont{Alam}(2017)}]{alam2017thesis}%
   \BibitemOpen
   \bibfield{author}{%
   Alam, M.~I.}%
   , \bibinfo {year} {2017},\ \enquote{\bibinfo {title} {Multi-objective
   multidisciplinary design optimization of high altitude airships},}\ %
-  \bibAnnoteFile{NoStop}{recent_thesis}%
+  \bibAnnoteFile{NoStop}{alam2017thesis}%
 \bibitem[{\citenamefont{Alam}\ \emph{et~al.}(2014)\citenamefont{Alam},
   \citenamefont{Subhani},\ and\ \citenamefont{Pant}}]{alam2014mdo}%
   \BibitemOpen
-\bibfield{title}{%
-    }%
   \bibfield{author}{%
   Alam, M.~I., Subhani, S.,\ and\ Pant, R.~S.}%
   , \bibinfo {year} {2014},\ \enquote{\bibinfo {title} {Multidisciplinary shape
@@ -142,6 +140,30 @@
   \emph{\bibinfo {journal} {Journal of Computers}}\ }%
   \textbf{\bibinfo {volume} {6}},\ \bibinfo {pages} {1055--1062}.%
   \bibAnnoteFile{Stop}{Chen2010}%
+\bibitem[{\citenamefont{Chen}\ \emph{et~al.}(1991)\citenamefont{Chen},
+  \citenamefont{Cowan},\ and\ \citenamefont{Grant}}]{chen1991orthogonal}%
+  \BibitemOpen
+  \bibfield{author}{%
+  Chen, S., Cowan, C.~F.,\ and\ Grant, P.~M.}%
+  , \bibinfo {year} {1991},\ \bibfield{title}{%
+  \enquote{\bibinfo {title} {Orthogonal least squares learning algorithm for
+  radial basis function networks},}\ }%
+  \bibfield{journal}{%
+  \emph{\bibinfo {journal} {IEEE Transactions on neural networks}}\ }%
+  \textbf{\bibinfo {volume} {2}},\ \bibinfo {pages} {302--309}.%
+  \bibAnnoteFile{Stop}{chen1991orthogonal}%
+\bibitem[{\citenamefont{Forrester}\ and\
+  \citenamefont{Keane}(2009)}]{forrester2009recent}%
+  \BibitemOpen
+  \bibfield{author}{%
+  Forrester, A.~I.,\ and\ Keane, A.~J.}%
+  , \bibinfo {year} {2009},\ \bibfield{title}{%
+  \enquote{\bibinfo {title} {Recent advances in surrogate-based
+  optimization},}\ }%
+  \bibfield{journal}{%
+  \emph{\bibinfo {journal} {Progress in Aerospace Sciences}}\ }%
+  \textbf{\bibinfo {volume} {45}},\ \bibinfo {pages} {50--79}.%
+  \bibAnnoteFile{Stop}{forrester2009recent}%
 \bibitem[{\citenamefont{Gawale}\ and\ \citenamefont{Pant}(2005)}]{Gawale2005}%
   \BibitemOpen
   \bibfield{author}{%
@@ -186,7 +208,7 @@
   \emph{\bibinfo {journal} {Aerial Delivery Research and Development
   Establishment (ADRDE), Agra}}%
   \bibAnnoteFile{NoStop}{gupta2002envelope}%
-\bibitem[{\citenamefont{Harada}\ \emph{et~al.}(????)\citenamefont{Harada},
+\bibitem[{\citenamefont{Harada}\ \emph{et~al.}(2003)\citenamefont{Harada},
   \citenamefont{Eguchi}, \citenamefont{Sano},\ and\
   \citenamefont{Sasa}}]{Harada2003a}%
   \BibitemOpen
@@ -194,11 +216,26 @@
     }%
   \bibfield{author}{%
   Harada, K., Eguchi, K., Sano, M.,\ and\ Sasa, S.}%
-  , ????%
-  \bibAnnoteFile{Stop}{Harada2003a}%
+  , \bibinfo {year} {2003},\ \bibfield{title}{%
+  \enquote{\bibinfo {title} {Experimental study of thermal modeling for
+  stratospheric platform airships},}\ }%
+  \emph{\bibinfo {journal} {AIAA}}%
+  \bibAnnoteFile{NoStop}{Harada2003a}%
+\bibitem[{\citenamefont{Jekabsons}(2009)}]{Jekabsons2009}%
+  \BibitemOpen
+\bibfield{journal}{%
+    }%
+  \bibfield{author}{%
+  Jekabsons, G.}%
+  , \bibinfo {year} {2009},\ \enquote{\bibinfo {title} {{ RBF: Radial Basis
+  Function interpolation for MATLAB/OCTAVE, Riga Technical University, Latvia,
+  version 1.1 ed.,}},}\ %
+  \bibAnnoteFile{NoStop}{Jekabsons2009}%
 \bibitem[{\citenamefont{Kale}\ \emph{et~al.}(2005)\citenamefont{Kale},
   \citenamefont{Joshi},\ and\ \citenamefont{Pant}}]{Kale2005a}%
   \BibitemOpen
+\bibfield{title}{%
+    }%
   \bibfield{author}{%
   Kale, S.~S., Joshi, P.,\ and\ Pant, R.~R.}%
   , \bibinfo {year} {2005},\ \bibfield{title}{%
@@ -247,6 +284,37 @@
   \emph{\bibinfo {journal} {Advances in Space Research}}\ }%
   \textbf{\bibinfo {volume} {53}},\ \bibinfo {pages} {325--338}.%
   \bibAnnoteFile{Stop}{Liu2014a}%
+\bibitem[{\citenamefont{Lophaven}\ \emph{et~al.}(2002)\citenamefont{Lophaven},
+  \citenamefont{Nielsen},\ and\
+  \citenamefont{S{\o}ndergaard}}]{lophaven2002dace}%
+  \BibitemOpen
+  \bibfield{author}{%
+  Lophaven, S.~N., Nielsen, H.~B.,\ and\ S{\o}ndergaard, J.}%
+  , \bibinfo {year} {2002},\ \emph{\bibinfo {title} {DACE: a Matlab kriging
+  toolbox}},\ Vol.~\bibinfo {volume} {2}\ (\bibinfo {publisher} {Citeseer}).%
+  \bibAnnoteFile{Stop}{lophaven2002dace}%
+\bibitem[{\citenamefont{Luo}\ and\
+  \citenamefont{Lu}(2014)}]{luo2014comparison}%
+  \BibitemOpen
+  \bibfield{author}{%
+  Luo, J.,\ and\ Lu, W.}%
+  , \bibinfo {year} {2014},\ \bibfield{title}{%
+  \enquote{\bibinfo {title} {Comparison of surrogate models with different
+  methods in groundwater remediation process},}\ }%
+  \bibfield{journal}{%
+  \emph{\bibinfo {journal} {Journal of earth system science}}\ }%
+  \textbf{\bibinfo {volume} {123}},\ \bibinfo {pages} {1579--1589}.%
+  \bibAnnoteFile{Stop}{luo2014comparison}%
+\bibitem[{\citenamefont{Matheron}(1963)}]{matheron1963principles}%
+  \BibitemOpen
+  \bibfield{author}{%
+  Matheron, G.}%
+  , \bibinfo {year} {1963},\ \bibfield{title}{%
+  \enquote{\bibinfo {title} {Principles of geostatistics},}\ }%
+  \bibfield{journal}{%
+  \emph{\bibinfo {journal} {Economic geology}}\ }%
+  \textbf{\bibinfo {volume} {58}},\ \bibinfo {pages} {1246--1266}.%
+  \bibAnnoteFile{Stop}{matheron1963principles}%
 \bibitem[{\citenamefont{Narayana}\ and\ \citenamefont{Srilatha}(July
   2000)}]{gnvr2000}%
   \BibitemOpen
@@ -257,6 +325,20 @@
   {BLISS Project Document CF 0010}}\ (\bibinfo {address} {National Aerospace
   Laboratories, Bangalore, India}).%
   \bibAnnoteFile{Stop}{gnvr2000}%
+\bibitem[{\citenamefont{Queipo}\ \emph{et~al.}(2005)\citenamefont{Queipo},
+  \citenamefont{Haftka}, \citenamefont{Shyy}, \citenamefont{Goel},
+  \citenamefont{Vaidyanathan},\ and\
+  \citenamefont{Tucker}}]{queipo2005surrogate}%
+  \BibitemOpen
+  \bibfield{author}{%
+  Queipo, N.~V., Haftka, R.~T., Shyy, W., Goel, T., Vaidyanathan, R.,\ and\
+  Tucker, P.~K.}%
+  , \bibinfo {year} {2005},\ \bibfield{title}{%
+  \enquote{\bibinfo {title} {Surrogate-based analysis and optimization},}\ }%
+  \bibfield{journal}{%
+  \emph{\bibinfo {journal} {Progress in aerospace sciences}}\ }%
+  \textbf{\bibinfo {volume} {41}},\ \bibinfo {pages} {1--28}.%
+  \bibAnnoteFile{Stop}{queipo2005surrogate}%
 \bibitem[{\citenamefont{Ram}\ and\ \citenamefont{Pant}(2010)}]{Ram2010}%
   \BibitemOpen
   \bibfield{author}{%
@@ -297,6 +379,32 @@
   Exhibition}}\ (\bibinfo {address} {Friedrichshafen, Germany}).\ pp.\ \bibinfo
   {pages} {Paper B--08}.%
   \bibAnnoteFile{Stop}{Rehmet2000}%
+\bibitem[{\citenamefont{Sacks}\ \emph{et~al.}(1989)\citenamefont{Sacks},
+  \citenamefont{Welch}, \citenamefont{Mitchell},\ and\
+  \citenamefont{Wynn}}]{sacks1989design}%
+  \BibitemOpen
+  \bibfield{author}{%
+  Sacks, J., Welch, W.~J., Mitchell, T.~J.,\ and\ Wynn, H.~P.}%
+  , \bibinfo {year} {1989},\ \bibfield{title}{%
+  \enquote{\bibinfo {title} {Design and analysis of computer experiments},}\ }%
+  \emph{\bibinfo {journal} {Statistical science}},\ \bibinfo {pages}
+  {409--423}.%
+  \bibAnnoteFile{Stop}{sacks1989design}%
+\bibitem[{\citenamefont{Shen}\ \emph{et~al.}(2011)\citenamefont{Shen},
+  \citenamefont{Guo}, \citenamefont{Wu},\ and\
+  \citenamefont{Wu}}]{shen2011forecasting}%
+  \BibitemOpen
+\bibfield{journal}{%
+    }%
+  \bibfield{author}{%
+  Shen, W., Guo, X., Wu, C.,\ and\ Wu, D.}%
+  , \bibinfo {year} {2011},\ \bibfield{title}{%
+  \enquote{\bibinfo {title} {Forecasting stock indices using radial basis
+  function neural networks optimized by artificial fish swarm algorithm},}\ }%
+  \bibfield{journal}{%
+  \emph{\bibinfo {journal} {Knowledge-Based Systems}}\ }%
+  \textbf{\bibinfo {volume} {24}},\ \bibinfo {pages} {378--385}.%
+  \bibAnnoteFile{Stop}{shen2011forecasting}%
 \bibitem[{\citenamefont{Suman}\ \emph{et~al.}(2011)\citenamefont{Suman},
   \citenamefont{Lakshmipathy},\ and\ \citenamefont{Pant}}]{Suman2011}%
   \BibitemOpen
@@ -306,6 +414,15 @@
   assumed-transition-point criterion in context of RANS simulations around
   Lighter-Than-Air vehicles}},}\ ,\ \bibinfo {pages} {1--10}.%
   \bibAnnoteFile{Stop}{Suman2011}%
+\bibitem[{\citenamefont{Viana}(2011)}]{Viana2011}%
+  \BibitemOpen
+\bibfield{title}{%
+    }%
+  \bibfield{author}{%
+  Viana, F. A.~C.}%
+  , \bibinfo {year} {2011},\ \enquote{\bibinfo {title} {{SURROGATES Toolbox
+  User ' s Guide}},}\ ,\ \bibinfo {pages} {0--27}.%
+  \bibAnnoteFile{Stop}{Viana2011}%
 \bibitem[{\citenamefont{Viana}\ \emph{et~al.}(2014)\citenamefont{Viana},
   \citenamefont{Simpson}, \citenamefont{Balabanov},\ and\
   \citenamefont{Toropov}}]{viana2014metamodeling}%

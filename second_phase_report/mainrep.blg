@@ -8,18 +8,20 @@ A level-1 auxiliary file: lit/literature.aux
 A level-1 auxiliary file: geometry/geometry.aux
 A level-1 auxiliary file: OpenFOAM/OpenFOAM.aux
 A level-1 auxiliary file: optimization/optimization.aux
+A level-1 auxiliary file: surrogate_model_CFD/surrogate_model_CFD.aux
 A level-1 auxiliary file: Hoop_stress/Hoop_stress.aux
 A level-1 auxiliary file: rnd/results.aux
 A level-1 auxiliary file: futureplan/futureplan.aux
+A level-1 auxiliary file: appendix.aux
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: mylit.bib.bib
-Warning--I didn't find a database entry for "srilata"
-Warning--I didn't find a database entry for "Kanikdale"
-Warning--I didn't find a database entry for "gupta"
+Warning--entry type for "alam2017thesis" isn't style-file defined
+--line 1 of file mylit.bib.bib
+Warning--I didn't find a database entry for "recent_thesis"
 Name 1 in "Gertler, M.," has a comma at the end for entry gertler1950
 while executing---line 2266 of file iitbauthyr.bst
 Name 1 in "Gertler, M.," has a comma at the end for entry gertler1950
@@ -31,7 +33,6 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Merlin.mbs v4.21 2009-07-09. 
 Warning--empty chapter and pages in alam2016mdo
 Warning--empty pages in alam2016mdo
-Warning--missing journal in recent_thesis
 Warning--empty chapter and pages in alam2014mdo
 Warning--empty pages in alam2014mdo
 Name 5 in "Cheeseman, I. and Aerodynamics and Chapter-02 and Khoury, Gabriel Alexander and Gillett, J. D.," has a comma at the end for entry cheeseman1999
@@ -51,53 +52,53 @@ while executing---line 2479 of file iitbauthyr.bst
 Warning--empty chapter and pages in gertler1950
 Warning--empty pages in gertler1950
 Warning--missing journal in OsamaAbdulGhani2013
-Warning--empty year in Harada2003a; set to ????
-Warning--missing journal in Harada2003a
+Warning--missing journal in Jekabsons2009
 Warning--empty chapter and pages in kanikdale2004multi
 Warning--empty chapter and pages in gnvr2000
 Warning--empty pages in gnvr2000
 Warning--empty chapter and pages in Ran2007
 Warning--empty chapter and pages in Rehmet2000
 Warning--missing journal in Suman2011
-You've used 24 entries,
+Warning--missing journal in Viana2011
+You've used 34 entries,
             4451 wiz_defined-function locations,
-            1058 strings with 13822 characters,
-and the built_in function-call counts, 20668 in all, are:
-= -- 1472
-> -- 587
-< -- 15
-+ -- 221
-- -- 195
-* -- 2825
-:= -- 2542
-add.period$ -- 50
-call.type$ -- 24
-change.case$ -- 186
-chr.to.int$ -- 24
-cite$ -- 66
-duplicate$ -- 1779
-empty$ -- 1537
-format.name$ -- 267
-if$ -- 3653
+            1124 strings with 15605 characters,
+and the built_in function-call counts, 29102 in all, are:
+= -- 2097
+> -- 830
+< -- 21
++ -- 312
+- -- 276
+* -- 4012
+:= -- 3598
+add.period$ -- 70
+call.type$ -- 34
+change.case$ -- 265
+chr.to.int$ -- 34
+cite$ -- 85
+duplicate$ -- 2484
+empty$ -- 2170
+format.name$ -- 376
+if$ -- 5144
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 284
-newline$ -- 264
-num.names$ -- 96
-pop$ -- 849
+missing$ -- 396
+newline$ -- 358
+num.names$ -- 136
+pop$ -- 1149
 preamble$ -- 1
-purify$ -- 161
+purify$ -- 228
 quote$ -- 2
-skip$ -- 676
+skip$ -- 941
 stack$ -- 0
-substring$ -- 664
-swap$ -- 1518
-text.length$ -- 5
+substring$ -- 982
+swap$ -- 2116
+text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 212
-warning$ -- 18
-while$ -- 101
+type$ -- 300
+warning$ -- 17
+while$ -- 147
 width$ -- 0
-write$ -- 371
+write$ -- 512
 (There were 9 error messages)

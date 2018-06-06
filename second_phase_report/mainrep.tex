@@ -10,13 +10,12 @@
 \usepackage{listings}
 \usepackage{float}
 \usepackage{amsmath,bm}
-\usepackage[pdfencoding=auto]{hyperref}
+\usepackage{csvsimple}
+%\usepackage[pdfencoding=auto]{hyperref}
 %%\selectlanguage{English}
-
 %% Default spacing: 1.5
 %% Default font size: 12pt
 %% Default font: txfonts (similar to times new roman) 
-
 %% Selectively comment out sections that you want to be left out but
 %% maintaining the page numbers and other \ref
 \includeonly{%
@@ -28,8 +27,11 @@
   lit/literature,
   expt/experimental,
   Hoop_stress/Hoop_stress,
+  surrogate_model_CFD/surrogate_model_CFD,
+  surrogate_model_CFD_results/surrogate_model_CFD_results,
   rnd/results, 
   futureplan/futureplan,
+  appendix,
   dec,abs,pub,ack
 }
 
@@ -169,16 +171,18 @@
 \include{geometry/geometry}
 \include{OpenFOAM/OpenFOAM}
 \include{optimization/optimization}
+\include{surrogate_model_CFD/surrogate_model_CFD}
+\include{surrogate_model_CFD_results/surrogate_model_CFD_results}
 \include{Hoop_stress/Hoop_stress}
 \include{rnd/results}
 \include{futureplan/futureplan}
+\include{appendix}
 
 %****************************************************************
 %                         Appendices                           
 %****************************************************************
 %% Additional, supporting material, such as codes, derivations, etc., can be placed in the appendix
-\appendix
-%\chapter{Supporting Material}
+
 
 %******************************************************************
 %                         Bibliography or References          

@@ -29,11 +29,21 @@
 \BOOKMARK [0][-]{chapter.5}{Surrogate based shape optimization}{}% 29
 \BOOKMARK [1][-]{section.5.1}{Surrogate model}{chapter.5}% 30
 \BOOKMARK [1][-]{section.5.2}{Design of Experiments}{chapter.5}% 31
-\BOOKMARK [1][-]{section.5.3}{Mapping design variables}{chapter.5}% 32
-\BOOKMARK [1][-]{section.5.4}{Test Function for Kriging Surrogate Model}{chapter.5}% 33
-\BOOKMARK [1][-]{section.5.5}{Coupling of Genetic Algorithm, Surrogate model and testing for modified Himmelblau functions}{chapter.5}% 34
-\BOOKMARK [0][-]{chapter.6}{Calculation of Hoop Stress}{}% 35
-\BOOKMARK [1][-]{subsection.6.0.1}{Bending Moment Calculation}{chapter.6}% 36
-\BOOKMARK [0][-]{chapter.7}{Results and discussion}{}% 37
-\BOOKMARK [0][-]{chapter.8}{Future work}{}% 38
-\BOOKMARK [0][-]{section*.10}{References}{}% 39
+\BOOKMARK [1][-]{section.5.3}{Test Function for Kriging Surrogate Model}{chapter.5}% 32
+\BOOKMARK [1][-]{section.5.4}{Coupling of Genetic Algorithm, Surrogate model and testing for modified Himmelblau functions}{chapter.5}% 33
+\BOOKMARK [0][-]{chapter.6}{Surrogate model for CFD}{}% 34
+\BOOKMARK [1][-]{section.6.1}{Mapping design variables}{chapter.6}% 35
+\BOOKMARK [1][-]{section.6.2}{Design of Experiments study}{chapter.6}% 36
+\BOOKMARK [1][-]{section.6.3}{CFD analysis on the points obtained from DOE}{chapter.6}% 37
+\BOOKMARK [1][-]{section.6.4}{Building the surrogate model}{chapter.6}% 38
+\BOOKMARK [2][-]{subsection.6.4.1}{Polynomial response surface}{section.6.4}% 39
+\BOOKMARK [2][-]{subsection.6.4.2}{Radial basis function}{section.6.4}% 40
+\BOOKMARK [2][-]{subsection.6.4.3}{Kriging}{section.6.4}% 41
+\BOOKMARK [1][-]{section.6.5}{Toolbox used for different surrogate models}{chapter.6}% 42
+\BOOKMARK [0][-]{chapter.7}{Training data of CFD results to train surrogate model}{}% 43
+\BOOKMARK [1][-]{section.7.1}{Grid Convergence study}{chapter.7}% 44
+\BOOKMARK [0][-]{chapter.8}{Calculation of Hoop Stress}{}% 45
+\BOOKMARK [1][-]{subsection.8.0.1}{Bending Moment Calculation}{chapter.8}% 46
+\BOOKMARK [0][-]{chapter.9}{Future work}{}% 47
+\BOOKMARK [0][-]{appendix.A}{Table of design points obtained from OLHS}{}% 48
+\BOOKMARK [0][-]{section*.10}{References}{}% 49

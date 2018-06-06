@@ -32,7 +32,7 @@ The usual way of doing any CFD geometry optimization is shown in ~\ref{Closed Op
 
 
 \section{Design of Experiments}
-
+\label{DOE}
 Design of Experiments is a technique used to extract maximum possible information from minimum number of computational experiments. This can be accomplished by the selection of a proper and robust scheme for DOE (Design of Experiments). In the present study, an open-source software named Surrogates Toolbox Version 3.0 (Viana, 2011) was used. Apart from many other important features, the toolbox provides an access to several varieties of widely used DOE models. Of the many DOE models available in the toolbox, optimal Latin Hypercube Sampling (OLHS) generated using translational propagation algorithm (TPA) \textbf{cite Viana et. al} was chosen, mainly due to its orthogonal structure. Fig. \ref{OLHS Sampling} shows sampling distribution of points in a unit square.
 
 \begin{figure}[htbp]
@@ -47,30 +47,6 @@ Design of Experiments is a technique used to extract maximum possible informatio
 For numerical experiments, Kriging surrogate model is reported to be best \citenum{viana2014metamodeling}. Kriging is named after the pioneering work of the South African mining engineer D. G. Krige. It is an interpolating method modelled by a Gaussian process governed by prior co-variances, which features the observed data at all design points. Kriging provides a statistic prediction of an unknown function by minimizing its Mean Squared Error (MSE).
 
 The Kriging method in its basic formulation estimates the value of a function at some un sampled location as the sum of two components: the linear regression model $ f_i (x) $ (e.g., polynomial trend) of the data with p regressors modelling the drift of the process mean, i.e., the trend, over the domain, and a systematic departure representing low (large scale) and high frequency (small scale) variation components, respectively.
-
-\section{Mapping design variables}
-The first task before creation of DOE was the proper definition of the upper and lower limits for the six design variables (viz., $ m, r_0, r_1, C_p, \frac{l}{d} \ and \  scale \_y $). the design space is confined as mentioned in Table \ref{Degign space }
-
-\begin{table}[H]
-	\centering
-	\caption{Design Space}
-	\label{Degign space }
-	%\begin{ruledtabular}
-	\begin{tabular}{lll}
-		\hline \hline
-		Design Parameters & Min. & Max.    \\ \hline \hline
-		
-		$ Point\ of\ Max.\ Dia., m$ & 0.35 & 0.50     \\  
-		$ Nose\ Radius, r _{o} $ & 0.20 & 0.80     \\
-		$ Tail\ Radius, r _{1} $ & 0.1 & 0.5     \\  
-		$ Prismatic\ Coeff., C _{p }$ & 0.55 & 0.70 \\
-		$ Fineness\ Ratio, \frac{l}{d} $ &2.50 & 6.00 \\
-		$Scaling\ in\ Y\ direction,\ scale\_y$ &1.00 & 5.00\\ \hline \hline
-	\end{tabular}
-	%	\end{ruledtabular}
-\end{table}
-
-Hundred candidate points were first obtained by Surrogates Toolbox \textbf{cite surrogate toolbox} using the Optimal Latin Hypercube Sampling (OLHS) method. The generated points were then mapped to the shapes corresponding to envelope volume ($ V _{env} $ ) of 250000 $ m^3 $ . .
 
 
 \section{Test Function for Kriging Surrogate Model}

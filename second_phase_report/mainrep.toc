@@ -28,11 +28,21 @@
 \contentsline {chapter}{\numberline {5}Surrogate based shape optimization}{28}{chapter.5}
 \contentsline {section}{\numberline {5.1}Surrogate model}{28}{section.5.1}
 \contentsline {section}{\numberline {5.2}Design of Experiments}{29}{section.5.2}
-\contentsline {section}{\numberline {5.3}Mapping design variables}{31}{section.5.3}
-\contentsline {section}{\numberline {5.4}Test Function for Kriging Surrogate Model}{32}{section.5.4}
-\contentsline {section}{\numberline {5.5}Coupling of Genetic Algorithm, Surrogate model and testing for modified Himmelblau functions}{34}{section.5.5}
-\contentsline {chapter}{\numberline {6}Calculation of Hoop Stress}{36}{chapter.6}
-\contentsline {subsection}{\numberline {6.0.1}Bending Moment Calculation}{37}{subsection.6.0.1}
-\contentsline {chapter}{\numberline {7}Results and discussion}{39}{chapter.7}
-\contentsline {chapter}{\numberline {8}Future work}{40}{chapter.8}
-\contentsline {chapter}{References}{41}{section*.10}
+\contentsline {section}{\numberline {5.3}Test Function for Kriging Surrogate Model}{31}{section.5.3}
+\contentsline {section}{\numberline {5.4}Coupling of Genetic Algorithm, Surrogate model and testing for modified Himmelblau functions}{34}{section.5.4}
+\contentsline {chapter}{\numberline {6}Surrogate model for CFD}{36}{chapter.6}
+\contentsline {section}{\numberline {6.1}Mapping design variables}{36}{section.6.1}
+\contentsline {section}{\numberline {6.2}Design of Experiments study}{37}{section.6.2}
+\contentsline {section}{\numberline {6.3}CFD analysis on the points obtained from DOE}{37}{section.6.3}
+\contentsline {section}{\numberline {6.4}Building the surrogate model}{37}{section.6.4}
+\contentsline {subsection}{\numberline {6.4.1}Polynomial response surface}{37}{subsection.6.4.1}
+\contentsline {subsection}{\numberline {6.4.2}Radial basis function}{37}{subsection.6.4.2}
+\contentsline {subsection}{\numberline {6.4.3}Kriging}{38}{subsection.6.4.3}
+\contentsline {section}{\numberline {6.5}Toolbox used for different surrogate models}{39}{section.6.5}
+\contentsline {chapter}{\numberline {7}Training data of CFD results to train surrogate model}{40}{chapter.7}
+\contentsline {section}{\numberline {7.1}Grid Convergence study}{40}{section.7.1}
+\contentsline {chapter}{\numberline {8}Calculation of Hoop Stress}{42}{chapter.8}
+\contentsline {subsection}{\numberline {8.0.1}Bending Moment Calculation}{43}{subsection.8.0.1}
+\contentsline {chapter}{\numberline {9}Future work}{45}{chapter.9}
+\contentsline {chapter}{\numberline {A}Table of design points obtained from OLHS}{46}{appendix.A}
+\contentsline {chapter}{References}{47}{section*.10}

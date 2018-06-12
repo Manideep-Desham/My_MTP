@@ -82,6 +82,7 @@ If a small number of design points are used to create a surrogate model, then th
 \end{figure}
 
 \section{Coupling of Genetic Algorithm, Surrogate model and testing for modified Himmelblau functions}
+\label{Modified Himmelblau function}
 It is a well known fact that evolutionary algorithms like Genetic algorithm searches for global minimum and outputs that global minimum as final answer. Unlike gradient based methods, it should not get struck in local minimum. In order to check this, we modify the existing Himmelblau function. This is because actual Himmelblau function has four identical local minimum and don't have any global mimima. So, we modify it by adding the term $  0.01* (x + 3.7793)^2 + (y + 3.2832)^2 $. This term is added to the function value evaluated at all points except (-3.7793,-3.2832). Hence we obtained modified Himmelblau function with one global minima at (-3.7793,-3.2832) and three local minima at other three points. If we optimise this modified Himmelblau function using Genetic algorithm, we have to get the final answer as (-3.7793,-3.2832). The same answer is expected using surrogate model for the modified Himmelblau function. The obtained results are shown in Table.
 
 \begin{table}[H]
@@ -96,9 +97,6 @@ It is a well known fact that evolutionary algorithms like Genetic algorithm sear
 		Surrogate model & -3.7791 &-3.2828 & 2.5643e-03 \\ \hline
 		\% error & 0.006 & 0.013 & 2.5643e-03 \\
 		\hline \hline
-		
-		
-		
 		
 	\end{tabular}
 	%	\end{ruledtabular}

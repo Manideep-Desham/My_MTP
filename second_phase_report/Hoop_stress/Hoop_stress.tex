@@ -87,17 +87,39 @@ In that case, $ \sigma _{h} $ and  $ \sigma _{l} $ can be calculated as:
 \sigma _{v} = \Bigg[ \frac{(\sigma _{1}  - \sigma _{2})^2 + (\sigma _{2}  - \sigma _{3})^2 + (\sigma _{3}  - \sigma _{1})^2 }{2}   \Bigg]^{\frac{1}{2}}
 \end{equation}
 
-Stresses are considered only in 2-D planes due to very low thickness of envelope compared to its diameter. Therefore σ 3 = 0, which simplifies the equation as:
+Stresses are considered only in 2-D planes due to very low thickness of envelope compared to its diameter. Therefore $ \sigma _{3} $ = 0, which simplifies the equation as:
 
 \begin{equation}
 \sigma _{v} = \sqrt{\frac{(\sigma _{1} - \sigma _{2})^{2} + \sigma _{1} ^{2} + \sigma _{2} ^{2}}{2}}
 \end{equation}
 
-Stresses are considered only in 2-D planes due to very low thickness of envelope compared to its diameter. Therefore $ \sigma _{3} $ = 0, which simplifies the equation as:
-
 \begin{equation}
 \sigma _{v} = \sqrt{\sigma _{1} ^{2} + \sigma _{2} ^{2} - \sigma _{1} \sigma _{2}}
 \end{equation}
+
+\section{Shape for minimum hoop stress}
+An octave function namely $ Von_Mises.m $ has been written incorporating the concepts of section \ref{Hoop stress}. This function gives the value of von-Mises stress ($ \sigma _{v} $) given the values of design parametres shown in Table \ref{Degign space }. The optimal results obtained are as follows:
+\begin{table}[H]
+	\centering
+	\caption{Optimal solution obtained for miminum $ \sigma _{v} $}
+	\label{Optimal solution obtained for mimimum sigma_v}
+	%\begin{ruledtabular}
+	\begin{tabular}{lc}
+		\hline \hline
+		Design Parameters & Optimal value for minimum $ C_{DV} $    \\ \hline \hline
+		
+		$ Point\ of\ Max.\ Dia., m$ & 0.44960      \\  
+		$ Nose\ Radius, r _{o} $ & 0.38316    \\
+		$ Tail\ Radius, r _{1} $ & 0.23247     \\  
+		$ Prismatic\ Coeff., C _{p }$ & 0.60598 \\
+		$ Fineness\ Ratio, \frac{l}{d} $ &4.28392 \\
+		$Scaling\ in\ Y\ direction,\ scale\_y$ &1.50423 \\ \hline \hline
+		
+		$ von-Mises\ stress\  \sigma _{v}  $ & \\
+		\hline \hline
+	\end{tabular}
+	%	\end{ruledtabular}
+\end{table}
 
 %%% Local Variables: 
 %%% mode: latex

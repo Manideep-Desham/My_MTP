@@ -12,20 +12,20 @@
 \BOOKMARK [1][-]{section.2.2}{Envelope geometry parameterization}{chapter.2}% 12
 \BOOKMARK [1][-]{section.2.3}{Multi disciplinary shape optimization}{chapter.2}% 13
 \BOOKMARK [1][-]{section.2.4}{Recent work in the field}{chapter.2}% 14
-\BOOKMARK [0][-]{chapter.3}{Envelope geometry parameterization}{}% 15
-\BOOKMARK [1][-]{section.3.1}{Modified Gertlers parametre technique}{chapter.3}% 16
-\BOOKMARK [1][-]{section.3.2}{Methodology to generate surface using Octave}{chapter.3}% 17
-\BOOKMARK [2][-]{subsection.3.2.1}{STL \(file format\)}{section.3.2}% 18
-\BOOKMARK [0][-]{chapter.4}{Introduction to Introduction to OpenFOAMs }{}% 19
-\BOOKMARK [1][-]{section.4.1}{OpenFOAM\256 for CFD researchers}{chapter.4}% 20
-\BOOKMARK [1][-]{section.4.2}{Computational mesh generation using SnappyHexMesh}{chapter.4}% 21
-\BOOKMARK [1][-]{section.4.3}{Validation of OpenFOAM\256 CFD results}{chapter.4}% 22
-\BOOKMARK [2][-]{subsection.4.3.1}{GNVR shape Ram2010}{section.4.3}% 23
-\BOOKMARK [2][-]{subsection.4.3.2}{Zhiyuan-1 shape Wang2010}{section.4.3}% 24
-\BOOKMARK [2][-]{subsection.4.3.3}{Wang Shape Wang2009}{section.4.3}% 25
-\BOOKMARK [2][-]{subsection.4.3.4}{NPL Shape cheeseman2012}{section.4.3}% 26
-\BOOKMARK [2][-]{subsection.4.3.5}{Grid Dependence study}{section.4.3}% 27
-\BOOKMARK [1][-]{section.4.4}{Observations \046 Conclusions}{chapter.4}% 28
+\BOOKMARK [0][-]{chapter.3}{Introduction to Introduction to OpenFOAMs }{}% 15
+\BOOKMARK [1][-]{section.3.1}{OpenFOAM\256 for CFD researchers}{chapter.3}% 16
+\BOOKMARK [1][-]{section.3.2}{Computational mesh generation using SnappyHexMesh}{chapter.3}% 17
+\BOOKMARK [1][-]{section.3.3}{Validation of OpenFOAM\256 CFD results}{chapter.3}% 18
+\BOOKMARK [2][-]{subsection.3.3.1}{GNVR shape Ram2010}{section.3.3}% 19
+\BOOKMARK [2][-]{subsection.3.3.2}{Zhiyuan-1 shape Wang2010}{section.3.3}% 20
+\BOOKMARK [2][-]{subsection.3.3.3}{Wang Shape Wang2009}{section.3.3}% 21
+\BOOKMARK [2][-]{subsection.3.3.4}{NPL Shape cheeseman2012}{section.3.3}% 22
+\BOOKMARK [2][-]{subsection.3.3.5}{Grid Dependence study}{section.3.3}% 23
+\BOOKMARK [1][-]{section.3.4}{Observations \046 Conclusions}{chapter.3}% 24
+\BOOKMARK [0][-]{chapter.4}{Envelope geometry parameterization}{}% 25
+\BOOKMARK [1][-]{section.4.1}{Modified Gertlers parametre technique}{chapter.4}% 26
+\BOOKMARK [1][-]{section.4.2}{Methodology to generate surface using Octave}{chapter.4}% 27
+\BOOKMARK [2][-]{subsection.4.2.1}{STL \(file format\)}{section.4.2}% 28
 \BOOKMARK [0][-]{chapter.5}{Surrogate based shape optimization}{}% 29
 \BOOKMARK [1][-]{section.5.1}{Surrogate model}{chapter.5}% 30
 \BOOKMARK [1][-]{section.5.2}{Design of Experiments}{chapter.5}% 31
@@ -42,8 +42,15 @@
 \BOOKMARK [1][-]{section.6.5}{Toolbox used for different surrogate models}{chapter.6}% 42
 \BOOKMARK [0][-]{chapter.7}{Training data of CFD results to train surrogate model}{}% 43
 \BOOKMARK [1][-]{section.7.1}{Grid Convergence study}{chapter.7}% 44
-\BOOKMARK [0][-]{chapter.8}{Calculation of Hoop Stress}{}% 45
-\BOOKMARK [1][-]{subsection.8.0.1}{Bending Moment Calculation}{chapter.8}% 46
-\BOOKMARK [0][-]{chapter.9}{Future work}{}% 47
-\BOOKMARK [0][-]{appendix.A}{Table of design points obtained from OLHS}{}% 48
-\BOOKMARK [0][-]{section*.10}{References}{}% 49
+\BOOKMARK [1][-]{section.7.2}{Results of CFD simulations}{chapter.7}% 45
+\BOOKMARK [1][-]{section.7.3}{Testing the accuracy of surrogate model}{chapter.7}% 46
+\BOOKMARK [0][-]{chapter.8}{Calculation of Hoop Stress}{}% 47
+\BOOKMARK [1][-]{subsection.8.0.1}{Bending Moment Calculation}{chapter.8}% 48
+\BOOKMARK [1][-]{section.8.1}{Shape for minimum hoop stress}{chapter.8}% 49
+\BOOKMARK [0][-]{chapter.9}{Results and discussion}{}% 50
+\BOOKMARK [1][-]{section.9.1}{Sub-optimal results obtained}{chapter.9}% 51
+\BOOKMARK [1][-]{section.9.2}{Multi-disciplinary shape optimisation}{chapter.9}% 52
+\BOOKMARK [0][-]{chapter.10}{Future work}{}% 53
+\BOOKMARK [0][-]{appendix.A}{Table of design points obtained from OLHS}{}% 54
+\BOOKMARK [1][-]{section.A.1}{Automatic table generation \(for testing\)}{appendix.A}% 55
+\BOOKMARK [0][-]{section*.10}{References}{}% 56

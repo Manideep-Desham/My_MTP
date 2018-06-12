@@ -3,17 +3,17 @@
 \contentsline {figure}{\numberline {1.2}{\ignorespaces Work flow of multi-disciplinary shape optimization}}{4}{figure.1.2}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Definition of $ Cp $}}{10}{figure.3.1}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Effect of scaling }}{12}{figure.3.2}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Surface snapping process in \textit {snappyHexMesh} }}{11}{figure.3.1}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Prism layers on the surface of GNVR to capture boundary layer}}{12}{figure.3.2}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Four standard shapes available in literature}}{13}{figure.3.3}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces $C_{P}$ distribution for GNVR profile obtained by OpenFOAM\textsuperscript {\textregistered }, Source Panel Method \cite {gnvr2000} and ANSYS\textsuperscript {\textregistered } \textit {Fluent} \cite {kanikdale2004multi}}}{14}{figure.3.4}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Pressure distribution on Zhiyuan-1 airship shape}}{15}{figure.3.5}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces $C_{P}$ distribution for Zhiyuan-1 shape using OpenFOAM\textsuperscript {\textregistered }, Experiments \cite {Wang2010} and ANSYS\textsuperscript {\textregistered } \textit {Fluent} \cite {Wang2010}}}{16}{figure.3.6}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Comparison of OpenFOAM\textsuperscript {\textregistered } results with ANSYS\textsuperscript {\textregistered } \textit {Fluent} results for pressure distribution of Wang shape}}{18}{figure.3.7}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Comparison of OpenFOAM\textsuperscript {\textregistered } results with ANSYS\textsuperscript {\textregistered } \textit {Fluent} results for pressure distribution of NPL profile \cite {cheeseman2012}}}{19}{figure.3.8}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Surface snapping process in \textit {snappyHexMesh} }}{16}{figure.4.1}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Prism layers on the surface of GNVR to capture boundary layer}}{17}{figure.4.2}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Four standard shapes available in literature}}{18}{figure.4.3}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces $C_{P}$ distribution for GNVR profile obtained by OpenFOAM\textsuperscript {\textregistered }, Source Panel Method \cite {gnvr2000} and ANSYS\textsuperscript {\textregistered } \textit {Fluent} \cite {kanikdale2004multi}}}{19}{figure.4.4}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Pressure distribution on Zhiyuan-1 airship shape}}{20}{figure.4.5}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces $C_{P}$ distribution for Zhiyuan-1 shape using OpenFOAM\textsuperscript {\textregistered }, Experiments \cite {Wang2010} and ANSYS\textsuperscript {\textregistered } \textit {Fluent} \cite {Wang2010}}}{21}{figure.4.6}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Comparison of OpenFOAM\textsuperscript {\textregistered } results with ANSYS\textsuperscript {\textregistered } \textit {Fluent} results for pressure distribution of Wang shape}}{23}{figure.4.7}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Comparison of OpenFOAM\textsuperscript {\textregistered } results with ANSYS\textsuperscript {\textregistered } \textit {Fluent} results for pressure distribution of NPL profile \cite {cheeseman2012}}}{24}{figure.4.8}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Definition of $ Cp $}}{24}{figure.4.1}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Effect of scaling }}{26}{figure.4.2}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {5.1}{\ignorespaces Closed Optimization loop}}{28}{figure.5.1}
 \contentsline {figure}{\numberline {5.2}{\ignorespaces Surrogate model definition}}{29}{figure.5.2}
@@ -24,7 +24,13 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {7.1}{\ignorespaces Variation of pressure and viscous drag with number of cells}}{41}{figure.7.1}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Variation of pressure and viscous drag with design number}}{41}{figure.7.2}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Variation of volumetric drag coefficient with design number}}{42}{figure.7.3}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Stress representation in envelope}}{43}{figure.8.1}
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Stress representation in envelope}}{44}{figure.8.1}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {9.1}{\ignorespaces Visual comparison of low and high drag bodies}}{47}{figure.9.1}
+\contentsline {figure}{\numberline {9.2}{\ignorespaces Surface streamlines on the body with low pressure drag}}{48}{figure.9.2}
+\contentsline {figure}{\numberline {9.3}{\ignorespaces Surface streamlines on the body with high pressure drag}}{48}{figure.9.3}
 \addvspace {10\p@ }
 \addvspace {10\p@ }

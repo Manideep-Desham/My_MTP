@@ -1,0 +1,14 @@
+\documentclass{standalone}
+
+\usepackage{csvsimple}
+
+
+
+
+\begin{document}
+    \begin{tabular}{l|c}%
+    \bfseries Person & \bfseries Matr.~No.% specify table head
+    \csvreader[head to column names]{grade.csv}{}% use head of csv as column names
+    {\\\hline\givenname\ \name & \matriculation}% specify your coloumns here
+    \end{tabular}
+\end{document}

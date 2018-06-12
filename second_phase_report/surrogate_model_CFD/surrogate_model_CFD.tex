@@ -30,6 +30,7 @@ Eighty candidate points were first obtained by Surrogates Toolbox \textbf{cite s
 As mentioned previously in section \ref{DOE}, DOE study is used to extract maximum amount of information from every experiment conducted. This is especially needed when we are carrying out expensive computer or real life experiments. While developing surrogate model for CFD, each CFD analysis will take about 3 hours to complete. Hence to optimally use the computation resources, the total number experiments needs to be as low as possible but extracting maximum information about function behaviour. So, initially the number of experiments are taken as 80 and the design points are generated using the Optimal Latin Hypercube Sampling (OLHS) technique present in SURROGATES Toolbox by \cite{viana2014metamodeling}. The obtained points are given in Appendix.
 
 \section{CFD analysis on the points obtained from DOE}
+\label{Three surrogate models}
 
 All the pre-processing required to perform CFD analysis like creating the geometry, deciding the size of domain, meshing the domain has been automated using Octave and C++ scripting. The scripts are shared in Appendix.
 \section{Building the surrogate model}

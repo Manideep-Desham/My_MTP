@@ -1,6 +1,6 @@
 \contentsline {chapter}{Abstract}{ii}{section*.2}
-\contentsline {chapter}{List of Figures}{v}{section*.5}
-\contentsline {chapter}{List of Tables}{vi}{section*.7}
+\contentsline {chapter}{List of Figures}{vi}{section*.5}
+\contentsline {chapter}{List of Tables}{viii}{section*.7}
 \contentsline {chapter}{\numberline {1}Background and Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Stratospheric Airships}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}Motivation}{2}{section.1.2}
@@ -11,20 +11,20 @@
 \contentsline {section}{\numberline {2.2}Envelope geometry parameterization}{5}{section.2.2}
 \contentsline {section}{\numberline {2.3}Multi disciplinary shape optimization}{6}{section.2.3}
 \contentsline {section}{\numberline {2.4}Recent work in the field}{7}{section.2.4}
-\contentsline {chapter}{\numberline {3}Envelope geometry parameterization}{9}{chapter.3}
-\contentsline {section}{\numberline {3.1}Modified Gertlers parametre technique}{9}{section.3.1}
-\contentsline {section}{\numberline {3.2}Methodology to generate surface using \textit {Octave}}{12}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}STL (file format)}{12}{subsection.3.2.1}
-\contentsline {chapter}{\numberline {4}Introduction to OpenFOAM\textsuperscript {\textregistered } }{14}{chapter.4}
-\contentsline {section}{\numberline {4.1}OpenFOAM\textsuperscript {\textregistered } for CFD researchers}{15}{section.4.1}
-\contentsline {section}{\numberline {4.2}Computational mesh generation using \textit {SnappyHexMesh}}{16}{section.4.2}
-\contentsline {section}{\numberline {4.3}Validation of OpenFOAM\textsuperscript {\textregistered } CFD results}{17}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}GNVR shape \cite {Ram2010}}{18}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Zhiyuan-1 shape \cite {Wang2010}}{20}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}Wang Shape \cite {Wang2009}}{22}{subsection.4.3.3}
-\contentsline {subsection}{\numberline {4.3.4}NPL Shape \cite {cheeseman2012}}{23}{subsection.4.3.4}
-\contentsline {subsection}{\numberline {4.3.5}Grid Dependence study}{26}{subsection.4.3.5}
-\contentsline {section}{\numberline {4.4}Observations \& Conclusions}{26}{section.4.4}
+\contentsline {chapter}{\numberline {3}Introduction to OpenFOAM\textsuperscript {\textregistered } }{9}{chapter.3}
+\contentsline {section}{\numberline {3.1}OpenFOAM\textsuperscript {\textregistered } for CFD researchers}{10}{section.3.1}
+\contentsline {section}{\numberline {3.2}Computational mesh generation using \textit {SnappyHexMesh}}{11}{section.3.2}
+\contentsline {section}{\numberline {3.3}Validation of OpenFOAM\textsuperscript {\textregistered } CFD results}{12}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}GNVR shape \cite {Ram2010}}{13}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Zhiyuan-1 shape \cite {Wang2010}}{15}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Wang Shape \cite {Wang2009}}{17}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}NPL Shape \cite {cheeseman2012}}{18}{subsection.3.3.4}
+\contentsline {subsection}{\numberline {3.3.5}Grid Dependence study}{21}{subsection.3.3.5}
+\contentsline {section}{\numberline {3.4}Observations \& Conclusions}{21}{section.3.4}
+\contentsline {chapter}{\numberline {4}Envelope geometry parameterization}{23}{chapter.4}
+\contentsline {section}{\numberline {4.1}Modified Gertlers parametre technique}{23}{section.4.1}
+\contentsline {section}{\numberline {4.2}Methodology to generate surface using \textit {Octave}}{26}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}STL (file format)}{26}{subsection.4.2.1}
 \contentsline {chapter}{\numberline {5}Surrogate based shape optimization}{28}{chapter.5}
 \contentsline {section}{\numberline {5.1}Surrogate model}{28}{section.5.1}
 \contentsline {section}{\numberline {5.2}Design of Experiments}{29}{section.5.2}
@@ -41,8 +41,15 @@
 \contentsline {section}{\numberline {6.5}Toolbox used for different surrogate models}{39}{section.6.5}
 \contentsline {chapter}{\numberline {7}Training data of CFD results to train surrogate model}{40}{chapter.7}
 \contentsline {section}{\numberline {7.1}Grid Convergence study}{40}{section.7.1}
-\contentsline {chapter}{\numberline {8}Calculation of Hoop Stress}{42}{chapter.8}
-\contentsline {subsection}{\numberline {8.0.1}Bending Moment Calculation}{43}{subsection.8.0.1}
-\contentsline {chapter}{\numberline {9}Future work}{45}{chapter.9}
-\contentsline {chapter}{\numberline {A}Table of design points obtained from OLHS}{46}{appendix.A}
-\contentsline {chapter}{References}{47}{section*.10}
+\contentsline {section}{\numberline {7.2}Results of CFD simulations}{41}{section.7.2}
+\contentsline {section}{\numberline {7.3}Testing the accuracy of surrogate model}{42}{section.7.3}
+\contentsline {chapter}{\numberline {8}Calculation of Hoop Stress}{43}{chapter.8}
+\contentsline {subsection}{\numberline {8.0.1}Bending Moment Calculation}{44}{subsection.8.0.1}
+\contentsline {section}{\numberline {8.1}Shape for minimum hoop stress}{46}{section.8.1}
+\contentsline {chapter}{\numberline {9}Results and discussion}{47}{chapter.9}
+\contentsline {section}{\numberline {9.1}Sub-optimal results obtained}{48}{section.9.1}
+\contentsline {section}{\numberline {9.2}Multi-disciplinary shape optimisation}{49}{section.9.2}
+\contentsline {chapter}{\numberline {10}Future work}{51}{chapter.10}
+\contentsline {chapter}{\numberline {A}Table of design points obtained from OLHS}{52}{appendix.A}
+\contentsline {section}{\numberline {A.1}Automatic table generation (for testing)}{52}{section.A.1}
+\contentsline {chapter}{References}{53}{section*.10}

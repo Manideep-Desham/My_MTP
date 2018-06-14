@@ -1,5 +1,5 @@
 %Merlin.mbs v4.21 2009-07-09.
-\begin{thebibliography}{34}%
+\begin{thebibliography}{35}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \ifx #1\undefined \expandafter \@firstoftwo
@@ -68,6 +68,12 @@
 \providecommand \EOS [0]{\spacefactor3000\relax}%
 \providecommand \BibitemShut [1]{\csname bibitem#1\endcsname}%
 %</preamble>
+\bibitem[{Xav(1999)}]{Xavier}%
+  \BibitemOpen
+  , \bibinfo {year} {1999},\
+  \urlhref{https://in.mathworks.com/matlabcentral/fileexchange/39021-basic-genetic-algorithm}{\enquote{\bibinfo
+  {title} {Basic genetic algorithm},}\ }%
+  \bibAnnoteFile{NoStop}{Xavier}%
 \bibitem[{\citenamefont{Alam}(2016)}]{alam2016mdo}%
   \BibitemOpen
   \bibfield{author}{%

@@ -30,6 +30,7 @@ The absence of Graphical User Interface (GUI) can be taken as an advantage becau
 OpenFOAM\textsuperscript{\textregistered} comes with a Open Source CFD post processing utility known as \textit{ParaView}.\textit{ParaView} accepts both point field data as well as volume field data. Since we solve Navier Stokes equations using Finite Volume Approach, at the end we are provided with data at the centre of cells. In this case, \textit{ParaView} is very useful. On the other hand, \textit{Tecplot\textsuperscript{\textregistered}} (commercially available CFD post software) accepts data only at the vertices.
 
 \section{OpenFOAM\textsuperscript{\textregistered} for CFD researchers}
+\label{Advantages of openfoam}
 
 The main difficulty for engineers in using OpenFOAM\textsuperscript{\textregistered} is that it is not user friendly. Learning curve for openFOAM\textsuperscript{\textregistered} is very steep. But learning it adds value to one's skill set. OpenFOAM\textsuperscript{\textregistered} is used in the cases where ANSYS\textsuperscript{\textregistered} \textit{Fluent} fails. Because it has the transparency within it. It is arguably equally powerful as ANSYS\textsuperscript{\textregistered} \textit{Fluent}. To do any simulation using OpenFOAM\textsuperscript{\textregistered}, We have to basically think all the way back from vector Calculus to advanced topological errors. This will not only make us think like a computational scientist but will create awareness about how do we go about solving a problem from its inception to execution.
 
@@ -76,7 +77,7 @@ Fig. \ref{prismlayers} shows the mesh near the surface of an arbitrary airship s
 \section{Validation of OpenFOAM\textsuperscript{\textregistered} CFD results}
 \label{results}
 
-This section describes the values of $C_{DV}$ obtained for four standard axisymmetric LTA envelope shapes, viz., GNVR \cite{Ram2010}, NPL \cite{cheeseman1999} Zhiyuan-1 \cite{Wang2010}, and Wang \cite{Wang2009}, using OpenFOAM\textsuperscript{\textregistered}, and a comparison with the quoted values. 
+This section describes the values of $C_{DV}$ obtained for four standard axisymmetric LTA envelope shapes, viz., GNVR [\citenum{Ram2010}], NPL \citenum{cheeseman1999} Zhiyuan-1 \citenum{Wang2010}, and Wang \citenum{Wang2009}, using OpenFOAM\textsuperscript{\textregistered}, and a comparison with the quoted values. 
 Fig. \ref{All profiles} shows these four profiles. All the simulations were carried at zero degree angle of attack.
 
 \begin{figure}[H]
@@ -95,15 +96,15 @@ The specifications of machine, operating system, and software used in this study
 \end{itemize}
 Following subsections shows flow conditions, solver parametres and results of CFD simulation carried on the above mentioned standard shapes. 
 
-\subsection{GNVR shape \cite{Ram2010}}
-The GNVR shape \cite{Ram2010} is named after late Prof. G.N.V Rao of Indian Institute of Science, Bengaluru. It consists of three standard geometrical constructs, viz, ellipse, circle and parabola. The entire envelope shape is parametrized in terms of its maximum diameter ($D$), as follows:
+\subsection{GNVR shape}
+The GNVR shape \citenum{Ram2010} is named after late Prof. G.N.V Rao of Indian Institute of Science, Bengaluru. It consists of three standard geometrical constructs, viz, ellipse, circle and parabola. The entire envelope shape is parametrized in terms of its maximum diameter ($D$), as follows:
 \begin{center}
 	\includegraphics[width= 200 pt]{rnd/GNVR_equations.png}
 \end{center}
 
 
 
-The flow conditions used for the simulation are similar to that of Kanikdale et al. \cite{kanikdale2004multi}. Taking advantage of the axisymmetric nature of GNVR shape, its 3D CFD analysis was carried out only for 1/4 of its shape. The flow conditions and solver parameters are shown in Table \ref{Flow conditions and solver parametres for GNVR shape}
+The flow conditions used for the simulation are similar to that of Kanikdale et al. \citenum{kanikdale2004multi}. Taking advantage of the axisymmetric nature of GNVR shape, its 3D CFD analysis was carried out only for 1/4 of its shape. The flow conditions and solver parameters are shown in Table \ref{Flow conditions and solver parametres for GNVR shape}
 
 \begin{table}[H]
 	\caption{Flow conditions and solver parametres for GNVR shape}
@@ -127,18 +128,18 @@ The flow conditions used for the simulation are similar to that of Kanikdale et 
 
 
 
-The variation of Pressure coefficient ($C_{P}$) along the envelope length obtained using OpenFOAM\textsuperscript{\textregistered} is compared with that of using ANSYS\textsuperscript{\textregistered} \textit{Fluent} by Kanikdale et al. \cite{kanikdale2004multi} and Panel method by Narayana and Srilatha \cite{gnvr2000}. 
+The variation of Pressure coefficient ($C_{P}$) along the envelope length obtained using OpenFOAM\textsuperscript{\textregistered} is compared with that of using ANSYS\textsuperscript{\textregistered} \textit{Fluent} by Kanikdale et al. [\citenum{kanikdale2004multi}] and Panel method by Narayana and Srilatha [\citenum{gnvr2000}]. 
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=270 pt]{rnd/GNVR_cp.png}
-	\caption{$C_{P}$ distribution for GNVR profile obtained by OpenFOAM\textsuperscript{\textregistered}, Source Panel Method \cite{gnvr2000} and ANSYS\textsuperscript{\textregistered} \textit{Fluent} \cite{kanikdale2004multi}}
+	\caption{$C_{P}$ distribution for GNVR profile obtained by OpenFOAM\textsuperscript{\textregistered}, Source Panel Method [\citenum{gnvr2000}] and ANSYS\textsuperscript{\textregistered} \textit{Fluent} [\citenum{kanikdale2004multi}]}
 	\label{fig:GNVR pressure distribution} %      only if needed
 \end{figure}
 
-It can be observed from Fig. \ref{fig:GNVR pressure distribution} that the $C_{P}$ distribution obtained by OpenFOAM\textsuperscript{\textregistered} matches well with that obtained by ANSYS\textsuperscript{\textregistered} by Kanikdale et al. \cite{kanikdale2004multi} along the entire envelope length, except at the trailing edge, where the flow is separated. The distribution obtained by Panel Method \cite{gnvr2000} shows very high pressure recovery at trailing edge because attached flow is assumed, and the \textit{Kutta} condition is satisfied.
+It can be observed from Fig. \ref{fig:GNVR pressure distribution} that the $C_{P}$ distribution obtained by OpenFOAM\textsuperscript{\textregistered} matches well with that obtained by ANSYS\textsuperscript{\textregistered} by Kanikdale et al. [\citenum{kanikdale2004multi}] along the entire envelope length, except at the trailing edge, where the flow is separated. The distribution obtained by Panel Method [\citenum{gnvr2000}] shows very high pressure recovery at trailing edge because attached flow is assumed, and the \textit{Kutta} condition is satisfied.
 
-\subsection{Zhiyuan-1 shape \cite{Wang2010}}
+\subsection{Zhiyuan-1 shape}
 
 The equation that define the Zhiyuan-1 shape is:
 \begin{center}
@@ -149,7 +150,7 @@ Values of the constants mentioned above are as follows:
 $ x_{m} = 0.393591, \quad x_{p} = 0.7570323,\quad r_{n} = 0.5070992,\quad k_{1} = 0.291256,\quad c_{p} = 2.735107,\quad f_{r}^{'} = 0.1515518 \quad and \quad  s_{t} = 3.236105 $
 
 
-Suman et al. \cite{Suman2011} carried out a Reynolds-Averaged Navier - Stokes (RANS) simulation to reproduce the results obtained by Wang et al. \cite{Wang2010} for transition assumed at the leading edge itself, i.e., for a fully turbulent flow. They have also obtained results for various assumed locations of the transition points, resulting in pockets of laminar and turbulent regions in the computational domain.\\
+Suman \textit{et al.} [\citenum{Suman2011}] carried out a Reynolds-Averaged Navier - Stokes (RANS) simulation to reproduce the results obtained by Wang \textit{et al.} [\citenum{Wang2010}] for transition assumed at the leading edge itself, i.e., for a fully turbulent flow. They have also obtained results for various assumed locations of the transition points, resulting in pockets of laminar and turbulent regions in the computational domain.\\
 In the present study, a 3-D CFD analysis for Zhiyuan-1 shape was carried out and pressure distribution is shown in Fig. \ref {fig:Zhiyuan-1 pressure}. 
 \begin{figure}[H]
 	\centering
@@ -160,7 +161,7 @@ In the present study, a 3-D CFD analysis for Zhiyuan-1 shape was carried out and
 
 The results were obtained only for one half of the envelope and `SymmetryPlane' boundary condition was incorporated for the other half to reduce the computational time.
 
-The flow conditions used for the simulation were same as used by Suman et al. \cite{Suman2011} and Wang et al. \cite{Wang2010} and is given in Table \ref{Flow conditions and solver parametres for Zhiyuan-1 shape}
+The flow conditions used for the simulation were same as used by Suman \textit{et al.} [\citenum{Suman2011}] and Wang \textit{et al.} [\citenum{Wang2010}] and is given in Table \ref{Flow conditions and solver parametres for Zhiyuan-1 shape}
 
 \begin{table}[H]
 	\caption{Flow conditions and solver parameters for Zhiyuan-1 shape}
@@ -181,23 +182,23 @@ The flow conditions used for the simulation were same as used by Suman et al. \c
 \end{table}
 
 
-Fig. \ref{Zhiyuan_OF_RANS} shows a comparison between the $C_{P}$ distribution for Zhiyuan-1 envelope shape using  OpenFOAM\textsuperscript{\textregistered} with ANSYS\textsuperscript{\textregistered} \textit{Fluent} and experimental results quoted by Wang et al. \cite{Wang2010}
+Fig. \ref{Zhiyuan_OF_RANS} shows a comparison between the $C_{P}$ distribution for Zhiyuan-1 envelope shape using  OpenFOAM\textsuperscript{\textregistered} with ANSYS\textsuperscript{\textregistered} \textit{Fluent} and experimental results quoted by Wang \textit{et al.} [\citenum{Wang2010}]
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=270 pt]{rnd/zhiyuan_cp.png}
-	\caption{$C_{P}$ distribution for Zhiyuan-1 shape using OpenFOAM\textsuperscript{\textregistered}, Experiments \cite{Wang2010} and ANSYS\textsuperscript{\textregistered} \textit{Fluent} \cite{Wang2010}}
+	\caption{$C_{P}$ distribution for Zhiyuan-1 shape using OpenFOAM\textsuperscript{\textregistered}, Experiments [\citenum{Wang2010}] and ANSYS\textsuperscript{\textregistered} \textit{Fluent} [\citenum{Wang2010}]}
 	\label{Zhiyuan_OF_RANS} %      only if needed
 \end{figure}
 
-Table \ref{Zhiyuan -1 Cdv} compares the components of $C_{DV}$ obtained using OpenFOAM\textsuperscript{\textregistered} and RANS \cite{Suman2011}.
+Table \ref{Zhiyuan -1 Cdv} compares the components of $C_{DV}$ obtained using OpenFOAM\textsuperscript{\textregistered} and RANS [\citenum{Suman2011}].
 
 \begin{table}[H]
 	\centering
-	\caption{\label{Zhiyuan -1 Cdv} Comparison of OpenFOAM\textsuperscript{\textregistered} results with RANS \cite{Suman2011} for Zhiyuan -1 shape}
+	\caption{\label{Zhiyuan -1 Cdv} Comparison of OpenFOAM\textsuperscript{\textregistered} results with RANS [\citenum{Suman2011}] for Zhiyuan -1 shape}
 	%\begin{ruledtabular}
 	\begin{tabular}{cccc}
 		\hline \hline
-		& OpenFOAM\textsuperscript{\textregistered} & RANS \cite{Suman2011} & \% error    \\ \hline \hline
+		& OpenFOAM\textsuperscript{\textregistered} & RANS [\citenum{Suman2011}] & \% error    \\ \hline \hline
 		
 		$ C_{DV} (Viscous)$ & 0.01989 & 0.01890 & 5.3    \\  
 		$ C_{DV} (Pressure) $ & 0.00583 & 0.00568 & 2.8    \\
@@ -207,8 +208,8 @@ Table \ref{Zhiyuan -1 Cdv} compares the components of $C_{DV}$ obtained using Op
 \end{table}
 
 
-\subsection{Wang Shape \cite{Wang2009}}
-Wang et al. \cite{Wang2009} proposed a new shape exploring the better shapes in the view of multi-disciplinary optimization. The geometry is defined by five shape parameters namely \textit{a, b, c, d} and length \textit{l}. The original equation proposed by Wang et al.\cite{Wang2009} is given by Eq. \ref{wang_eqn}:
+\subsection{Wang Shape}
+Wang et al. [\citenum{Wang2009}] proposed a new shape exploring the better shapes in the view of multi-disciplinary optimization. The geometry is defined by five shape parameters namely \textit{a, b, c, d} and length \textit{l}. The original equation proposed by Wang \textit{et al.}[\citenum{Wang2009}] is given by Eq. \ref{wang_eqn}:
 \begin{equation}
 64(y^{2} + z^{2}) = a(l-x)\left( bx - l \sqrt{c} + \sqrt{c l^{2} - dlx} \; \right) 
 \label{wang_eqn}
@@ -269,7 +270,7 @@ Table \ref{wang table} shows the comparison of $ C_{DV} $ obtained using OpenFOA
 \end{table}
 
 
-\subsection{NPL Shape \cite{cheeseman2012}}
+\subsection{NPL Shape}
 NPL shaped envelope is basically the combination of two half prolate joint at maximum diameter. It is known for its lower drag characteristics. The mathematical representation of prolate is:
 \begin{equation}
 \frac{x^{2}}{a^{2}} + \frac{y^{2}}{b^{2}} + \frac{z^{2}}{c^{2}} = 1
@@ -314,7 +315,7 @@ Fig. \ref{NPL fig} shows the comparison of $ C_{P} $ distribution using OpenFOAM
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=300 pt]{rnd/NPL_cp.png}
-	\caption{Comparison of OpenFOAM\textsuperscript{\textregistered} results with ANSYS\textsuperscript{\textregistered} \textit{Fluent} results for pressure distribution of NPL profile \cite{cheeseman2012}}
+	\caption{Comparison of OpenFOAM\textsuperscript{\textregistered} results with ANSYS\textsuperscript{\textregistered} \textit{Fluent} results for pressure distribution of NPL profile [\citenum{cheeseman2012}]}
 	\label{NPL fig} %      only if needed
 \end{figure} 
 
@@ -337,7 +338,7 @@ Table \ref{NPL table} shows the comparison of $ C_{DV} $ obtained using OpenFOAM
 \pagebreak
 
 \subsection{Grid Dependence study}
-Since the solution is influenced by mesh size, three self similar grids with increasing number of grid points were considered. Table \ref{GridindependenceGNVR}, \ref{Grid independence study for Wang profile} and \ref{Grid independence study for NPL profile} compares the value for $C_{DV}$ obtained using OpenFOAM\textsuperscript{\textregistered} for GNVR \cite{Ram2010}, Wang \cite{Wang2009} and NPL\cite{cheeseman2012} shapes respectively.
+Since the solution is influenced by mesh size, three self similar grids with increasing number of grid points were considered. Table \ref{GridindependenceGNVR}, \ref{Grid independence study for Wang profile} and \ref{Grid independence study for NPL profile} compares the value for $C_{DV}$ obtained using OpenFOAM\textsuperscript{\textregistered} for GNVR [\citenum{Ram2010}], Wang [\citenum{Wang2009}] and NPL[\citenum{cheeseman2012}] shapes respectively.
 
 \begin{table}[H]
 	\caption{Grid Dependence study for GNVR shape}
@@ -390,11 +391,11 @@ Since the solution is influenced by mesh size, three self similar grids with inc
 
 
 
-According to Suman et al. \cite{Suman2011} if percentage changes compared to previous grid is $\le 5 \%$ then the value obtained from latest grid can be considered as the most accurate. From the above tables we may observe that for GNVR and NPL profiles, the percentage changes are $<$  5 \%, however for Wang profile, they are $>$5 \%. Thus, we can observe that the solution is nearly independent of grid size in all the cases.
+According to Suman \textit{et al.} [\citenum{Suman2011}] if percentage changes compared to previous grid is $\le 5 \%$ then the value obtained from latest grid can be considered as the most accurate. From the above tables we may observe that for GNVR and NPL profiles, the percentage changes are $<$  5 \%, however for Wang profile, they are $>$5 \%. Thus, we can observe that the solution is nearly independent of grid size in all the cases.
 
 \section{Observations \& Conclusions}
 
-From the above results we can observe that OpenFOAM\textsuperscript{\textregistered} results match quite well with those obtained using commercial softwares like ANSYS\textsuperscript{\textregistered} \textit{Fluent} and other proprietary software like RANS \cite{Suman2011}. The likely reasons for the minor differences in the values are as follows:
+From the above results we can observe that OpenFOAM\textsuperscript{\textregistered} results match quite well with those obtained using commercial softwares like ANSYS\textsuperscript{\textregistered} \textit{Fluent} and other proprietary software like RANS [\citenum{Suman2011}]. The likely reasons for the minor differences in the values are as follows:
 \begin{itemize}
 	\item The results available in literature are 2D simulations using ANSYS\textsuperscript{\textregistered} \textit{Fluent} whereas in our case, they are 3D simulations using OpenFOAM\textsuperscript{\textregistered}.
 	\item The mesh is different in the case of ANSYS\textsuperscript{\textregistered} \textit{Fluent} and OpenFOAM\textsuperscript{\textregistered}. OpenFOAM\textsuperscript{\textregistered}'s \textit{SnappyHexMesh} generates the mesh by splitting the cells of structured mesh.

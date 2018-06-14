@@ -38,19 +38,23 @@ The project is divided into two stages namely Stage-1 and Stage-2. In Stage-1, e
 \section{Report layout}
 \label{layout}
 
-After providing a brief introduction to Stratospheric Airships outlining the aims and objectives of this study, Chapter \ref{literature} gives the detailed literature survey of various fields required for multi-disciplinary shape optimization. Chapter \ref{geometry}  explains two of the many methods used for the parameterization of geometry. This is also shown in Figure \ref{Report layout}. Next, short introduction for advantages of using OpenFOAM\textsuperscript{\textregistered} is discussed in Chapter \ref{openfoam}. 
+After providing a brief introduction to Stratospheric Airships outlining the aims and objectives of this study, Chapter \ref{literature} gives the detailed literature survey of various fields required for multi-disciplinary shape optimization. Chapter \ref{openfoam} gives a brief introduction about OpenFOAM. Section \ref{Advantages of openfoam} demonstrates the power, advantages and disadvantes of using OpenFOAM\textsuperscript{\textregistered}
+Mesh generation using two utilities namely \textit{Gmsh} and \textit{SnappyHexMesh} are discussed in section \ref{mesh}. Section \ref{results} validates the OpenFOAM\textsuperscript{\textregistered} software with four axisymmetric standard shapes available in literature. Chapter \ref{geometry}  explains the modified gertler parameter technique used for the parameterization of geometry. This is also shown in Figure \ref{Report layout}.
 
-Mesh generation using two utilities namely \textit{Gmsh} and \textit{SnappyHexMesh} are discussed in Chapter \ref{mesh}. A brief introduction of methodology for optimization is given in Chapter \ref{optimization}. However optimization will be done in stage -02 along with other considerations as shown in \ref{Report layout}. 
+Chapter \ref{optimization} gives a brief overview of need for a surrogate model in the optimisation routine and explains the concept of surrogate model, design of experiments and formulation of different surrogate models. Section \ref{test function} explains the surrogate based optimisation technique using a test function called Himmelblau function. It also validates the Genetic algorithm code by \cite{Xavier} which is used in subsequent chapters.
 
-Finally, Chapter \ref{results} discusses the results obtained while validating the results present in literature for various standard airship shapes using OpenFOAM\textsuperscript{\textregistered}. Chapter \ref{future plan} gives the future work that will be performed in stage -02. The workflow for the total project is shown in Figure \ref{Report layout}. The blocks present in transparent oval is the work completed in stage 1. 
+Chapter \ref{Surrogate model for CFD} gives the design space and design of experiment study parametres which will be used while building surrogate model in chaper \ref{Training data CFD}. Running the actual CFD simulations for building surrogate model of CFD is done in chapter \ref{Training data CFD}.  
 
-\begin{figure}[htbp]
+Chapter \ref{Hoop stress} explains the concept of hoop stress and also gives the methodology to calucate it as given by \cite{alam2017thesis}. The results obtained while performing multi-disciplinary optimisation of aerodynamic drag combined with hoop stress are presented in chapter \ref{Final results}.
+Figure \ref{Report layout} shows where different chapters of this report fit in the framework of Multi-disciplinary shape optimisation.
+
+\begin{figure}[H]
 	\includegraphics[width=\textwidth]{layout/layout.png} 
-	\caption{Work flow of multi-disciplinary shape optimization}
+	\caption{Framework of multi-disciplinary shape optimization}
 	\label{Report layout} %      only if needed 	
 \end{figure}
 %%
-Next Chapter gives brief literature survey that has been carried out to understand the previous research carried out in the field of High Altitude Airships (HAA's).
+Next Chapter gives brief literature survey that has been carried out to understand the previous research carried out in the field of High Altitude Airships (HAA's) and shape optimisation.
 
 
 %%% Local Variables: 

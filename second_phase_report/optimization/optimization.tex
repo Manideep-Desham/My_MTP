@@ -48,8 +48,83 @@ For numerical experiments, Kriging surrogate model is reported to be best \citen
 
 The Kriging method in its basic formulation estimates the value of a function at some un sampled location as the sum of two components: the linear regression model $ f_i (x) $ (e.g., polynomial trend) of the data with p regressors modelling the drift of the process mean, i.e., the trend, over the domain, and a systematic departure representing low (large scale) and high frequency (small scale) variation components, respectively.
 
+\section{Building the surrogate model}
+A brief overview of different surogate models by \cite{luo2014comparison} is given below.
+\subsection{Polynomial response surface}
+Polynomial response surface is the simplest approximation method to build surrogate models \cite{forrester2009recent}. The most widely used polynomial response surface model is the second-order polynomial model which has the following form.
+\begin{equation}
+y = \beta _{0} + \sum_{i=1}^{n} \beta _{i} x_{i} + \sum_{i=1}^{n} \sum_{j \ge i}^{n} \beta _{ij} x_{i} x_{j} + ..
+\end{equation}
+
+where $ \beta _{0},\ \beta_{i},\ \beta _{ii},$ and $ \beta _{ij} $ are the regression coefficients, n is the number of variables, xi and xj are the variables. Using least square method (LSM), the regression coefficients can be solved.
+
+\subsection{Radial basis function}
+RBF is a 3-layer feed forward neural network consisting of an input layer, a hidden layer, and an output layer \cite{shen2011forecasting}. X is an N dimensional input vector. The output of the neurons in the RBF hidden layer is assumed as:
+
+\begin{equation}
+q_{i} = \varPhi(|| X - c_{i} ||)
+\end{equation}
+
+where $ c_{i} $ is the center associated with the ith neuron in the radial basis function hidden layer, i = 1, 2,...,H, where H is the number of hidden units, $ || X - c_{i} || $ is the norm of $ X − c_{i} $, $ \varPhi (.) $ is a radial basis function \cite{chen1991orthogonal}. Outputs of the kth neuron in RBF output layer are linear combinations of the hidden layer neuron outputs as:
+
+\begin{equation}
+y_{k} = \sum_{i=1}^{H} w_{ki} q_{i} - \theta _{k} \quad (k = 1, 2,...,M)
+\end{equation}
+where $ w_{ki} $ is the connecting weights from the $ i^{th} $ hidden layer neuron to the $ k^{th} $ output layer, $ \theta _{k} $ is the threshold value of the $ k^{th} $ output layer neuron.
+
+\subsection{Kriging}
+The kriging method was developed by the French mathematician Georges Matheron based on the Master$ ' $s thesis of Daniel Gerhardus Krige \cite{matheron1963principles}, it was first used as a geostatistical method. \cite{sacks1989design} firstly introduced kriging method as a surrogate modelling method, in the paper of \cite{sacks1989design}, kriging surrogate model was also called design and analysis of computer experiment (DACE). The kriging model is a combination of two components \cite{queipo2005surrogate}: deterministic functions and localized deviations.
+
+\begin{equation}
+Y(x) = \sum_{i=1}^{k} f_{i} (x) \beta _{i} + z(x)
+\end{equation}
+
+where $ \sum_{i=1}^{k} f_{i} (x) \beta _{i} $ is the term of deterministic functions, $ \beta$ are coefficients of deterministic functions, fi(x) are k known regression functions, which are usually polynomial functions. z(x) is term of localized deviations with mean zero, variance σ2, and covariance expressed as:
+
+\begin{equation}
+Cov[z(x_{i}),z(x_{j})] = \sigma ^{2} R (x_{i},x_{j})
+\end{equation}
+
+where $ R (x_{i},x_{j}) $  is the correlation function between any two of the ns samples The common types of correlation functions are linear function, exponential function, Gauss function, spline function, etc. (Ryu et al. 2002). 
+The prediction of unsampled points response y(x) can be expressed as:
+
+\begin{equation}
+\hat{y}(x) = f(x)^{T} \beta + r^{T} R^{-1} (Y - F \beta )
+\end{equation}
+
+where Y is the vector of ns samples response, r is the correlation vector between samples and prediction points.
+
+
+\begin{eqnarray}
+& r = [R(x,x_{1}),R(x,x_{1}),....,R(x,x_{1}) ]^{T} \\
+& F = [f(x_{1}), f(x_{2}),.....f(x_{n_{x}}) ]^{T} .
+\end{eqnarray}
+
+\section{Toolbox used for different surrogate models}
+
+Table \ref{Different surrogates used during this investigation} details the different surrogates used during this investigation. The SURROGATES toolbox was also used for easy manipulation of the surrogates.
+
+Table \ref{Different surrogates used during this investigation}: Setup for the set of used surrogates. The  DACE [\citenum{lophaven2002dace}], RBF[\citenum{Jekabsons2009}] and SURROGATES [\citenum{Viana2011}] toolboxes were used to run the kriging, radial basis function and polynomial response surface respectively.
+
+\begin{table}[H]
+	\centering
+	\caption{Different surrogates used during this investigation}
+	\label{Different surrogates used during this investigation}
+	%\begin{ruledtabular}
+	\begin{tabular}{ll}
+		\hline \hline
+		Surrogate & Details    \\ \hline \hline
+		KRG	 & Kriging model: constant trend function and Gaussian correlation \\
+		PRS & Polynomial response surface: Second degree polynomial \\
+		RBF  & Radial basis function: Multiquadric basis function \\
+		\hline \hline
+	\end{tabular}
+	%	\end{ruledtabular}
+\end{table}
+
 
 \section{Test Function for Kriging Surrogate Model}
+\label{test function}
 The Himmelblau function is taken as a test function.  It has one local maxima and four local minima in the domain x = [-6,6] and y = [-6,6]. The function is defined as 
 \begin{equation}
 f(x,y) = (x^2 + y - 11)^2  + (x + y^2 - 7)^2 
@@ -83,7 +158,30 @@ If a small number of design points are used to create a surrogate model, then th
 
 \section{Coupling of Genetic Algorithm, Surrogate model and testing for modified Himmelblau functions}
 \label{Modified Himmelblau function}
-It is a well known fact that evolutionary algorithms like Genetic algorithm searches for global minimum and outputs that global minimum as final answer. Unlike gradient based methods, it should not get struck in local minimum. In order to check this, we modify the existing Himmelblau function. This is because actual Himmelblau function has four identical local minimum and don't have any global mimima. So, we modify it by adding the term $  0.01* (x + 3.7793)^2 + (y + 3.2832)^2 $. This term is added to the function value evaluated at all points except (-3.7793,-3.2832). Hence we obtained modified Himmelblau function with one global minima at (-3.7793,-3.2832) and three local minima at other three points. If we optimise this modified Himmelblau function using Genetic algorithm, we have to get the final answer as (-3.7793,-3.2832). The same answer is expected using surrogate model for the modified Himmelblau function. The obtained results are shown in Table.
+It is a well known fact that evolutionary algorithms like Genetic algorithm searches for global minimum and outputs that global minimum as final answer. Unlike gradient based methods, it should not get struck in local minimum. In order to check this, we modify the existing Himmelblau function. This is because actual Himmelblau function has four identical local minimum and don't have any global mimima. So, we modify it by adding the term $  0.01* (x + 3.7793)^2 + (y + 3.2832)^2 $. This term is added to the function value evaluated at all points except (-3.7793,-3.2832). Hence we obtained modified Himmelblau function with one global minima at (-3.7793,-3.2832) and three local minima at other three points. If we optimise this modified Himmelblau function using Genetic algorithm, we have to get the final answer as (-3.7793,-3.2832). The same answer is expected using surrogate model for the modified Himmelblau function. The obtained results are shown in Table \ref{Results obtained for modified Himmelblau function}
+
+The genetic algorithm code used is a MATLAB code is written by \cite{Xavier} and downloaded from the website mathworks.com. The input parametres used are default values given by author and are specified in Table \ref{Genetic algorithm parametres}. NVAR is the number of variables and it is 2 for above mentioned function.
+\begin{table}[H]
+	\centering
+	\caption{Genetic algorithm parametres}
+	\label{Genetic algorithm parametres}
+	%\begin{ruledtabular}
+	\begin{tabular}{ll}
+		\hline \hline
+		Parameter & Value \\
+		\hline
+		Population size & NVAR*50 \\
+ 		Crossover probability & 0.9 \\
+ 		Mutation probability & 0.1 \\
+ 		Number of generation & NVAR*20+10 \\
+ 		Selection scheme & Roulette wheel selection method \\
+		
+		\hline \hline
+		
+	\end{tabular}
+	%	\end{ruledtabular}
+\end{table}
+
 
 \begin{table}[H]
 	\centering
@@ -102,6 +200,23 @@ It is a well known fact that evolutionary algorithms like Genetic algorithm sear
 	%	\end{ruledtabular}
 \end{table}
 
+To explain the query of what happends if we take less number of design points while fitting the surrogate model, consider modified Himmelblau function discussed in section \ref{Modified Himmelblau function}. From Figure \ref{fig:Root Mean Square Error with Design Points considered}, we can infer that we need at least 150 design points to get develop a surrogate model which mimics actual Himmelblau function. But instead of 150 points, lets take only 20 points and construct a Kriging surrogate model and find the optimal point. It is already known that the optimal points is  (-3.7793,-3.2872). If we couple the genetic algorithm optimizer with surrogate model developed using only 20 points, we get the following results.
+\begin{table}[H]
+	\centering
+	\caption{Results obtained for 20 design points}
+	\label{Results obtained for 20 design points}
+	%\begin{ruledtabular}
+	\begin{tabular}{llll}
+		\hline \hline
+		& X & Y & Function value \\ \hline
+		Actual Function & -3.7793 &-3.2832 &1.3278e-13 \\
+		Surrogate model & -3.2205 &-2.9549 & -6.3131 \\ \hline
+		\% error & 14.79 & 10.00 & NA \\
+		\hline \hline
+	\end{tabular}
+	%	\end{ruledtabular}
+\end{table}
+From the above table we may see that if the number of design points used to train the model are low and if this model is coupled with optimizer, we end up getting sub-optimal solution with some percentage error.
 
 
 

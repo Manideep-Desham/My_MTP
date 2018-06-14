@@ -1,4 +1,5 @@
 \chapter{Surrogate model for CFD}
+\label{Surrogate model for CFD}
 To develop a surrogate model which mimics the behaviour of CFD in finding the drag coefficient at zero degree angle of attack, it is essential to identify the limits of design parameters, perform Design Of Experiments (DOE) on them, perform CFD analysis at these DOE points and fit a surrogate model. The whole processes is described in the subsections below.
 
 \section{Mapping design variables}
@@ -23,7 +24,7 @@ The first task before creation of DOE was the proper definition of the upper and
 	%	\end{ruledtabular}
 \end{table}
 
-Eighty candidate points were first obtained by Surrogates Toolbox \textbf{cite surrogate toolbox} using the Optimal Latin Hypercube Sampling (OLHS) method. The generated points were then mapped to the shapes corresponding to envelope volume ($ V _{env} $ ) of 250000 $ m^3 $ . 
+Eighty candidate points were first obtained by Surrogates Toolbox \textbf{cite surrogate toolbox} using the Optimal Latin Hypercube Sampling (OLHS) method. The generated points were then mapped to the shapes corresponding to envelope having Reynolds number of 3.01e6.
 
 \section{Design of Experiments study}
 
@@ -32,80 +33,8 @@ As mentioned previously in section \ref{DOE}, DOE study is used to extract maxim
 \section{CFD analysis on the points obtained from DOE}
 \label{Three surrogate models}
 
-All the pre-processing required to perform CFD analysis like creating the geometry, deciding the size of domain, meshing the domain has been automated using Octave and C++ scripting. The scripts are shared in Appendix.
-\section{Building the surrogate model}
-A brief overview of different surogate models by \cite{luo2014comparison} is given below.
-\subsection{Polynomial response surface}
-Polynomial response surface is the simplest approximation method to build surrogate models \cite{forrester2009recent}. The most widely used polynomial response surface model is the second-order polynomial model which has the following form.
-\begin{equation}
-y = \beta _{0} + \sum_{i=1}^{n} \beta _{i} x_{i} + \sum_{i=1}^{n} \sum_{j \ge i}^{n} \beta _{ij} x_{i} x_{j} + ..
-\end{equation}
+All the pre-processing required to perform CFD analysis like creating the geometry, deciding the size of domain, meshing the domain has been automated using Octave and C++ scripting. The scripts are shared in Appendix. All the routines associated with CFD like Flow parametres, Grid convergence study and the accuracy of different surrogate models are discussed in chapter \ref{Training data CFD}.
 
-where $ \beta _{0},\ \beta_{i},\ \beta _{ii},$ and $ \beta _{ij} $ are the regression coefficients, n is the number of variables, xi and xj are the variables. Using least square method (LSM), the regression coefficients can be solved.
-
-\subsection{Radial basis function}
-RBF is a 3-layer feed forward neural network consisting of an input layer, a hidden layer, and an output layer \cite{shen2011forecasting}. X is an N dimensional input vector. The output of the neurons in the RBF hidden layer is assumed as:
-
-\begin{equation}
-q_{i} = \varPhi(|| X - c_{i} ||)
-\end{equation}
-
-where $ c_{i} $ is the center associated with the ith neuron in the radial basis function hidden layer, i = 1, 2,...,H, where H is the number of hidden units, $ || X - c_{i} || $ is the norm of $ X − c_{i} $, $ \varPhi (.) $ is a radial basis function \cite{chen1991orthogonal}. Outputs of the kth neuron in RBF output layer are linear combinations of the hidden layer neuron outputs as:
-
-\begin{equation}
-	y_{k} = \sum_{i=1}^{H} w_{ki} q_{i} - \theta _{k} \quad (k = 1, 2,...,M)
-\end{equation}
-where $ w_{ki} $ is the connecting weights from the $ i^{th} $ hidden layer neuron to the $ k^{th} $ output layer, $ \theta _{k} $ is the threshold value of the $ k^{th} $ output layer neuron.
-
-\subsection{Kriging}
-The kriging method was developed by the French mathematician Georges Matheron based on the Master$ ' $s thesis of Daniel Gerhardus Krige \cite{matheron1963principles}, it was first used as a geostatistical method. \cite{sacks1989design} firstly introduced kriging method as a surrogate modelling method, in the paper of \cite{sacks1989design}, kriging surrogate model was also called design and analysis of computer experiment (DACE). The kriging model is a combination of two components \cite{queipo2005surrogate}: deterministic functions and localized deviations.
-
-\begin{equation}
-Y(x) = \sum_{i=1}^{k} f_{i} (x) \beta _{i} + z(x)
-\end{equation}
-
-where $ \sum_{i=1}^{k} f_{i} (x) \beta _{i} $ is the term of deterministic functions, $ \beta$ are coefficients of deterministic functions, fi(x) are k known regression functions, which are usually polynomial functions. z(x) is term of localized deviations with mean zero, variance σ2, and covariance expressed as:
-
-\begin{equation}
-Cov[z(x_{i}),z(x_{j})] = \sigma ^{2} R (x_{i},x_{j})
-\end{equation}
-
-where $ R (x_{i},x_{j}) $  is the correlation function between any two of the ns samples The common types of correlation functions are linear function, exponential function, Gauss function, spline function, etc. (Ryu et al. 2002). 
-The prediction of unsampled points response y(x) can be expressed as:
-
-\begin{equation}
-\hat{y}(x) = f(x)^{T} \beta + r^{T} R^{-1} (Y - F \beta )
-\end{equation}
-
-where Y is the vector of ns samples response, r is the correlation vector between samples and prediction points.
-
-
-\begin{eqnarray}
-& r = [R(x,x_{1}),R(x,x_{1}),....,R(x,x_{1}) ]^{T} \\
-& F = [f(x_{1}), f(x_{2}),.....f(x_{n_{x}}) ]^{T} .
-\end{eqnarray}
-
-\section{Toolbox used for different surrogate models}
-
-Table \ref{Different surrogates used during this investigation} details the different surrogates used during this investigation. The SURROGATES toolbox was also used for easy manipulation of the surrogates.
-
-Table \ref{Different surrogates used during this investigation}: Setup for the set of used surrogates. The  DACE \citenum{lophaven2002dace}, RBF \citenum{Jekabsons2009} and SURROGATES \citenum{Viana2011} toolboxes were used to run the kriging, radial basis function and polynomial response surface respectively.
-
-\begin{table}[H]
-	\centering
-	\caption{Different surrogates used during this investigation}
-	\label{Different surrogates used during this investigation}
-	%\begin{ruledtabular}
-	\begin{tabular}{ll}
-		\hline \hline
-		Surrogate & Details    \\ \hline \hline
-		 KRG	 & Kriging model: constant trend function and Gaussian correlation \\
-		 PRS & Polynomial response surface: Second degree polynomial \\
-		 RBF  & Radial basis function: Multiquadric basis function \\
-		 \hline \hline
-	\end{tabular}
-	%	\end{ruledtabular}
-\end{table}
 
 
 

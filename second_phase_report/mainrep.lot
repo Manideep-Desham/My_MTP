@@ -1,32 +1,33 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces Flow conditions and solver parametres for GNVR shape}}{14}{table.3.1}
-\contentsline {table}{\numberline {3.2}{\ignorespaces Flow conditions and solver parameters for Zhiyuan-1 shape}}{16}{table.3.2}
-\contentsline {table}{\numberline {3.3}{\ignorespaces Comparison of OpenFOAM\textsuperscript {\textregistered } results with RANS [\citenum {Suman2011}] for Zhiyuan -1 shape}}{16}{table.3.3}
-\contentsline {table}{\numberline {3.4}{\ignorespaces Flow conditions and solver parameters for Wang shape}}{17}{table.3.4}
-\contentsline {table}{\numberline {3.5}{\ignorespaces Comparison of OpenFOAM\textsuperscript {\textregistered } results with ANSYS\textsuperscript {\textregistered } \textit {Fluent} for Wang shape}}{18}{table.3.5}
-\contentsline {table}{\numberline {3.6}{\ignorespaces Flow conditions and solver parameters for NPL shape}}{19}{table.3.6}
-\contentsline {table}{\numberline {3.7}{\ignorespaces Comparison of OpenFOAM\textsuperscript {\textregistered } results with ANSYS\textsuperscript {\textregistered } \textit {Fluent} for NPL shape}}{20}{table.3.7}
-\contentsline {table}{\numberline {3.8}{\ignorespaces Grid Dependence study for GNVR shape}}{21}{table.3.8}
-\contentsline {table}{\numberline {3.9}{\ignorespaces Grid Dependence study for Wang shape}}{21}{table.3.9}
-\contentsline {table}{\numberline {3.10}{\ignorespaces Grid Dependence study for NPL shape}}{21}{table.3.10}
+\contentsline {table}{\numberline {3.1}{\ignorespaces Flow conditions and solver parametres for GNVR shape}}{11}{table.3.1}
+\contentsline {table}{\numberline {3.2}{\ignorespaces Flow conditions and solver parameters for Zhiyuan-1 shape}}{13}{table.3.2}
+\contentsline {table}{\numberline {3.3}{\ignorespaces Comparison of OpenFOAM\textsuperscript {\textregistered } results with RANS [\citenum {Suman2011}] for Zhiyuan -1 shape}}{14}{table.3.3}
+\contentsline {table}{\numberline {3.4}{\ignorespaces Flow conditions and solver parameters for Wang shape}}{15}{table.3.4}
+\contentsline {table}{\numberline {3.5}{\ignorespaces Comparison of OpenFOAM\textsuperscript {\textregistered } results with ANSYS\textsuperscript {\textregistered } \textit {Fluent} for Wang shape}}{15}{table.3.5}
+\contentsline {table}{\numberline {3.6}{\ignorespaces Flow conditions and solver parameters for NPL shape}}{16}{table.3.6}
+\contentsline {table}{\numberline {3.7}{\ignorespaces Comparison of OpenFOAM\textsuperscript {\textregistered } results with ANSYS\textsuperscript {\textregistered } \textit {Fluent} for NPL shape}}{17}{table.3.7}
+\contentsline {table}{\numberline {3.8}{\ignorespaces Grid Dependence study for GNVR shape}}{17}{table.3.8}
+\contentsline {table}{\numberline {3.9}{\ignorespaces Grid Dependence study for Wang shape}}{18}{table.3.9}
+\contentsline {table}{\numberline {3.10}{\ignorespaces Grid Dependence study for NPL shape}}{18}{table.3.10}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {5.1}{\ignorespaces Different surrogates used during this investigation}}{33}{table.5.1}
-\contentsline {table}{\numberline {5.2}{\ignorespaces Genetic algorithm parametres}}{37}{table.5.2}
-\contentsline {table}{\numberline {5.3}{\ignorespaces Results obtained for modified Himmelblau function}}{37}{table.5.3}
-\contentsline {table}{\numberline {5.4}{\ignorespaces Results obtained for 20 design points}}{37}{table.5.4}
+\contentsline {table}{\numberline {5.1}{\ignorespaces Different surrogates used during this investigation}}{30}{table.5.1}
+\contentsline {table}{\numberline {5.2}{\ignorespaces Genetic algorithm parametres}}{33}{table.5.2}
+\contentsline {table}{\numberline {5.3}{\ignorespaces Results obtained for modified Himmelblau function}}{33}{table.5.3}
+\contentsline {table}{\numberline {5.4}{\ignorespaces Results obtained for 20 design points}}{33}{table.5.4}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {6.1}{\ignorespaces Design Space}}{38}{table.6.1}
+\contentsline {table}{\numberline {6.1}{\ignorespaces Design Space}}{34}{table.6.1}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {7.1}{\ignorespaces Flow conditions and solver parametres for all DOE shapes}}{40}{table.7.1}
-\contentsline {table}{\numberline {7.2}{\ignorespaces Grid convergence study}}{41}{table.7.2}
-\contentsline {table}{\numberline {7.3}{\ignorespaces Accuracy of different surrogate models}}{44}{table.7.3}
-\contentsline {table}{\numberline {7.4}{\ignorespaces Accuracy of different machine learning models}}{45}{table.7.4}
-\contentsline {table}{\numberline {7.5}{\ignorespaces sub-optimal solution obtained for miminum $ C_{DV} $}}{45}{table.7.5}
+\contentsline {table}{\numberline {7.1}{\ignorespaces Flow conditions and solver parametres for all DOE shapes}}{36}{table.7.1}
+\contentsline {table}{\numberline {7.2}{\ignorespaces Grid convergence study}}{37}{table.7.2}
+\contentsline {table}{\numberline {7.3}{\ignorespaces Accuracy of different surrogate models}}{40}{table.7.3}
+\contentsline {table}{\numberline {7.4}{\ignorespaces Accuracy of different machine learning models}}{41}{table.7.4}
+\contentsline {table}{\numberline {7.5}{\ignorespaces optimal solution obtained for miminum $ C_{DV} $}}{41}{table.7.5}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {8.1}{\ignorespaces Optimal solution obtained for miminum $ \sigma _{v} $}}{49}{table.8.1}
+\contentsline {table}{\numberline {8.1}{\ignorespaces Optimal solution obtained for miminum $ \sigma _{v} $}}{46}{table.8.1}
 \addvspace {10\p@ }
-\addvspace {10\p@ }
-\addvspace {10\p@ }
+\contentsline {table}{\numberline {9.1}{\ignorespaces Optimal solution obtained for miminum $ F_{comp} $}}{47}{table.9.1}
+\contentsline {table}{\numberline {2}{Table of design points obtained from OLHS}}{49}{table.Alph0.2}
+\contentsline {table}{\numberline {3}{Training data for surrogate model}}{51}{table.Alph0.3}

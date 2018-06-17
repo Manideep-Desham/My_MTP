@@ -1,55 +1,46 @@
 \contentsline {chapter}{Abstract}{ii}{section*.2}
-\contentsline {chapter}{List of Figures}{vi}{section*.5}
-\contentsline {chapter}{List of Tables}{viii}{section*.7}
+\contentsline {chapter}{List of Figures}{v}{section*.5}
+\contentsline {chapter}{List of Tables}{vii}{section*.7}
 \contentsline {chapter}{\numberline {1}Background and Introduction}{1}{chapter.1}
-\contentsline {section}{\numberline {1.1}Stratospheric Airships}{1}{section.1.1}
-\contentsline {section}{\numberline {1.2}Motivation}{2}{section.1.2}
-\contentsline {section}{\numberline {1.3}Objective and Aims}{3}{section.1.3}
-\contentsline {section}{\numberline {1.4}Report layout}{3}{section.1.4}
-\contentsline {chapter}{\numberline {2}Literature Survey}{5}{chapter.2}
-\contentsline {section}{\numberline {2.1}Initial Sizing}{5}{section.2.1}
-\contentsline {section}{\numberline {2.2}Envelope geometry parameterization}{5}{section.2.2}
-\contentsline {section}{\numberline {2.3}Multi disciplinary shape optimization}{6}{section.2.3}
-\contentsline {section}{\numberline {2.4}Recent work in the field}{7}{section.2.4}
-\contentsline {chapter}{\numberline {3}Introduction to OpenFOAM\textsuperscript {\textregistered } }{9}{chapter.3}
-\contentsline {section}{\numberline {3.1}OpenFOAM\textsuperscript {\textregistered } for CFD researchers}{10}{section.3.1}
-\contentsline {section}{\numberline {3.2}Computational mesh generation using \textit {SnappyHexMesh}}{11}{section.3.2}
-\contentsline {section}{\numberline {3.3}Validation of OpenFOAM\textsuperscript {\textregistered } CFD results}{12}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}GNVR shape}{13}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Zhiyuan-1 shape}{14}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}Wang Shape}{17}{subsection.3.3.3}
-\contentsline {subsection}{\numberline {3.3.4}NPL Shape}{18}{subsection.3.3.4}
-\contentsline {subsection}{\numberline {3.3.5}Grid Dependence study}{21}{subsection.3.3.5}
-\contentsline {section}{\numberline {3.4}Observations \& Conclusions}{21}{section.3.4}
-\contentsline {chapter}{\numberline {4}Envelope geometry parameterization}{23}{chapter.4}
-\contentsline {section}{\numberline {4.1}Modified Gertlers parametre technique}{23}{section.4.1}
-\contentsline {section}{\numberline {4.2}Methodology to generate surface using \textit {Octave}}{26}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}STL (file format)}{26}{subsection.4.2.1}
-\contentsline {chapter}{\numberline {5}Surrogate based shape optimization}{28}{chapter.5}
-\contentsline {section}{\numberline {5.1}Surrogate model}{28}{section.5.1}
-\contentsline {section}{\numberline {5.2}Design of Experiments}{29}{section.5.2}
-\contentsline {section}{\numberline {5.3}Building the surrogate model}{31}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Polynomial response surface}{32}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Radial basis function}{32}{subsection.5.3.2}
-\contentsline {subsection}{\numberline {5.3.3}Kriging}{32}{subsection.5.3.3}
-\contentsline {section}{\numberline {5.4}Toolbox used for different surrogate models}{33}{section.5.4}
-\contentsline {section}{\numberline {5.5}Test Function for Kriging Surrogate Model}{34}{section.5.5}
-\contentsline {section}{\numberline {5.6}Coupling of Genetic Algorithm, Surrogate model and testing for modified Himmelblau functions}{36}{section.5.6}
-\contentsline {chapter}{\numberline {6}Surrogate model for CFD}{38}{chapter.6}
-\contentsline {section}{\numberline {6.1}Mapping design variables}{38}{section.6.1}
-\contentsline {section}{\numberline {6.2}Design of Experiments study}{39}{section.6.2}
-\contentsline {section}{\numberline {6.3}CFD analysis on the points obtained from DOE}{39}{section.6.3}
-\contentsline {chapter}{\numberline {7}Training data of CFD results to train surrogate model}{40}{chapter.7}
-\contentsline {section}{\numberline {7.1}Grid Convergence study}{40}{section.7.1}
-\contentsline {section}{\numberline {7.2}Results of CFD simulations}{41}{section.7.2}
-\contentsline {section}{\numberline {7.3}Testing the accuracy of surrogate model}{43}{section.7.3}
-\contentsline {section}{\numberline {7.4}Optimal shape for minimal aerodynamic drag}{45}{section.7.4}
-\contentsline {chapter}{\numberline {8}Calculation of Hoop Stress}{46}{chapter.8}
-\contentsline {subsection}{\numberline {8.0.1}Bending Moment Calculation}{47}{subsection.8.0.1}
-\contentsline {section}{\numberline {8.1}Shape for minimum hoop stress}{49}{section.8.1}
-\contentsline {chapter}{\numberline {9}Results and discussion}{50}{chapter.9}
-\contentsline {section}{\numberline {9.1}Multi-disciplinary shape optimisation}{50}{section.9.1}
-\contentsline {chapter}{\numberline {10}Future work}{51}{chapter.10}
-\contentsline {chapter}{\numberline {A}Table of design points obtained from OLHS}{52}{appendix.A}
-\contentsline {section}{\numberline {A.1}Automatic table generation (for testing)}{52}{section.A.1}
-\contentsline {chapter}{References}{53}{section*.10}
+\contentsline {section}{\numberline {1.1}Objective}{2}{section.1.1}
+\contentsline {section}{\numberline {1.2}Report layout}{2}{section.1.2}
+\contentsline {chapter}{\numberline {2}Literature Survey}{4}{chapter.2}
+\contentsline {section}{\numberline {2.1}Recent work in the field}{5}{section.2.1}
+\contentsline {chapter}{\numberline {3}Introduction to OpenFOAM\textsuperscript {\textregistered } }{7}{chapter.3}
+\contentsline {section}{\numberline {3.1}Computational mesh generation using \textit {SnappyHexMesh}}{8}{section.3.1}
+\contentsline {section}{\numberline {3.2}Validation of OpenFOAM\textsuperscript {\textregistered } CFD results}{10}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}GNVR shape}{11}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Zhiyuan-1 shape}{12}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Wang Shape}{14}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}NPL Shape}{15}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.5}Grid Dependence study}{17}{subsection.3.2.5}
+\contentsline {section}{\numberline {3.3}Observations \& Conclusions}{18}{section.3.3}
+\contentsline {chapter}{\numberline {4}Envelope geometry parameterization}{19}{chapter.4}
+\contentsline {section}{\numberline {4.1}Modified Gertlers parametre technique}{19}{section.4.1}
+\contentsline {section}{\numberline {4.2}Methodology to generate geometry using \textit {Octave}}{22}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}STL (file format)}{23}{subsection.4.2.1}
+\contentsline {chapter}{\numberline {5}Surrogate based shape optimization}{24}{chapter.5}
+\contentsline {section}{\numberline {5.1}Surrogate model}{25}{section.5.1}
+\contentsline {section}{\numberline {5.2}Design of Experiments}{25}{section.5.2}
+\contentsline {section}{\numberline {5.3}Building the surrogate model}{28}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Polynomial response surface}{28}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Radial basis function}{28}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Kriging}{28}{subsection.5.3.3}
+\contentsline {section}{\numberline {5.4}Toolbox used for different surrogate models}{29}{section.5.4}
+\contentsline {section}{\numberline {5.5}Test Function for Kriging Surrogate Model}{30}{section.5.5}
+\contentsline {section}{\numberline {5.6}Coupling of Genetic Algorithm, Surrogate model and testing for modified Himmelblau functions}{32}{section.5.6}
+\contentsline {chapter}{\numberline {6}Surrogate model for CFD}{34}{chapter.6}
+\contentsline {section}{\numberline {6.1}Mapping design variables}{34}{section.6.1}
+\contentsline {section}{\numberline {6.2}Design of Experiments study}{35}{section.6.2}
+\contentsline {section}{\numberline {6.3}CFD analysis on the points obtained from DOE}{35}{section.6.3}
+\contentsline {chapter}{\numberline {7}Training data for CFD surrogate model}{36}{chapter.7}
+\contentsline {section}{\numberline {7.1}Grid Convergence study}{36}{section.7.1}
+\contentsline {section}{\numberline {7.2}Results of CFD simulations}{37}{section.7.2}
+\contentsline {section}{\numberline {7.3}Testing the accuracy of surrogate model}{39}{section.7.3}
+\contentsline {section}{\numberline {7.4}Optimal shape for minimal aerodynamic drag}{41}{section.7.4}
+\contentsline {chapter}{\numberline {8}Calculation of Hoop Stress}{43}{chapter.8}
+\contentsline {subsection}{\numberline {8.0.1}Bending Moment Calculation}{44}{subsection.8.0.1}
+\contentsline {section}{\numberline {8.1}Shape for minimum hoop stress}{46}{section.8.1}
+\contentsline {chapter}{\numberline {9}Results and discussion}{47}{chapter.9}
+\contentsline {section}{\numberline {9.1}Multi-disciplinary shape optimisation}{47}{section.9.1}
+\contentsline {chapter}{References}{56}{section*.11}

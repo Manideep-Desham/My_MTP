@@ -1,4 +1,4 @@
-\chapter{Training data of CFD results to train surrogate model}
+\chapter{Training data for CFD surrogate model}
 \label{Training data CFD}
 In our case, 80 DOEs are generated and steady state 3D CFD analysis has been performed for these 80 shapes. The solver parameters used are as follows:
 \begin{table}[H]
@@ -10,9 +10,9 @@ In our case, 80 DOEs are generated and steady state 3D CFD analysis has been per
 		Parameters & Value \\ 
 		\hline \hline
 		Reynolds number based on volume Re & $ 3.01 \ast 10^6 $ \\
-		Pressure, N/m2 & 87500 \\
-		Density, Kg/m3 & 1.057 \\
-		Speed, m/s & 51 \\
+		Pressure, ($ N/m^2 $) & 87500 \\
+		Density, ($ Kg/m^3 $) & 1.057 \\
+		Speed, ($ m/s $) & 51 \\
 		Mesh & Hexahedral mesh using blockMesh and snappyHexMesh \\
 		Solver & SimpleFOAM (Incompressible steady state solver) \\
 		Turbulent..? & Yes \\
@@ -96,7 +96,7 @@ To couple a surrogate model with optimizer, the model needs to be accurate enoug
 
 \section{Testing the accuracy of surrogate model}
 
-Three surrogate models mentioned in section \ref{Different surrogates used during this investigation} has been fit to the above data. Then ten random design points has been generated in the domain for testing purpose. The results are shown in the following table \ref{Accuracy of different surrogate models}.
+Three surrogate models mentioned in section \ref{Different surrogates used during this investigation} has been fit to the above data. Then eight random design points has been generated in the domain for testing purpose. The results are shown in the following table \ref{Accuracy of different surrogate models}.
 
 \begin{table}[H]
 	\caption{Accuracy of different surrogate models}
@@ -108,16 +108,14 @@ Three surrogate models mentioned in section \ref{Different surrogates used durin
 		\hline \hline
 		1 &5.72 &3.24	&2.73 \\
 		2 &4.82	&11.33	&36.40 \\
-		3 &23.28 &8.74	&19.78 \\
-		4 &0.96	&6.09	&12.73 \\
-		5 &1.15	&7.98	&18.62 \\
-		6 &2.50	&5.40	&14.13 \\
-		7 &1.29	&6.31	&1.75 \\
-		8 &1.99	&0.59	&10.05 \\
-		9 &5.64	&3.36	&1.12 \\
-		10 &8.08 &6.58	&15.47 \\
+		3 &0.96	&6.09	&12.73 \\
+		4 &1.15	&7.98	&18.62 \\
+		5 &2.50	&5.40	&14.13 \\
+		6 &1.29	&6.31	&1.75 \\
+		7 &1.99	&0.59	&10.05 \\
+		8 &5.64	&3.36	&1.12 \\
 		\hline \hline
-		Avg. \% Error	&9.17	&20.14	&21.75 \\
+		Avg. \% Error	& 3.00875	& 5.5375	& 12.19 \\
 		\hline \hline
 	\end{tabular}
 \end{table}
@@ -145,39 +143,42 @@ Also, few machine learning algorithms have been applied to see if they predict b
 		9 &1.68	&17.80	&64.92	&62.44  \\ 
 		10 &39.73	&34.69	&20.38	&28.79 \\
 		\hline \hline
-		Avg. \% Error	&18.56	&20.64	&48.40	&58.70
-		 \\
+		Avg. \% Error  &15.10	&18.59	&57.63	&68.80		 \\
 		\hline \hline
 	\end{tabular}
 \end{table}
 
 
 \section{Optimal shape for minimal aerodynamic drag}
-Since it is not possible to get completely optimal results with the existing model, we can obtain sub-optimal results using the following method.
 
-
+Table \ref{optimal solution obtained} shows the design parametres of the optimal shape with minimum aerodynamic drag. It can be observed that the $ scale_y $ parametre is 1 which means the optimal shape is axisymmetric. The results is obvious as given a fixed volume, axisymmetric bodies will have minimum frontal area which is responsible for pessure drag. The shape is shown in fig \ref{Optimal min cdv}
 
 \begin{table}[H]
 	\centering
-	\caption{sub-optimal solution obtained for miminum $ C_{DV} $}
-	\label{sub-optimal solution obtained}
+	\caption{optimal solution obtained for miminum $ C_{DV} $}
+	\label{optimal solution obtained}
 	%\begin{ruledtabular}
-	\begin{tabular}{lc}
+	\begin{tabular}{ll}
 		\hline \hline
 		Design Parameters & Optimal value for minimum $ C_{DV} $    \\ \hline \hline
 		
-		$ Point\ of\ Max.\ Dia., m$ & 0.45215      \\  
-		$ Nose\ Radius, r _{o} $ & 0.27244    \\
-		$ Tail\ Radius, r _{1} $ & 0.16286     \\  
-		$ Prismatic\ Coeff., C _{p }$ & 0.58931 \\
-		$ Fineness\ Ratio, \frac{l}{d} $ &4.19180 \\
-		$Scaling\ in\ Y\ direction,\ scale\_y$ & 1.12705 \\ \hline \hline
+		$ Point\ of\ Max.\ Dia., m$ & 0.40910      \\  
+		$ Nose\ Radius, r _{o} $ & 0.8    \\
+		$ Tail\ Radius, r _{1} $ & 0.30428     \\  
+		$ Prismatic\ Coeff., C _{p }$ & 0.61521 \\
+		$ Fineness\ Ratio, \frac{l}{d} $ &5.69420 \\
+		$Scaling\ in\ Y\ direction,\ scale\_y$ & 1 \\ \hline \hline
 		
-		$ Kriging C_{DV} $ &0.01944 \\
-		$ OpenFOAM\textsuperscript{\textregistered} C_{DV} $ & \\ \hline
-		$ \% Error $ &  \\
+		$ Kriging C_{DV} $ & 0.01796181 \\
 		\hline \hline
 	\end{tabular}
 	%	\end{ruledtabular}
 \end{table}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=300 pt]{surrogate_model_CFD_results/low_drag_body.png}
+	\caption{Optimal shape obtained for minimum $ C_{DV} $}
+	\label{Optimal min cdv} %      only if needed
+\end{figure}
 

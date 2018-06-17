@@ -1,9 +1,9 @@
 \chapter{Surrogate based shape optimization}
 \label{optimization}
-The usual way of doing any CFD geometry optimization is shown in ~\ref{Closed Optimization loop}. But following this procedure is not feasible because it takes a lots of computational effort and time. Also, grid influences the solution considerably. So, using this method we can no longer guarantee that the changes in the solution of objective function value is because of the changes in the parameters of CAD or if they are coming from changes in the grid. The solution for the problems can be answered by developing a surrogate model.
+The process employed for aerodynamic shape design can be a direct or indirect shape optimization. In direct shape optimization approach, the process starts with random combinations of design parameters. An optimization algorithm is used which requires CFD simulation at each iteration to find parameters in the design space for minimum drag. This approach requires large number of CFD simulations and takes significant amount of time to complete the optimization process. Also, grid influences the solution considerably. So, using this method we can no longer guarantee that the changes in the solution of objective function value is because of the changes in the parameters of CAD or if they are coming from changes in the grid. Solution for above problem can be answered by developing a surrogate model.
 \begin{figure}[H]
 	\includegraphics[width=\textwidth]{optimization/closed_loop.png}
-	\caption{Closed Optimization loop}
+	\caption{Direct shape optimisation approach}
 	\label{Closed Optimization loop} %      only if needed
 \end{figure}
 
@@ -13,8 +13,8 @@ The usual way of doing any CFD geometry optimization is shown in ~\ref{Closed Op
 
 \begin{figure}[H]
 	\includegraphics[width=\textwidth]{optimization/surrogate.png}
-	\caption{Surrogate model definition}
 	\label{Surrogate model} %      only if needed
+	\captionsource{Surrogate model definition}{\cite{alam2017thesis}}
 \end{figure}
 
 %\begin{figure}[htbp]
@@ -26,14 +26,14 @@ The usual way of doing any CFD geometry optimization is shown in ~\ref{Closed Op
 \begin{figure}[htbp]
 	\includegraphics[width=\textwidth]{optimization/flow_chart.png}
   
-	\caption{work flow for the development of a surrogate model}
+	\caption{Work flow for the development of a surrogate model}
 	\label{fig:work flow for the development of a surrogate model} %      only if needed
 \end{figure}
 
 
 \section{Design of Experiments}
 \label{DOE}
-Design of Experiments is a technique used to extract maximum possible information from minimum number of computational experiments. This can be accomplished by the selection of a proper and robust scheme for DOE (Design of Experiments). In the present study, an open-source software named Surrogates Toolbox Version 3.0 (Viana, 2011) was used. Apart from many other important features, the toolbox provides an access to several varieties of widely used DOE models. Of the many DOE models available in the toolbox, optimal Latin Hypercube Sampling (OLHS) generated using translational propagation algorithm (TPA) \textbf{cite Viana et. al} was chosen, mainly due to its orthogonal structure. Fig. \ref{OLHS Sampling} shows sampling distribution of points in a unit square.
+Design of Experiments is a technique used to extract maximum possible information from minimum number of computational experiments. This can be accomplished by the selection of a proper and robust scheme for DOE (Design of Experiments). In the present study, an open-source software named Surrogates Toolbox Version 3.0 (Viana, 2011) was used. Apart from many other important features, the toolbox provides an access to several varieties of widely used DOE models. Of the many DOE models available in the toolbox, Optimal Latin Hypercube Sampling (OLHS) generated using translational propagation algorithm (TPA) \cite{Viana2011} was chosen, mainly due to its orthogonal structure. Fig. \ref{OLHS Sampling} shows sampling distribution of points in a unit square.
 
 \begin{figure}[htbp]
 	\centering
@@ -85,8 +85,7 @@ where $ \sum_{i=1}^{k} f_{i} (x) \beta _{i} $ is the term of deterministic funct
 Cov[z(x_{i}),z(x_{j})] = \sigma ^{2} R (x_{i},x_{j})
 \end{equation}
 
-where $ R (x_{i},x_{j}) $  is the correlation function between any two of the ns samples The common types of correlation functions are linear function, exponential function, Gauss function, spline function, etc. (Ryu et al. 2002). 
-The prediction of unsampled points response y(x) can be expressed as:
+where $ R (x_{i},x_{j}) $  is the correlation function between any two of the ns samples The common types of correlation functions are linear function, exponential function, Gauss function, spline function, etc. (Ryu et al. 2002). The prediction of un sampled points response y(x) can be expressed as:
 
 \begin{equation}
 \hat{y}(x) = f(x)^{T} \beta + r^{T} R^{-1} (Y - F \beta )

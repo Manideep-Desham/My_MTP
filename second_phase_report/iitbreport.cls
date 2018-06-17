@@ -389,7 +389,7 @@
 	\begin{center}	
 		{\LARGE \textbf{#1} \par}\vspace{2\baselineskip} 
 		{\large\textbf{\@dept}\par}\vspace{0.25\baselineskip} 
-		{\large\textbf{Indian Institute of Technology, Bombay}}
+		{\large\textbf{Indian Institute of Technology Bombay}}
 	\end{center}
 \vspace{1.5\baselineskip} 
 The #2  entitled ``\@title'' submitted by \@author{} (\@rollnum{}) may be accepted for being evaluated.\par

@@ -11,9 +11,19 @@
 \usepackage{float}
 \usepackage{amsmath,bm}
 \usepackage{csvsimple}
+\usepackage{hyperref}
+\usepackage{longtable}
 
 \newcommand{\specialcell}[2][c]{%
 		\begin{tabular}[#1]{@{}c@{}}#2\end{tabular}}
+	
+\newcommand*{\captionsource}[2]{%
+	\caption[{#1}]{%
+		#1%
+		\\\hspace{\linewidth}%
+		\textbf{Source:} #2%
+	}%
+}
 
 %\usepackage[pdfencoding=auto]{hyperref}
 %%\selectlanguage{English}
@@ -70,7 +80,7 @@
 %*******************************************************************
 %                         Title Page                            
 %*******************************************************************
-\title{Multi-Disciplinary Shape Optimization of Stratospheric Airships}
+\title{Multi-Disciplinary Shape Optimization of Airship envelopes}
 \author{Manideep Reddy Desham}
 
 %% Print the date. Today's date comes by default, change it here to 
@@ -82,7 +92,7 @@
 
 %% The type of the report can be set here
 
-\reporttype{AE 797 M.Tech. Project Stage I Report}
+\reporttype{AE 797 M.Tech. Project Report}
 %\reporttype{A Thesis}
 %\reporttype{A Dissertation}
 %\reporttype{A Project Report}

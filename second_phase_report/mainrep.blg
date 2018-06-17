@@ -20,18 +20,18 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: mylit.bib.bib
-Warning--entry type for "Xavier" isn't style-file defined
---line 1 of file mylit.bib.bib
 Warning--entry type for "alam2017thesis" isn't style-file defined
---line 8 of file mylit.bib.bib
-Warning--I didn't find a database entry for "recent_thesis"
+--line 2 of file mylit.bib.bib
+Warning--entry type for "Xavier" isn't style-file defined
+--line 377 of file mylit.bib.bib
+Warning--entry type for "BillMcDonald" isn't style-file defined
+--line 386 of file mylit.bib.bib
 Name 1 in "Gertler, M.," has a comma at the end for entry gertler1950
 while executing---line 2266 of file iitbauthyr.bst
 Name 1 in "Gertler, M.," has a comma at the end for entry gertler1950
 while executing---line 2266 of file iitbauthyr.bst
 Name 5 in "Cheeseman, I. and Aerodynamics and Chapter-02 and Khoury, Gabriel Alexander and Gillett, J. D.," has a comma at the end for entry cheeseman1999
 while executing---line 2266 of file iitbauthyr.bst
-Warning--to sort, need author or key in Xavier
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Merlin.mbs v4.21 2009-07-09. 
@@ -60,49 +60,47 @@ Warning--missing journal in Jekabsons2009
 Warning--empty chapter and pages in kanikdale2004multi
 Warning--empty chapter and pages in gnvr2000
 Warning--empty pages in gnvr2000
-Warning--empty chapter and pages in Ran2007
-Warning--empty chapter and pages in Rehmet2000
 Warning--missing journal in Suman2011
 Warning--missing journal in Viana2011
-You've used 35 entries,
+You've used 31 entries,
             4451 wiz_defined-function locations,
-            1129 strings with 15780 characters,
-and the built_in function-call counts, 29524 in all, are:
-= -- 2128
-> -- 830
-< -- 21
-+ -- 313
-- -- 276
-* -- 4070
-:= -- 3643
-add.period$ -- 72
-call.type$ -- 35
-change.case$ -- 270
-chr.to.int$ -- 35
-cite$ -- 90
-duplicate$ -- 2527
-empty$ -- 2210
-format.name$ -- 376
-if$ -- 5220
+            1091 strings with 14493 characters,
+and the built_in function-call counts, 25393 in all, are:
+= -- 1815
+> -- 715
+< -- 19
++ -- 268
+- -- 237
+* -- 3501
+:= -- 3176
+add.period$ -- 62
+call.type$ -- 31
+change.case$ -- 237
+chr.to.int$ -- 31
+cite$ -- 77
+duplicate$ -- 2170
+empty$ -- 1896
+format.name$ -- 320
+if$ -- 4449
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 401
-newline$ -- 362
-num.names$ -- 136
-pop$ -- 1170
+missing$ -- 347
+newline$ -- 328
+num.names$ -- 124
+pop$ -- 1010
 preamble$ -- 1
-purify$ -- 232
+purify$ -- 203
 quote$ -- 2
-skip$ -- 961
+skip$ -- 819
 stack$ -- 0
-substring$ -- 997
-swap$ -- 2145
-text.length$ -- 6
+substring$ -- 836
+swap$ -- 1832
+text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 309
-warning$ -- 18
-while$ -- 147
+type$ -- 273
+warning$ -- 15
+while$ -- 129
 width$ -- 0
-write$ -- 518
+write$ -- 463
 (There were 9 error messages)

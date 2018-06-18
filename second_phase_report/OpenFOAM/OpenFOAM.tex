@@ -2,7 +2,7 @@
 
 \label{openfoam}
 
-OpenFOAM\textsuperscript{\textregistered} is an open source software where we can get the source code along with binary executable for all the solvers. The FOAM project (precursor to OpenFOAM\textsuperscript{\textregistered}) was created at Imperial College London in the late 80s and early 90s by Henry Weller, along with Hrvoje Jasak, using object-oriented programming language C++. Succeeding the commercial software FOAM, OpenFOAM\textsuperscript{\textregistered} was released in 2004 as free and open-source software under the GNU General Public License (GPL), a widely used free software license, which guarantees end users the freedom to run, study, share and modify the software. Here we can modify the existing solvers, compile them and add to the library. One distinguishing feature of OpenFOAM\textsuperscript{\textregistered} is its syntax for tensor operations and Partial Differential Equations (PDEs) that closely resembles the equation being solved. For example, the equation: 
+OpenFOAM\textsuperscript{\textregistered} is an open source software where we can get the source code along with binary executable for all the solvers. The FOAM project (precursor to OpenFOAM\textsuperscript{\textregistered}) was created at Imperial College London in the late 80s and early 90s by Henry Weller, along with Hrvoje Jasak [\citenum{jasak2009openfoam}], using object-oriented programming language C++. Succeeding the commercial software FOAM, OpenFOAM\textsuperscript{\textregistered} was released in 2004 as free and open-source software under the GNU General Public License (GPL), a widely used free software license, which guarantees end users the freedom to run, study, share and modify the software. Here we can modify the existing solvers, compile them and add to the library. One distinguishing feature of OpenFOAM\textsuperscript{\textregistered} is its syntax for tensor operations and Partial Differential Equations (PDEs) that closely resembles the equation being solved. For example, the equation: 
 \begin{equation}
 \dfrac{\partial(\rho U)}{\partial t} + \nabla \boldsymbol{\cdot} \phi U - \nabla \boldsymbol{\cdot} \mu \nabla U = - \nabla p
 \end{equation}
@@ -23,25 +23,23 @@ Thus we can see that all the mathematical operators like divergence, curl, gradi
 
 Automatic mesh generation utility called \textit{SnappyHexMesh} comes along with OpenFOAM\textsuperscript{\textregistered} where in we have to give .stl or .obj file of geometry and specify the domain, mesh size and level of refinement needed. Rest of the tasks are automated. This is particularly useful when we have to couple CFD analysis to the optimizer. \textit{SnappyHexMesh} is still in development phase and is getting better with every release.
 
-The absence of Graphical User Interface (GUI) can be taken as an advantage because we come to know the actual physics of flow happening behind the scene. If we become moderately expert in OpenFOAM\textsuperscript{\textregistered} then it saves a lot of time because every proces can be programatically controlled from mesh generation to post processing.
+The absence of Graphical User Interface (GUI) can be taken as an advantage because we come to know the actual physics of flow happening behind the scene. If we become moderately expert in OpenFOAM\textsuperscript{\textregistered} then it saves a lot of time because every process can be programatically controlled from mesh generation to post processing.
 
-OpenFOAM\textsuperscript{\textregistered} comes with a Open Source CFD post processing utility known as \textit{ParaView} which is a scientific data visualisation software. Since we solve Navier Stokes equations using Finite Volume Approach, at the end of simulation, we are provided with data at the centre of cells. \textit{ParaView} has many post-processing options called filters which can be applied and desired plots can be drawn. 
+OpenFOAM\textsuperscript{\textregistered} comes with a Open Source CFD post processing utility known as \textit{ParaView} which is a scientific data visualization software. Since we solve Navier Stokes equations using Finite Volume Approach, at the end of simulation, we are provided with data at the center of cells. \textit{ParaView} has many post-processing options called filters which can be applied and desired plots can be drawn. 
 
 \section{Computational mesh generation using \textit{SnappyHexMesh}}
 \label{mesh}
 
-\textit{SnappyHexMesh} is a hexahedral unstructured mesh generation tool included in the distribution of OpenFOAM\textsuperscript{\textregistered}. \textit{SnappyHexMesh} can use a 3-D .stl surface and iteratively build a mesh upon it. Some options allow construction of several cell layers of a controllable height above the 3D surface.This feature makes it possible to have a refined mesh in the region of high velocity gradients, close to the surface.  Near the surface, the mesh is refined and cells are splitted acoordingly. The process is explained in Fig. ~\ref{Snappy Hex Mesh} .Several regions can be selected to be refined to a desired level, and this method creates mesh of a cell aspect ratio close to 1.This is done in order to ensure that OpenFOAM\textsuperscript{\textregistered} can solve the numerical problems with the highest efficiency and accuracy using meshes generated with \textit{SnappyHexMesh}. The meshing tool \textit{SnappyHexMesh} can be run in parallel on a computer cluster or a PC.
+\textit{SnappyHexMesh} is a hexahedral unstructured mesh generation tool included in the distribution of OpenFOAM\textsuperscript{\textregistered}. \textit{SnappyHexMesh} can use a 3-D .stl surface and iteratively build a mesh upon it. Some options allow construction of several cell layers of a controllable height above the 3D surface.This feature makes it possible to have a refined mesh in the region of high velocity gradients, close to the surface.  Near the surface, the mesh is refined and cells are splitted acoordingly. The process is explained in Fig. \ref{Snappy Hex Mesh} .Several regions can be selected to be refined to a desired level, and this method creates mesh of a cell aspect ratio close to 1.This is done in order to ensure that OpenFOAM\textsuperscript{\textregistered} can solve the numerical problems with the highest efficiency and accuracy using meshes generated with \textit{SnappyHexMesh}. The meshing tool \textit{SnappyHexMesh} can be run in parallel on a computer cluster or a PC.
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=180 pt]{mesh/snappyHexMesh.png}
-	\captionsource{Surface snapping process in \textit{SnappyHexMesh} }{\url{https://cfd.direct/openfoam/user-guide/snappyhexmesh/}}
+	\caption{Surface snapping process in \textit{SnappyHexMesh} [\citenum{snappyHexMesh}] }
 	\label{Snappy Hex Mesh} %      only if needed
 \end{figure} 
 
-Although in the Fig. ~\ref{Snappy Hex Mesh}, it is shown for 2D, \textit{SnappyHexMesh} is a 3D meshing utility.
-
-\textit{SnappyHexMesh} also provides options to add viscous layers to resolve boundary layer. We can also control the thickness of first layer. This thickness of first layer is usually determined by Yplus value which is a dimensionless wall thickness.
+Although in the Fig. \ref{Snappy Hex Mesh}, it is shown for 2D, \textit{SnappyHexMesh} is a 3D meshing utility. It also provide options to add viscous layers to resolve boundary layer. We can also control the thickness of first layer. This thickness of first layer is usually determined by Yplus value which is a dimensionless wall thickness.
 A non-dimensional wall distance for a wall-bounded flow can be defined in the following way:
 \begin{equation}
 y^{+} \equiv \dfrac{u_{*} y}{\nu}
@@ -77,10 +75,10 @@ The specifications of machine, operating system, and software used in this study
 	\item Operating system = Cent OS 7.4
 	\item OpenFOAM\textsuperscript{\textregistered} version = 4.1
 \end{itemize}
-Following subsections shows flow conditions, solver parametres and results of CFD simulation carried on the above mentioned standard shapes. 
+Following subsections shows flow conditions, solver parameters and results of CFD simulation carried on the above mentioned standard shapes. 
 
 \subsection{GNVR shape}
-The GNVR shape \citenum{Ram2010} is named after late Prof. G.N.V Rao of Indian Institute of Science, Bengaluru. It consists of three standard geometrical constructs, viz, ellipse, circle and parabola. The entire envelope shape is parametrized in terms of its maximum diameter ($D$), as follows:
+The GNVR shape \citenum{Ram2010} is named after late Prof. G.N.V Rao of Indian Institute of Science, Bengaluru. It consists of three standard geometrical constructs, viz, ellipse, circle and parabola. The entire envelope shape is parameterized in terms of its maximum diameter ($D$), as follows:
 \begin{equation}
 y = \begin{cases}
 0.5D \sqrt{1-(\frac{X-1.25D}{1.25D})^2} & \; 0 < X < 1.25D  \\
@@ -94,12 +92,12 @@ y = \begin{cases}
 The flow conditions used for the simulation are similar to that of Kanikdale \textit{et al.} [\citenum{kanikdale2004multi}]. Taking advantage of the axisymmetric nature of GNVR shape, its 3D CFD analysis was carried out only for 1/4 of its shape. The flow conditions and solver parameters are shown in Table \ref{Flow conditions and solver parametres for GNVR shape}
 
 \begin{table}[H]
-	\caption{Flow conditions and solver parametres for GNVR shape}
+	\caption{Flow conditions and solver parameters for GNVR shape}
 	\label{Flow conditions and solver parametres for GNVR shape}
 	\centering
 	\begin{tabular}{ll}
 		\hline \hline
-		Flow Conditions & Solver parametres  \\ \hline \hline
+		Flow Conditions & Solver parameters  \\ \hline \hline
 		
 		$ Velocity = 50.339 \; m/s$ & $Number \; of \; cells = 646,639$    \\  
 		$ Pressure = 101325 \; Pa $ & $ Number \; of \; parallel \; cores = 20 $     \\
@@ -115,16 +113,16 @@ The flow conditions used for the simulation are similar to that of Kanikdale \te
 
 
 
-The variation of Pressure coefficient ($C_{P}$) along the envelope length obtained using OpenFOAM\textsuperscript{\textregistered} is compared with that of using ANSYS\textsuperscript{\textregistered} \textit{Fluent} by Kanikdale et al. [\citenum{kanikdale2004multi}] and panel method by Narayana and Srilatha [\citenum{gnvr2000}]. 
+The variation of Pressure coefficient ($C_{P}$) along the envelope length obtained using OpenFOAM\textsuperscript{\textregistered} is compared with that of using ANSYS\textsuperscript{\textregistered} \textit{Fluent} by Kanikdale et al. [\citenum{kanikdale2004multi}] and Panel Method by Narayana and Srilatha [\citenum{gnvr2000}]. 
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=270 pt]{rnd/GNVR_cp.png}
-	\caption{$C_{P}$ distribution for GNVR profile obtained by OpenFOAM\textsuperscript{\textregistered}, source panel method [\citenum{gnvr2000}] and ANSYS\textsuperscript{\textregistered} \textit{Fluent} [\citenum{kanikdale2004multi}]}
+	\caption{$C_{P}$ distribution for GNVR profile obtained by OpenFOAM\textsuperscript{\textregistered}, Source Panel Method [\citenum{gnvr2000}] and ANSYS\textsuperscript{\textregistered} \textit{Fluent} [\citenum{kanikdale2004multi}]}
 	\label{fig:GNVR pressure distribution} %      only if needed
 \end{figure}
 
-It can be observed from Fig. \ref{fig:GNVR pressure distribution} that the $C_{P}$ distribution obtained by OpenFOAM\textsuperscript{\textregistered} matches well with that obtained by ANSYS\textsuperscript{\textregistered} by Kanikdale et al. [\citenum{kanikdale2004multi}] along the entire envelope length, except at the trailing edge, where the flow is separated. The distribution obtained by panel Method [\citenum{gnvr2000}] shows very high pressure recovery at trailing edge because attached flow is assumed, and the \textit{Kutta} condition is satisfied.
+It can be observed from Fig. \ref{fig:GNVR pressure distribution} that the $C_{P}$ distribution obtained by OpenFOAM\textsuperscript{\textregistered} matches well with that obtained by ANSYS\textsuperscript{\textregistered} by Kanikdale et al. [\citenum{kanikdale2004multi}] along the entire envelope length, except at the trailing edge, where the flow is separated. The distribution obtained by Source Panel Method [\citenum{gnvr2000}] shows very high pressure recovery at trailing edge because it is assumed that \textit{Kutta} condition is satisfied and flow is attached.
 
 \subsection{Zhiyuan-1 shape}
 
@@ -142,7 +140,7 @@ Values of the constants mentioned above are $ x_{m} = 0.393591,\ x_{p} = 0.75703
 
 The results were obtained only for one half of the envelope and `SymmetryPlane' boundary condition was incorporated for the other half to reduce the computational time.
 
-The flow conditions used for the simulation were same as used by Suman \textit{et al.} [\citenum{Suman2011}] and Wang \textit{et al.} [\citenum{Wang2010}] and is given in Table \ref{Flow conditions and solver parametres for Zhiyuan-1 shape}
+The flow conditions used for the simulation were same as used by Suman et al.[\citenum{Suman2011}] and Wang et al. [\citenum{Wang2010}] and is given in Table \ref{Flow conditions and solver parametres for Zhiyuan-1 shape}
 
 \begin{table}[H]
 	\caption{Flow conditions and solver parameters for Zhiyuan-1 shape}
@@ -358,11 +356,11 @@ Since the solution is influenced by mesh size, three self similar grids with inc
 
 
 
-According to Suman \textit{et al.} [\citenum{Suman2011}] if percentage changes compared to previous grid is $\le 5 \%$ then the value obtained from latest grid can be considered as the most accurate. From the above tables we may observe that for GNVR and NPL profiles, the percentage changes are $<$  5 \%, however for Wang profile, they are $>$5 \%. Thus, we can observe that the solution is nearly independent of grid size in all the cases.
+According to Suman et al. [\citenum{Suman2011}] if percentage changes compared to previous grid is $\le 5 \%$ then the value obtained from latest grid can be considered as the most accurate. From the above tables we may observe that for GNVR and NPL profiles, the percentage changes are $<$  5 \%, however for Wang profile, they are $>$5 \%. Thus, we can observe that the solution is nearly independent of grid size in all the cases.
 
 \section{Observations \& Conclusions}
 
-From the above results we can observe that OpenFOAM\textsuperscript{\textregistered} results match quite well with those obtained using commercial softwares like ANSYS\textsuperscript{\textregistered} \textit{Fluent} and other proprietary software like RANS [\citenum{Suman2011}]. The likely reasons for the minor differences in the values are as follows:
+From the above results we can observe that OpenFOAM\textsuperscript{\textregistered} results match quite well with those obtained using commercial software like ANSYS\textsuperscript{\textregistered} \textit{Fluent} and other proprietary software like RANS [\citenum{Suman2011}]. The likely reasons for the minor differences in the values are as follows:
 \begin{itemize}
 	\item The results available in literature are 2D simulations using ANSYS\textsuperscript{\textregistered} \textit{Fluent} whereas in our case, they are 3D simulations using OpenFOAM\textsuperscript{\textregistered}.
 	\item The values of some parameters (e.g., wall functions and wall boundary conditions) had to be assumed because they were not listed in the literature.

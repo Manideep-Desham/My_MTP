@@ -1,9 +1,9 @@
 \chapter{Calculation of Hoop Stress}
 \label{Hoop stress}
 
-In order to maintain positive pressure inside the envelope, three main loadings are considered to estimate the internal over pressure ($ \Delta P $) viz., the loading due to dynamic pressure, aerodynamic loading, and hydro-static pressure as suggested by Gupta \& Malik \cite{gupta2002envelope} . A brief description of these three components of the module is as given below.
+In order to maintain positive pressure inside the envelope, three main loadings are considered to estimate the internal over pressure ($ \Delta P $) viz., the loading due to dynamic pressure, aerodynamic loading, and hydro-static pressure as suggested by Gupta \& Malik [\citenum{gupta2002envelope}] . A brief description of these three components of the module is as given below.
 
-\textbf{Dynamic Pressure}: Dynamic pressure loading acts on the front portion of the aerostat envelope and tries to make a depression on the envelope surface, its diameter depends on the region of highly stressed area which is normally 7 to 9 \% of the envelope length. To maintain the shape of the envelope, the internal pressure is kept slightly higher than dynamic pressure, normally 15\% as suggested by Gupta \& Malik \cite{gupta2002envelope} as per Eq. \ref{dyn}
+\textbf{Dynamic Pressure}: Dynamic pressure loading acts on the front portion of the aerostat envelope and tries to make a depression on the envelope surface, its diameter depends on the region of highly stressed area which is normally 7 to 9 \% of the envelope length. To maintain the shape of the envelope, the internal pressure is kept slightly higher than dynamic pressure, normally 15\% as suggested by Gupta \& Malik [\citenum{gupta2002envelope}] as per Eq. \ref{dyn}
 \begin{equation}
 \label{dyn}
 \Delta P_{dyn} = 1.15 \bigg( \frac{1}{2} \rho_{air} v^{2} \bigg)
@@ -32,7 +32,7 @@ To estimate the longitudinal stress ($ \sigma _{l} $ ) and the circumferential h
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.7\linewidth]{von_mises/stress_rep_envelope.png}
-	\captionsource{Stress representation in envelope}{\cite{alam2017thesis}}
+	\caption{Stress representation in envelope \citenum{alam2017thesis}}
 	\label{Stress representation in envelope}
 \end{figure}
 Hence, $ \sigma _{l} $ and $ \sigma _{h} $ developed in an envelope are estimated as:
@@ -96,37 +96,6 @@ Stresses are considered only in 2-D planes due to very low thickness of envelope
 \begin{equation}
 \sigma _{v} = \sqrt{\sigma _{1} ^{2} + \sigma _{2} ^{2} - \sigma _{1} \sigma _{2}}
 \end{equation}
-
-\section{Shape for minimum hoop stress}
-An octave function namely $ Von_Mises.m $ has been written incorporating the concepts of section \ref{Hoop stress}. This function gives the value of von-Mises stress ($ \sigma _{v} $) given the values of design parametres shown in Table \ref{Degign space }. The optimal results obtained are as follows:
-\begin{table}[H]
-	\centering
-	\caption{Optimal solution obtained for miminum $ \sigma _{v} $}
-	\label{Optimal solution obtained for mimimum sigma_v}
-	%\begin{ruledtabular}
-	\begin{tabular}{lc}
-		\hline \hline
-		Design Parameters & Optimal value for minimum $ C_{DV} $    \\ \hline \hline
-		
-		$ Point\ of\ Max.\ Dia., m$ & 0.5      \\  
-		$ Nose\ Radius, r _{o} $ & 0.8    \\
-		$ Tail\ Radius, r _{1} $ & 0.5     \\  
-		$ Prismatic\ Coeff., C _{p }$ & 0.55 \\
-		$ Fineness\ Ratio, \frac{l}{d} $ &6 \\
-		$Scaling\ in\ Y\ direction,\ scale\_y$ &3 \\ \hline \hline
-		
-		$ von-Mises\ stress\  \sigma _{v}  $ & 383.441 \\
-		\hline \hline
-	\end{tabular}
-	%	\end{ruledtabular}
-\end{table}
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=300 pt]{von_mises/min_hoop_stress.png}
-	\caption{Optimal shape obtained for minimum von-Mises stress}
-	\label{Optimal min von Mises} %      only if needed
-\end{figure}
 
 %%% Local Variables: 
 %%% mode: latex

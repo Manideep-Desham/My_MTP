@@ -1,37 +1,38 @@
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Airship with non-axisymmetric envelope}}{1}{figure.1.1}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Airship with non-axisymmetric envelope [\citenum {stratellite}]}}{1}{figure.1.1}
 \contentsline {figure}{\numberline {1.2}{\ignorespaces Framework of multi-disciplinary shape optimization}}{3}{figure.1.2}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Surface snapping process in \textit {SnappyHexMesh} }}{9}{figure.3.1}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Surface snapping process in \textit {SnappyHexMesh} [\citenum {snappyHexMesh}] }}{9}{figure.3.1}
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Prism layers on the surface of GNVR to capture boundary layer}}{10}{figure.3.2}
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Four standard shapes available in literature}}{10}{figure.3.3}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces $C_{P}$ distribution for GNVR profile obtained by OpenFOAM\textsuperscript {\textregistered }, source panel method [\citenum {gnvr2000}] and ANSYS\textsuperscript {\textregistered } \textit {Fluent} [\citenum {kanikdale2004multi}]}}{12}{figure.3.4}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces $C_{P}$ distribution for GNVR profile obtained by OpenFOAM\textsuperscript {\textregistered }, Source Panel Method [\citenum {gnvr2000}] and ANSYS\textsuperscript {\textregistered } \textit {Fluent} [\citenum {kanikdale2004multi}]}}{12}{figure.3.4}
 \contentsline {figure}{\numberline {3.5}{\ignorespaces Pressure distribution on Zhiyuan-1 airship shape}}{13}{figure.3.5}
 \contentsline {figure}{\numberline {3.6}{\ignorespaces $C_{P}$ distribution for Zhiyuan-1 shape using OpenFOAM\textsuperscript {\textregistered }, Experiments [\citenum {Wang2010}] and ANSYS\textsuperscript {\textregistered } \textit {Fluent} [\citenum {Wang2010}]}}{14}{figure.3.6}
 \contentsline {figure}{\numberline {3.7}{\ignorespaces Comparison of OpenFOAM\textsuperscript {\textregistered } results with ANSYS\textsuperscript {\textregistered } \textit {Fluent} results for pressure distribution of Wang shape}}{15}{figure.3.7}
 \contentsline {figure}{\numberline {3.8}{\ignorespaces Comparison of OpenFOAM\textsuperscript {\textregistered } results with ANSYS\textsuperscript {\textregistered } \textit {Fluent} results for pressure distribution of NPL profile [\citenum {cheeseman2012}]}}{17}{figure.3.8}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Definition of $ Cp $}}{20}{figure.4.1}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Definition of $ Cp $ [\citenum {alam2017thesis}]}}{20}{figure.4.1}
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Effect of scaling }}{22}{figure.4.2}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {5.1}{\ignorespaces Direct shape optimisation approach}}{24}{figure.5.1}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Surrogate model definition}}{25}{figure.5.2}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Work flow for the development of a surrogate model}}{26}{figure.5.3}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Surrogate model definition [\citenum {alam2017thesis}]}}{25}{figure.5.2}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Work flow for the development of a surrogate model [\citenum {OsamaAbdulGhani2013}]}}{26}{figure.5.3}
 \contentsline {figure}{\numberline {5.4}{\ignorespaces Sampling of unit square using OLHS }}{27}{figure.5.4}
 \contentsline {figure}{\numberline {5.5}{\ignorespaces Root Mean Square Error with Design Points considered}}{31}{figure.5.5}
 \contentsline {figure}{\numberline {5.6}{\ignorespaces Comparison of Himmelblau function with its Surrogate Model}}{32}{figure.5.6}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Variation of pressure and viscous drag with number of cells}}{36}{figure.6.1}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Variation of pressure and viscous drag with design number}}{36}{figure.6.2}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Variation of volumetric drag coefficient with design number}}{37}{figure.6.3}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Visual comparison of low and high drag bodies}}{37}{figure.6.4}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Surface streamlines on the body with low pressure drag}}{38}{figure.6.5}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Surface streamlines on the body with high pressure drag}}{38}{figure.6.6}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Variation of volumetric drag coefficient with design number for training dataset}}{39}{figure.6.7}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Variation of pressure and viscous drag with number of cells}}{37}{figure.7.1}
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Variation of pressure and viscous drag with design number}}{37}{figure.7.2}
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Variation of volumetric drag coefficient with design number}}{38}{figure.7.3}
-\contentsline {figure}{\numberline {7.4}{\ignorespaces Visual comparison of low and high drag bodies}}{38}{figure.7.4}
-\contentsline {figure}{\numberline {7.5}{\ignorespaces Surface streamlines on the body with low pressure drag}}{39}{figure.7.5}
-\contentsline {figure}{\numberline {7.6}{\ignorespaces Surface streamlines on the body with high pressure drag}}{39}{figure.7.6}
-\contentsline {figure}{\numberline {7.7}{\ignorespaces Optimal shape obtained for minimum $ C_{DV} $}}{42}{figure.7.7}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Stress representation in envelope \citenum {alam2017thesis}}}{42}{figure.7.1}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Stress representation in envelope}}{44}{figure.8.1}
-\contentsline {figure}{\numberline {8.2}{\ignorespaces Optimal shape obtained for minimum von-Mises stress}}{46}{figure.8.2}
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Optimal shape obtained for minimum $ C_{DV} $ case 1}}{45}{figure.8.1}
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Optimal non-axisymmetric shape obtained for minimum $ C_{DV} $ case 2}}{47}{figure.8.2}
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Optimal non-axisymmetric shape obtained for minimum $ C_{DV} $ case 3}}{48}{figure.8.3}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {9.1}{\ignorespaces Optimal shape obtained for minimum composite objective function}}{48}{figure.9.1}

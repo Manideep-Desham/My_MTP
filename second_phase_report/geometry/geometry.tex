@@ -1,9 +1,9 @@
 \chapter{Envelope geometry parameterization}
 \label{geometry}
 
-Geometry parameterization is an essential part of the design exploration and shape optimization process and there are several methods of generating parametric geometries. Since our ultimate aim of the project is to study different configurations of the non-body-of-revolution shapes and select the best one satisfying our needs. Thus there is a need to parameterize the geometry. Initial attempts were made using unconventional generalised methods like polynomial fitting, ruled surface between splines, NURBS etc. The idea is to define any shape using design variables of not more than 10 because the complexity (time taken, number of function evaluations and memory consumption) of an optimizing problem increases exponentially with number of design variables. So, it has to be as less as possible provided every combination of them gives a meaningful airship shape.
+Geometry parameterization is an essential part of the design exploration and shape optimization process and there are several methods of generating parametric geometries. Since our ultimate aim of the project is to study different configurations of the non-body-of-revolution shapes and select the best one satisfying our needs. Thus there is a need to parameterize the geometry. Initial attempts were made using unconventional generalised methods like polynomial fitting, ruled surface between splines, NURBS etc. The idea is to define any shape using design variables of not more than 10 because the complexity (time taken, number of function evaluations and memory consumption) of an optimizing problem increases exponentially[\citenum{OsamaAbdulGhani2013}] with number of design variables. So, it has to be as less as possible provided every combination of them gives a meaningful airship shape.
 
-\section{Modified Gertlers parametre technique}
+\section{Modified Gertler parameter technique}
 
 In this study, Gertler Series 58 Shape Generator are used for airship envelope generation. This sub-section explains the formulation of this shape generator in detail. It starts with a six degree polynomial equation in 2-D as stated in Eq. \ref{eq21}.
 \begin{equation}
@@ -14,7 +14,7 @@ where $a_1$, $a_2$, $a_3$,..., $a_n$ are the shape coefficients, whose values ar
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.7\linewidth]{rnd/c_p_definition.png}
-	\captionsource{Definition of $ Cp $}{\cite{alam2017thesis}}
+	\caption{Definition of $ Cp $ [\citenum{alam2017thesis}]}
 	\label{fig:cp}
 \end{figure}
 By satisfying the various constraints applicable for the shape of a stratospheric airship envelope, the final equations can be obtained in terms of these shape coefficients. To satisfy the constraints applicable for an airship envelope, we apply the conditions $z = 0$, when $y = 1$; $z = 1/2$, when $y = m$ and $\dfrac{dz}{dy} = 0$, when $y = m$, to obtain:
@@ -148,7 +148,7 @@ The obtained curve is then rotated about X-axis to get axisymmetric shape. Howev
 
 \section{Methodology to generate geometry using \textit{Octave}}
 
-Since the analysis work is being carried out using OpenFOAM\textsuperscript{\textregistered}, we need to input the geometry file to \textit{SnappyHexMesh} utility. OpenFOAM\textsuperscript{\textregistered} does not have any geometry creation utility. It has to be created using any commercial designing software and file has to be exported in \textbf{.stl} format. During optimization, calling the commercial CAD software every time to define simple mathematical shape is not a good practise. Instead we can define the geometry in Octave itself and carryout simulations. So, an existing MATLAB\textsuperscript{\textregistered} script by \cite{BillMcDonald} has been edited which takes the input of surface data  (X,Y and Z vectors) and writes them into .stl file. This .stl file can then be used in OpenFOAM\textsuperscript{\textregistered}. So, the need for commercial designing software has been eliminated.
+Since the analysis work is being carried out using OpenFOAM\textsuperscript{\textregistered}, we need to input the geometry file to \textit{SnappyHexMesh} utility. OpenFOAM\textsuperscript{\textregistered} does not have any geometry creation utility. It has to be created using any commercial designing software and file has to be exported in \textbf{.stl} format. During optimization, calling the commercial CAD software every time to define simple mathematical shape is not a good practice. Instead we can define the geometry in Octave itself and carryout simulations. So, an existing MATLAB\textsuperscript{\textregistered} script by Bill [\citenum{BillMcDonald}] has been edited which takes the input of surface data  (X,Y and Z vectors) and writes them into .stl file. This .stl file can then be used in OpenFOAM\textsuperscript{\textregistered}. So, the need for commercial designing software has been eliminated.
 \subsection{STL (file format)}
 An ASCII STL file begins with the line
 \begin{lstlisting}

@@ -17,7 +17,7 @@
 \BOOKMARK [2][-]{subsection.3.2.5}{Grid Dependence study}{section.3.2}% 17
 \BOOKMARK [1][-]{section.3.3}{Observations \046 Conclusions}{chapter.3}% 18
 \BOOKMARK [0][-]{chapter.4}{Envelope geometry parameterization}{}% 19
-\BOOKMARK [1][-]{section.4.1}{Modified Gertlers parametre technique}{chapter.4}% 20
+\BOOKMARK [1][-]{section.4.1}{Modified Gertler parameter technique}{chapter.4}% 20
 \BOOKMARK [1][-]{section.4.2}{Methodology to generate geometry using Octave}{chapter.4}% 21
 \BOOKMARK [2][-]{subsection.4.2.1}{STL \(file format\)}{section.4.2}% 22
 \BOOKMARK [0][-]{chapter.5}{Surrogate based shape optimization}{}% 23
@@ -25,7 +25,7 @@
 \BOOKMARK [1][-]{section.5.2}{Design of Experiments}{chapter.5}% 25
 \BOOKMARK [1][-]{section.5.3}{Building the surrogate model}{chapter.5}% 26
 \BOOKMARK [2][-]{subsection.5.3.1}{Polynomial response surface}{section.5.3}% 27
-\BOOKMARK [2][-]{subsection.5.3.2}{Radial basis function}{section.5.3}% 28
+\BOOKMARK [2][-]{subsection.5.3.2}{Radial Basis Function}{section.5.3}% 28
 \BOOKMARK [2][-]{subsection.5.3.3}{Kriging}{section.5.3}% 29
 \BOOKMARK [1][-]{section.5.4}{Toolbox used for different surrogate models}{chapter.5}% 30
 \BOOKMARK [1][-]{section.5.5}{Test Function for Kriging Surrogate Model}{chapter.5}% 31
@@ -33,15 +33,19 @@
 \BOOKMARK [0][-]{chapter.6}{Surrogate model for CFD}{}% 33
 \BOOKMARK [1][-]{section.6.1}{Mapping design variables}{chapter.6}% 34
 \BOOKMARK [1][-]{section.6.2}{Design of Experiments study}{chapter.6}% 35
-\BOOKMARK [1][-]{section.6.3}{CFD analysis on the points obtained from DOE}{chapter.6}% 36
-\BOOKMARK [0][-]{chapter.7}{Training data for CFD surrogate model}{}% 37
-\BOOKMARK [1][-]{section.7.1}{Grid Convergence study}{chapter.7}% 38
-\BOOKMARK [1][-]{section.7.2}{Results of CFD simulations}{chapter.7}% 39
-\BOOKMARK [1][-]{section.7.3}{Testing the accuracy of surrogate model}{chapter.7}% 40
-\BOOKMARK [1][-]{section.7.4}{Optimal shape for minimal aerodynamic drag}{chapter.7}% 41
-\BOOKMARK [0][-]{chapter.8}{Calculation of Hoop Stress}{}% 42
-\BOOKMARK [1][-]{subsection.8.0.1}{Bending Moment Calculation}{chapter.8}% 43
-\BOOKMARK [1][-]{section.8.1}{Shape for minimum hoop stress}{chapter.8}% 44
-\BOOKMARK [0][-]{chapter.9}{Results and discussion}{}% 45
-\BOOKMARK [1][-]{section.9.1}{Multi-disciplinary shape optimisation}{chapter.9}% 46
-\BOOKMARK [0][-]{section*.11}{References}{}% 47
+\BOOKMARK [1][-]{section.6.3}{Training data for CFD surrogate model}{chapter.6}% 36
+\BOOKMARK [1][-]{section.6.4}{Grid Convergence study}{chapter.6}% 37
+\BOOKMARK [1][-]{section.6.5}{Results of CFD simulations}{chapter.6}% 38
+\BOOKMARK [1][-]{section.6.6}{Testing the accuracy of surrogate model}{chapter.6}% 39
+\BOOKMARK [0][-]{chapter.7}{Calculation of Hoop Stress}{}% 40
+\BOOKMARK [1][-]{subsection.7.0.1}{Bending Moment Calculation}{chapter.7}% 41
+\BOOKMARK [0][-]{chapter.8}{Results and discussion}{}% 42
+\BOOKMARK [1][-]{section.8.1}{Optimal results case 1}{chapter.8}% 43
+\BOOKMARK [1][-]{section.8.2}{Composite objective function}{chapter.8}% 44
+\BOOKMARK [1][-]{section.8.3}{Optimal results case 2}{chapter.8}% 45
+\BOOKMARK [1][-]{section.8.4}{Optimal results case 3}{chapter.8}% 46
+\BOOKMARK [0][-]{chapter.9}{Conclusions, Limitations and Future Work}{}% 47
+\BOOKMARK [1][-]{section.9.1}{Observations \046 Conclusions}{chapter.9}% 48
+\BOOKMARK [1][-]{section.9.2}{Limitations of the present study}{chapter.9}% 49
+\BOOKMARK [1][-]{section.9.3}{Future work}{chapter.9}% 50
+\BOOKMARK [0][-]{section*.11}{References}{}% 51

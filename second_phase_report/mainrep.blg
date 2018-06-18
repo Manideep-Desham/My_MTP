@@ -14,6 +14,10 @@ A level-1 auxiliary file: Hoop_stress/Hoop_stress.aux
 A level-1 auxiliary file: rnd/results.aux
 A level-1 auxiliary file: futureplan/futureplan.aux
 A level-1 auxiliary file: appendix.aux
+Illegal, another \bibstyle command---line 46 of file mainrep.aux
+ : \bibstyle
+ :          {acm}
+I'm skipping whatever remains of this command
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -25,7 +29,11 @@ Warning--entry type for "alam2017thesis" isn't style-file defined
 Warning--entry type for "Xavier" isn't style-file defined
 --line 377 of file mylit.bib.bib
 Warning--entry type for "BillMcDonald" isn't style-file defined
---line 386 of file mylit.bib.bib
+--line 398 of file mylit.bib.bib
+Warning--entry type for "snappyHexMesh" isn't style-file defined
+--line 407 of file mylit.bib.bib
+Warning--entry type for "stratellite" isn't style-file defined
+--line 414 of file mylit.bib.bib
 Name 1 in "Gertler, M.," has a comma at the end for entry gertler1950
 while executing---line 2266 of file iitbauthyr.bst
 Name 1 in "Gertler, M.," has a comma at the end for entry gertler1950
@@ -62,45 +70,45 @@ Warning--empty chapter and pages in gnvr2000
 Warning--empty pages in gnvr2000
 Warning--missing journal in Suman2011
 Warning--missing journal in Viana2011
-You've used 31 entries,
+You've used 34 entries,
             4451 wiz_defined-function locations,
-            1091 strings with 14493 characters,
-and the built_in function-call counts, 25393 in all, are:
-= -- 1815
-> -- 715
-< -- 19
-+ -- 268
-- -- 237
-* -- 3501
-:= -- 3176
-add.period$ -- 62
-call.type$ -- 31
-change.case$ -- 237
-chr.to.int$ -- 31
-cite$ -- 77
-duplicate$ -- 2170
-empty$ -- 1896
-format.name$ -- 320
-if$ -- 4449
+            1105 strings with 14847 characters,
+and the built_in function-call counts, 27199 in all, are:
+= -- 1950
+> -- 745
+< -- 22
++ -- 280
+- -- 246
+* -- 3739
+:= -- 3414
+add.period$ -- 68
+call.type$ -- 34
+change.case$ -- 255
+chr.to.int$ -- 34
+cite$ -- 83
+duplicate$ -- 2334
+empty$ -- 2037
+format.name$ -- 332
+if$ -- 4762
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 347
-newline$ -- 328
-num.names$ -- 124
-pop$ -- 1010
+missing$ -- 371
+newline$ -- 350
+num.names$ -- 136
+pop$ -- 1078
 preamble$ -- 1
-purify$ -- 203
+purify$ -- 218
 quote$ -- 2
-skip$ -- 819
+skip$ -- 890
 stack$ -- 0
-substring$ -- 836
-swap$ -- 1832
+substring$ -- 894
+swap$ -- 1966
 text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 273
+type$ -- 300
 warning$ -- 15
-while$ -- 129
+while$ -- 140
 width$ -- 0
-write$ -- 463
-(There were 9 error messages)
+write$ -- 496
+(There were 10 error messages)

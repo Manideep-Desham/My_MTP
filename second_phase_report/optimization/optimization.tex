@@ -9,12 +9,12 @@ The process employed for aerodynamic shape design can be a direct or indirect sh
 
 \section{Surrogate model}
 
- Surrogate model is one of the mathematical and statistical techniques used to develop adequate functional relationship between an objective function y(x) and the control or design variables $ x_1 , x_2 .... x_k $. In our case, The model acts like a black box for aerodynamic parameters. Given the set of design variables, the model should give volumetric drag coefficient as shown in Figure \ref{Surrogate model} . The work flow associated with the development of a surrogate model is shown in Figure ~\ref{fig:work flow for the development of a surrogate model} . To develop an accurate surrogate, we need to carry out large number of CFD simulations. Creating geometry every time and meshing them is possible but takes a lot of time. Instead we can automate all the processes right from geometry creation to meshing and solving. This has become possible with OpenFOAM\textsuperscript{\textregistered}.
+ Surrogate model is one of the mathematical and statistical techniques used to develop adequate functional relationship between an objective function y(x) and the control or design variables $ x_1 , x_2 .... x_k $. In our case, The model acts like a black box for aerodynamic parameters. Given the set of design variables, the model should give volumetric drag coefficient as shown in Fig. \ref{Surrogate model} . The work flow associated with the development of a surrogate model is shown in Fig. ~\ref{fig:work flow for the development of a surrogate model} . To develop an accurate surrogate, we need to carry out large number of CFD simulations. Creating geometry every time and meshing them is possible but takes a lot of time. Instead we can automate all the processes right from geometry creation to meshing and solving. This has become possible with OpenFOAM\textsuperscript{\textregistered}.
 
 \begin{figure}[H]
 	\includegraphics[width=\textwidth]{optimization/surrogate.png}
 	\label{Surrogate model} %      only if needed
-	\captionsource{Surrogate model definition}{\cite{alam2017thesis}}
+	\caption{Surrogate model definition [\citenum{alam2017thesis}]}
 \end{figure}
 
 %\begin{figure}[htbp]
@@ -26,14 +26,14 @@ The process employed for aerodynamic shape design can be a direct or indirect sh
 \begin{figure}[htbp]
 	\includegraphics[width=\textwidth]{optimization/flow_chart.png}
   
-	\caption{Work flow for the development of a surrogate model}
+	\caption{Work flow for the development of a surrogate model [\citenum{OsamaAbdulGhani2013}]}
 	\label{fig:work flow for the development of a surrogate model} %      only if needed
 \end{figure}
 
 
 \section{Design of Experiments}
 \label{DOE}
-Design of Experiments is a technique used to extract maximum possible information from minimum number of computational experiments. This can be accomplished by the selection of a proper and robust scheme for DOE (Design of Experiments). In the present study, an open-source software named Surrogates Toolbox Version 3.0 (Viana, 2011) was used. Apart from many other important features, the toolbox provides an access to several varieties of widely used DOE models. Of the many DOE models available in the toolbox, Optimal Latin Hypercube Sampling (OLHS) generated using translational propagation algorithm (TPA) \cite{Viana2011} was chosen, mainly due to its orthogonal structure. Fig. \ref{OLHS Sampling} shows sampling distribution of points in a unit square.
+Design of Experiments is a technique used to extract maximum possible information from minimum number of computational experiments. This can be accomplished by the selection of a proper and robust scheme for DOE (Design of Experiments). In the present study, an open-source software named Surrogates Toolbox Version 3.0 (Viana, 2011) was used. Apart from many other important features, the toolbox provides an access to several varieties of widely used DOE models. Of the many DOE models available in the toolbox, Optimal Latin Hypercube Sampling (OLHS) generated using translational propagation algorithm (TPA) Viana[\citenum{Viana2011}] was chosen, mainly due to its orthogonal structure. Fig. \ref{OLHS Sampling} shows sampling distribution of points in a unit square.
 
 \begin{figure}[htbp]
 	\centering
@@ -42,30 +42,30 @@ Design of Experiments is a technique used to extract maximum possible informatio
 	\label{OLHS Sampling}
 \end{figure}
 
- The number of design experiments depends on the number of shape parameters used for defining geometry. A rule of thumb is that the number of design experiments should be ten times the number of shape parametres. However the actual number is decided by obtaining error between surrogate model results and actual CFD results. For the surrogate model to be acceptable, the error should be less than 2 percent. \cite{alam2016mdo} reported to have made 80 design experiments while developing his surrogate model for 2D bodies of revolution shapes. \cite{Kale2005a} reported to have studied about 600 feasible shapes using ANSYS\textsuperscript{\textregistered} \textit{Fluent} CFD package while developing quadratic response surface using Design Expert package.
+ The number of design experiments depends on the number of shape parameters used for defining geometry. A rule of thumb is that the number of design experiments should be ten times the number of shape parameters. However the actual number is decided by obtaining error between surrogate model results and actual CFD results. For the surrogate model to be acceptable, the error should be less than 2 percent. Alam \citenum{alam2016mdo} reported to have made 60 design experiments while developing his surrogate model for 2D bodies of revolution shapes. Kale et al. [\citenum{Kale2005a}] reported to have studied about 600 feasible shapes using ANSYS\textsuperscript{\textregistered} \textit{Fluent} CFD package while developing quadratic response surface using Design Expert package.
 
-For numerical experiments, Kriging surrogate model is reported to be best \citenum{viana2014metamodeling}. Kriging is named after the pioneering work of the South African mining engineer D. G. Krige. It is an interpolating method modelled by a Gaussian process governed by prior co-variances, which features the observed data at all design points. Kriging provides a statistic prediction of an unknown function by minimizing its Mean Squared Error (MSE).
+For numerical experiments, Kriging surrogate model is reported to be best \citenum{viana2014metamodeling}. Kriging is named after the pioneering work of the South African mining engineer D. G. Krige. It is an interpolating method modeled by a Gaussian process governed by prior co-variances, which features the observed data at all design points. Kriging provides a statistic prediction of an unknown function by minimizing its Mean Squared Error (MSE).
 
-The Kriging method in its basic formulation estimates the value of a function at some un sampled location as the sum of two components: the linear regression model $ f_i (x) $ (e.g., polynomial trend) of the data with p regressors modelling the drift of the process mean, i.e., the trend, over the domain, and a systematic departure representing low (large scale) and high frequency (small scale) variation components, respectively.
+The Kriging method in its basic formulation estimates the value of a function at some un sampled location as the sum of two components: the linear regression model $ f_i (x) $ (e.g., polynomial trend) of the data with p regressors modeling the drift of the process mean, i.e., the trend, over the domain, and a systematic departure representing low (large scale) and high frequency (small scale) variation components, respectively.
 
 \section{Building the surrogate model}
-A brief overview of different surogate models by \cite{luo2014comparison} is given below.
+A brief overview of different surrogate models by Luo et al.[\citenum{luo2014comparison}] is given below.
 \subsection{Polynomial response surface}
-Polynomial response surface is the simplest approximation method to build surrogate models \cite{forrester2009recent}. The most widely used polynomial response surface model is the second-order polynomial model which has the following form.
+Polynomial response surface is the simplest approximation method to build surrogate models Forrester et al.[\citenum{forrester2009recent}]. The most widely used polynomial response surface model is the second-order polynomial model which has the following form.
 \begin{equation}
 y = \beta _{0} + \sum_{i=1}^{n} \beta _{i} x_{i} + \sum_{i=1}^{n} \sum_{j \ge i}^{n} \beta _{ij} x_{i} x_{j} + ..
 \end{equation}
 
 where $ \beta _{0},\ \beta_{i},\ \beta _{ii},$ and $ \beta _{ij} $ are the regression coefficients, n is the number of variables, xi and xj are the variables. Using least square method (LSM), the regression coefficients can be solved.
 
-\subsection{Radial basis function}
-RBF is a 3-layer feed forward neural network consisting of an input layer, a hidden layer, and an output layer \cite{shen2011forecasting}. X is an N dimensional input vector. The output of the neurons in the RBF hidden layer is assumed as:
+\subsection{Radial Basis Function}
+RBF is a 3-layer feed forward neural network consisting of an input layer, a hidden layer, and an output layer Shen et al.[\citenum{shen2011forecasting}]. X is an N dimensional input vector. The output of the neurons in the RBF hidden layer is assumed as:
 
 \begin{equation}
 q_{i} = \varPhi(|| X - c_{i} ||)
 \end{equation}
 
-where $ c_{i} $ is the center associated with the ith neuron in the radial basis function hidden layer, i = 1, 2,...,H, where H is the number of hidden units, $ || X - c_{i} || $ is the norm of $ X − c_{i} $, $ \varPhi (.) $ is a radial basis function \cite{chen1991orthogonal}. Outputs of the kth neuron in RBF output layer are linear combinations of the hidden layer neuron outputs as:
+where $ c_{i} $ is the center associated with the ith neuron in the radial basis function hidden layer, i = 1, 2,...,H, where H is the number of hidden units, $ || X - c_{i} || $ is the norm of $ X − c_{i} $, $ \varPhi (.) $ is a radial basis function [\citenum{chen1991orthogonal}]. Outputs of the kth neuron in RBF output layer are linear combinations of the hidden layer neuron outputs as:
 
 \begin{equation}
 y_{k} = \sum_{i=1}^{H} w_{ki} q_{i} - \theta _{k} \quad (k = 1, 2,...,M)
@@ -73,13 +73,13 @@ y_{k} = \sum_{i=1}^{H} w_{ki} q_{i} - \theta _{k} \quad (k = 1, 2,...,M)
 where $ w_{ki} $ is the connecting weights from the $ i^{th} $ hidden layer neuron to the $ k^{th} $ output layer, $ \theta _{k} $ is the threshold value of the $ k^{th} $ output layer neuron.
 
 \subsection{Kriging}
-The kriging method was developed by the French mathematician Georges Matheron based on the Master$ ' $s thesis of Daniel Gerhardus Krige \cite{matheron1963principles}, it was first used as a geostatistical method. \cite{sacks1989design} firstly introduced kriging method as a surrogate modelling method, in the paper of \cite{sacks1989design}, kriging surrogate model was also called design and analysis of computer experiment (DACE). The kriging model is a combination of two components \cite{queipo2005surrogate}: deterministic functions and localized deviations.
+The kriging method was developed by the French mathematician Georges Matheron based on the Master$ ' $s thesis of Daniel Gerhardus Krige [\citenum{matheron1963principles}], it was first used as a geo statistical method. Sacks et al.[\citenum{sacks1989design}] firstly introduced Kriging method as a surrogate modeling method, in the paper of Sacks et al.[\citenum{sacks1989design}], Kriging surrogate model was also called design and analysis of computer experiment (DACE). The \textit{Kriging} model is a combination of two components [\citenum{queipo2005surrogate}]: deterministic functions and localized deviations.
 
 \begin{equation}
 Y(x) = \sum_{i=1}^{k} f_{i} (x) \beta _{i} + z(x)
 \end{equation}
 
-where $ \sum_{i=1}^{k} f_{i} (x) \beta _{i} $ is the term of deterministic functions, $ \beta$ are coefficients of deterministic functions, fi(x) are k known regression functions, which are usually polynomial functions. z(x) is term of localized deviations with mean zero, variance σ2, and covariance expressed as:
+where $ \sum_{i=1}^{k} f_{i} (x) \beta _{i} $ is the term of deterministic functions, $ \beta$ are coefficients of deterministic functions, fi(x) are k known regression functions, which are usually polynomial functions. z(x) is term of localized deviations with mean zero, variance $ \sigma ^2$, and covariance expressed as:
 
 \begin{equation}
 Cov[z(x_{i}),z(x_{j})] = \sigma ^{2} R (x_{i},x_{j})
@@ -159,10 +159,10 @@ If a small number of design points are used to create a surrogate model, then th
 \label{Modified Himmelblau function}
 It is a well known fact that evolutionary algorithms like Genetic algorithm searches for global minimum and outputs that global minimum as final answer. Unlike gradient based methods, it should not get struck in local minimum. In order to check this, we modify the existing Himmelblau function. This is because actual Himmelblau function has four identical local minimum and don't have any global mimima. So, we modify it by adding the term $  0.01* (x + 3.7793)^2 + (y + 3.2832)^2 $. This term is added to the function value evaluated at all points except (-3.7793,-3.2832). Hence we obtained modified Himmelblau function with one global minima at (-3.7793,-3.2832) and three local minima at other three points. If we optimise this modified Himmelblau function using Genetic algorithm, we have to get the final answer as (-3.7793,-3.2832). The same answer is expected using surrogate model for the modified Himmelblau function. The obtained results are shown in Table \ref{Results obtained for modified Himmelblau function}
 
-The genetic algorithm code used is a MATLAB code is written by \cite{Xavier} and downloaded from the website mathworks.com. The input parametres used are default values given by author and are specified in Table \ref{Genetic algorithm parametres}. NVAR is the number of variables and it is 2 for above mentioned function.
+The genetic algorithm code used is a MATLAB code is written by Xavier [\citenum{Xavier}]. The input parameters used are default values given by author and are specified in Table \ref{Genetic algorithm parametres}. NVAR is the number of variables (2 for present case).
 \begin{table}[H]
 	\centering
-	\caption{Genetic algorithm parametres}
+	\caption{Genetic algorithm parameters}
 	\label{Genetic algorithm parametres}
 	%\begin{ruledtabular}
 	\begin{tabular}{ll}
@@ -192,14 +192,14 @@ The genetic algorithm code used is a MATLAB code is written by \cite{Xavier} and
 		& X & Y & Function value \\ \hline
 		Actual Function & -3.7793 &-3.2832 &1.6725e-11 \\
 		Surrogate model & -3.7791 &-3.2828 & 2.5643e-03 \\ \hline
-		\% error & 0.006 & 0.013 & 2.5643e-03 \\
+		\% error & 0.006 & 0.013 & NA \\
 		\hline \hline
 		
 	\end{tabular}
 	%	\end{ruledtabular}
 \end{table}
 
-To explain the query of what happends if we take less number of design points while fitting the surrogate model, consider modified Himmelblau function discussed in section \ref{Modified Himmelblau function}. From Figure \ref{fig:Root Mean Square Error with Design Points considered}, we can infer that we need at least 150 design points to get develop a surrogate model which mimics actual Himmelblau function. But instead of 150 points, lets take only 20 points and construct a Kriging surrogate model and find the optimal point. It is already known that the optimal points is  (-3.7793,-3.2872). If we couple the genetic algorithm optimizer with surrogate model developed using only 20 points, we get the following results.
+To explain the query of what happends if we take less number of design points while fitting the surrogate model, consider modified Himmelblau function discussed in Section \ref{Modified Himmelblau function}. From Fig. \ref{fig:Root Mean Square Error with Design Points considered}, we can infer that we need at least 150 design points to get develop a surrogate model which mimics actual Himmelblau function. But instead of 150 points, lets take only 20 points and construct a Kriging surrogate model and find the optimal point. It is already known that the optimal points is  (-3.7793,-3.2872). If we couple the genetic algorithm optimizer with surrogate model developed using only 20 points, we get the following results.
 \begin{table}[H]
 	\centering
 	\caption{Results obtained for 20 design points}

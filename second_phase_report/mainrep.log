@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.22)  17 JUN 2018 02:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.22)  18 JUN 2018 13:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -503,44 +503,44 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 (./futureplan/futureplan.aux) (./appendix.aux))
 \openout1 = `mainrep.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 73.
-LaTeX Font Info:    Try loading font information for OML+txmi on input line 73.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 74.
+LaTeX Font Info:    Try loading font information for OML+txmi on input line 74.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 73.
-LaTeX Font Info:    Try loading font information for OMS+txsy on input line 73.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 74.
+LaTeX Font Info:    Try loading font information for OMS+txsy on input line 74.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 73.
-LaTeX Font Info:    Try loading font information for OMX+txex on input line 73.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 74.
+LaTeX Font Info:    Try loading font information for OMX+txex on input line 74.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 73.
-LaTeX Font Info:    Try loading font information for U+txexa on input line 73.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 74.
+LaTeX Font Info:    Try loading font information for U+txexa on input line 74.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Try loading font information for T1+txr on input line 73.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Try loading font information for T1+txr on input line 74.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/t1txr.fd
 File: t1txr.fd 2000/12/15 v3.1
@@ -560,7 +560,7 @@ File: t1txr.fd 2000/12/15 v3.1
 \everyMPtoPDFconversion=\toks28
 )
 \AtBeginShipoutBox=\box37
-Package hyperref Info: Link coloring OFF on input line 73.
+Package hyperref Info: Link coloring OFF on input line 74.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -569,9 +569,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count139
 )
-LaTeX Info: Redefining \ref on input line 73.
-LaTeX Info: Redefining \pageref on input line 73.
-LaTeX Info: Redefining \nameref on input line 73.
+LaTeX Info: Redefining \ref on input line 74.
+LaTeX Info: Redefining \pageref on input line 74.
+LaTeX Info: Redefining \nameref on input line 74.
 
 (./mainrep.out) (./mainrep.out)
 \@outlinefile=\write5
@@ -594,59 +594,59 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \c@lstlisting=\count140
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 120.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 121.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
-LaTeX Font Info:    Try loading font information for T1+phv on input line 120.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 121.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <20.74> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 120.
-LaTeX Font Info:    Try loading font information for T1+ppl on input line 120.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 121.
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 121.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 120.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 121.
 
-<iitb-black.pdf, id=192, 557.08125pt x 533.995pt>
+<iitb-black.pdf, id=209, 557.08125pt x 533.995pt>
 File: iitb-black.pdf Graphic file (type pdf)
  <use iitb-black.pdf>
-Package pdftex.def Info: iitb-black.pdf used on input line 120.
+Package pdftex.def Info: iitb-black.pdf used on input line 121.
 (pdftex.def)             Requested size: 120.0pt x 115.02669pt.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./iitb-black.pdf>]
-LaTeX Font Info:    Try loading font information for OT1+txr on input line 140.
+LaTeX Font Info:    Try loading font information for OT1+txr on input line 141.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsya on input line 140.
+LaTeX Font Info:    Try loading font information for U+txsya on input line 141.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyb on input line 140.
+LaTeX Font Info:    Try loading font information for U+txsyb on input line 141.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txmia on input line 140.
+LaTeX Font Info:    Try loading font information for U+txmia on input line 141.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyc on input line 140.
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 141.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
@@ -655,7 +655,7 @@ File: utxsyc.fd 2000/12/15 v3.1
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.159 \include{abs}
+l.160 \include{abs}
                     [1
 
 ]
@@ -704,25 +704,15 @@ No file mainrep.nls.
 
 (./intro/introduction.tex
 Chapter 1.
-<intro/Stratellite.jpg, id=413, 333.49594pt x 146.79843pt>
+<intro/Stratellite.jpg, id=449, 333.49594pt x 146.79843pt>
 File: intro/Stratellite.jpg Graphic file (type jpg)
 
 <use intro/Stratellite.jpg>
 Package pdftex.def Info: intro/Stratellite.jpg used on input line 9.
 (pdftex.def)             Requested size: 333.49512pt x 146.79807pt.
-LaTeX Font Info:    Try loading font information for T1+txtt on input line 10.
 
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/t1txtt.fd
-File: t1txtt.fd 2000/12/15 v3.1
-)
 Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
- []
-
-
-Underfull \hbox (badness 1087) in paragraph at lines 17--18
-\T1/txr/m/n/12 The project is di-vided into two stages namely stage-1 and stage
--2. In stage-1,
  []
 
 [1
@@ -738,32 +728,35 @@ has been already used, duplicate ignored
                                                   \fi \fi 
 l.18 \section
              {Report layout} <./intro/Stratellite.jpg>]
+<layout/report_layout.png, id=470, 690.58pt x 868.24374pt>
+File: layout/report_layout.png Graphic file (type png)
 
-LaTeX Warning: Reference `Advantages of openfoam' on page 2 undefined on input 
-line 21.
-
-<layout/layout.png, id=438, 691.58376pt x 868.24374pt>
-File: layout/layout.png Graphic file (type png)
- <use layout/layout.png>
-Package pdftex.def Info: layout/layout.png used on input line 29.
-(pdftex.def)             Requested size: 426.79134pt x 535.81488pt.
-
-[2]) [3pdfTeX warning (ext4): destination with the same identifier (name{figure
-.1.2}) has been already used, duplicate ignored
+<use layout/report_layout.png>
+Package pdftex.def Info: layout/report_layout.png used on input line 29.
+(pdftex.def)             Requested size: 426.79134pt x 536.59653pt.
+ [2]) [3pdfTeX warning (ext4): destination with the same identifier (name{figur
+e.1.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.182 \include{intro/introduction}
-                                   <./layout/layout.png>]
+l.183 \include{intro/introduction}
+                                   <./layout/report_layout.png>]
 \openout2 = `lit/literature.aux'.
 
- (./lit/literature.tex
+
+(./lit/literature.tex
 Chapter 2.
 [4
 
 
 
 ] [5]
+Underfull \hbox (badness 1122) in paragraph at lines 35--37
+[]\T1/txr/bx/n/12 Shape gen-er-a-tion al-go-rithm: \T1/txr/m/n/12 The shape gen
+-er-a-tion al-go-rithm pro-posed by
+ []
+
+
 Underfull \hbox (badness 1057) in paragraph at lines 41--42
 []\T1/txr/m/n/12 The next chap-ter in-ves-ti-gates en-ve-lope shape gen-er-a-ti
 on al-go-rithms for non-
@@ -776,7 +769,10 @@ on al-go-rithms for non-
 Chapter 3.
 LaTeX Font Info:    Font shape `OMS/txr/bx/n' in size <20.74> not available
 (Font)              Font shape `OMS/txsy/bx/n' tried instead on input line 1.
-[7
+LaTeX Font Info:    Try loading font information for T1+txtt on input line 10.
+(/usr/share/texlive/texmf-dist/tex/latex/txfonts/t1txtt.fd
+File: t1txtt.fd 2000/12/15 v3.1
+) [7
 
 
 
@@ -786,200 +782,200 @@ Underfull \hbox (badness 1303) in paragraph at lines 24--25
 nap-py-HexMesh \T1/txr/m/n/12 comes along with
  []
 
-<mesh/snappyHexMesh.png, id=529, 510.90875pt x 616.3025pt>
+<mesh/snappyHexMesh.png, id=540, 510.90875pt x 616.3025pt>
 File: mesh/snappyHexMesh.png Graphic file (type png)
 
 <use mesh/snappyHexMesh.png>
 Package pdftex.def Info: mesh/snappyHexMesh.png used on input line 37.
 (pdftex.def)             Requested size: 180.0pt x 217.1291pt.
  [8]
-<rnd/viscous_layers.png, id=539, 2025.5675pt x 1122.1925pt>
+<rnd/viscous_layers.png, id=549, 2025.5675pt x 1122.1925pt>
 File: rnd/viscous_layers.png Graphic file (type png)
 
 <use rnd/viscous_layers.png>
-Package pdftex.def Info: rnd/viscous_layers.png used on input line 56.
+Package pdftex.def Info: rnd/viscous_layers.png used on input line 54.
 (pdftex.def)             Requested size: 300.0pt x 166.19832pt.
  [9pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.60 
+l.58 
       <./mesh/snappyHexMesh.png>]
 LaTeX Font Info:    Font shape `OMS/txr/bx/n' in size <12> not available
-(Font)              Font shape `OMS/txsy/bx/n' tried instead on input line 61.
+(Font)              Font shape `OMS/txsy/bx/n' tried instead on input line 59.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mathsurround' on input line 61.
+(hyperref)                removing `\mathsurround' on input line 59.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 61.
+(hyperref)                removing `\z@' on input line 59.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 61.
+(hyperref)                removing `superscript' on input line 59.
 
-<rnd/all_profiles.png, id=550, 1160.335pt x 511.9125pt>
+<rnd/all_profiles.png, id=560, 1160.335pt x 511.9125pt>
 File: rnd/all_profiles.png Graphic file (type png)
 
 <use rnd/all_profiles.png>
-Package pdftex.def Info: rnd/all_profiles.png used on input line 68.
+Package pdftex.def Info: rnd/all_profiles.png used on input line 66.
 (pdftex.def)             Requested size: 400.0pt x 176.4694pt.
 LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <12> not available
-(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 74.
+(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 72.
 LaTeX Font Info:    Font shape `OMS/txr/m/it' in size <8> not available
-(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 78.
+(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 76.
  [10pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
 2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.78 	\item O
+l.76 	\item O
              penFOAM\textsuperscript{\textregistered} version = 4.1pdfTeX warni
 ng (ext4): destination with the same identifier (name{figure.3.3}) has been alr
 eady used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.78 	\item O
+l.76 	\item O
              penFOAM\textsuperscript{\textregistered} version = 4.1 <./rnd/visc
 ous_layers.png (PNG copy)> <./rnd/all_profiles.png>]
-<rnd/GNVR_cp.png, id=561, 578.16pt x 434.5836pt>
+<rnd/GNVR_cp.png, id=571, 578.16pt x 433.62pt>
 File: rnd/GNVR_cp.png Graphic file (type png)
  <use rnd/GNVR_cp.png>
-Package pdftex.def Info: rnd/GNVR_cp.png used on input line 122.
-(pdftex.def)             Requested size: 270.0pt x 202.94797pt.
+Package pdftex.def Info: rnd/GNVR_cp.png used on input line 120.
+(pdftex.def)             Requested size: 270.0pt x 202.49797pt.
  [11pdfTeX warning (ext4): destination with the same identifier (name{table.3.1
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.126 
-      ] <rnd/zhiyuan_equations.png, id=576, 1073.00874pt x 568.1225pt>
+l.124 
+      ] <rnd/zhiyuan_equations.png, id=586, 1073.00874pt x 568.1225pt>
 File: rnd/zhiyuan_equations.png Graphic file (type png)
 
 <use rnd/zhiyuan_equations.png>
-Package pdftex.def Info: rnd/zhiyuan_equations.png used on input line 133.
+Package pdftex.def Info: rnd/zhiyuan_equations.png used on input line 131.
 (pdftex.def)             Requested size: 400.0pt x 211.77975pt.
 
-<rnd/pressure_zhiyuan.png, id=580, 1034.86626pt x 589.20125pt>
+<rnd/pressure_zhiyuan.png, id=590, 1034.86626pt x 589.20125pt>
 File: rnd/pressure_zhiyuan.png Graphic file (type png)
 
 <use rnd/pressure_zhiyuan.png>
-Package pdftex.def Info: rnd/pressure_zhiyuan.png used on input line 138.
+Package pdftex.def Info: rnd/pressure_zhiyuan.png used on input line 136.
 (pdftex.def)             Requested size: 300.0pt x 170.80104pt.
  [12pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
 4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.141 \end{figure}
+l.139 \end{figure}
                    <./rnd/GNVR_cp.png> <./rnd/zhiyuan_equations.png>]
-<rnd/zhiyuan_cp.png, id=592, 578.16pt x 434.5836pt>
+<rnd/zhiyuan_cp.png, id=602, 578.16pt x 433.62pt>
 File: rnd/zhiyuan_cp.png Graphic file (type png)
  <use rnd/zhiyuan_cp.png>
-Package pdftex.def Info: rnd/zhiyuan_cp.png used on input line 169.
-(pdftex.def)             Requested size: 270.0pt x 202.94797pt.
+Package pdftex.def Info: rnd/zhiyuan_cp.png used on input line 167.
+(pdftex.def)             Requested size: 270.0pt x 202.49797pt.
 
 [13pdfTeX warning (ext4): destination with the same identifier (name{figure.3.5
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.173 
+l.171 
       pdfTeX warning (ext4): destination with the same identifier (name{table.3
 .2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.173 
+l.171 
        <./rnd/pressure_zhiyuan.png (PNG copy)>] [14pdfTeX warning (ext4): desti
 nation with the same identifier (name{figure.3.6}) has been already used, dupli
 cate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.220 
+l.218 
       pdfTeX warning (ext4): destination with the same identifier (name{table.3
 .3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.220 
+l.218 
        <./rnd/zhiyuan_cp.png>]
-<rnd/wang_cp.png, id=619, 578.16pt x 434.5836pt>
+<rnd/wang_cp.png, id=629, 578.16pt x 434.5836pt>
 File: rnd/wang_cp.png Graphic file (type png)
  <use rnd/wang_cp.png>
-Package pdftex.def Info: rnd/wang_cp.png used on input line 225.
+Package pdftex.def Info: rnd/wang_cp.png used on input line 223.
 (pdftex.def)             Requested size: 300.0pt x 225.50069pt.
  [15pdfTeX warning (ext4): destination with the same identifier (name{table.3.4
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.248 \end{equation}
+l.246 \end{equation}
                     pdfTeX warning (ext4): destination with the same identifier
  (name{figure.3.7}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.248 \end{equation}
+l.246 \end{equation}
                     pdfTeX warning (ext4): destination with the same identifier
  (name{table.3.5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.248 \end{equation}
+l.246 \end{equation}
                      <./rnd/wang_cp.png>]
-<rnd/NPL_cp.png, id=629, 578.16pt x 434.5836pt>
+<rnd/NPL_cp.png, id=639, 578.16pt x 434.5836pt>
 File: rnd/NPL_cp.png Graphic file (type png)
  <use rnd/NPL_cp.png>
-Package pdftex.def Info: rnd/NPL_cp.png used on input line 287.
+Package pdftex.def Info: rnd/NPL_cp.png used on input line 285.
 (pdftex.def)             Requested size: 300.0pt x 225.50069pt.
  [16pdfTeX warning (ext4): destination with the same identifier (name{table.3.6
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.291 
+l.289 
       ] [17pdfTeX warning (ext4): destination with the same identifier (name{fi
 gure.3.8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.341 
+l.339 
       pdfTeX warning (ext4): destination with the same identifier (name{table.3
 .7}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.341 
+l.339 
       pdfTeX warning (ext4): destination with the same identifier (name{table.3
 .8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.341 
+l.339 
        <./rnd/NPL_cp.png>]) [18pdfTeX warning (ext4): destination with the same
  identifier (name{table.3.9}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.185 \include{OpenFOAM/OpenFOAM}
+l.186 \include{OpenFOAM/OpenFOAM}
                                  pdfTeX warning (ext4): destination with the sa
 me identifier (name{table.3.10}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.185 \include{OpenFOAM/OpenFOAM}
+l.186 \include{OpenFOAM/OpenFOAM}
                                  ]
 \openout2 = `geometry/geometry.aux'.
 
  (./geometry/geometry.tex
 Chapter 4.
-<rnd/c_p_definition.png, id=658, 1096.095pt x 321.2pt>
+<rnd/c_p_definition.png, id=669, 1096.095pt x 321.2pt>
 File: rnd/c_p_definition.png Graphic file (type png)
 
 <use rnd/c_p_definition.png>
@@ -996,7 +992,7 @@ Package pdftex.def Info: rnd/c_p_definition.png used on input line 16.
                                                   \fi \fi 
 l.61 \end{equation}
                     <./rnd/c_p_definition.png>] [21]
-<rnd/effect_of_scaling.png, id=708, 1027.84pt x 561.09625pt>
+<rnd/effect_of_scaling.png, id=715, 1027.84pt x 561.09625pt>
 File: rnd/effect_of_scaling.png Graphic file (type png)
 
 <use rnd/effect_of_scaling.png>
@@ -1007,14 +1003,14 @@ Package pdftex.def Info: rnd/effect_of_scaling.png used on input line 143.
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.154 \begin{lstlisting}
-                         <./rnd/effect_of_scaling.png (PNG copy)>]) [23]
+l.163 	 outer 
+              loop <./rnd/effect_of_scaling.png (PNG copy)>]) [23]
 \openout2 = `optimization/optimization.aux'.
 
 
 (./optimization/optimization.tex
 Chapter 5.
-<optimization/closed_loop.png, id=734, 633.36626pt x 302.12875pt>
+<optimization/closed_loop.png, id=741, 633.36626pt x 302.12875pt>
 File: optimization/closed_loop.png Graphic file (type png)
 
 <use optimization/closed_loop.png>
@@ -1031,41 +1027,42 @@ has been already used, duplicate ignored
                                                   \fi \fi 
 l.13 
       <./optimization/closed_loop.png>]
-<optimization/surrogate.png, id=742, 882.29625pt x 442.65375pt>
+<optimization/surrogate.png, id=749, 882.29625pt x 442.65375pt>
 File: optimization/surrogate.png Graphic file (type png)
 
 <use optimization/surrogate.png>
 Package pdftex.def Info: optimization/surrogate.png used on input line 15.
 (pdftex.def)             Requested size: 426.79134pt x 214.12619pt.
 
-<optimization/flow_chart.png, id=747, 743.77875pt x 839.135pt>
+<optimization/flow_chart.png, id=751, 743.77875pt x 839.135pt>
 File: optimization/flow_chart.png Graphic file (type png)
 
 <use optimization/flow_chart.png>
 Package pdftex.def Info: optimization/flow_chart.png used on input line 27.
 (pdftex.def)             Requested size: 426.79134pt x 481.51295pt.
- [25pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
-2}) has been already used, duplicate ignored
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.37 
-      <./optimization/surrogate.png>] [26pdfTeX warning (ext4): destination wit
-h the same identifier (name{figure.5.3}) has been already used, duplicate ignor
-ed
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.37 
-      <./optimization/flow_chart.png>]
-<optimization/OLHS_DOE.png, id=760, 716.6775pt x 670.505pt>
+<optimization/OLHS_DOE.png, id=755, 716.6775pt x 670.505pt>
 File: optimization/OLHS_DOE.png Graphic file (type png)
 
 <use optimization/OLHS_DOE.png>
 Package pdftex.def Info: optimization/OLHS_DOE.png used on input line 40.
 (pdftex.def)             Requested size: 200.0pt x 187.10579pt.
- [27pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
-4}) has been already used, duplicate ignored
+ [25pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.43 \end{figure}
+                  <./optimization/surrogate.png>] [26pdfTeX warning (ext4): des
+tination with the same identifier (name{figure.5.3}) has been already used, dup
+licate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.43 \end{figure}
+                  <./optimization/flow_chart.png>] [27pdfTeX warning (ext4): de
+stination with the same identifier (name{figure.5.4}) has been already used, du
+plicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -1075,21 +1072,22 @@ l.53 \subsection
 Missing character: There is no â in font txr!
 Missing character: There is no ˆ in font txr!
 Missing character: There is no ’ in font txr!
- [28] [29]
-<optimization/RMSE_analysis.png, id=818, 797.98125pt x 658.46pt>
+ [28] [29pdfTeX warning (ext4): destination with the same identifier (name{tabl
+e.5.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.130 \end{equation}
+                    ]
+<optimization/RMSE_analysis.png, id=812, 797.98125pt x 658.46pt>
 File: optimization/RMSE_analysis.png Graphic file (type png)
 
 <use optimization/RMSE_analysis.png>
 Package pdftex.def Info: optimization/RMSE_analysis.png used on input line 146.
 
 (pdftex.def)             Requested size: 426.79134pt x 352.16713pt.
- [30pdfTeX warning (ext4): destination with the same identifier (name{table.5.1
-}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.150 
-      ] <optimization/Himmel_blau_fcn.png, id=831, 844.15375pt x 652.4375pt>
+ [30]
+<optimization/Himmel_blau_fcn.png, id=824, 844.15375pt x 652.4375pt>
 File: optimization/Himmel_blau_fcn.png Graphic file (type png)
 
 <use optimization/Himmel_blau_fcn.png>
@@ -1115,21 +1113,21 @@ already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.187 \include{optimization/optimization}
+l.188 \include{optimization/optimization}
                                          pdfTeX warning (ext4): destination wit
 h the same identifier (name{table.5.3}) has been already used, duplicate ignore
 d
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.187 \include{optimization/optimization}
+l.188 \include{optimization/optimization}
                                          pdfTeX warning (ext4): destination wit
 h the same identifier (name{table.5.4}) has been already used, duplicate ignore
 d
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.187 \include{optimization/optimization}
+l.188 \include{optimization/optimization}
                                          ]
 \openout2 = `surrogate_model_CFD/surrogate_model_CFD.aux'.
 
@@ -1146,170 +1144,171 @@ as been already used, duplicate ignored
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.32 
-     ]) [35]
-\openout2 = `surrogate_model_CFD_results/surrogate_model_CFD_results.aux'.
-
- (./surrogate_model_CFD_results/surrogate_model_CFD_results.tex
-Chapter 7.
-
-Overfull \hbox (54.91269pt too wide) in paragraph at lines 8--22
+     ]
+Overfull \hbox (52.04471pt too wide) in paragraph at lines 41--55
  [][] 
  []
 
-[36
-
-
-
-pdfTeX warning (ext4): destination with the same identifier (name{table.7.1}) h
-as been already used, duplicate ignored
+[35pdfTeX warning (ext4): destination with the same identifier (name{table.6.2}
+) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.43 
+l.76 
      ]
-<surrogate_model_CFD_results/Grid_convergence.png, id=872, 692.5875pt x 355.327
+<surrogate_model_CFD_results/Grid_convergence.png, id=857, 692.5875pt x 355.327
 5pt>
 File: surrogate_model_CFD_results/Grid_convergence.png Graphic file (type png)
  <use surrogate_model_CFD_results/Grid_convergence.png>
 Package pdftex.def Info: surrogate_model_CFD_results/Grid_convergence.png used 
-on input line 46.
+on input line 79.
 (pdftex.def)             Requested size: 300.0pt x 153.91557pt.
 
-<surrogate_model_CFD_results/Drag_components.png, id=873, 1319.93124pt x 448.67
+<surrogate_model_CFD_results/Drag_components.png, id=858, 1319.93124pt x 448.67
 625pt>
 File: surrogate_model_CFD_results/Drag_components.png Graphic file (type png)
  <use surrogate_model_CFD_results/Drag_components.png>
 Package pdftex.def Info: surrogate_model_CFD_results/Drag_components.png used o
-n input line 55.
+n input line 88.
 (pdftex.def)             Requested size: 450.0pt x 152.96553pt.
 
-Overfull \hbox (23.20866pt too wide) in paragraph at lines 55--56
+Overfull \hbox (23.20866pt too wide) in paragraph at lines 88--89
  [][] 
  []
 
 
-<surrogate_model_CFD_results/Volumetric_drag_coeff.png, id=874, 1240.635pt x 46
+<surrogate_model_CFD_results/Volumetric_drag_coeff.png, id=859, 1240.635pt x 46
 0.72125pt>
 File: surrogate_model_CFD_results/Volumetric_drag_coeff.png Graphic file (type 
 png)
  <use surrogate_model_CFD_results/Volumetric_drag_coeff.png>
 Package pdftex.def Info: surrogate_model_CFD_results/Volumetric_drag_coeff.png 
-used on input line 62.
+used on input line 95.
 (pdftex.def)             Requested size: 450.0pt x 167.11087pt.
 
-Overfull \hbox (23.20866pt too wide) in paragraph at lines 62--63
+Overfull \hbox (23.20866pt too wide) in paragraph at lines 95--96
  [][] 
  []
 
-[37pdfTeX warning (ext4): destination with the same identifier (name{table.7.2}
+[36pdfTeX warning (ext4): destination with the same identifier (name{table.6.3}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.66 
-     pdfTeX warning (ext4): destination with the same identifier (name{figure.7
+l.99 
+     pdfTeX warning (ext4): destination with the same identifier (name{figure.6
 .1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.66 
-     pdfTeX warning (ext4): destination with the same identifier (name{figure.7
+l.99 
+     pdfTeX warning (ext4): destination with the same identifier (name{figure.6
 .2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.66 
+l.99 
       <./surrogate_model_CFD_results/Grid_convergence.png (PNG copy)> <./surrog
 ate_model_CFD_results/Drag_components.png (PNG copy)>]
-<rnd/visual_low_high.png, id=882, 1027.84pt x 561.09625pt>
+<rnd/visual_low_high.png, id=867, 1027.84pt x 561.09625pt>
 File: rnd/visual_low_high.png Graphic file (type png)
 
 <use rnd/visual_low_high.png>
-Package pdftex.def Info: rnd/visual_low_high.png used on input line 71.
+Package pdftex.def Info: rnd/visual_low_high.png used on input line 104.
 (pdftex.def)             Requested size: 300.0pt x 163.76682pt.
 
-<rnd/streamlines_25_l.png, id=885, 1027.84pt x 561.09625pt>
+<rnd/streamlines_25_l.png, id=870, 1027.84pt x 561.09625pt>
 File: rnd/streamlines_25_l.png Graphic file (type png)
 
 <use rnd/streamlines_25_l.png>
-Package pdftex.def Info: rnd/streamlines_25_l.png used on input line 80.
+Package pdftex.def Info: rnd/streamlines_25_l.png used on input line 113.
 (pdftex.def)             Requested size: 300.0pt x 163.76682pt.
- [38pdfTeX warning (ext4): destination with the same identifier (name{figure.7.
+ [37pdfTeX warning (ext4): destination with the same identifier (name{figure.6.
 3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.84 
-     pdfTeX warning (ext4): destination with the same identifier (name{figure.7
-.4}) has been already used, duplicate ignored
+l.117 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+6.4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.84 
-      <./surrogate_model_CFD_results/Volumetric_drag_coeff.png (PNG copy)> <./r
-nd/visual_low_high.png (PNG copy)>]
-<rnd/streamlines_45.png, id=890, 2025.5675pt x 1023.825pt>
+l.117 
+       <./surrogate_model_CFD_results/Volumetric_drag_coeff.png (PNG copy)> <./
+rnd/visual_low_high.png (PNG copy)>]
+<rnd/streamlines_45.png, id=875, 2025.5675pt x 1023.825pt>
 File: rnd/streamlines_45.png Graphic file (type png)
 
 <use rnd/streamlines_45.png>
-Package pdftex.def Info: rnd/streamlines_45.png used on input line 87.
+Package pdftex.def Info: rnd/streamlines_45.png used on input line 120.
 (pdftex.def)             Requested size: 300.0pt x 151.62996pt.
- [39pdfTeX warning (ext4): destination with the same identifier (name{figure.7.
-5}) has been already used, duplicate ignored
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.122 
-      pdfTeX warning (ext4): destination with the same identifier (name{figure.
-7.6}) has been already used, duplicate ignored
+<surrogate_model_CFD_results/Volumetric_drag_coeff_training.png, id=877, 1240.6
+35pt x 460.72125pt>
+File: surrogate_model_CFD_results/Volumetric_drag_coeff_training.png Graphic fi
+le (type png)
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.122 
-       <./rnd/streamlines_25_l.png (PNG copy)> <./rnd/streamlines_45.png (PNG c
-opy)>] [40pdfTeX warning (ext4): destination with the same identifier (name{tab
-le.7.3}) has been already used, duplicate ignored
+<use surrogate_model_CFD_results/Volumetric_drag_coeff_training.png>
+Package pdftex.def Info: surrogate_model_CFD_results/Volumetric_drag_coeff_trai
+ning.png used on input line 130.
+(pdftex.def)             Requested size: 450.0pt x 167.11087pt.
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.150 
-      ]
-<surrogate_model_CFD_results/low_drag_body.png, id=906, 1027.84pt x 561.09625pt
->
-File: surrogate_model_CFD_results/low_drag_body.png Graphic file (type png)
- <use surrogate_model_CFD_results/low_drag_body.png>
-Package pdftex.def Info: surrogate_model_CFD_results/low_drag_body.png used on 
-input line 180.
-(pdftex.def)             Requested size: 300.0pt x 163.76682pt.
- [41pdfTeX warning (ext4): destination with the same identifier (name{table.7.4
+Overfull \hbox (23.20866pt too wide) in paragraph at lines 130--131
+ [][] 
+ []
+
+[38pdfTeX warning (ext4): destination with the same identifier (name{figure.6.5
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.184 
-      pdfTeX warning (ext4): destination with the same identifier (name{table.7
-.5}) has been already used, duplicate ignored
+l.134 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+6.6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.184 
-      ]) [42pdfTeX warning (ext4): destination with the same identifier (name{f
-igure.7.7}) has been already used, duplicate ignored
+l.134 
+       <./rnd/streamlines_25_l.png (PNG copy)> <./rnd/streamlines_45.png (PNG c
+opy)>] [39pdfTeX warning (ext4): destination with the same identifier (name{fig
+ure.6.7}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.189 ..._CFD_results/surrogate_model_CFD_results}
-                                                   <./surrogate_model_CFD_resul
-ts/low_drag_body.png (PNG copy)>]
+l.164 A
+       lso, few machine learning algorithms have been applied to see if they...
+pdfTeX warning (ext4): destination with the same identifier (name{table.6.4}) h
+as been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.164 A
+       lso, few machine learning algorithms have been applied to see if they...
+ <./surrogate_model_CFD_results/Volumetric_drag_coeff_training.png (PNG copy)>]
+) [40pdfTeX warning (ext4): destination with the same identifier (name{table.6.
+5}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.189 ...{surrogate_model_CFD/surrogate_model_CFD}
+                                                  ]
+\openout2 = `surrogate_model_CFD_results/surrogate_model_CFD_results.aux'.
+
+
+(./surrogate_model_CFD_results/surrogate_model_CFD_results.tex)
 \openout2 = `Hoop_stress/Hoop_stress.aux'.
 
- (./Hoop_stress/Hoop_stress.tex
-Chapter 8.
-[43
+
+(./Hoop_stress/Hoop_stress.tex
+Chapter 7.
+[41
 
 
 
-] <von_mises/stress_rep_envelope.png, id=933, 901.3675pt x 644.4075pt>
+
+
+] <von_mises/stress_rep_envelope.png, id=907, 901.3675pt x 644.4075pt>
 File: von_mises/stress_rep_envelope.png Graphic file (type png)
 
 <use von_mises/stress_rep_envelope.png>
@@ -1321,79 +1320,123 @@ Package pdftex.def Info: von_mises/stress_rep_envelope.png used on input line 3
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 50.
 
-[44pdfTeX warning (ext4): destination with the same identifier (name{figure.8.1
+[42pdfTeX warning (ext4): destination with the same identifier (name{figure.7.1
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.59 
-      <./von_mises/stress_rep_envelope.png>] [45]
-<von_mises/min_hoop_stress.png, id=962, 1027.84pt x 561.09625pt>
-File: von_mises/min_hoop_stress.png Graphic file (type png)
-
-<use von_mises/min_hoop_stress.png>
-Package pdftex.def Info: von_mises/min_hoop_stress.png used on input line 126.
-(pdftex.def)             Requested size: 300.0pt x 163.76682pt.
-) [46pdfTeX warning (ext4): destination with the same identifier (name{table.8.
-1}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.190 \include{Hoop_stress/Hoop_stress}
-                                       pdfTeX warning (ext4): destination with 
-the same identifier (name{figure.8.2}) has been already used, duplicate ignored
-
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.190 \include{Hoop_stress/Hoop_stress}
-                                        <./von_mises/min_hoop_stress.png (PNG c
-opy)>]
+      <./von_mises/stress_rep_envelope.png>]) [43]
 \openout2 = `rnd/results.aux'.
 
  (./rnd/results.tex
-Chapter 9.
+Chapter 8.
+<rnd/min_cdv_case1.png, id=934, 1027.84pt x 561.09625pt>
+File: rnd/min_cdv_case1.png Graphic file (type png)
 
-LaTeX Warning: Reference `sub-optimal solution obtained' on page 47 undefined o
-n input line 11.
+<use rnd/min_cdv_case1.png>
+Package pdftex.def Info: rnd/min_cdv_case1.png used on input line 33.
+(pdftex.def)             Requested size: 450.0pt x 245.6588pt.
 
-<rnd/min_f_comp.png, id=971, 1027.84pt x 561.09625pt>
-File: rnd/min_f_comp.png Graphic file (type png)
- <use rnd/min_f_comp.png>
-Package pdftex.def Info: rnd/min_f_comp.png used on input line 43.
-(pdftex.def)             Requested size: 300.0pt x 163.76682pt.
+Overfull \hbox (23.20866pt too wide) in paragraph at lines 33--34
+ [][] 
+ []
 
-[47
-
+[44
 
 
-pdfTeX warning (ext4): destination with the same identifier (name{table.9.1}) h
+
+pdfTeX warning (ext4): destination with the same identifier (name{table.8.1}) h
 as been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.47 F
-      rom table ref{Optimal solution obtained for mimimum F comp}, we can ob...
-]) [48pdfTeX warning (ext4): destination with the same identifier (name{figure.
-9.1}) has been already used, duplicate ignored
+l.37 
+     ] [45pdfTeX warning (ext4): destination with the same identifier (name{fig
+ure.8.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.191 \include{rnd/results}
-                            <./rnd/min_f_comp.png (PNG copy)>]
+l.74 \end{table}
+                 <./rnd/min_cdv_case1.png (PNG copy)>]
+<rnd/min_cdv_case2.png, id=951, 1027.84pt x 561.09625pt>
+File: rnd/min_cdv_case2.png Graphic file (type png)
+
+<use rnd/min_cdv_case2.png>
+Package pdftex.def Info: rnd/min_cdv_case2.png used on input line 105.
+(pdftex.def)             Requested size: 450.0pt x 245.6588pt.
+
+Overfull \hbox (23.20866pt too wide) in paragraph at lines 105--106
+ [][] 
+ []
+
+[46pdfTeX warning (ext4): destination with the same identifier (name{table.8.2}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.109 
+      pdfTeX warning (ext4): destination with the same identifier (name{table.8
+.3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.109 
+      ] [47pdfTeX warning (ext4): destination with the same identifier (name{fi
+gure.8.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.172 \end{table}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{table.8.4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.172 \end{table}
+                  <./rnd/min_cdv_case2.png (PNG copy)>]
+<rnd/min_cdv_case3.png, id=964, 1027.84pt x 561.09625pt>
+File: rnd/min_cdv_case3.png Graphic file (type png)
+
+<use rnd/min_cdv_case3.png>
+Package pdftex.def Info: rnd/min_cdv_case3.png used on input line 176.
+(pdftex.def)             Requested size: 450.0pt x 245.6588pt.
+
+Overfull \hbox (23.20866pt too wide) in paragraph at lines 176--177
+ [][] 
+ []
+
+[48pdfTeX warning (ext4): destination with the same identifier (name{table.8.5}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.181 \chapter
+              {Conclusions, Limitations and Future Work}pdfTeX warning (ext4): 
+destination with the same identifier (name{figure.8.3}) has been already used, 
+duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.181 \chapter
+              {Conclusions, Limitations and Future Work} <./rnd/min_cdv_case3.p
+ng (PNG copy)>]
+Chapter 9.
+[49
+
+]) [50]
 \openout2 = `futureplan/futureplan.aux'.
 
-
-(./futureplan/futureplan.tex)
+ (./futureplan/futureplan.tex)
 \openout2 = `appendix.aux'.
 
- (./appendix.tex [49
+ (./appendix.tex [51
 
 
 
 
 
-] [50]
+] [52]
 Overfull \hbox (9.5288pt too wide) in paragraph at lines 106--106
 []|\T1/txr/m/n/12 Exp.| 
  []
@@ -1478,7 +1521,7 @@ Overfull \hbox (21.83969pt too wide) in alignment at lines 126--146
  [] [] [] [] [] [] [] [] [] [] 
  []
 
-[51]
+[53]
 Overfull \hbox (0.59035pt too wide) in paragraph at lines 150--150
 []|\T1/txr/m/n/12 10.5823| 
  []
@@ -1533,7 +1576,7 @@ Overfull \hbox (21.83969pt too wide) in alignment at lines 166--186
  [] [] [] [] [] [] [] [] [] [] 
  []
 
-[52]
+[54]
 Overfull \hbox (0.59035pt too wide) in paragraph at lines 186--186
 []|\T1/txr/m/n/12 11.3797| 
  []
@@ -1693,7 +1736,7 @@ Overfull \hbox (21.83969pt too wide) in alignment at lines 206--226
  [] [] [] [] [] [] [] [] [] [] 
  []
 
-[53]
+[55]
 Overfull \hbox (5.1968pt too wide) in paragraph at lines 226--226
 []|\T1/txr/m/n/12 123| 
  []
@@ -1728,14 +1771,14 @@ Overfull \hbox (21.83969pt too wide) in alignment at lines 226--232
  [] [] [] [] [] [] [] [] [] [] 
  []
 
-[54]) [55] (./mainrep.bbl [56
+[56]) [57] (./mainrep.bbl [58
 
 
 
-] [57])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 223.
- [58]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 223.
+] [59])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 224.
+ [60]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 224.
  (./mainrep.aux (./abs.aux)
 (./intro/introduction.aux) (./lit/literature.aux) (./OpenFOAM/OpenFOAM.aux)
 (./geometry/geometry.aux) (./optimization/optimization.aux)
@@ -1743,24 +1786,20 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 223.
 (./surrogate_model_CFD_results/surrogate_model_CFD_results.aux)
 (./Hoop_stress/Hoop_stress.aux) (./rnd/results.aux)
 (./futureplan/futureplan.aux) (./appendix.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 223.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 223.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 224.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 224.
 Package rerunfilecheck Info: File `mainrep.out' has not changed.
-(rerunfilecheck)             Checksum: 0151F0A53EF9CCB5AA1ABA7DDA5DA311;3394.
-
-
-LaTeX Warning: There were undefined references.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 223.
+(rerunfilecheck)             Checksum: E46F62638A70C9EDB20C693A259DF05F;3635.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 224.
  ) 
 Here is how much of TeX's memory you used:
- 11210 strings out of 493029
- 169551 string characters out of 6136234
- 320433 words of memory out of 5000000
- 14079 multiletter control sequences out of 15000+600000
+ 11245 strings out of 493029
+ 170358 string characters out of 6136234
+ 320946 words of memory out of 5000000
+ 14097 multiletter control sequences out of 15000+600000
  125137 words of font info for 210 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,22n,51p,1226b,867s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,22n,51p,1143b,1622s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/txfonts/rtxb.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/txfonts/rtxi.pfb></usr/share/texlive/texmf-dist/fonts/type1
@@ -1776,10 +1815,10 @@ b></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /urw/times/utmri8a.pfb>
-Output written on mainrep.pdf (66 pages, 2951128 bytes).
+Output written on mainrep.pdf (68 pages, 2949459 bytes).
 PDF statistics:
- 1157 PDF objects out of 1200 (max. 8388607)
- 1015 compressed objects within 11 object streams
- 276 named destinations out of 1000 (max. 500000)
- 527 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1160 PDF objects out of 1200 (max. 8388607)
+ 1023 compressed objects within 11 object streams
+ 290 named destinations out of 1000 (max. 500000)
+ 564 words of extra memory for PDF output out of 10000 (max. 10000000)
 

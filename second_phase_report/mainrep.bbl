@@ -1,5 +1,5 @@
 %Merlin.mbs v4.21 2009-07-09.
-\begin{thebibliography}{31}%
+\begin{thebibliography}{34}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \ifx #1\undefined \expandafter \@firstoftwo
@@ -194,10 +194,22 @@
   \emph{\bibinfo {journal} {Aerial Delivery Research and Development
   Establishment (ADRDE), Agra}}%
   \bibAnnoteFile{NoStop}{gupta2002envelope}%
-\bibitem[{\citenamefont{Jekabsons}(2009)}]{Jekabsons2009}%
+\bibitem[{\citenamefont{Jasak}(2009)}]{jasak2009openfoam}%
   \BibitemOpen
 \bibfield{journal}{%
     }%
+  \bibfield{author}{%
+  Jasak, H.}%
+  , \bibinfo {year} {2009},\ \bibfield{title}{%
+  \enquote{\bibinfo {title} {Openfoam: open source cfd in research and
+  industry},}\ }%
+  \bibfield{journal}{%
+  \emph{\bibinfo {journal} {International Journal of Naval Architecture and
+  Ocean Engineering}}\ }%
+  \textbf{\bibinfo {volume} {1}},\ \bibinfo {pages} {89--94}.%
+  \bibAnnoteFile{Stop}{jasak2009openfoam}%
+\bibitem[{\citenamefont{Jekabsons}(2009)}]{Jekabsons2009}%
+  \BibitemOpen
   \bibfield{author}{%
   Jekabsons, G.}%
   , \bibinfo {year} {2009},\ \enquote{\bibinfo {title} {{ RBF: Radial Basis
@@ -302,6 +314,23 @@
   \urlhref{https://in.mathworks.com/matlabcentral/fileexchange/4512-surf2stl}{\enquote{\bibinfo
   {title} {Write stl file from surface data},}\ }%
   \bibAnnoteFile{NoStop}{BillMcDonald}%
+\bibitem[{\citenamefont{OnlineResource}(2007)}]{stratellite}%
+  \BibitemOpen
+  \bibfield{author}{%
+  OnlineResource}%
+  , \bibinfo {year} {2007},\
+  \urlhref{http://www.virtualworldlets.net}{\enquote{\bibinfo {title}
+  {Stratellites},}\ }%
+  \bibAnnoteFile{NoStop}{stratellite}%
+\bibitem[{\citenamefont{OnlineResource}(2017)}]{snappyHexMesh}%
+  \BibitemOpen
+  \bibfield{author}{%
+  OnlineResource}%
+  , \bibinfo {year} {2017},\
+  \urlhref{https://cfd.direct/openfoam/user-guide/snappyhexmesh/}{\enquote{\bibinfo
+  {title} {Openfoam v5 user guide: 5.4 mesh generation with snappyhexmesh},}\
+  }%
+  \bibAnnoteFile{NoStop}{snappyHexMesh}%
 \bibitem[{\citenamefont{Queipo}\ \emph{et~al.}(2005)\citenamefont{Queipo},
   \citenamefont{Haftka}, \citenamefont{Shyy}, \citenamefont{Goel},
   \citenamefont{Vaidyanathan},\ and\
@@ -328,8 +357,8 @@
   \textbf{\bibinfo {volume} {47}},\ \bibinfo {pages} {1073--1076}.%
   \bibAnnote{Stop}{Ram2010}{From Duplicate 2 (Multidisciplinary Shape
   Optimization of Aerostat Envelopes - Ram, C. Vijay; Pant, Rajkumar S.) [1] C.
-  V. Ram and R. S. Pant, “Multidisciplinary Shape Optimization of Aerostat
-  Envelopes,” J. Aircr., vol. 47, no. 3, pp. 1073–1076, May 2010.}%
+  V. Ram and R. S. Pant, Multidisciplinary Shape Optimization of Aerostat
+  Envelopes, J. Aircr., vol. 47, no 3 pp 1073 1076, May 2010.}%
 \bibitem[{\citenamefont{Sacks}\ \emph{et~al.}(1989)\citenamefont{Sacks},
   \citenamefont{Welch}, \citenamefont{Mitchell},\ and\
   \citenamefont{Wynn}}]{sacks1989design}%

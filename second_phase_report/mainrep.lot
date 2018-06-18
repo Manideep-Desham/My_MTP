@@ -1,7 +1,7 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces Flow conditions and solver parametres for GNVR shape}}{11}{table.3.1}
+\contentsline {table}{\numberline {3.1}{\ignorespaces Flow conditions and solver parameters for GNVR shape}}{11}{table.3.1}
 \contentsline {table}{\numberline {3.2}{\ignorespaces Flow conditions and solver parameters for Zhiyuan-1 shape}}{13}{table.3.2}
 \contentsline {table}{\numberline {3.3}{\ignorespaces Comparison of OpenFOAM\textsuperscript {\textregistered } results with RANS [\citenum {Suman2011}] for Zhiyuan -1 shape}}{14}{table.3.3}
 \contentsline {table}{\numberline {3.4}{\ignorespaces Flow conditions and solver parameters for Wang shape}}{15}{table.3.4}
@@ -13,21 +13,23 @@
 \contentsline {table}{\numberline {3.10}{\ignorespaces Grid Dependence study for NPL shape}}{18}{table.3.10}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {5.1}{\ignorespaces Different surrogates used during this investigation}}{30}{table.5.1}
-\contentsline {table}{\numberline {5.2}{\ignorespaces Genetic algorithm parametres}}{33}{table.5.2}
+\contentsline {table}{\numberline {5.1}{\ignorespaces Different surrogates used during this investigation}}{29}{table.5.1}
+\contentsline {table}{\numberline {5.2}{\ignorespaces Genetic algorithm parameters}}{33}{table.5.2}
 \contentsline {table}{\numberline {5.3}{\ignorespaces Results obtained for modified Himmelblau function}}{33}{table.5.3}
 \contentsline {table}{\numberline {5.4}{\ignorespaces Results obtained for 20 design points}}{33}{table.5.4}
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {6.1}{\ignorespaces Design Space}}{34}{table.6.1}
+\contentsline {table}{\numberline {6.2}{\ignorespaces Flow conditions and solver parameters for all DOE shapes}}{35}{table.6.2}
+\contentsline {table}{\numberline {6.3}{\ignorespaces Grid convergence study}}{36}{table.6.3}
+\contentsline {table}{\numberline {6.4}{\ignorespaces Accuracy of different surrogate models}}{39}{table.6.4}
+\contentsline {table}{\numberline {6.5}{\ignorespaces Accuracy of different machine learning models}}{40}{table.6.5}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {7.1}{\ignorespaces Flow conditions and solver parametres for all DOE shapes}}{36}{table.7.1}
-\contentsline {table}{\numberline {7.2}{\ignorespaces Grid convergence study}}{37}{table.7.2}
-\contentsline {table}{\numberline {7.3}{\ignorespaces Accuracy of different surrogate models}}{40}{table.7.3}
-\contentsline {table}{\numberline {7.4}{\ignorespaces Accuracy of different machine learning models}}{41}{table.7.4}
-\contentsline {table}{\numberline {7.5}{\ignorespaces optimal solution obtained for miminum $ C_{DV} $}}{41}{table.7.5}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {8.1}{\ignorespaces Optimal solution obtained for miminum $ \sigma _{v} $}}{46}{table.8.1}
+\contentsline {table}{\numberline {8.1}{\ignorespaces Optimal solution obtained for minimum $ C_{DV} $ case 1}}{44}{table.8.1}
+\contentsline {table}{\numberline {8.2}{\ignorespaces Optimal solution obtained for minimum $ F_{comp} $ case 1}}{46}{table.8.2}
+\contentsline {table}{\numberline {8.3}{\ignorespaces Optimal non-axisymmetric envelope obtained for minimum $ C_{DV} $ case 2}}{46}{table.8.3}
+\contentsline {table}{\numberline {8.4}{\ignorespaces Optimal non-axisymmetric envelope obtained for minimum $ F_{comp} $ case 2}}{47}{table.8.4}
+\contentsline {table}{\numberline {8.5}{\ignorespaces Optimal non-axisymmetric envelope obtained for minimum $ C_{DV} $ case 3}}{48}{table.8.5}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {9.1}{\ignorespaces Optimal solution obtained for miminum $ F_{comp} $}}{47}{table.9.1}
-\contentsline {table}{\numberline {2}{Table of design points obtained from OLHS}}{49}{table.Alph0.2}
-\contentsline {table}{\numberline {3}{Training data for surrogate model}}{51}{table.Alph0.3}
+\contentsline {table}{\numberline {1}{Table of design points obtained from OLHS}}{51}{table.Alph0.1}
+\contentsline {table}{\numberline {2}{Training data for surrogate model}}{53}{table.Alph0.2}

@@ -32,7 +32,9 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {7.1}{\ignorespaces Stress representation in envelope \citenum {alam2017thesis}}}{42}{figure.7.1}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Optimal shape obtained for minimum $ C_{DV} $ case 1}}{45}{figure.8.1}
-\contentsline {figure}{\numberline {8.2}{\ignorespaces Optimal non-axisymmetric shape obtained for minimum $ C_{DV} $ case 2}}{47}{figure.8.2}
-\contentsline {figure}{\numberline {8.3}{\ignorespaces Optimal non-axisymmetric shape obtained for minimum $ C_{DV} $ case 3}}{48}{figure.8.3}
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Axi-symmetric shape with minimum $ C_{DV}$}}{45}{figure.8.1}
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Non axi-symmetric shapes with minimum $ C_{DV}$}}{46}{figure.8.2}
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Non Axi-symmetric shapes with minimum $ C_{DV}$}}{47}{figure.8.3}
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Non Axi-symmetric shape with minimum $ \sigma _{v}$}}{48}{figure.8.4}
+\contentsline {figure}{\numberline {8.5}{\ignorespaces Non Axi-symmetric shape with minimum $ F_{comp}$}}{49}{figure.8.5}
 \addvspace {10\p@ }

@@ -24,7 +24,7 @@ The first task before creation of DOE was the proper definition of the upper and
 	%	\end{ruledtabular}
 \end{table}
 
-Eighty candidate points were first obtained by Surrogates Toolbox \textbf{cite surrogate toolbox} using the Optimal Latin Hypercube Sampling (OLHS) method. The generated points were then mapped to the shapes corresponding to envelope having \textit{Reynolds number (Re)} of 3.01e6.
+Eighty candidate points were first obtained by Surrogates Toolbox [\citenum{viana2014metamodeling}] using the Optimal Latin Hypercube Sampling (OLHS) method. The generated points were then mapped to the shapes corresponding to envelope having \textit{Reynolds number (Re)} of 3.01e6.
 
 \section{Design of Experiments study}
 
@@ -48,7 +48,7 @@ All the pre-processing required to perform CFD analysis like creating geometry, 
 		Speed, ($ m/s $) & 51 \\
 		Mesh & Hexahedral mesh using \textit{blockMesh} and \textit{snappyHexMesh} \\
 		Solver & \textit{SimpleFOAM} (Incompressible steady state solver) \\
-		Turbulent..? & Yes \\
+		Laminar / Turbulent & Turbulent \\
 		Turbulence model & K-Omega SST \\
 		\hline \hline
 	\end{tabular}
@@ -153,7 +153,7 @@ Three surrogate models mentioned in Section \ref{Different surrogates used durin
 		7 &1.99	&0.59	&10.05 \\
 		8 &5.64	&3.36	&1.12 \\
 		\hline \hline
-		Avg. \% Error	& 3.00875	& 5.5375	& 12.19 \\
+		Avg. \% Error	& 3.01	& 5.54	& 12.19 \\
 		\hline \hline
 	\end{tabular}
 \end{table}

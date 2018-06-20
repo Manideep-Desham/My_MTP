@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.22)  18 JUN 2018 13:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.22)  20 JUN 2018 22:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -594,59 +594,59 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \c@lstlisting=\count140
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 121.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 122.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
-LaTeX Font Info:    Try loading font information for T1+phv on input line 121.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 122.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <20.74> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 121.
-LaTeX Font Info:    Try loading font information for T1+ppl on input line 121.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 122.
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 122.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 121.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 122.
 
-<iitb-black.pdf, id=209, 557.08125pt x 533.995pt>
+<iitb-black.pdf, id=213, 557.08125pt x 533.995pt>
 File: iitb-black.pdf Graphic file (type pdf)
  <use iitb-black.pdf>
-Package pdftex.def Info: iitb-black.pdf used on input line 121.
+Package pdftex.def Info: iitb-black.pdf used on input line 122.
 (pdftex.def)             Requested size: 120.0pt x 115.02669pt.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./iitb-black.pdf>]
-LaTeX Font Info:    Try loading font information for OT1+txr on input line 141.
+LaTeX Font Info:    Try loading font information for OT1+txr on input line 142.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsya on input line 141.
+LaTeX Font Info:    Try loading font information for U+txsya on input line 142.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyb on input line 141.
+LaTeX Font Info:    Try loading font information for U+txsyb on input line 142.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txmia on input line 141.
+LaTeX Font Info:    Try loading font information for U+txmia on input line 142.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyc on input line 141.
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 142.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
@@ -655,7 +655,7 @@ File: utxsyc.fd 2000/12/15 v3.1
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.160 \include{abs}
+l.161 \include{abs}
                     [1
 
 ]
@@ -669,14 +669,15 @@ File: omstxr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <8> not available
 (Font)              Font shape `OMS/txsy/m/n' tried instead on input line 8.
-) [2
+ [2
 
 
 
-] (./mainrep.toc
+]) [3]
+(./mainrep.toc
 LaTeX Font Info:    Font shape `OMS/txr/bx/n' in size <8> not available
 (Font)              Font shape `OMS/txsy/bx/n' tried instead on input line 9.
-[3
+ [4
 
 
 
@@ -684,18 +685,18 @@ LaTeX Font Info:    Font shape `OMS/txr/bx/n' in size <8> not available
 \tf@toc=\write6
 \openout6 = `mainrep.toc'.
 
- [4] (./mainrep.lof [5
+ [5] (./mainrep.lof [6
 
 
 ])
 \tf@lof=\write7
 \openout7 = `mainrep.lof'.
 
- [6] (./mainrep.lot)
+ [7] (./mainrep.lot)
 \tf@lot=\write8
 \openout8 = `mainrep.lot'.
 
- [7
+ [8
 
 
 ]
@@ -704,14 +705,14 @@ No file mainrep.nls.
 
 (./intro/introduction.tex
 Chapter 1.
-<intro/Stratellite.jpg, id=449, 333.49594pt x 146.79843pt>
+<intro/Stratellite.jpg, id=470, 333.49594pt x 146.79843pt>
 File: intro/Stratellite.jpg Graphic file (type jpg)
 
 <use intro/Stratellite.jpg>
-Package pdftex.def Info: intro/Stratellite.jpg used on input line 9.
+Package pdftex.def Info: intro/Stratellite.jpg used on input line 11.
 (pdftex.def)             Requested size: 333.49512pt x 146.79807pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 14--15
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
 
  []
 
@@ -726,20 +727,20 @@ has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.18 \section
-             {Report layout} <./intro/Stratellite.jpg>]
-<layout/report_layout.png, id=470, 690.58pt x 868.24374pt>
+l.17 
+      <./intro/Stratellite.jpg>]
+<layout/report_layout.png, id=491, 690.58pt x 868.24374pt>
 File: layout/report_layout.png Graphic file (type png)
 
 <use layout/report_layout.png>
-Package pdftex.def Info: layout/report_layout.png used on input line 29.
+Package pdftex.def Info: layout/report_layout.png used on input line 31.
 (pdftex.def)             Requested size: 426.79134pt x 536.59653pt.
  [2]) [3pdfTeX warning (ext4): destination with the same identifier (name{figur
 e.1.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.183 \include{intro/introduction}
+l.184 \include{intro/introduction}
                                    <./layout/report_layout.png>]
 \openout2 = `lit/literature.aux'.
 
@@ -754,12 +755,6 @@ Chapter 2.
 Underfull \hbox (badness 1122) in paragraph at lines 35--37
 []\T1/txr/bx/n/12 Shape gen-er-a-tion al-go-rithm: \T1/txr/m/n/12 The shape gen
 -er-a-tion al-go-rithm pro-posed by
- []
-
-
-Underfull \hbox (badness 1057) in paragraph at lines 41--42
-[]\T1/txr/m/n/12 The next chap-ter in-ves-ti-gates en-ve-lope shape gen-er-a-ti
-on al-go-rithms for non-
  []
 
 ) [6]
@@ -782,14 +777,14 @@ Underfull \hbox (badness 1303) in paragraph at lines 24--25
 nap-py-HexMesh \T1/txr/m/n/12 comes along with
  []
 
-<mesh/snappyHexMesh.png, id=540, 510.90875pt x 616.3025pt>
+<mesh/snappyHexMesh.png, id=559, 510.90875pt x 616.3025pt>
 File: mesh/snappyHexMesh.png Graphic file (type png)
 
 <use mesh/snappyHexMesh.png>
 Package pdftex.def Info: mesh/snappyHexMesh.png used on input line 37.
 (pdftex.def)             Requested size: 180.0pt x 217.1291pt.
  [8]
-<rnd/viscous_layers.png, id=549, 2025.5675pt x 1122.1925pt>
+<rnd/viscous_layers.png, id=568, 2025.5675pt x 1122.1925pt>
 File: rnd/viscous_layers.png Graphic file (type png)
 
 <use rnd/viscous_layers.png>
@@ -817,7 +812,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `superscript' on input line 59.
 
-<rnd/all_profiles.png, id=560, 1160.335pt x 511.9125pt>
+<rnd/all_profiles.png, id=579, 1160.335pt x 511.9125pt>
 File: rnd/all_profiles.png Graphic file (type png)
 
 <use rnd/all_profiles.png>
@@ -842,7 +837,35 @@ eady used, duplicate ignored
 l.76 	\item O
              penFOAM\textsuperscript{\textregistered} version = 4.1 <./rnd/visc
 ous_layers.png (PNG copy)> <./rnd/all_profiles.png>]
-<rnd/GNVR_cp.png, id=571, 578.16pt x 433.62pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\begingroup' on input line 80.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<let>-command' on input line 80.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\NAT@ctype' on input line 80.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 80.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\let' on input line 80.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\let' on input line 80.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\new@ifnextchar' on input line 80.
+
+<rnd/GNVR_cp.png, id=591, 578.16pt x 433.62pt>
 File: rnd/GNVR_cp.png Graphic file (type png)
  <use rnd/GNVR_cp.png>
 Package pdftex.def Info: rnd/GNVR_cp.png used on input line 120.
@@ -853,14 +876,43 @@ Package pdftex.def Info: rnd/GNVR_cp.png used on input line 120.
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.124 
-      ] <rnd/zhiyuan_equations.png, id=586, 1073.00874pt x 568.1225pt>
+      ]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\begingroup' on input line 127.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<let>-command' on input line 127.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\NAT@ctype' on input line 127.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 127.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\let' on input line 127.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\let' on input line 127.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\new@ifnextchar' on input line 127.
+
+<rnd/zhiyuan_equations.png, id=606, 1073.00874pt x 568.1225pt>
 File: rnd/zhiyuan_equations.png Graphic file (type png)
 
 <use rnd/zhiyuan_equations.png>
 Package pdftex.def Info: rnd/zhiyuan_equations.png used on input line 131.
 (pdftex.def)             Requested size: 400.0pt x 211.77975pt.
 
-<rnd/pressure_zhiyuan.png, id=590, 1034.86626pt x 589.20125pt>
+<rnd/pressure_zhiyuan.png, id=610, 1034.86626pt x 589.20125pt>
 File: rnd/pressure_zhiyuan.png Graphic file (type png)
 
 <use rnd/pressure_zhiyuan.png>
@@ -873,7 +925,7 @@ Package pdftex.def Info: rnd/pressure_zhiyuan.png used on input line 136.
                                                   \fi \fi 
 l.139 \end{figure}
                    <./rnd/GNVR_cp.png> <./rnd/zhiyuan_equations.png>]
-<rnd/zhiyuan_cp.png, id=602, 578.16pt x 433.62pt>
+<rnd/zhiyuan_cp.png, id=622, 578.16pt x 433.62pt>
 File: rnd/zhiyuan_cp.png Graphic file (type png)
  <use rnd/zhiyuan_cp.png>
 Package pdftex.def Info: rnd/zhiyuan_cp.png used on input line 167.
@@ -891,9 +943,37 @@ l.171
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.171 
-       <./rnd/pressure_zhiyuan.png (PNG copy)>] [14pdfTeX warning (ext4): desti
-nation with the same identifier (name{figure.3.6}) has been already used, dupli
-cate ignored
+       <./rnd/pressure_zhiyuan.png (PNG copy)>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\begingroup' on input line 188.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<let>-command' on input line 188.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\NAT@ctype' on input line 188.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 188.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\let' on input line 188.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\let' on input line 188.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\new@ifnextchar' on input line 188.
+
+[14pdfTeX warning (ext4): destination with the same identifier (name{figure.3.6
+}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -905,13 +985,42 @@ l.218
                                                   \fi \fi 
 l.218 
        <./rnd/zhiyuan_cp.png>]
-<rnd/wang_cp.png, id=629, 578.16pt x 434.5836pt>
+<rnd/wang_cp.png, id=650, 578.16pt x 434.5836pt>
 File: rnd/wang_cp.png Graphic file (type png)
  <use rnd/wang_cp.png>
 Package pdftex.def Info: rnd/wang_cp.png used on input line 223.
 (pdftex.def)             Requested size: 300.0pt x 225.50069pt.
- [15pdfTeX warning (ext4): destination with the same identifier (name{table.3.4
-}) has been already used, duplicate ignored
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\begingroup' on input line 241.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<let>-command' on input line 241.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\NAT@ctype' on input line 241.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 241.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\let' on input line 241.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\let' on input line 241.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\new@ifnextchar' on input line 241.
+
+[15pdfTeX warning (ext4): destination with the same identifier (name{table.3.4}
+) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -929,7 +1038,7 @@ l.246 \end{equation}
                                                   \fi \fi 
 l.246 \end{equation}
                      <./rnd/wang_cp.png>]
-<rnd/NPL_cp.png, id=639, 578.16pt x 434.5836pt>
+<rnd/NPL_cp.png, id=661, 578.16pt x 434.5836pt>
 File: rnd/NPL_cp.png Graphic file (type png)
  <use rnd/NPL_cp.png>
 Package pdftex.def Info: rnd/NPL_cp.png used on input line 285.
@@ -963,19 +1072,19 @@ l.339
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.186 \include{OpenFOAM/OpenFOAM}
+l.187 \include{OpenFOAM/OpenFOAM}
                                  pdfTeX warning (ext4): destination with the sa
 me identifier (name{table.3.10}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.186 \include{OpenFOAM/OpenFOAM}
+l.187 \include{OpenFOAM/OpenFOAM}
                                  ]
 \openout2 = `geometry/geometry.aux'.
 
  (./geometry/geometry.tex
 Chapter 4.
-<rnd/c_p_definition.png, id=669, 1096.095pt x 321.2pt>
+<rnd/c_p_definition.png, id=691, 1096.095pt x 321.2pt>
 File: rnd/c_p_definition.png Graphic file (type png)
 
 <use rnd/c_p_definition.png>
@@ -992,7 +1101,7 @@ Package pdftex.def Info: rnd/c_p_definition.png used on input line 16.
                                                   \fi \fi 
 l.61 \end{equation}
                     <./rnd/c_p_definition.png>] [21]
-<rnd/effect_of_scaling.png, id=715, 1027.84pt x 561.09625pt>
+<rnd/effect_of_scaling.png, id=738, 1027.84pt x 561.09625pt>
 File: rnd/effect_of_scaling.png Graphic file (type png)
 
 <use rnd/effect_of_scaling.png>
@@ -1010,7 +1119,7 @@ l.163 	 outer
 
 (./optimization/optimization.tex
 Chapter 5.
-<optimization/closed_loop.png, id=741, 633.36626pt x 302.12875pt>
+<optimization/closed_loop.png, id=763, 633.36626pt x 302.12875pt>
 File: optimization/closed_loop.png Graphic file (type png)
 
 <use optimization/closed_loop.png>
@@ -1027,21 +1136,21 @@ has been already used, duplicate ignored
                                                   \fi \fi 
 l.13 
       <./optimization/closed_loop.png>]
-<optimization/surrogate.png, id=749, 882.29625pt x 442.65375pt>
+<optimization/surrogate.png, id=771, 882.29625pt x 442.65375pt>
 File: optimization/surrogate.png Graphic file (type png)
 
 <use optimization/surrogate.png>
 Package pdftex.def Info: optimization/surrogate.png used on input line 15.
 (pdftex.def)             Requested size: 426.79134pt x 214.12619pt.
 
-<optimization/flow_chart.png, id=751, 743.77875pt x 839.135pt>
+<optimization/flow_chart.png, id=773, 743.77875pt x 839.135pt>
 File: optimization/flow_chart.png Graphic file (type png)
 
 <use optimization/flow_chart.png>
 Package pdftex.def Info: optimization/flow_chart.png used on input line 27.
 (pdftex.def)             Requested size: 426.79134pt x 481.51295pt.
 
-<optimization/OLHS_DOE.png, id=755, 716.6775pt x 670.505pt>
+<optimization/OLHS_DOE.png, id=777, 716.6775pt x 670.505pt>
 File: optimization/OLHS_DOE.png Graphic file (type png)
 
 <use optimization/OLHS_DOE.png>
@@ -1079,7 +1188,7 @@ e.5.1}) has been already used, duplicate ignored
                                                   \fi \fi 
 l.130 \end{equation}
                     ]
-<optimization/RMSE_analysis.png, id=812, 797.98125pt x 658.46pt>
+<optimization/RMSE_analysis.png, id=834, 797.98125pt x 658.46pt>
 File: optimization/RMSE_analysis.png Graphic file (type png)
 
 <use optimization/RMSE_analysis.png>
@@ -1087,7 +1196,7 @@ Package pdftex.def Info: optimization/RMSE_analysis.png used on input line 146.
 
 (pdftex.def)             Requested size: 426.79134pt x 352.16713pt.
  [30]
-<optimization/Himmel_blau_fcn.png, id=824, 844.15375pt x 652.4375pt>
+<optimization/Himmel_blau_fcn.png, id=847, 844.15375pt x 652.4375pt>
 File: optimization/Himmel_blau_fcn.png Graphic file (type png)
 
 <use optimization/Himmel_blau_fcn.png>
@@ -1113,21 +1222,21 @@ already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.188 \include{optimization/optimization}
+l.189 \include{optimization/optimization}
                                          pdfTeX warning (ext4): destination wit
 h the same identifier (name{table.5.3}) has been already used, duplicate ignore
 d
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.188 \include{optimization/optimization}
+l.189 \include{optimization/optimization}
                                          pdfTeX warning (ext4): destination wit
 h the same identifier (name{table.5.4}) has been already used, duplicate ignore
 d
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.188 \include{optimization/optimization}
+l.189 \include{optimization/optimization}
                                          ]
 \openout2 = `surrogate_model_CFD/surrogate_model_CFD.aux'.
 
@@ -1156,7 +1265,7 @@ Overfull \hbox (52.04471pt too wide) in paragraph at lines 41--55
                                                   \fi \fi 
 l.76 
      ]
-<surrogate_model_CFD_results/Grid_convergence.png, id=857, 692.5875pt x 355.327
+<surrogate_model_CFD_results/Grid_convergence.png, id=880, 692.5875pt x 355.327
 5pt>
 File: surrogate_model_CFD_results/Grid_convergence.png Graphic file (type png)
  <use surrogate_model_CFD_results/Grid_convergence.png>
@@ -1164,7 +1273,7 @@ Package pdftex.def Info: surrogate_model_CFD_results/Grid_convergence.png used
 on input line 79.
 (pdftex.def)             Requested size: 300.0pt x 153.91557pt.
 
-<surrogate_model_CFD_results/Drag_components.png, id=858, 1319.93124pt x 448.67
+<surrogate_model_CFD_results/Drag_components.png, id=881, 1319.93124pt x 448.67
 625pt>
 File: surrogate_model_CFD_results/Drag_components.png Graphic file (type png)
  <use surrogate_model_CFD_results/Drag_components.png>
@@ -1177,7 +1286,7 @@ Overfull \hbox (23.20866pt too wide) in paragraph at lines 88--89
  []
 
 
-<surrogate_model_CFD_results/Volumetric_drag_coeff.png, id=859, 1240.635pt x 46
+<surrogate_model_CFD_results/Volumetric_drag_coeff.png, id=882, 1240.635pt x 46
 0.72125pt>
 File: surrogate_model_CFD_results/Volumetric_drag_coeff.png Graphic file (type 
 png)
@@ -1210,14 +1319,14 @@ l.99
 l.99 
       <./surrogate_model_CFD_results/Grid_convergence.png (PNG copy)> <./surrog
 ate_model_CFD_results/Drag_components.png (PNG copy)>]
-<rnd/visual_low_high.png, id=867, 1027.84pt x 561.09625pt>
+<rnd/visual_low_high.png, id=890, 1027.84pt x 561.09625pt>
 File: rnd/visual_low_high.png Graphic file (type png)
 
 <use rnd/visual_low_high.png>
 Package pdftex.def Info: rnd/visual_low_high.png used on input line 104.
 (pdftex.def)             Requested size: 300.0pt x 163.76682pt.
 
-<rnd/streamlines_25_l.png, id=870, 1027.84pt x 561.09625pt>
+<rnd/streamlines_25_l.png, id=893, 1027.84pt x 561.09625pt>
 File: rnd/streamlines_25_l.png Graphic file (type png)
 
 <use rnd/streamlines_25_l.png>
@@ -1237,14 +1346,14 @@ l.117
 l.117 
        <./surrogate_model_CFD_results/Volumetric_drag_coeff.png (PNG copy)> <./
 rnd/visual_low_high.png (PNG copy)>]
-<rnd/streamlines_45.png, id=875, 2025.5675pt x 1023.825pt>
+<rnd/streamlines_45.png, id=898, 2025.5675pt x 1023.825pt>
 File: rnd/streamlines_45.png Graphic file (type png)
 
 <use rnd/streamlines_45.png>
 Package pdftex.def Info: rnd/streamlines_45.png used on input line 120.
 (pdftex.def)             Requested size: 300.0pt x 151.62996pt.
 
-<surrogate_model_CFD_results/Volumetric_drag_coeff_training.png, id=877, 1240.6
+<surrogate_model_CFD_results/Volumetric_drag_coeff_training.png, id=900, 1240.6
 35pt x 460.72125pt>
 File: surrogate_model_CFD_results/Volumetric_drag_coeff_training.png Graphic fi
 le (type png)
@@ -1291,7 +1400,7 @@ l.164 A
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.189 ...{surrogate_model_CFD/surrogate_model_CFD}
+l.190 ...{surrogate_model_CFD/surrogate_model_CFD}
                                                   ]
 \openout2 = `surrogate_model_CFD_results/surrogate_model_CFD_results.aux'.
 
@@ -1308,65 +1417,89 @@ Chapter 7.
 
 
 
-] <von_mises/stress_rep_envelope.png, id=907, 901.3675pt x 644.4075pt>
+] <von_mises/stress_rep_envelope.png, id=930, 901.3675pt x 644.4075pt>
 File: von_mises/stress_rep_envelope.png Graphic file (type png)
 
 <use von_mises/stress_rep_envelope.png>
 Package pdftex.def Info: von_mises/stress_rep_envelope.png used on input line 3
-4.
+3.
 (pdftex.def)             Requested size: 298.75262pt x 213.58925pt.
 
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 50.
+(hyperref)                than one, level fixed on input line 49.
 
 [42pdfTeX warning (ext4): destination with the same identifier (name{figure.7.1
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.59 
+l.58 
       <./von_mises/stress_rep_envelope.png>]) [43]
 \openout2 = `rnd/results.aux'.
 
  (./rnd/results.tex
 Chapter 8.
-<rnd/min_cdv_case1.png, id=934, 1027.84pt x 561.09625pt>
-File: rnd/min_cdv_case1.png Graphic file (type png)
 
-<use rnd/min_cdv_case1.png>
-Package pdftex.def Info: rnd/min_cdv_case1.png used on input line 33.
-(pdftex.def)             Requested size: 450.0pt x 245.6588pt.
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 19.
 
-Overfull \hbox (23.20866pt too wide) in paragraph at lines 33--34
- [][] 
- []
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 19.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 19.
 
 [44
 
 
 
-pdfTeX warning (ext4): destination with the same identifier (name{table.8.1}) h
-as been already used, duplicate ignored
+] <rnd/min_cdv_case1.png, id=966, 1027.84pt x 561.09625pt>
+File: rnd/min_cdv_case1.png Graphic file (type png)
+
+<use rnd/min_cdv_case1.png>
+Package pdftex.def Info: rnd/min_cdv_case1.png used on input line 47.
+(pdftex.def)             Requested size: 450.0pt x 245.6588pt.
+
+Overfull \hbox (23.20866pt too wide) in paragraph at lines 47--48
+ [][] 
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 53.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 53.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 53.
+
+[45pdfTeX warning (ext4): destination with the same identifier (name{table.8.1}
+) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.37 
-     ] [45pdfTeX warning (ext4): destination with the same identifier (name{fig
-ure.8.1}) has been already used, duplicate ignored
+l.56 
+     pdfTeX warning (ext4): destination with the same identifier (name{figure.8
+.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.74 \end{table}
-                 <./rnd/min_cdv_case1.png (PNG copy)>]
-<rnd/min_cdv_case2.png, id=951, 1027.84pt x 561.09625pt>
+l.56 
+      <./rnd/min_cdv_case1.png (PNG copy)>]
+<rnd/min_cdv_case2.png, id=974, 1027.84pt x 561.09625pt>
 File: rnd/min_cdv_case2.png Graphic file (type png)
 
 <use rnd/min_cdv_case2.png>
-Package pdftex.def Info: rnd/min_cdv_case2.png used on input line 105.
+Package pdftex.def Info: rnd/min_cdv_case2.png used on input line 83.
 (pdftex.def)             Requested size: 450.0pt x 245.6588pt.
 
-Overfull \hbox (23.20866pt too wide) in paragraph at lines 105--106
+Overfull \hbox (23.20866pt too wide) in paragraph at lines 83--84
  [][] 
  []
 
@@ -1375,450 +1508,530 @@ Overfull \hbox (23.20866pt too wide) in paragraph at lines 105--106
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.109 
-      pdfTeX warning (ext4): destination with the same identifier (name{table.8
-.3}) has been already used, duplicate ignored
+l.113 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+8.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.109 
-      ] [47pdfTeX warning (ext4): destination with the same identifier (name{fi
-gure.8.2}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.172 \end{table}
-                 pdfTeX warning (ext4): destination with the same identifier (n
-ame{table.8.4}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.172 \end{table}
-                  <./rnd/min_cdv_case2.png (PNG copy)>]
-<rnd/min_cdv_case3.png, id=964, 1027.84pt x 561.09625pt>
+l.113 
+       <./rnd/min_cdv_case2.png (PNG copy)>]
+<rnd/min_cdv_case3.png, id=983, 1027.84pt x 561.09625pt>
 File: rnd/min_cdv_case3.png Graphic file (type png)
 
 <use rnd/min_cdv_case3.png>
-Package pdftex.def Info: rnd/min_cdv_case3.png used on input line 176.
+Package pdftex.def Info: rnd/min_cdv_case3.png used on input line 116.
 (pdftex.def)             Requested size: 450.0pt x 245.6588pt.
 
-Overfull \hbox (23.20866pt too wide) in paragraph at lines 176--177
+Overfull \hbox (23.20866pt too wide) in paragraph at lines 116--117
  [][] 
  []
 
-[48pdfTeX warning (ext4): destination with the same identifier (name{table.8.5}
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 121.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\sigma' on input line 121.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 121.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 121.
+
+[47pdfTeX warning (ext4): destination with the same identifier (name{table.8.3}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.181 \chapter
+l.149 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+8.3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.149 
+       <./rnd/min_cdv_case3.png (PNG copy)>]
+<rnd/min_von_mises.png, id=990, 1027.84pt x 561.09625pt>
+File: rnd/min_von_mises.png Graphic file (type png)
+
+<use rnd/min_von_mises.png>
+Package pdftex.def Info: rnd/min_von_mises.png used on input line 152.
+(pdftex.def)             Requested size: 450.0pt x 245.6588pt.
+
+Overfull \hbox (23.20866pt too wide) in paragraph at lines 152--153
+ [][] 
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 157.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 157.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 157.
+
+[48pdfTeX warning (ext4): destination with the same identifier (name{table.8.4}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.166 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+8.4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.166 
+       <./rnd/min_von_mises.png (PNG copy)>]
+<rnd/min_F_comp.png, id=1000, 1027.84pt x 561.09625pt>
+File: rnd/min_F_comp.png Graphic file (type png)
+
+<use rnd/min_F_comp.png>
+Package pdftex.def Info: rnd/min_F_comp.png used on input line 195.
+(pdftex.def)             Requested size: 450.0pt x 245.6588pt.
+
+Overfull \hbox (23.20866pt too wide) in paragraph at lines 195--196
+ [][] 
+ []
+
+[49pdfTeX warning (ext4): destination with the same identifier (name{table.8.5}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.201 \chapter
               {Conclusions, Limitations and Future Work}pdfTeX warning (ext4): 
-destination with the same identifier (name{figure.8.3}) has been already used, 
+destination with the same identifier (name{figure.8.5}) has been already used, 
 duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.181 \chapter
-              {Conclusions, Limitations and Future Work} <./rnd/min_cdv_case3.p
-ng (PNG copy)>]
+l.201 \chapter
+              {Conclusions, Limitations and Future Work} <./rnd/min_F_comp.png 
+(PNG copy)>]
 Chapter 9.
-[49
+[50
 
-]) [50]
+]) [51]
 \openout2 = `futureplan/futureplan.aux'.
 
  (./futureplan/futureplan.tex)
 \openout2 = `appendix.aux'.
 
- (./appendix.tex [51
+ (./appendix.tex [52
 
 
 
 
 
-] [52]
-Overfull \hbox (9.5288pt too wide) in paragraph at lines 106--106
+] [53]
+Overfull \hbox (9.5288pt too wide) in paragraph at lines 101--101
 []|\T1/txr/m/n/12 Exp.| 
  []
 
 
-Overfull \hbox (5.4919pt too wide) in paragraph at lines 106--106
+Overfull \hbox (5.4919pt too wide) in paragraph at lines 101--101
 []|$\OML/txmi/m/it/12 Scale[]y$| 
  []
 
 
-Overfull \hbox (0.59035pt too wide) in paragraph at lines 113--113
+Overfull \hbox (0.59035pt too wide) in paragraph at lines 108--108
 []|\T1/txr/m/n/12 10.6709| 
  []
 
 
-Overfull \hbox (0.59035pt too wide) in paragraph at lines 115--115
+Overfull \hbox (0.59035pt too wide) in paragraph at lines 110--110
 []|\T1/txr/m/n/12 11.7342| 
  []
 
 
-Overfull \hbox (0.59035pt too wide) in paragraph at lines 116--116
+Overfull \hbox (0.59035pt too wide) in paragraph at lines 111--111
 []|\T1/txr/m/n/12 11.2911| 
  []
 
 
-Overfull \hbox (0.59035pt too wide) in paragraph at lines 118--118
+Overfull \hbox (0.59035pt too wide) in paragraph at lines 113--113
 []|\T1/txr/m/n/12 10.0506| 
  []
 
 
-Overfull \hbox (0.59035pt too wide) in paragraph at lines 119--119
+Overfull \hbox (0.59035pt too wide) in paragraph at lines 114--114
 []|\T1/txr/m/n/12 11.1139| 
  []
 
 
-Overfull \hbox (0.59035pt too wide) in paragraph at lines 120--120
+Overfull \hbox (0.59035pt too wide) in paragraph at lines 115--115
 []|\T1/txr/m/n/12 10.4937| 
  []
 
 
-Overfull \hbox (0.59035pt too wide) in paragraph at lines 123--123
+Overfull \hbox (0.59035pt too wide) in paragraph at lines 118--118
 []|\T1/txr/m/n/12 10.3165| 
  []
 
 
-Overfull \hbox (0.59035pt too wide) in paragraph at lines 125--125
+Overfull \hbox (0.59035pt too wide) in paragraph at lines 120--120
 []|\T1/txr/m/n/12 12.0000| 
  []
 
 
-Overfull \hbox (21.83969pt too wide) in alignment at lines 98--126
+Overfull \hbox (21.83969pt too wide) in alignment at lines 96--121
  [] [] [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (0.59035pt too wide) in paragraph at lines 129--129
+Overfull \hbox (0.59035pt too wide) in paragraph at lines 124--124
 []|\T1/txr/m/n/12 10.2278| 
  []
 
 
-Overfull \hbox (0.59035pt too wide) in paragraph at lines 132--132
+Overfull \hbox (0.59035pt too wide) in paragraph at lines 127--127
 []|\T1/txr/m/n/12 11.9114| 
  []
 
 
-Overfull \hbox (0.59035pt too wide) in paragraph at lines 133--133
+Overfull \hbox (0.59035pt too wide) in paragraph at lines 128--128
 []|\T1/txr/m/n/12 11.4684| 
  []
 
 
-Overfull \hbox (0.59035pt too wide) in paragraph at lines 138--138
+Overfull \hbox (0.59035pt too wide) in paragraph at lines 133--133
 []|\T1/txr/m/n/12 10.9367| 
  []
 
 
-Overfull \hbox (0.59035pt too wide) in paragraph at lines 140--140
+Overfull \hbox (0.59035pt too wide) in paragraph at lines 135--135
 []|\T1/txr/m/n/12 11.5570| 
  []
 
 
-Overfull \hbox (21.83969pt too wide) in alignment at lines 126--146
- [] [] [] [] [] [] [] [] [] [] 
- []
-
-[53]
-Overfull \hbox (0.59035pt too wide) in paragraph at lines 150--150
-[]|\T1/txr/m/n/12 10.5823| 
- []
-
-
-Overfull \hbox (0.59035pt too wide) in paragraph at lines 159--159
-[]|\T1/txr/m/n/12 11.8228| 
- []
-
-
-Overfull \hbox (0.59035pt too wide) in paragraph at lines 165--165
-[]|\T1/txr/m/n/12 11.6456| 
- []
-
-
-Overfull \hbox (21.83969pt too wide) in alignment at lines 146--166
- [] [] [] [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (0.59035pt too wide) in paragraph at lines 170--170
-[]|\T1/txr/m/n/12 10.7595| 
- []
-
-
-Overfull \hbox (0.59035pt too wide) in paragraph at lines 171--171
-[]|\T1/txr/m/n/12 11.0253| 
- []
-
-
-Overfull \hbox (0.59035pt too wide) in paragraph at lines 174--174
-[]|\T1/txr/m/n/12 10.8481| 
- []
-
-
-Overfull \hbox (0.59035pt too wide) in paragraph at lines 175--175
-[]|\T1/txr/m/n/12 11.2025| 
- []
-
-
-Overfull \hbox (0.59035pt too wide) in paragraph at lines 177--177
-[]|\T1/txr/m/n/12 10.1392| 
- []
-
-
-Overfull \hbox (0.59035pt too wide) in paragraph at lines 181--181
-[]|\T1/txr/m/n/12 10.4051| 
- []
-
-
-Overfull \hbox (21.83969pt too wide) in alignment at lines 166--186
+Overfull \hbox (21.83969pt too wide) in alignment at lines 121--141
  [] [] [] [] [] [] [] [] [] [] 
  []
 
 [54]
-Overfull \hbox (0.59035pt too wide) in paragraph at lines 186--186
-[]|\T1/txr/m/n/12 11.3797| 
+Overfull \hbox (0.59035pt too wide) in paragraph at lines 145--145
+[]|\T1/txr/m/n/12 10.5823| 
  []
 
 
-Overfull \hbox (0.59035pt too wide) in paragraph at lines 197--197
-[]|\T1/txr/m/n/12 11.9957| 
+Overfull \hbox (0.59035pt too wide) in paragraph at lines 154--154
+[]|\T1/txr/m/n/12 11.8228| 
  []
 
 
-Overfull \hbox (0.59035pt too wide) in paragraph at lines 201--201
-[]|\T1/txr/m/n/12 11.3170| 
+Overfull \hbox (0.59035pt too wide) in paragraph at lines 160--160
+[]|\T1/txr/m/n/12 11.6456| 
  []
 
 
-Overfull \hbox (0.59035pt too wide) in paragraph at lines 205--205
-[]|\T1/txr/m/n/12 11.7352| 
- []
-
-
-Overfull \hbox (21.83969pt too wide) in alignment at lines 186--206
+Overfull \hbox (21.83969pt too wide) in alignment at lines 141--161
  [] [] [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (5.1968pt too wide) in paragraph at lines 207--207
-[]|\T1/txr/m/n/12 101| 
+Overfull \hbox (0.59035pt too wide) in paragraph at lines 165--165
+[]|\T1/txr/m/n/12 10.7595| 
  []
 
 
-Overfull \hbox (5.1968pt too wide) in paragraph at lines 208--208
-[]|\T1/txr/m/n/12 102| 
+Overfull \hbox (0.59035pt too wide) in paragraph at lines 166--166
+[]|\T1/txr/m/n/12 11.0253| 
  []
 
 
-Overfull \hbox (5.1968pt too wide) in paragraph at lines 209--209
-[]|\T1/txr/m/n/12 103| 
+Overfull \hbox (0.59035pt too wide) in paragraph at lines 169--169
+[]|\T1/txr/m/n/12 10.8481| 
  []
 
 
-Overfull \hbox (5.1968pt too wide) in paragraph at lines 210--210
-[]|\T1/txr/m/n/12 106| 
+Overfull \hbox (0.59035pt too wide) in paragraph at lines 170--170
+[]|\T1/txr/m/n/12 11.2025| 
  []
 
 
-Overfull \hbox (5.1968pt too wide) in paragraph at lines 211--211
-[]|\T1/txr/m/n/12 107| 
+Overfull \hbox (0.59035pt too wide) in paragraph at lines 172--172
+[]|\T1/txr/m/n/12 10.1392| 
  []
 
 
-Overfull \hbox (0.59035pt too wide) in paragraph at lines 211--211
-[]|\T1/txr/m/n/12 11.5352| 
+Overfull \hbox (0.59035pt too wide) in paragraph at lines 176--176
+[]|\T1/txr/m/n/12 10.4051| 
  []
 
 
-Overfull \hbox (5.1968pt too wide) in paragraph at lines 212--212
-[]|\T1/txr/m/n/12 108| 
- []
-
-
-Overfull \hbox (5.1968pt too wide) in paragraph at lines 213--213
-[]|\T1/txr/m/n/12 109| 
- []
-
-
-Overfull \hbox (0.59035pt too wide) in paragraph at lines 213--213
-[]|\T1/txr/m/n/12 10.9997| 
- []
-
-
-Overfull \hbox (5.1968pt too wide) in paragraph at lines 214--214
-[]|\T1/txr/m/n/12 110| 
- []
-
-
-Overfull \hbox (0.59035pt too wide) in paragraph at lines 214--214
-[]|\T1/txr/m/n/12 10.4524| 
- []
-
-
-Overfull \hbox (5.1968pt too wide) in paragraph at lines 215--215
-[]|\T1/txr/m/n/12 111| 
- []
-
-
-Overfull \hbox (0.59035pt too wide) in paragraph at lines 215--215
-[]|\T1/txr/m/n/12 10.6200| 
- []
-
-
-Overfull \hbox (5.1968pt too wide) in paragraph at lines 216--216
-[]|\T1/txr/m/n/12 112| 
- []
-
-
-Overfull \hbox (0.59035pt too wide) in paragraph at lines 216--216
-[]|\T1/txr/m/n/12 11.1264| 
- []
-
-
-Overfull \hbox (5.1968pt too wide) in paragraph at lines 217--217
-[]|\T1/txr/m/n/12 113| 
- []
-
-
-Overfull \hbox (5.1968pt too wide) in paragraph at lines 218--218
-[]|\T1/txr/m/n/12 114| 
- []
-
-
-Overfull \hbox (5.1968pt too wide) in paragraph at lines 219--219
-[]|\T1/txr/m/n/12 115| 
- []
-
-
-Overfull \hbox (5.1968pt too wide) in paragraph at lines 220--220
-[]|\T1/txr/m/n/12 116| 
- []
-
-
-Overfull \hbox (5.1968pt too wide) in paragraph at lines 221--221
-[]|\T1/txr/m/n/12 117| 
- []
-
-
-Overfull \hbox (0.59035pt too wide) in paragraph at lines 221--221
-[]|\T1/txr/m/n/12 12.0000| 
- []
-
-
-Overfull \hbox (5.1968pt too wide) in paragraph at lines 222--222
-[]|\T1/txr/m/n/12 118| 
- []
-
-
-Overfull \hbox (5.1968pt too wide) in paragraph at lines 223--223
-[]|\T1/txr/m/n/12 119| 
- []
-
-
-Overfull \hbox (5.1968pt too wide) in paragraph at lines 224--224
-[]|\T1/txr/m/n/12 120| 
- []
-
-
-Overfull \hbox (0.59035pt too wide) in paragraph at lines 224--224
-[]|\T1/txr/m/n/12 10.2053| 
- []
-
-
-Overfull \hbox (5.1968pt too wide) in paragraph at lines 225--225
-[]|\T1/txr/m/n/12 122| 
- []
-
-
-Overfull \hbox (21.83969pt too wide) in alignment at lines 206--226
+Overfull \hbox (21.83969pt too wide) in alignment at lines 161--181
  [] [] [] [] [] [] [] [] [] [] 
  []
 
 [55]
-Overfull \hbox (5.1968pt too wide) in paragraph at lines 226--226
+Overfull \hbox (0.59035pt too wide) in paragraph at lines 181--181
+[]|\T1/txr/m/n/12 11.3797| 
+ []
+
+
+Overfull \hbox (0.59035pt too wide) in paragraph at lines 192--192
+[]|\T1/txr/m/n/12 11.9957| 
+ []
+
+
+Overfull \hbox (0.59035pt too wide) in paragraph at lines 196--196
+[]|\T1/txr/m/n/12 11.3170| 
+ []
+
+
+Overfull \hbox (0.59035pt too wide) in paragraph at lines 200--200
+[]|\T1/txr/m/n/12 11.7352| 
+ []
+
+
+Overfull \hbox (21.83969pt too wide) in alignment at lines 181--201
+ [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (5.1968pt too wide) in paragraph at lines 202--202
+[]|\T1/txr/m/n/12 101| 
+ []
+
+
+Overfull \hbox (5.1968pt too wide) in paragraph at lines 203--203
+[]|\T1/txr/m/n/12 102| 
+ []
+
+
+Overfull \hbox (5.1968pt too wide) in paragraph at lines 204--204
+[]|\T1/txr/m/n/12 103| 
+ []
+
+
+Overfull \hbox (5.1968pt too wide) in paragraph at lines 205--205
+[]|\T1/txr/m/n/12 106| 
+ []
+
+
+Overfull \hbox (5.1968pt too wide) in paragraph at lines 206--206
+[]|\T1/txr/m/n/12 107| 
+ []
+
+
+Overfull \hbox (0.59035pt too wide) in paragraph at lines 206--206
+[]|\T1/txr/m/n/12 11.5352| 
+ []
+
+
+Overfull \hbox (5.1968pt too wide) in paragraph at lines 207--207
+[]|\T1/txr/m/n/12 108| 
+ []
+
+
+Overfull \hbox (5.1968pt too wide) in paragraph at lines 208--208
+[]|\T1/txr/m/n/12 109| 
+ []
+
+
+Overfull \hbox (0.59035pt too wide) in paragraph at lines 208--208
+[]|\T1/txr/m/n/12 10.9997| 
+ []
+
+
+Overfull \hbox (5.1968pt too wide) in paragraph at lines 209--209
+[]|\T1/txr/m/n/12 110| 
+ []
+
+
+Overfull \hbox (0.59035pt too wide) in paragraph at lines 209--209
+[]|\T1/txr/m/n/12 10.4524| 
+ []
+
+
+Overfull \hbox (5.1968pt too wide) in paragraph at lines 210--210
+[]|\T1/txr/m/n/12 111| 
+ []
+
+
+Overfull \hbox (0.59035pt too wide) in paragraph at lines 210--210
+[]|\T1/txr/m/n/12 10.6200| 
+ []
+
+
+Overfull \hbox (5.1968pt too wide) in paragraph at lines 211--211
+[]|\T1/txr/m/n/12 112| 
+ []
+
+
+Overfull \hbox (0.59035pt too wide) in paragraph at lines 211--211
+[]|\T1/txr/m/n/12 11.1264| 
+ []
+
+
+Overfull \hbox (5.1968pt too wide) in paragraph at lines 212--212
+[]|\T1/txr/m/n/12 113| 
+ []
+
+
+Overfull \hbox (5.1968pt too wide) in paragraph at lines 213--213
+[]|\T1/txr/m/n/12 114| 
+ []
+
+
+Overfull \hbox (5.1968pt too wide) in paragraph at lines 214--214
+[]|\T1/txr/m/n/12 115| 
+ []
+
+
+Overfull \hbox (5.1968pt too wide) in paragraph at lines 215--215
+[]|\T1/txr/m/n/12 116| 
+ []
+
+
+Overfull \hbox (5.1968pt too wide) in paragraph at lines 216--216
+[]|\T1/txr/m/n/12 117| 
+ []
+
+
+Overfull \hbox (0.59035pt too wide) in paragraph at lines 216--216
+[]|\T1/txr/m/n/12 12.0000| 
+ []
+
+
+Overfull \hbox (5.1968pt too wide) in paragraph at lines 217--217
+[]|\T1/txr/m/n/12 118| 
+ []
+
+
+Overfull \hbox (5.1968pt too wide) in paragraph at lines 218--218
+[]|\T1/txr/m/n/12 119| 
+ []
+
+
+Overfull \hbox (5.1968pt too wide) in paragraph at lines 219--219
+[]|\T1/txr/m/n/12 120| 
+ []
+
+
+Overfull \hbox (0.59035pt too wide) in paragraph at lines 219--219
+[]|\T1/txr/m/n/12 10.2053| 
+ []
+
+
+Overfull \hbox (5.1968pt too wide) in paragraph at lines 220--220
+[]|\T1/txr/m/n/12 122| 
+ []
+
+
+Overfull \hbox (21.83969pt too wide) in alignment at lines 201--221
+ [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[56]
+Overfull \hbox (5.1968pt too wide) in paragraph at lines 221--221
 []|\T1/txr/m/n/12 123| 
  []
 
 
-Overfull \hbox (5.1968pt too wide) in paragraph at lines 227--227
+Overfull \hbox (5.1968pt too wide) in paragraph at lines 222--222
 []|\T1/txr/m/n/12 124| 
  []
 
 
-Overfull \hbox (5.1968pt too wide) in paragraph at lines 228--228
+Overfull \hbox (5.1968pt too wide) in paragraph at lines 223--223
 []|\T1/txr/m/n/12 125| 
  []
 
 
-Overfull \hbox (0.59035pt too wide) in paragraph at lines 228--228
+Overfull \hbox (0.59035pt too wide) in paragraph at lines 223--223
 []|\T1/txr/m/n/12 10.0818| 
  []
 
 
-Overfull \hbox (5.1968pt too wide) in paragraph at lines 229--229
+Overfull \hbox (5.1968pt too wide) in paragraph at lines 224--224
 []|\T1/txr/m/n/12 126| 
  []
 
 
-Overfull \hbox (5.1968pt too wide) in paragraph at lines 230--230
+Overfull \hbox (5.1968pt too wide) in paragraph at lines 225--225
 []|\T1/txr/m/n/12 127| 
  []
 
 
-Overfull \hbox (21.83969pt too wide) in alignment at lines 226--232
+Overfull \hbox (21.83969pt too wide) in alignment at lines 221--227
  [] [] [] [] [] [] [] [] [] [] 
  []
 
-[56]) [57] (./mainrep.bbl [58
+[57]) [58] [59
+
+] (./mainrep.bbl [60
 
 
+] [61]
+! Undefined control sequence.
+l.126 ...lock Openfoam: open source \makeuppercase
+                                                  {CFD} in research and indu...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-] [59])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 224.
- [60]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 224.
- (./mainrep.aux (./abs.aux)
-(./intro/introduction.aux) (./lit/literature.aux) (./OpenFOAM/OpenFOAM.aux)
-(./geometry/geometry.aux) (./optimization/optimization.aux)
+
+Underfull \hbox (badness 2426) in paragraph at lines 173--177
+[]\T1/txr/m/n/12 Nestor V Queipo, Raphael T Haftka, Wei Shyy, Tushar Goel, Ra-j
+ku-mar
+ []
+
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 229.
+ [62]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 229.
+ (./mainrep.aux (./abs.aux) (./intro/introduction.aux)
+(./lit/literature.aux) (./OpenFOAM/OpenFOAM.aux) (./geometry/geometry.aux)
+(./optimization/optimization.aux)
 (./surrogate_model_CFD/surrogate_model_CFD.aux)
 (./surrogate_model_CFD_results/surrogate_model_CFD_results.aux)
 (./Hoop_stress/Hoop_stress.aux) (./rnd/results.aux)
 (./futureplan/futureplan.aux) (./appendix.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 224.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 224.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 229.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 229.
 Package rerunfilecheck Info: File `mainrep.out' has not changed.
-(rerunfilecheck)             Checksum: E46F62638A70C9EDB20C693A259DF05F;3635.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 224.
+(rerunfilecheck)             Checksum: DE9F82245533F4F0EB39D7CE0FBACF69;3855.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 229.
  ) 
 Here is how much of TeX's memory you used:
- 11245 strings out of 493029
- 170358 string characters out of 6136234
- 320946 words of memory out of 5000000
- 14097 multiletter control sequences out of 15000+600000
- 125137 words of font info for 210 fonts, out of 8000000 for 9000
+ 11209 strings out of 493029
+ 169920 string characters out of 6136234
+ 320051 words of memory out of 5000000
+ 14081 multiletter control sequences out of 15000+600000
+ 122024 words of font info for 210 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,22n,51p,1143b,1622s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,22n,51p,1326b,1622s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/txfonts/rtxb.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/txfonts/rtxi.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txf
-onts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxsc.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/txfonts/txbsy.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/txfonts/txsyc.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helveti
-c/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/urw/times/utmri8a.pfb>
-Output written on mainrep.pdf (68 pages, 2949459 bytes).
+onts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/t1xtt.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txbsy.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/txfonts/txsyc.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino
+/uplri8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/urw/times/utmri8a.pfb>
+Output written on mainrep.pdf (71 pages, 3036071 bytes).
 PDF statistics:
- 1160 PDF objects out of 1200 (max. 8388607)
- 1023 compressed objects within 11 object streams
- 290 named destinations out of 1000 (max. 500000)
- 564 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1183 PDF objects out of 1200 (max. 8388607)
+ 1042 compressed objects within 11 object streams
+ 300 named destinations out of 1000 (max. 500000)
+ 582 words of extra memory for PDF output out of 10000 (max. 10000000)
 

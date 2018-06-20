@@ -1,7 +1,7 @@
 This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: mainrep.aux
-The style file: iitbauthyr.bst
+The style file: unsrt.bst
 A level-1 auxiliary file: abs.aux
 A level-1 auxiliary file: intro/introduction.aux
 A level-1 auxiliary file: lit/literature.aux
@@ -14,15 +14,6 @@ A level-1 auxiliary file: Hoop_stress/Hoop_stress.aux
 A level-1 auxiliary file: rnd/results.aux
 A level-1 auxiliary file: futureplan/futureplan.aux
 A level-1 auxiliary file: appendix.aux
-Illegal, another \bibstyle command---line 46 of file mainrep.aux
- : \bibstyle
- :          {acm}
-I'm skipping whatever remains of this command
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: mylit.bib.bib
 Warning--entry type for "alam2017thesis" isn't style-file defined
 --line 2 of file mylit.bib.bib
@@ -34,81 +25,58 @@ Warning--entry type for "snappyHexMesh" isn't style-file defined
 --line 407 of file mylit.bib.bib
 Warning--entry type for "stratellite" isn't style-file defined
 --line 414 of file mylit.bib.bib
+Warning--can't use both author and editor fields in cheeseman2012
+Warning--empty journal in OsamaAbdulGhani2013
+Warning--empty journal in Suman2011
+Warning--there's a number but no volume in Suman2011
 Name 1 in "Gertler, M.," has a comma at the end for entry gertler1950
-while executing---line 2266 of file iitbauthyr.bst
-Name 1 in "Gertler, M.," has a comma at the end for entry gertler1950
-while executing---line 2266 of file iitbauthyr.bst
+while executing---line 944 of file unsrt.bst
 Name 5 in "Cheeseman, I. and Aerodynamics and Chapter-02 and Khoury, Gabriel Alexander and Gillett, J. D.," has a comma at the end for entry cheeseman1999
-while executing---line 2266 of file iitbauthyr.bst
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Merlin.mbs v4.21 2009-07-09. 
-Warning--empty chapter and pages in alam2016mdo
-Warning--empty pages in alam2016mdo
-Warning--empty chapter and pages in alam2014mdo
-Warning--empty pages in alam2014mdo
-Name 5 in "Cheeseman, I. and Aerodynamics and Chapter-02 and Khoury, Gabriel Alexander and Gillett, J. D.," has a comma at the end for entry cheeseman1999
-while executing---line 2479 of file iitbauthyr.bst
-Name 5 in "Cheeseman, I. and Aerodynamics and Chapter-02 and Khoury, Gabriel Alexander and Gillett, J. D.," has a comma at the end for entry cheeseman1999
-while executing---line 2479 of file iitbauthyr.bst
-Name 5 in "Cheeseman, I. and Aerodynamics and Chapter-02 and Khoury, Gabriel Alexander and Gillett, J. D.," has a comma at the end for entry cheeseman1999
-while executing---line 2479 of file iitbauthyr.bst
-Name 5 in "Cheeseman, I. and Aerodynamics and Chapter-02 and Khoury, Gabriel Alexander and Gillett, J. D.," has a comma at the end for entry cheeseman1999
-while executing---line 2479 of file iitbauthyr.bst
-Warning--empty chapter in cheeseman1999
-Warning--empty pages in cheeseman1999
-Name 1 in "Gertler, M.," has a comma at the end for entry gertler1950
-while executing---line 2479 of file iitbauthyr.bst
-Name 1 in "Gertler, M.," has a comma at the end for entry gertler1950
-while executing---line 2479 of file iitbauthyr.bst
-Warning--empty chapter and pages in gertler1950
-Warning--empty pages in gertler1950
-Warning--missing journal in OsamaAbdulGhani2013
-Warning--missing journal in Jekabsons2009
-Warning--empty chapter and pages in kanikdale2004multi
-Warning--empty chapter and pages in gnvr2000
-Warning--empty pages in gnvr2000
-Warning--missing journal in Suman2011
-Warning--missing journal in Viana2011
+while executing---line 944 of file unsrt.bst
+Warning--empty chapter and pages in cheeseman1999
+Warning--there's a number but no volume in Kale2005a
+Warning--there's a number but no volume in Liu2013c
+Warning--empty journal in Viana2011
+Warning--empty journal in Jekabsons2009
 You've used 34 entries,
-            4451 wiz_defined-function locations,
-            1105 strings with 14847 characters,
-and the built_in function-call counts, 27199 in all, are:
-= -- 1950
-> -- 745
-< -- 22
-+ -- 280
-- -- 246
-* -- 3739
-:= -- 3414
-add.period$ -- 68
+            1791 wiz_defined-function locations,
+            658 strings with 9480 characters,
+and the built_in function-call counts, 7435 in all, are:
+= -- 652
+> -- 301
+< -- 7
++ -- 116
+- -- 82
+* -- 487
+:= -- 1144
+add.period$ -- 97
 call.type$ -- 34
-change.case$ -- 255
-chr.to.int$ -- 34
-cite$ -- 83
-duplicate$ -- 2334
-empty$ -- 2037
-format.name$ -- 332
-if$ -- 4762
-int.to.chr$ -- 1
-int.to.str$ -- 1
-missing$ -- 371
-newline$ -- 350
-num.names$ -- 136
-pop$ -- 1078
+change.case$ -- 31
+chr.to.int$ -- 0
+cite$ -- 43
+duplicate$ -- 343
+empty$ -- 773
+format.name$ -- 82
+if$ -- 1666
+int.to.chr$ -- 0
+int.to.str$ -- 34
+missing$ -- 32
+newline$ -- 168
+num.names$ -- 34
+pop$ -- 132
 preamble$ -- 1
-purify$ -- 218
-quote$ -- 2
-skip$ -- 890
+purify$ -- 0
+quote$ -- 0
+skip$ -- 152
 stack$ -- 0
-substring$ -- 894
-swap$ -- 1966
-text.length$ -- 4
+substring$ -- 470
+swap$ -- 75
+text.length$ -- 7
 text.prefix$ -- 0
-top$ -- 1
-type$ -- 300
-warning$ -- 15
-while$ -- 140
-width$ -- 0
-write$ -- 496
-(There were 10 error messages)
+top$ -- 0
+type$ -- 0
+warning$ -- 9
+while$ -- 75
+width$ -- 36
+write$ -- 352
+(There were 2 error messages)

@@ -3,17 +3,17 @@
 \BOOKMARK [0][-]{section*.5}{List of Figures}{}% 3
 \BOOKMARK [0][-]{section*.7}{List of Tables}{}% 4
 \BOOKMARK [0][-]{chapter.1}{Background and Introduction}{}% 5
-\BOOKMARK [1][-]{section.1.1}{Objective}{chapter.1}% 6
+\BOOKMARK [1][-]{section.1.1}{Work done in the present study}{chapter.1}% 6
 \BOOKMARK [1][-]{section.1.2}{Report layout}{chapter.1}% 7
 \BOOKMARK [0][-]{chapter.2}{Literature Survey}{}% 8
 \BOOKMARK [1][-]{section.2.1}{Recent work in the field}{chapter.2}% 9
 \BOOKMARK [0][-]{chapter.3}{Introduction to Introduction to OpenFOAMs }{}% 10
 \BOOKMARK [1][-]{section.3.1}{Computational mesh generation using SnappyHexMesh}{chapter.3}% 11
 \BOOKMARK [1][-]{section.3.2}{Validation of OpenFOAM\256 CFD results}{chapter.3}% 12
-\BOOKMARK [2][-]{subsection.3.2.1}{GNVR shape}{section.3.2}% 13
-\BOOKMARK [2][-]{subsection.3.2.2}{Zhiyuan-1 shape}{section.3.2}% 14
-\BOOKMARK [2][-]{subsection.3.2.3}{Wang Shape}{section.3.2}% 15
-\BOOKMARK [2][-]{subsection.3.2.4}{NPL Shape}{section.3.2}% 16
+\BOOKMARK [2][-]{subsection.3.2.1}{GNVR shape Ram2010}{section.3.2}% 13
+\BOOKMARK [2][-]{subsection.3.2.2}{Zhiyuan-1 shape Wang2010}{section.3.2}% 14
+\BOOKMARK [2][-]{subsection.3.2.3}{Wang Shape Wang2009}{section.3.2}% 15
+\BOOKMARK [2][-]{subsection.3.2.4}{NPL Shape cheeseman2012}{section.3.2}% 16
 \BOOKMARK [2][-]{subsection.3.2.5}{Grid Dependence study}{section.3.2}% 17
 \BOOKMARK [1][-]{section.3.3}{Observations \046 Conclusions}{chapter.3}% 18
 \BOOKMARK [0][-]{chapter.4}{Envelope geometry parameterization}{}% 19
@@ -37,15 +37,16 @@
 \BOOKMARK [1][-]{section.6.4}{Grid Convergence study}{chapter.6}% 37
 \BOOKMARK [1][-]{section.6.5}{Results of CFD simulations}{chapter.6}% 38
 \BOOKMARK [1][-]{section.6.6}{Testing the accuracy of surrogate model}{chapter.6}% 39
-\BOOKMARK [0][-]{chapter.7}{Calculation of Hoop Stress}{}% 40
+\BOOKMARK [0][-]{chapter.7}{Calculation of von Mises Stress}{}% 40
 \BOOKMARK [1][-]{subsection.7.0.1}{Bending Moment Calculation}{chapter.7}% 41
 \BOOKMARK [0][-]{chapter.8}{Results and discussion}{}% 42
-\BOOKMARK [1][-]{section.8.1}{Optimal results case 1}{chapter.8}% 43
-\BOOKMARK [1][-]{section.8.2}{Composite objective function}{chapter.8}% 44
-\BOOKMARK [1][-]{section.8.3}{Optimal results case 2}{chapter.8}% 45
-\BOOKMARK [1][-]{section.8.4}{Optimal results case 3}{chapter.8}% 46
-\BOOKMARK [0][-]{chapter.9}{Conclusions, Limitations and Future Work}{}% 47
-\BOOKMARK [1][-]{section.9.1}{Observations \046 Conclusions}{chapter.9}% 48
-\BOOKMARK [1][-]{section.9.2}{Limitations of the present study}{chapter.9}% 49
-\BOOKMARK [1][-]{section.9.3}{Future work}{chapter.9}% 50
-\BOOKMARK [0][-]{section*.11}{References}{}% 51
+\BOOKMARK [1][-]{section.8.1}{Composite objective function}{chapter.8}% 43
+\BOOKMARK [1][-]{section.8.2}{Axi-symmetric shape with minimum \040CDV}{chapter.8}% 44
+\BOOKMARK [1][-]{section.8.3}{Non axi-symmetric shapes with minimum \040CDV}{chapter.8}% 45
+\BOOKMARK [1][-]{section.8.4}{Non axi-symmetric shape with minimum \040v}{chapter.8}% 46
+\BOOKMARK [1][-]{section.8.5}{Non axi-symmetric shape with minimum \040Fcomp}{chapter.8}% 47
+\BOOKMARK [0][-]{chapter.9}{Conclusions, Limitations and Future Work}{}% 48
+\BOOKMARK [1][-]{section.9.1}{Observations \046 Conclusions}{chapter.9}% 49
+\BOOKMARK [1][-]{section.9.2}{Limitations of the present study}{chapter.9}% 50
+\BOOKMARK [1][-]{section.9.3}{Future work}{chapter.9}% 51
+\BOOKMARK [0][-]{section*.13}{References}{}% 52

@@ -1,0 +1,95 @@
+% Copyright 2007 by Till Tantau
+% Modified 2013 by Karl
+%
+% This file may be distributed and/or modified
+%
+% 1. under the LaTeX Project Public License and/or
+% 2. under the GNU Public License.
+%
+% See the file doc/licenses/LICENSE for more details.
+
+\ProvidesPackage{beamerthemeAFIT}
+
+
+% This theme has some cool options
+%
+%		Set the default classification for each slide to confidential,
+%			and the highest classification level, listed on the title page, to topsecret
+%
+%			\usetheme[defaultClassification=confidential,highestClassification=topsecret]{AFIT}
+%
+%		\usetheme{AFIT} - default to unclassified for default and highest classifications
+%
+%		Build a frame with the default classification level
+%			\begin{frame}{Title}
+%			\end{frame}
+%
+%		Build a frame with secret classification level
+%			\begin{secretFrame}{Title}
+%			\end{secretFrame}
+%
+%		Build a frame with unclassified classification level
+%			\begin{unclassifiedFrame}{Title}
+%			\end{unclassifiedFrame}
+%
+%		Include a unit logo other than the AFIT logo (put in your filename...)
+%			\unitLogo{AFIT_Logo}
+%			Note - please use this command only after the \usetheme line in your presentation
+%
+%		Include a unit shield other than the AFIT shield (put in your filename...)
+%			\unitShield{AFIT_Shield}
+%			Note - please use this command only after the \usetheme line in your presentation
+%		Include no unit shield
+%			\unitShield{}
+%			Note - please use this command only after the \usetheme line in your presentation
+
+\def\AFIT@unitLogoFilename{AFIT_Logo}
+\newcommand{\unitLogo}[1]{\def\AFIT@unitLogoFilename{#1}}
+
+\def\AFIT@shieldFilename{AFIT_Shield}
+\newcommand{\unitShield}[1]{\def\AFIT@shieldFilename{#1}}
+
+\newenvironment{unclassifiedFrame}[1]
+	{
+		\setbeamertemplate{headline}[AFIT_unclassified] \setbeamertemplate{footline}[AFIT_unclassified]
+		\begin{frame}{#1}
+	}
+	{\end{frame}}
+\newenvironment{confidentialFrame}[1]
+	{
+		\setbeamertemplate{headline}[AFIT_confidential] \setbeamertemplate{footline}[AFIT_confidential]
+		\begin{frame}{#1}
+	}
+	{\end{frame}}
+\newenvironment{secretFrame}[1]
+	{
+		\setbeamertemplate{headline}[AFIT_secret] \setbeamertemplate{footline}[AFIT_secret]
+		\begin{frame}{#1}
+	}
+	{\end{frame}}
+\newenvironment{topSecretFrame}[1]
+	{
+		\setbeamertemplate{headline}[AFIT_topsecret] \setbeamertemplate{footline}[AFIT_topsecret]
+		\begin{frame}{#1}
+	}
+	{\end{frame}}
+
+\mode<presentation>
+
+\DeclareOptionBeamer{highestClassification}{
+	\PassOptionsToPackage{highestClassification=#1}{beamerinnerthemeAFIT}
+}
+
+\DeclareOptionBeamer{defaultClassification}{
+	\PassOptionsToPackage{defaultClassification=#1}{beamerouterthemeAFIT}
+}
+
+\ProcessOptionsBeamer
+
+\usefonttheme{AFIT}
+\usecolortheme{AFIT}
+\useinnertheme{AFIT}
+\useoutertheme{AFIT}
+
+\mode
+<all>

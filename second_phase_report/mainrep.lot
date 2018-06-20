@@ -25,11 +25,11 @@
 \contentsline {table}{\numberline {6.5}{\ignorespaces Accuracy of different machine learning models}}{40}{table.6.5}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {8.1}{\ignorespaces Optimal solution obtained for minimum $ C_{DV} $ case 1}}{44}{table.8.1}
-\contentsline {table}{\numberline {8.2}{\ignorespaces Optimal solution obtained for minimum $ F_{comp} $ case 1}}{46}{table.8.2}
-\contentsline {table}{\numberline {8.3}{\ignorespaces Optimal non-axisymmetric envelope obtained for minimum $ C_{DV} $ case 2}}{46}{table.8.3}
-\contentsline {table}{\numberline {8.4}{\ignorespaces Optimal non-axisymmetric envelope obtained for minimum $ F_{comp} $ case 2}}{47}{table.8.4}
-\contentsline {table}{\numberline {8.5}{\ignorespaces Optimal non-axisymmetric envelope obtained for minimum $ C_{DV} $ case 3}}{48}{table.8.5}
+\contentsline {table}{\numberline {8.1}{\ignorespaces Parameters of axi-symmetric shape with minimum $ C_{DV}$}}{45}{table.8.1}
+\contentsline {table}{\numberline {8.2}{\ignorespaces Parameters of non axi-symmetric shapes with minimum $ C_{DV}$}}{46}{table.8.2}
+\contentsline {table}{\numberline {8.3}{\ignorespaces Optimal non-axisymmetric envelope obtained for minimum $ C_{DV} $ case 3}}{47}{table.8.3}
+\contentsline {table}{\numberline {8.4}{\ignorespaces Parameters of non Axi-symmetric shape with minimum $ \sigma _{v}$}}{48}{table.8.4}
+\contentsline {table}{\numberline {8.5}{\ignorespaces parameters of non Axi-symmetric shape with minimum $ F_{comp}$}}{49}{table.8.5}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {1}{Table of design points obtained from OLHS}}{51}{table.Alph0.1}
-\contentsline {table}{\numberline {2}{Training data for surrogate model}}{53}{table.Alph0.2}
+\contentsline {table}{\numberline {1}{Table of design points obtained from OLHS}}{52}{table.Alph0.1}
+\contentsline {table}{\numberline {2}{Training data for surrogate model}}{54}{table.Alph0.2}

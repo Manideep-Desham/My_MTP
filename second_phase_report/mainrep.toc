@@ -1,18 +1,18 @@
 \contentsline {chapter}{Abstract}{ii}{section*.2}
-\contentsline {chapter}{List of Figures}{v}{section*.5}
-\contentsline {chapter}{List of Tables}{vii}{section*.7}
+\contentsline {chapter}{List of Figures}{vi}{section*.5}
+\contentsline {chapter}{List of Tables}{viii}{section*.7}
 \contentsline {chapter}{\numberline {1}Background and Introduction}{1}{chapter.1}
-\contentsline {section}{\numberline {1.1}Objective}{2}{section.1.1}
+\contentsline {section}{\numberline {1.1}Work done in the present study}{2}{section.1.1}
 \contentsline {section}{\numberline {1.2}Report layout}{2}{section.1.2}
 \contentsline {chapter}{\numberline {2}Literature Survey}{4}{chapter.2}
 \contentsline {section}{\numberline {2.1}Recent work in the field}{5}{section.2.1}
 \contentsline {chapter}{\numberline {3}Introduction to OpenFOAM\textsuperscript {\textregistered } }{7}{chapter.3}
 \contentsline {section}{\numberline {3.1}Computational mesh generation using \textit {SnappyHexMesh}}{8}{section.3.1}
 \contentsline {section}{\numberline {3.2}Validation of OpenFOAM\textsuperscript {\textregistered } CFD results}{10}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}GNVR shape}{11}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Zhiyuan-1 shape}{12}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Wang Shape}{14}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3.2.4}NPL Shape}{15}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.1}GNVR shape \cite {Ram2010}}{11}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Zhiyuan-1 shape \cite {Wang2010}}{12}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Wang Shape \cite {Wang2009}}{14}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}NPL Shape \cite {cheeseman2012}}{15}{subsection.3.2.4}
 \contentsline {subsection}{\numberline {3.2.5}Grid Dependence study}{17}{subsection.3.2.5}
 \contentsline {section}{\numberline {3.3}Observations \& Conclusions}{18}{section.3.3}
 \contentsline {chapter}{\numberline {4}Envelope geometry parameterization}{19}{chapter.4}
@@ -36,15 +36,16 @@
 \contentsline {section}{\numberline {6.4}Grid Convergence study}{35}{section.6.4}
 \contentsline {section}{\numberline {6.5}Results of CFD simulations}{36}{section.6.5}
 \contentsline {section}{\numberline {6.6}Testing the accuracy of surrogate model}{39}{section.6.6}
-\contentsline {chapter}{\numberline {7}Calculation of Hoop Stress}{41}{chapter.7}
+\contentsline {chapter}{\numberline {7}Calculation of von Mises Stress}{41}{chapter.7}
 \contentsline {subsection}{\numberline {7.0.1}Bending Moment Calculation}{42}{subsection.7.0.1}
 \contentsline {chapter}{\numberline {8}Results and discussion}{44}{chapter.8}
-\contentsline {section}{\numberline {8.1}Optimal results case 1}{44}{section.8.1}
-\contentsline {section}{\numberline {8.2}Composite objective function}{45}{section.8.2}
-\contentsline {section}{\numberline {8.3}Optimal results case 2}{46}{section.8.3}
-\contentsline {section}{\numberline {8.4}Optimal results case 3}{48}{section.8.4}
-\contentsline {chapter}{\numberline {9}Conclusions, Limitations and Future Work}{49}{chapter.9}
-\contentsline {section}{\numberline {9.1}Observations \& Conclusions}{49}{section.9.1}
-\contentsline {section}{\numberline {9.2}Limitations of the present study}{50}{section.9.2}
-\contentsline {section}{\numberline {9.3}Future work}{50}{section.9.3}
-\contentsline {chapter}{References}{58}{section*.11}
+\contentsline {section}{\numberline {8.1}Composite objective function}{44}{section.8.1}
+\contentsline {section}{\numberline {8.2}Axi-symmetric shape with minimum $ C_{DV}$}{44}{section.8.2}
+\contentsline {section}{\numberline {8.3}Non axi-symmetric shapes with minimum $ C_{DV}$}{45}{section.8.3}
+\contentsline {section}{\numberline {8.4}Non axi-symmetric shape with minimum $ \sigma _{v}$}{47}{section.8.4}
+\contentsline {section}{\numberline {8.5}Non axi-symmetric shape with minimum $ F_{comp}$}{48}{section.8.5}
+\contentsline {chapter}{\numberline {9}Conclusions, Limitations and Future Work}{50}{chapter.9}
+\contentsline {section}{\numberline {9.1}Observations \& Conclusions}{50}{section.9.1}
+\contentsline {section}{\numberline {9.2}Limitations of the present study}{51}{section.9.2}
+\contentsline {section}{\numberline {9.3}Future work}{51}{section.9.3}
+\contentsline {chapter}{References}{60}{section*.13}

@@ -1,0 +1,109 @@
+\documentclass{beamer}
+\usetheme{Warsaw}
+\title{Presentation on LaTeX}
+\author{Rajyalakshmi Divi\\ IIT Bombay}
+\date{March 23rd,2014}
+\begin{document}
+
+%-----------first slide----------
+\begin{frame}
+\titlepage
+\end{frame}
+
+
+
+
+
+%-----------second slide--------
+
+\begin{frame}
+\frametitle{Outline}    
+ \tableofcontents[hideallsubsections]
+ \end{frame}
+
+
+
+%------------third slide--------
+\section{About Latex}
+\begin{frame}[t]
+\frametitle{What is LaTeX}
+\begin{itemize}
+\item LaTeX is a scripting language used for writing documents\\
+           \begin{center}         OR\\  \end{center}
+\item LaTeX is a language for creating structured documents.
+\item Focuses on document structure rather than such details.
+Open source
+\end{itemize}
+\end{frame}
+
+
+
+
+%----------fourth slide--------
+\section{components}
+\begin{frame}[fragile]
+\frametitle{Components of a LaTeX Document}
+Every LaTeX document must contain the following three components. Everything else is optional (even text).\\
+\begin{itemize}
+ \item \textbackslash{}documentclass\{beamer\}
+  document class may be Article, Report, Book, IEEEtran, Letter \\
+\item \textbackslash{}begin\{document\} ...\textbackslash{}end\{document\}
+\end{itemize}
+\begin{example}
+\small
+\begin{verbatim}
+\documentclass{article}
+\begin{document}
+Hello world!
+\end{document}
+\end{verbatim}
+\end{example}
+\end{frame}
+
+
+
+%----------fifth slide----------
+\section{principles}
+\begin{frame}
+\frametitle{Principles}
+\begin{itemize}
+\item Commands are case sensitive
+\item LaTeX commands in braces {}
+\item Optional information is included in square brackets [].
+\item The \textbackslash{}documentclass\ command must appear at the very beginning of your LaTeX document, before any other LaTeX commands, or you will get an error message.
+\item Commands that affect the whole document, should be included in the preamble,  space between the \textbackslash{}documentclass\ and \textbackslash{}begin\{document\} commands is called.
+\end{itemize}
+\end{frame}
+
+
+
+
+%--------------sixth slide------------
+\section{sections}
+\begin{frame}
+\frametitle{Sections}
+\begin{itemize}
+\item \textbackslash{}section\{...\}
+\item \textbackslash{}subsection\{...\}
+\item \textbackslash{}subsubsection\{....\}
+\end{itemize}
+\end{frame}
+
+
+
+
+%---------------seventh slide------------
+\section{TOC}
+\begin{frame}
+\frametitle{Table of contents}
+\begin{itemize}
+\item Created automatically by LaTeX
+\textbackslash{}tableofcontents\-creates table of contents.
+\item Has to be written after Title page.
+ \item Add \textbackslash{}usepackage\{hyperref\} to make the Toc content clickable
+\end{itemize}
+\end{frame}
+
+
+
+\end{document}

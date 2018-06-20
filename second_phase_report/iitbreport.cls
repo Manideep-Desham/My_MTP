@@ -186,7 +186,7 @@
 \let\mybibliography\bibliography
 \renewcommand{\bibliography}[1]{\makeheadtoc{References}\mybibliography{#1}}
 
-%\bibliographystyle{iitbauthyr}
+\bibliographystyle{unsrt}
 
 %******************header-footer from fancyhdr.sty******************
 \pagestyle{fancy}
@@ -392,7 +392,7 @@
 		{\large\textbf{Indian Institute of Technology Bombay}}
 	\end{center}
 \vspace{1.5\baselineskip} 
-The #2  entitled ``\@title'' submitted by \@author{} (\@rollnum{}) may be accepted for being evaluated.\par
+The #2  entitled ``Aerodynamic Analysis and Shape Optimization of Non-axisymmetric Bodies of Revolution'' submitted by \@author{} (\@rollnum{}) may be accepted for being evaluated.\par
 \vspace{4\baselineskip} 
 \noindent
 \GuideSign 	

@@ -1,4 +1,4 @@
-\chapter{Calculation of Hoop Stress}
+\chapter{Calculation of von Mises Stress}
 \label{Hoop stress}
 
 In order to maintain positive pressure inside the envelope, three main loadings are considered to estimate the internal over pressure ($ \Delta P $) viz., the loading due to dynamic pressure, aerodynamic loading, and hydro-static pressure as suggested by Gupta \& Malik [\citenum{gupta2002envelope}] . A brief description of these three components of the module is as given below.
@@ -22,7 +22,7 @@ In order to maintain positive pressure inside the envelope, three main loadings 
 \label{hyd}
 \Delta P_{hyd} = \frac{1}{2} (\rho _{air} - \rho_{He} ) g D_{c}
 \end{equation}
-The sum of pressure due to these three loadings gives the total required internal pressure. Since the aerostat envelope diameter is more than twenty times of the thickness of the material; it can be considered as a very thin shell and hence hoop stress is calculated in terms of the circumferential unit load as shown in Eq. \ref{sum_delta}
+The sum of pressure due to these three loadings gives the total required internal pressure. Since the aerostat envelope diameter is more than twenty times of the thickness of the material; it can be considered as a very thin shell and hence von-Mises stress is calculated in terms of the circumferential unit load as shown in Eq. \ref{sum_delta}
 \begin{equation}
 \label{sum_delta}
 \Delta P = \Delta P_{dyn} + \Delta P_{aer} + \Delta P_{hyd}
@@ -30,8 +30,7 @@ The sum of pressure due to these three loadings gives the total required interna
 To estimate the longitudinal stress ($ \sigma _{l} $ ) and the circumferential hoop stress ($ \sigma _{h} $) developed in an envelope, an equivalent cylindrical envelope is considered, having the same surface area and volume as the actual airship envelope, as shown in Fig \ref{Stress representation in envelope}
 
 \begin{figure}[H]
-	\centering
-	\includegraphics[width=0.7\linewidth]{von_mises/stress_rep_envelope.png}
+	\centering	\includegraphics[width=0.7\linewidth]{von_mises/stress_rep_envelope.png}
 	\caption{Stress representation in envelope \citenum{alam2017thesis}}
 	\label{Stress representation in envelope}
 \end{figure}

@@ -1,0 +1,98 @@
+% Uncomment these lines to turn this into a set of handouts
+%\documentclass[handout]{beamer}
+%
+%\usepackage{pgfpages}
+%\pgfpagesuselayout{2 on 1}[letterpaper,border shrink=5mm]
+%
+%\pgfpageslogicalpageoptions{1}{border code=\pgfusepath{stroke}}
+%\pgfpageslogicalpageoptions{2}{border code=\pgfusepath{stroke}}
+%\pgfpageslogicalpageoptions{3}{border code=\pgfusepath{stroke}}
+%\pgfpageslogicalpageoptions{4}{border code=\pgfusepath{stroke}}
+
+% Comment this line to turn this into a set of handouts
+\documentclass{beamer}
+
+% Uncomment this line to include slides with the speaker notes
+% \setbeameroption{show notes}
+
+
+\mode<presentation>
+{
+	\usetheme[defaultClassification=confidential,highestClassification=topsecret]{AFIT}
+
+	% This also works, it defaults to an unclassified presentation
+	%\usetheme{AFIT}
+
+	% These remove the shield on the first page, or change its filename
+	% All graphics commands use includegraphics, so you may have to set
+	%		the graphicspath to wherever yours are
+	% \unitShield{}
+	% \unitShield{AFIT_Shield}
+
+	% This sets the logo filename for the top right corner
+	% \unitLogo{AFIT_Logo}	
+}
+
+
+\title[Short Title]{This Briefing Is Unclassified - The Classification Levels Are Only An Example}
+
+\subtitle{A Little Smaller}
+
+\author{So and So}
+
+\institute{Department of Electrical and Computer Engineering \\
+	Graduate School of Engineering and Management \\
+	Air Force Institute of Technology}
+
+\date{\today}
+
+\subject{A brief example. This only goes in the PDF information catalog.}
+
+% Causes the table of contents to pop up at the beginning of each section:
+\AtBeginSection[]{
+	\begin{frame}<beamer>{Outline}
+		\tableofcontents[currentsection]
+	\end{frame}
+}
+
+% Causes the table of contents to pop up at the beginning of each subsection:
+%\AtBeginSubsection[]{
+%	\begin{frame}<beamer>{Outline}
+%		\tableofcontents[currentsection,currentsubsection]
+%	\end{frame}
+%}
+
+
+\begin{document}
+
+\begin{unclassifiedFrame}{}
+  \titlepage
+\end{unclassifiedFrame}
+
+\begin{secretFrame}{Outline}
+  \tableofcontents
+\end{secretFrame}
+
+\section{Introduction}
+\subsection{Problem Statement}
+
+\begin{frame}{Problem Statement}
+	\begin{itemize}
+		\item What is the problem?
+		\begin{itemize}
+			\item $5+5\not=10$
+			\item What happened to addition?
+		\end{itemize}
+		\item Possible causes:
+		\begin{itemize}
+			\item Dark matter
+			\item Chicken Chicken Chicken
+			\item The Doctor
+		\end{itemize}
+		\item Hypothesis: tachyons from Star Trek broke addition
+	\end{itemize}
+\end{frame}
+
+\end{document}
+
+

@@ -2,7 +2,7 @@
 
 \label{openfoam}
 
-OpenFOAM\textsuperscript{\textregistered} is an open source software where we can get the source code along with binary executable for all the solvers. The FOAM project (precursor to OpenFOAM\textsuperscript{\textregistered}) was created at Imperial College London in the late 80s and early 90s by Henry Weller, along with Hrvoje Jasak [\citenum{jasak2009openfoam}], using object-oriented programming language C++. Succeeding the commercial software FOAM, OpenFOAM\textsuperscript{\textregistered} was released in 2004 as free and open-source software under the GNU General Public License (GPL), a widely used free software license, which guarantees end users the freedom to run, study, share and modify the software. Here we can modify the existing solvers, compile them and add to the library. One distinguishing feature of OpenFOAM\textsuperscript{\textregistered} is its syntax for tensor operations and Partial Differential Equations (PDEs) that closely resembles the equation being solved. For example, the equation: 
+OpenFOAM\textsuperscript{\textregistered} is an open source software where we can get the source code along with binary executable for all the solvers. The FOAM project (precursor to OpenFOAM\textsuperscript{\textregistered}) was created at Imperial College London in the late 80s and early 90s by Hrvoje Jasak [\citenum{jasak2009openfoam}], using object-oriented programming language C++. Succeeding the commercial software FOAM, OpenFOAM\textsuperscript{\textregistered} was released in 2004 as free and open-source software under the GNU General Public License (GPL), a widely used free software license, which guarantees end users the freedom to run, study, share and modify the software. Here we can modify the existing solvers, compile them and add to the library. One distinguishing feature of OpenFOAM\textsuperscript{\textregistered} is its syntax for tensor operations and Partial Differential Equations (PDEs) that closely resembles the equation being solved. For example, the equation: 
 \begin{equation}
 \dfrac{\partial(\rho U)}{\partial t} + \nabla \boldsymbol{\cdot} \phi U - \nabla \boldsymbol{\cdot} \mu \nabla U = - \nabla p
 \end{equation}
@@ -59,7 +59,7 @@ Fig. \ref{prismlayers} shows the mesh near the surface of an arbitrary airship s
 \section{Validation of OpenFOAM\textsuperscript{\textregistered} CFD results}
 \label{results}
 
-This section describes the values of $C_{DV}$ obtained for four standard axisymmetric Lighter Than Air (LTA) envelope shapes, viz., GNVR [\citenum{Ram2010}], NPL \citenum{cheeseman1999} Zhiyuan-1 \citenum{Wang2010}, and Wang \citenum{Wang2009}, using OpenFOAM\textsuperscript{\textregistered}, and a comparison with the values available from the literature. Fig. \ref{All profiles} shows these four profiles. All the simulations were carried at zero degree angle of attack.
+This section describes the values of $C_{DV}$ obtained for four standard axisymmetric Lighter Than Air (LTA) envelope shapes, viz., GNVR [\citenum{Ram2010}], NPL [\citenum{cheeseman1999}] Zhiyuan-1 [\citenum{Wang2010}], and Wang [\citenum{Wang2009}], using OpenFOAM\textsuperscript{\textregistered}, and a comparison with the values available from the literature. Fig. \ref{All profiles} shows these four profiles. All the simulations were carried at zero degree angle of attack.
 
 \begin{figure}[H]
 	\centering
@@ -77,7 +77,7 @@ The specifications of machine, operating system, and software used in this study
 \end{itemize}
 Following subsections shows flow conditions, solver parameters and results of CFD simulation carried on the above mentioned standard shapes. 
 
-\subsection{GNVR shape}
+\subsection{GNVR shape \cite{Ram2010}}
 The GNVR shape \citenum{Ram2010} is named after late Prof. G.N.V Rao of Indian Institute of Science, Bengaluru. It consists of three standard geometrical constructs, viz, ellipse, circle and parabola. The entire envelope shape is parameterized in terms of its maximum diameter ($D$), as follows:
 \begin{equation}
 y = \begin{cases}
@@ -89,7 +89,7 @@ y = \begin{cases}
 \end{equation}
 
 
-The flow conditions used for the simulation are similar to that of Kanikdale \textit{et al.} [\citenum{kanikdale2004multi}]. Taking advantage of the axisymmetric nature of GNVR shape, its 3D CFD analysis was carried out only for 1/4 of its shape. The flow conditions and solver parameters are shown in Table \ref{Flow conditions and solver parametres for GNVR shape}
+The flow conditions used for the simulation are similar to that of Kanikdale et al. [\citenum{kanikdale2004multi}]. Taking advantage of the axisymmetric nature of GNVR shape, its 3D CFD analysis was carried out only for 1/4 of its shape. The flow conditions and solver parameters are shown in Table \ref{Flow conditions and solver parametres for GNVR shape}
 
 \begin{table}[H]
 	\caption{Flow conditions and solver parameters for GNVR shape}
@@ -124,7 +124,7 @@ The variation of Pressure coefficient ($C_{P}$) along the envelope length obtain
 
 It can be observed from Fig. \ref{fig:GNVR pressure distribution} that the $C_{P}$ distribution obtained by OpenFOAM\textsuperscript{\textregistered} matches well with that obtained by ANSYS\textsuperscript{\textregistered} by Kanikdale et al. [\citenum{kanikdale2004multi}] along the entire envelope length, except at the trailing edge, where the flow is separated. The distribution obtained by Source Panel Method [\citenum{gnvr2000}] shows very high pressure recovery at trailing edge because it is assumed that \textit{Kutta} condition is satisfied and flow is attached.
 
-\subsection{Zhiyuan-1 shape}
+\subsection{Zhiyuan-1 shape \cite{Wang2010}}
 
 The equation that define the Zhiyuan-1 shape is:
 \begin{center}
@@ -185,7 +185,7 @@ Fig. \ref{Zhiyuan_OF_RANS} shows a comparison between the $C_{P}$ distribution f
 \end{table}
 
 
-\subsection{Wang Shape}
+\subsection{Wang Shape \cite{Wang2009}}
 Wang et al. [\citenum{Wang2009}] proposed a new shape exploring the better shapes in the view of multi-disciplinary optimization. The geometry is defined by five shape parameters namely \textit{a, b, c, d} and length \textit{l}. The original equation proposed by Wang \textit{et al.}[\citenum{Wang2009}] is given by Eq. \ref{wang_eqn}:
 \begin{equation}
 64(y^{2} + z^{2}) = a(l-x)\left( bx - l \sqrt{c} + \sqrt{c l^{2} - dlx} \; \right) 
@@ -238,7 +238,7 @@ The values obtained for finer grid case using OpenFOAM\textsuperscript{\textregi
 \end{table}
 
 
-\subsection{NPL Shape}
+\subsection{NPL Shape \cite{cheeseman2012}}
 NPL shaped envelope is basically the combination of two half prolate joint at maximum diameter. It is known for its lower drag characteristics. The mathematical representation of prolate is:
 \begin{equation}
 \frac{x^{2}}{a^{2}} + \frac{y^{2}}{b^{2}} + \frac{z^{2}}{c^{2}} = 1
@@ -356,7 +356,7 @@ Since the solution is influenced by mesh size, three self similar grids with inc
 
 
 
-According to Suman et al. [\citenum{Suman2011}] if percentage changes compared to previous grid is $\le 5 \%$ then the value obtained from latest grid can be considered as the most accurate. From the above tables we may observe that for GNVR and NPL profiles, the percentage changes are $<$  5 \%, however for Wang profile, they are $>$5 \%. Thus, we can observe that the solution is nearly independent of grid size in all the cases.
+According to Suman et al. [\citenum{Suman2011}], if percentage changes compared to previous grid is $\le 5 \%$ then the value obtained from latest grid can be considered as the most accurate. From the above tables we may observe that for GNVR and NPL profiles, the percentage changes are $<$  5 \%, however for Wang profile, they are $>$5 \%. Thus, we can observe that the solution is nearly independent of grid size in all the cases.
 
 \section{Observations \& Conclusions}
 

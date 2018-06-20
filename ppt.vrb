@@ -1,0 +1,16 @@
+\frametitle{Components of a LaTeX Document}
+Every LaTeX document must contain the following three components. Everything else is optional (even text).\\
+\begin{itemize}
+ \item \textbackslash{}documentclass\{beamer\}
+  document class may be Article, Report, Book, IEEEtran, Letter \\
+\item \textbackslash{}begin\{document\} ...\textbackslash{}end\{document\}
+\end{itemize}
+\begin{example}
+\small
+\begin{verbatim}
+\documentclass{article}
+\begin{document}
+Hello world!
+\end{document}
+\end{verbatim}
+\end{example}
